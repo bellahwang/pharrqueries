@@ -1,0 +1,4 @@
+# pharrqueries
+--
+permalink: /index.html
+--
