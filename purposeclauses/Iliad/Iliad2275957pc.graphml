@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὦ"/>
+<node id="φίλος"/>
+<node id=""/>
+<node id="ἥρως"/>
+<node id="Δαναός"/>
+<node id="ἀνήρ"/>
+<node id="θεράπων"/>
+<node id="῎ἄρης"/>
+<node id="μή"/>
+<node id="μίμνω"/>
+<node id="τις"/>
+<node id="νῦν"/>
+<node id="ἔναρα"/>
+<node id="ἐπιβάλλω"/>
+<node id="μετόπισθε"/>
+<node id="ἀλλά"/>
+<node id="ὡς"/>
+<node id="ἄν"/>
+<node id="ἱκνέομαι"/>
+<node id="πλεῖστος"/>
+<node id="φέρω"/>
+<node id="ἐπί"/>
+<node id="ναῦς"/>
+<node id=","/>
+<node id="κτείνω"/>
+<edge source="ὦ" target="φίλος"/>
+<edge source="φίλος" target=""/>
+<edge source="ἥρως" target=""/>
+<edge source="Δαναός" target="ἀνήρ"/>
+<edge source="ἀνήρ" target="ἀλλά"/>
+<edge source="θεράπων" target=""/>
+<edge source="῎ἄρης" target="θεράπων"/>
+<edge source="μή" target="μίμνω"/>
+<edge source="μίμνω" target="ἀλλά"/>
+<edge source="τις" target="μίμνω"/>
+<edge source="νῦν" target="μίμνω"/>
+<edge source="ἔναρα" target="ἐπιβάλλω"/>
+<edge source="ἐπιβάλλω" target="μίμνω"/>
+<edge source="μετόπισθε" target="μίμνω"/>
+<edge source="ἀλλά" target="κτείνω"/>
+<edge source="ὡς" target="μίμνω"/>
+<edge source="ἄν" target="ἱκνέομαι"/>
+<edge source="ἱκνέομαι" target="ὡς"/>
+<edge source="πλεῖστος" target="φέρω"/>
+<edge source="φέρω" target="ἱκνέομαι"/>
+<edge source="ἐπί" target="ἱκνέομαι"/>
+<edge source="ναῦς" target="ἐπί"/>
+<edge source="," target="ἀλλά"/>
+<edge source="κτείνω" target="ἀλλά"/>
+</graph></graphml>

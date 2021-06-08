@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="οὐλόμενος"/>
+<node id="ὀφέλλω"/>
+<node id="εἴθε"/>
+<node id="στρατός"/>
+<node id="ἀεικέλιος"/>
+<node id="σημαίνω"/>
+<node id="ἄλλος"/>
+<node id="δέ"/>
+<node id="ὄφρα"/>
+<node id=","/>
+<node id="τολυπεύω"/>
+<node id="μή"/>
+<node id="ἀνάσσω"/>
+<node id="ἐγώ"/>
+<node id="ὅς"/>
+<node id="δίδωμι"/>
+<node id="ἄρα"/>
+<node id="Ζεύς"/>
+<node id="ἐκ"/>
+<node id="νεότης"/>
+<node id="γῆρας"/>
+<node id="καί"/>
+<node id="εἰς"/>
+<node id="πόλεμος"/>
+<node id="ἀργαλέος"/>
+<node id="φθίω"/>
+<edge source="οὐλόμενος" target="ὀφέλλω"/>
+<edge source="ὀφέλλω" target="στρατός"/>
+<edge source="εἴθε" target="ὀφέλλω"/>
+<edge source="στρατός" target="στρατός"/>
+<edge source="ἀεικέλιος" target="σημαίνω"/>
+<edge source="σημαίνω" target="ὄφρα"/>
+<edge source="ἄλλος" target="δέ"/>
+<edge source="δέ" target="ἀνάσσω"/>
+<edge source="ὄφρα" target="ὄφρα"/>
+<edge source="," target="τολυπεύω"/>
+<edge source="τολυπεύω" target="πόλεμος"/>
+<edge source="μή" target="ὀφέλλω"/>
+<edge source="ἀνάσσω" target="ὄφρα"/>
+<edge source="ἐγώ" target="δέ"/>
+<edge source="ὅς" target="δίδωμι"/>
+<edge source="δίδωμι" target="γῆρας"/>
+<edge source="ἄρα" target="δίδωμι"/>
+<edge source="Ζεύς" target="δίδωμι"/>
+<edge source="ἐκ" target="ἐκ"/>
+<edge source="νεότης" target="ἐγώ"/>
+<edge source="γῆρας" target="δίδωμι"/>
+<edge source="καί" target="δίδωμι"/>
+<edge source="εἰς" target="εἰς"/>
+<edge source="πόλεμος" target="ὄφρα"/>
+<edge source="ἀργαλέος" target="τολυπεύω"/>
+<edge source="φθίω" target="φθίω"/>
+</graph></graphml>

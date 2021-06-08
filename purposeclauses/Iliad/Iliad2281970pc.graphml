@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="φημί"/>
+<node id="δέ"/>
+<node id=","/>
+<node id="ἀνίστημι"/>
+<node id="ὄρνυμι"/>
+<node id="Ὀδυσσεύς"/>
+<node id="ἔπειτα"/>
+<node id="Αἴας"/>
+<node id="μέγας"/>
+<node id="Τελαμώνιος"/>
+<node id="ἀνά"/>
+<node id="πολύμητις"/>
+<node id="οἶδα"/>
+<edge source="ὡς" target="φημί"/>
+<edge source="φημί" target="δέ"/>
+<edge source="δέ" target="Ὀδυσσεύς"/>
+<edge source="," target="ἀνίστημι"/>
+<edge source="ἀνίστημι" target="Ὀδυσσεύς"/>
+<edge source="ὄρνυμι" target="δέ"/>
+<edge source="Ὀδυσσεύς" target="δέ"/>
+<edge source="ἔπειτα" target="Αἴας"/>
+<edge source="Αἴας" target="δέ"/>
+<edge source="μέγας" target="Αἴας"/>
+<edge source="Τελαμώνιος" target="ὄρνυμι"/>
+<edge source="ἀνά" target="ἀνίστημι"/>
+<edge source="πολύμητις" target="οἶδα"/>
+</graph></graphml>

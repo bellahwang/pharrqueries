@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="δέ"/>
+<node id="σύ"/>
+<node id="ὄρνυμι"/>
+<node id="γε"/>
+<node id="οὗτος"/>
+<node id=","/>
+<node id="ἐπείγω"/>
+<node id="αὐτός"/>
+<node id="καί"/>
+<node id="ὡς"/>
+<node id="καταμάρπτω"/>
+<node id="ἄν"/>
+<node id="ἐγώ"/>
+<node id="εἰμί"/>
+<node id="ἔντοσθε"/>
+<node id="πόλις"/>
+<edge source="ἀλλά" target="δέ"/>
+<edge source="δέ" target="αὐτός"/>
+<edge source="σύ" target="ὄρνυμι"/>
+<edge source="ὄρνυμι" target="δέ"/>
+<edge source="γε" target="σύ"/>
+<edge source="οὗτος" target="ὄρνυμι"/>
+<edge source="," target="ἐπείγω"/>
+<edge source="ἐπείγω" target="δέ"/>
+<edge source="αὐτός" target="ὡς"/>
+<edge source="καί" target="ἐπείγω"/>
+<edge source="ὡς" target="καταμάρπτω"/>
+<edge source="καταμάρπτω" target="ἐγώ"/>
+<edge source="ἄν" target="καταμάρπτω"/>
+<edge source="ἐγώ" target="εἰμί"/>
+<edge source="ἔντοσθε" target="ἔντοσθε"/>
+<edge source="πόλις" target="ὡς"/>
+</graph></graphml>

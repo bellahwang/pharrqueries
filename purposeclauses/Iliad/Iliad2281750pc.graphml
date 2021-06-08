@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="παρά"/>
+<node id="ἵζω"/>
+<node id="δέ"/>
+<node id="Φοῖνιξ"/>
+<node id="σκοπός"/>
+<node id="ἀντίθεος"/>
+<node id="ὀπάων"/>
+<node id="πατήρ"/>
+<node id="ἑός"/>
+<node id="ὡς"/>
+<node id=","/>
+<node id="καί"/>
+<node id="μιμνήσκω"/>
+<node id="δρόμος"/>
+<node id="ἀπεῖπον"/>
+<node id="ἀλήθεια"/>
+<edge source="παρά" target="ἵζω"/>
+<edge source="ἵζω" target="Φοῖνιξ"/>
+<edge source="δέ" target="Φοῖνιξ"/>
+<edge source="Φοῖνιξ" target="Φοῖνιξ"/>
+<edge source="σκοπός" target="δέ"/>
+<edge source="ἀντίθεος" target="ἵζω"/>
+<edge source="ὀπάων" target="ὀπάων"/>
+<edge source="πατήρ" target="πατήρ"/>
+<edge source="ἑός" target="ὡς"/>
+<edge source="ὡς" target="καί"/>
+<edge source="," target="ἵζω"/>
+<edge source="καί" target="ἀπεῖπον"/>
+<edge source="μιμνήσκω" target="μιμνήσκω"/>
+<edge source="δρόμος" target="ὡς"/>
+<edge source="ἀλήθεια" target="καί"/>
+</graph></graphml>

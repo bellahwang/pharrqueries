@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἐκτός"/>
+<node id="λέγω"/>
+<node id="μέν"/>
+<node id="δή"/>
+<node id="γέρων"/>
+<node id="φίλος"/>
+<node id="εἰμί"/>
+<node id=","/>
+<node id="μή"/>
+<node id="βουληφόρος"/>
+<node id="τις"/>
+<node id="Ἀχαιός"/>
+<node id="ἐπέρχομαι"/>
+<node id="ἐνθάδε"/>
+<node id="ὅς"/>
+<node id="τε"/>
+<node id="βουλεύω"/>
+<node id="ἐγώ"/>
+<node id="ἀεί"/>
+<node id="βουλή"/>
+<node id="πάρημαι"/>
+<node id="θέμις"/>
+<edge source="ἐκτός" target="λέγω"/>
+<edge source="λέγω" target="λέγω"/>
+<edge source="μέν" target="λέγω"/>
+<edge source="δή" target="λέγω"/>
+<edge source="γέρων" target="γέρων"/>
+<edge source="φίλος" target="εἰμί"/>
+<edge source="," target="εἰμί"/>
+<edge source="μή" target="βουληφόρος"/>
+<edge source="βουληφόρος" target="εἰμί"/>
+<edge source="τις" target="βουληφόρος"/>
+<edge source="Ἀχαιός" target="ἐπέρχομαι"/>
+<edge source="ἐπέρχομαι" target="ἐπέρχομαι"/>
+<edge source="ἐνθάδε" target="μή"/>
+<edge source="ὅς" target="εἰμί"/>
+<edge source="τε" target="βουλεύω"/>
+<edge source="βουλεύω" target="βουλεύω"/>
+<edge source="ἐγώ" target="βουλεύω"/>
+<edge source="ἀεί" target="βουλεύω"/>
+<edge source="βουλή" target="Ἀχαιός"/>
+<edge source="πάρημαι" target="εἰμί"/>
+<edge source="θέμις" target="βουλεύω"/>
+</graph></graphml>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="κέλομαι"/>
+<node id="σύ"/>
+<node id="δέ"/>
+<node id="ἐγώ"/>
+<node id="παύω"/>
+<node id="μή"/>
+<node id=","/>
+<node id="δαμάζω"/>
+<node id="Μενέλαος"/>
+<node id="ξανθός"/>
+<node id="ἠδέ"/>
+<node id="ἀντίβιος"/>
+<node id="πολεμίζω"/>
+<node id="πόλεμος"/>
+<node id="μάχομαι"/>
+<node id="ἀφραδής"/>
+<node id="πως"/>
+<node id="τάχα"/>
+<node id="ὑπό"/>
+<node id="δόρυ"/>
+<node id="αὐτός"/>
+<edge source="ἀλλά" target="κέλομαι"/>
+<edge source="κέλομαι" target="μή"/>
+<edge source="σύ" target="δέ"/>
+<edge source="δέ" target="Μενέλαος"/>
+<edge source="ἐγώ" target="κέλομαι"/>
+<edge source="παύω" target="δέ"/>
+<edge source="μή" target="δαμάζω"/>
+<edge source="," target="κέλομαι"/>
+<edge source="Μενέλαος" target="ἠδέ"/>
+<edge source="ξανθός" target="ἠδέ"/>
+<edge source="ἠδέ" target="ἠδέ"/>
+<edge source="ἀντίβιος" target="πολεμίζω"/>
+<edge source="πολεμίζω" target="δέ"/>
+<edge source="πόλεμος" target="ἠδέ"/>
+<edge source="μάχομαι" target="ἠδέ"/>
+<edge source="ἀφραδής" target="μή"/>
+<edge source="πως" target="δαμάζω"/>
+<edge source="τάχα" target="δαμάζω"/>
+<edge source="ὑπό" target="δόρυ"/>
+<edge source="δόρυ" target="μή"/>
+<edge source="αὐτός" target="ὑπό"/>
+</graph></graphml>

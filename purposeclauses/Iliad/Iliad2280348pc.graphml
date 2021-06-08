@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="εἰ"/>
+<node id="δύναμαι"/>
+<node id="γάρ"/>
+<node id="μιν"/>
+<node id="ἱκάνω"/>
+<node id="θάνατος"/>
+<node id="νόσφι"/>
+<node id="δυσηχής"/>
+<node id="ὧδε"/>
+<node id="ἀποκρύπτω"/>
+<node id="εἶδον"/>
+<node id=","/>
+<node id="ὅτε"/>
+<node id="μόρος"/>
+<node id="αἰνός"/>
+<node id="ὡς"/>
+<node id="πάρειμι"/>
+<node id="ἕ"/>
+<node id="τεῦχος"/>
+<node id="καλός"/>
+<node id="οἷος"/>
+<node id="θαυμάζω"/>
+<node id="τις"/>
+<node id="αὖτε"/>
+<node id="ἄνθρωπος"/>
+<node id="πολύς"/>
+<node id="ὅς"/>
+<node id="ἄν"/>
+<edge source="εἰ" target="δύναμαι"/>
+<edge source="δύναμαι" target="ἀποκρύπτω"/>
+<edge source="γάρ" target="εἰ"/>
+<edge source="μιν" target="ἱκάνω"/>
+<edge source="ἱκάνω" target="εἶδον"/>
+<edge source="θάνατος" target="νόσφι"/>
+<edge source="νόσφι" target="δύναμαι"/>
+<edge source="δυσηχής" target="θάνατος"/>
+<edge source="ὧδε" target="δύναμαι"/>
+<edge source="ἀποκρύπτω" target="εἶδον"/>
+<edge source="," target="εἶδον"/>
+<edge source="ὅτε" target="ἱκάνω"/>
+<edge source="μόρος" target="μόρος"/>
+<edge source="αἰνός" target="ἀποκρύπτω"/>
+<edge source="ὡς" target="πάρειμι"/>
+<edge source="πάρειμι" target="εἶδον"/>
+<edge source="ἕ" target="πάρειμι"/>
+<edge source="τεῦχος" target="τεῦχος"/>
+<edge source="καλός" target="ὧδε"/>
+<edge source="οἷος" target="θαυμάζω"/>
+<edge source="θαυμάζω" target="εἶδον"/>
+<edge source="τις" target="θαυμάζω"/>
+<edge source="αὖτε" target="τις"/>
+<edge source="ἄνθρωπος" target="ἄνθρωπος"/>
+<edge source="πολύς" target="τεῦχος"/>
+<edge source="ὅς" target="εἶδον"/>
+<edge source="ἄν" target="τις"/>
+</graph></graphml>

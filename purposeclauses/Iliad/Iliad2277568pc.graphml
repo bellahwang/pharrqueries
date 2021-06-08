@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="οὐ"/>
+<node id="τορέω"/>
+<node id="δέ"/>
+<node id="ἀλλά"/>
+<node id="ζωστήρ"/>
+<node id="παναίολος"/>
+<node id=","/>
+<node id="πρίν"/>
+<node id="πολύς"/>
+<node id="τρέπω"/>
+<node id="ἄντομαι"/>
+<node id="ἄργυρος"/>
+<node id=""/>
+<node id="μόλιβος"/>
+<node id="ὡς"/>
+<node id="αἰχμή"/>
+<edge source="οὐ" target="τορέω"/>
+<edge source="τορέω" target="ἀλλά"/>
+<edge source="δέ" target="ἀλλά"/>
+<edge source="ἀλλά" target="πρίν"/>
+<edge source="ζωστήρ" target="τορέω"/>
+<edge source="παναίολος" target="ζωστήρ"/>
+<edge source="," target="ἀλλά"/>
+<edge source="πρίν" target="ἄντομαι"/>
+<edge source="πολύς" target="τρέπω"/>
+<edge source="τρέπω" target="τρέπω"/>
+<edge source="ἄντομαι" target=""/>
+<edge source="ἄργυρος" target="τρέπω"/>
+<edge source="μόλιβος" target=""/>
+<edge source="ὡς" target="ἀλλά"/>
+<edge source="αἰχμή" target="τρέπω"/>
+</graph></graphml>

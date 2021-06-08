@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὄφρα"/>
+<node id="δέ"/>
+<node id="μέν"/>
+<node id="ἠώς"/>
+<node id="εἰμί"/>
+<node id="καί"/>
+<node id="ἀέξω"/>
+<node id="ἱερός"/>
+<node id="ἦμαρ"/>
+<node id=","/>
+<node id="τόφρα"/>
+<node id="μάλα"/>
+<node id="ἅπτω"/>
+<node id="ἀμφότερος"/>
+<node id="βέλος"/>
+<node id="πίπτω"/>
+<edge source="ὄφρα" target="δέ"/>
+<edge source="δέ" target="πίπτω"/>
+<edge source="μέν" target="δέ"/>
+<edge source="ἠώς" target="εἰμί"/>
+<edge source="εἰμί" target="καί"/>
+<edge source="καί" target="ὄφρα"/>
+<edge source="ἀέξω" target="καί"/>
+<edge source="ἱερός" target="ἦμαρ"/>
+<edge source="ἦμαρ" target="ἀέξω"/>
+<edge source="," target="δέ"/>
+<edge source="τόφρα" target="δέ"/>
+<edge source="μάλα" target="ἅπτω"/>
+<edge source="ἅπτω" target="δέ"/>
+<edge source="ἀμφότερος" target="βέλος"/>
+<edge source="βέλος" target="ἅπτω"/>
+<edge source="πίπτω" target="δέ"/>
+</graph></graphml>

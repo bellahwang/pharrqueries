@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="μάρναμαι"/>
+<node id="ὁ"/>
+<node id="μέν"/>
+<node id="δέ"/>
+<node id="δέμας"/>
+<node id="πῦρ"/>
+<node id=","/>
+<node id="οὐ"/>
+<node id="φημί"/>
+<node id="ἄν"/>
+<node id="εἰμί"/>
+<node id="οὔτε"/>
+<node id="ποτέ"/>
+<node id="ἠέλιος"/>
+<node id="σῶς"/>
+<edge source="ὡς" target="μάρναμαι"/>
+<edge source="μάρναμαι" target="δέ"/>
+<edge source="ὁ" target="μάρναμαι"/>
+<edge source="μέν" target="δέ"/>
+<edge source="δέ" target="φημί"/>
+<edge source="δέμας" target="μάρναμαι"/>
+<edge source="πῦρ" target="δέμας"/>
+<edge source="," target="δέ"/>
+<edge source="οὐ" target="φημί"/>
+<edge source="φημί" target="εἰμί"/>
+<edge source="ἄν" target="δέ"/>
+<edge source="εἰμί" target="εἰμί"/>
+<edge source="οὔτε" target="οὔτε"/>
+<edge source="ποτέ" target="οὔτε"/>
+<edge source="ἠέλιος" target="εἰμί"/>
+<edge source="σῶς" target="φημί"/>
+</graph></graphml>

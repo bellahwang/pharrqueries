@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="νοέω"/>
+<node id="δέ"/>
+<node id="καί"/>
+<node id="ὡς"/>
+<node id="ἕλκω"/>
+<node id="οὖν"/>
+<node id="Ἀλέξανδρος"/>
+<node id="θεοειδής"/>
+<node id="τεῦχος"/>
+<node id="ἀπαίνυμαι"/>
+<node id="Ἀπισάων"/>
+<node id=","/>
+<node id="αὐτίκα"/>
+<node id="τόξον"/>
+<node id="ἐπί"/>
+<node id="Εὐρύπυλος"/>
+<node id="βάλλω"/>
+<node id="μιν"/>
+<node id="μηρός"/>
+<node id="ὀιστός"/>
+<edge source="ὁ" target="νοέω"/>
+<edge source="νοέω" target="ὡς"/>
+<edge source="δέ" target="καί"/>
+<edge source="καί" target="βάλλω"/>
+<edge source="ὡς" target="ἕλκω"/>
+<edge source="ἕλκω" target="καί"/>
+<edge source="οὖν" target="νοέω"/>
+<edge source="Ἀλέξανδρος" target="νοέω"/>
+<edge source="θεοειδής" target="Ἀλέξανδρος"/>
+<edge source="τεῦχος" target="ἀπαίνυμαι"/>
+<edge source="ἀπαίνυμαι" target="ὁ"/>
+<edge source="Ἀπισάων" target="ἀπαίνυμαι"/>
+<edge source="," target="καί"/>
+<edge source="αὐτίκα" target="ἕλκω"/>
+<edge source="τόξον" target="ἕλκω"/>
+<edge source="ἐπί" target="ἕλκω"/>
+<edge source="Εὐρύπυλος" target="ἐπί"/>
+<edge source="βάλλω" target="βάλλω"/>
+<edge source="μιν" target="καί"/>
+<edge source="μηρός" target="βάλλω"/>
+<edge source="ὀιστός" target="μηρός"/>
+</graph></graphml>

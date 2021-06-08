@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="ἐνέπω"/>
+<node id="ἐγώ"/>
+<node id="καλός"/>
+<node id="ὁ"/>
+<node id="οἶτος"/>
+<node id="ἄποτμος"/>
+<node id="παῖς"/>
+<edge source="ὡς" target="ἐνέπω"/>
+<edge source="ἐγώ" target="ἐνέπω"/>
+<edge source="καλός" target="ἐνέπω"/>
+<edge source="ὁ" target="οἶτος"/>
+<edge source="οἶτος" target="ἐνέπω"/>
+<edge source="ἄποτμος" target="παῖς"/>
+<edge source="παῖς" target="οἶτος"/>
+</graph></graphml>

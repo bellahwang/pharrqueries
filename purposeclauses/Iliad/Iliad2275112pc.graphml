@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="οὐ"/>
+<node id="ὅτε"/>
+<node id="γάρ"/>
+<node id="ἀμφικαλύπτω"/>
+<node id="πω"/>
+<node id="ποτέ"/>
+<node id="ἐγώ"/>
+<node id="ἵμερος"/>
+<node id="ὧδε"/>
+<node id="γε"/>
+<node id="ἔρως"/>
+<node id="φρήν"/>
+<node id=","/>
+<node id="καί"/>
+<node id="δέ"/>
+<node id="μίγνυμι"/>
+<node id="ἔραμαι"/>
+<node id="σύ"/>
+<node id="πρῶτος"/>
+<node id="ἐκ"/>
+<node id="Λακεδαίμων"/>
+<node id="ἁρπάζω"/>
+<node id="ἐρατεινός"/>
+<node id="πλέω"/>
+<node id="ἐν"/>
+<node id="νῆσος"/>
+<node id="ποντόπορος"/>
+<node id="ναῦς"/>
+<node id="κραναός"/>
+<node id="φιλότης"/>
+<node id="αἱρέω"/>
+<node id="εὐνή"/>
+<node id="ὡς"/>
+<node id="νῦν"/>
+<node id="γλυκύς"/>
+<edge source="οὐ" target="ὅτε"/>
+<edge source="ὅτε" target="ἔραμαι"/>
+<edge source="γάρ" target="ἀμφικαλύπτω"/>
+<edge source="ἀμφικαλύπτω" target="ὅτε"/>
+<edge source="πω" target="ἀμφικαλύπτω"/>
+<edge source="ποτέ" target="ἀμφικαλύπτω"/>
+<edge source="ἐγώ" target="ἵμερος"/>
+<edge source="ἵμερος" target="καί"/>
+<edge source="ὧδε" target="ἀμφικαλύπτω"/>
+<edge source="γε" target="ὧδε"/>
+<edge source="ἔρως" target="ἀμφικαλύπτω"/>
+<edge source="φρήν" target="ἀμφικαλύπτω"/>
+<edge source="," target="καί"/>
+<edge source="καί" target="αἱρέω"/>
+<edge source="δέ" target="μίγνυμι"/>
+<edge source="μίγνυμι" target="καί"/>
+<edge source="ἔραμαι" target="ὧδε"/>
+<edge source="σύ" target="καί"/>
+<edge source="πρῶτος" target="ἐκ"/>
+<edge source="ἐκ" target="Λακεδαίμων"/>
+<edge source="Λακεδαίμων" target="ἁρπάζω"/>
+<edge source="ἁρπάζω" target="μίγνυμι"/>
+<edge source="ἐρατεινός" target="δέ"/>
+<edge source="πλέω" target="πλέω"/>
+<edge source="ἐν" target="νῆσος"/>
+<edge source="νῆσος" target="ὅτε"/>
+<edge source="ποντόπορος" target="ἐν"/>
+<edge source="ναῦς" target="ὅτε"/>
+<edge source="κραναός" target="δέ"/>
+<edge source="φιλότης" target="ὧδε"/>
+<edge source="εὐνή" target="ὅτε"/>
+<edge source="ὡς" target="ἔραμαι"/>
+<edge source="νῦν" target="καί"/>
+<edge source="γλυκύς" target="αἱρέω"/>
+</graph></graphml>

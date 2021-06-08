@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="μή"/>
+<node id="παύω"/>
+<node id="πρίν"/>
+<node id="εἴλω"/>
+<node id="χείρ"/>
+<node id="πόλεμος"/>
+<node id="ὁμοίιος"/>
+<node id="κατά"/>
+<node id="τεῖχος"/>
+<node id="Ἴλιος"/>
+<node id="κλυτός"/>
+<node id="λαός"/>
+<node id="Τρωικός"/>
+<node id="φεύγω"/>
+<node id=","/>
+<node id="ὅς"/>
+<node id="ἄν"/>
+<edge source="μή" target="παύω"/>
+<edge source="παύω" target="παύω"/>
+<edge source="πρίν" target="εἴλω"/>
+<edge source="εἴλω" target="λαός"/>
+<edge source="χείρ" target="πόλεμος"/>
+<edge source="πόλεμος" target="παύω"/>
+<edge source="ὁμοίιος" target="παύω"/>
+<edge source="κατά" target="τεῖχος"/>
+<edge source="τεῖχος" target="εἴλω"/>
+<edge source="Ἴλιος" target="τεῖχος"/>
+<edge source="κλυτός" target="κατά"/>
+<edge source="λαός" target="πρίν"/>
+<edge source="Τρωικός" target="φεύγω"/>
+<edge source="," target="φεύγω"/>
+<edge source="ὅς" target="φεύγω"/>
+<edge source="ἄν" target="λαός"/>
+</graph></graphml>

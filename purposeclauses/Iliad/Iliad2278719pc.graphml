@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="ἀμφικαλύπτω"/>
+<node id="δέ"/>
+<node id="εἶδον"/>
+<node id="λανθάνω"/>
+<node id=","/>
+<node id="τοκεύς"/>
+<node id="μιν"/>
+<node id="ἔρως"/>
+<node id="φρήν"/>
+<node id="πυκνός"/>
+<node id="οἷος"/>
+<node id="μίγνυμι"/>
+<node id="ὅτε"/>
+<node id="πρότερος"/>
+<node id="πέρ"/>
+<node id="φιλότης"/>
+<node id="φοιτάω"/>
+<node id="εἰς"/>
+<node id="εὐνή"/>
+<node id="φίλος"/>
+<edge source="ὡς" target="ἀμφικαλύπτω"/>
+<edge source="ἀμφικαλύπτω" target="λανθάνω"/>
+<edge source="δέ" target="ὡς"/>
+<edge source="εἶδον" target="λανθάνω"/>
+<edge source="λανθάνω" target="λανθάνω"/>
+<edge source="," target="τοκεύς"/>
+<edge source="μιν" target="ἀμφικαλύπτω"/>
+<edge source="ἔρως" target="φρήν"/>
+<edge source="φρήν" target="δέ"/>
+<edge source="πυκνός" target="ἀμφικαλύπτω"/>
+<edge source="οἷος" target="μίγνυμι"/>
+<edge source="μίγνυμι" target="μίγνυμι"/>
+<edge source="ὅτε" target="μίγνυμι"/>
+<edge source="πρότερος" target="πρότερος"/>
+<edge source="πέρ" target="ἀμφικαλύπτω"/>
+<edge source="φιλότης" target="φοιτάω"/>
+<edge source="φοιτάω" target="λανθάνω"/>
+<edge source="εἰς" target="εἰς"/>
+<edge source="εὐνή" target="μίγνυμι"/>
+<edge source="φίλος" target="μίγνυμι"/>
+</graph></graphml>

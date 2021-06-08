@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="τῷ"/>
+<node id="χρή"/>
+<node id="νῦν"/>
+<node id="τις"/>
+<node id="Λύκιοι"/>
+<node id="θωρηκτής"/>
+<node id="μετά"/>
+<node id="πρῶτος"/>
+<node id="ἠδέ"/>
+<node id="εἰμί"/>
+<node id="ἵστημι"/>
+<node id="ἀντιβολέω"/>
+<node id="μάχη"/>
+<node id="καύστειρα"/>
+<node id="ὄφρα"/>
+<node id=","/>
+<node id="εἶπον"/>
+<node id="ὧδε"/>
+<node id="πύκα"/>
+<edge source="τῷ" target="χρή"/>
+<edge source="χρή" target="τις"/>
+<edge source="νῦν" target="χρή"/>
+<edge source="τις" target="εἶπον"/>
+<edge source="Λύκιοι" target="θωρηκτής"/>
+<edge source="μετά" target="Λύκιοι"/>
+<edge source="πρῶτος" target="ἠδέ"/>
+<edge source="ἠδέ" target="ἀντιβολέω"/>
+<edge source="εἰμί" target="ἠδέ"/>
+<edge source="ἵστημι" target="χρή"/>
+<edge source="ἀντιβολέω" target="ὄφρα"/>
+<edge source="μάχη" target="μάχη"/>
+<edge source="καύστειρα" target="ἠδέ"/>
+<edge source="ὄφρα" target="εἶπον"/>
+<edge source="," target="χρή"/>
+<edge source="εἶπον" target="τις"/>
+<edge source="ὧδε" target="ὄφρα"/>
+<edge source="πύκα" target="Λύκιοι"/>
+</graph></graphml>

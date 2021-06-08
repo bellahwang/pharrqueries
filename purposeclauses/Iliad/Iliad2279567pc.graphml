@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="ὁμιλέω"/>
+<node id="δέ"/>
+<node id="ἀεί"/>
+<node id="περί"/>
+<node id="νεκρός"/>
+<node id="ὅτε"/>
+<node id=","/>
+<node id="βρομέω"/>
+<node id="ὡς"/>
+<node id="μυῖα"/>
+<node id="ἐν"/>
+<node id="σταθμός"/>
+<node id="ὥρα"/>
+<node id="πέλλα"/>
+<node id="περιγλαγής"/>
+<node id="κατά"/>
+<node id="ἐαρινός"/>
+<node id="τε"/>
+<node id="δεύω"/>
+<node id="γλάγος"/>
+<node id="ἄγγος"/>
+<edge source="ὁ" target="ὁμιλέω"/>
+<edge source="ὁμιλέω" target="ὅτε"/>
+<edge source="δέ" target="ὁμιλέω"/>
+<edge source="ἀεί" target="ὁμιλέω"/>
+<edge source="περί" target="περί"/>
+<edge source="νεκρός" target="δέ"/>
+<edge source="ὅτε" target="ὅτε"/>
+<edge source="," target="βρομέω"/>
+<edge source="βρομέω" target="πέλλα"/>
+<edge source="ὡς" target="βρομέω"/>
+<edge source="μυῖα" target="ἐν"/>
+<edge source="ἐν" target="ὥρα"/>
+<edge source="σταθμός" target="βρομέω"/>
+<edge source="ὥρα" target="βρομέω"/>
+<edge source="πέλλα" target="ἐν"/>
+<edge source="περιγλαγής" target="βρομέω"/>
+<edge source="κατά" target="κατά"/>
+<edge source="ἐαρινός" target="ὅτε"/>
+<edge source="τε" target="δεύω"/>
+<edge source="γλάγος" target="δεύω"/>
+<edge source="ἄγγος" target="ὅτε"/>
+</graph></graphml>

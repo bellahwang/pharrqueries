@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Σαρπηδών"/>
+<node id="κέλομαι"/>
+<node id="δέ"/>
+<node id="ὡς"/>
+<node id="εἶδον"/>
+<node id="οὖν"/>
+<node id="ἑταῖρος"/>
+<node id="ἀμιτροχίτωνες"/>
+<node id="δαμάζω"/>
+<node id="ὑπό"/>
+<node id="χείρ"/>
+<node id="Πάτροκλος"/>
+<node id="Μενοιτιάδης"/>
+<node id=","/>
+<node id="ἄρα"/>
+<node id="Λύκιοι"/>
+<node id="ἀντίθεος"/>
+<node id="καθάπτω"/>
+<edge source="Σαρπηδών" target="κέλομαι"/>
+<edge source="κέλομαι" target="κέλομαι"/>
+<edge source="δέ" target="κέλομαι"/>
+<edge source="ὡς" target="εἶδον"/>
+<edge source="εἶδον" target="ἑταῖρος"/>
+<edge source="οὖν" target="ὡς"/>
+<edge source="ἑταῖρος" target="ὑπό"/>
+<edge source="ἀμιτροχίτωνες" target="δαμάζω"/>
+<edge source="δαμάζω" target="ὡς"/>
+<edge source="ὑπό" target="χείρ"/>
+<edge source="χείρ" target="δαμάζω"/>
+<edge source="Πάτροκλος" target="Πάτροκλος"/>
+<edge source="Μενοιτιάδης" target="εἶδον"/>
+<edge source="," target="δέ"/>
+<edge source="ἄρα" target="Λύκιοι"/>
+<edge source="ἀντίθεος" target="κέλομαι"/>
+<edge source="καθάπτω" target="κέλομαι"/>
+</graph></graphml>

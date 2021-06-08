@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="ὅτε"/>
+<node id="δέ"/>
+<node id="θέω"/>
+<node id="ἵππος"/>
+<node id="τις"/>
+<node id="στατός"/>
+<node id="ἀκοστάω"/>
+<node id="ἐπί"/>
+<node id="φάτνη"/>
+<node id="ἀπορρήγνυμι"/>
+<node id="δεσμός"/>
+<node id=""/>
+<node id="πεδίον"/>
+<node id="κροαίνω"/>
+<node id="ἔθω"/>
+<node id="λούω"/>
+<node id="ποταμός"/>
+<node id="ἐυρρεής"/>
+<node id="κυδιάω"/>
+<edge source="ὡς" target="ὅτε"/>
+<edge source="ὅτε" target="ἵππος"/>
+<edge source="δέ" target="θέω"/>
+<edge source="θέω" target="θέω"/>
+<edge source="ἵππος" target="θέω"/>
+<edge source="τις" target="ἵππος"/>
+<edge source="στατός" target="θέω"/>
+<edge source="ἀκοστάω" target="ἀκοστάω"/>
+<edge source="ἐπί" target="ἐπί"/>
+<edge source="φάτνη" target="ἀπορρήγνυμι"/>
+<edge source="ἀπορρήγνυμι" target=""/>
+<edge source="δεσμός" target="θέω"/>
+<edge source="πεδίον" target="θέω"/>
+<edge source="κροαίνω" target="θέω"/>
+<edge source="ἔθω" target="ἔθω"/>
+<edge source="λούω" target="ποταμός"/>
+<edge source="ποταμός" target="θέω"/>
+<edge source="ἐυρρεής" target="λούω"/>
+<edge source="κυδιάω" target="δέ"/>
+</graph></graphml>

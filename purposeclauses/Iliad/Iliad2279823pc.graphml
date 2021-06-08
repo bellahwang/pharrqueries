@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="ὅτε"/>
+<node id="δέ"/>
+<node id="τόσος"/>
+<node id="ἐπί"/>
+<node id="βρυχάομαι"/>
+<node id="προχοή"/>
+<node id="Διιπετής"/>
+<node id="ποταμός"/>
+<node id="μέγας"/>
+<node id="κῦμα"/>
+<node id="πρός"/>
+<node id="ῥόος"/>
+<node id=","/>
+<node id="ἀμφί"/>
+<node id="βοάω"/>
+<node id="τε"/>
+<node id="ἄκρος"/>
+<node id="ἠιών"/>
+<node id="ἐρεύγομαι"/>
+<node id="ἅλς"/>
+<node id="ἔξω"/>
+<node id="ἰαχή"/>
+<node id="ἄρα"/>
+<node id="εἶμι"/>
+<node id="Τρώς"/>
+<edge source="ὡς" target="ὅτε"/>
+<edge source="ὅτε" target="δέ"/>
+<edge source="δέ" target="τόσος"/>
+<edge source="τόσος" target="ἰαχή"/>
+<edge source="ἐπί" target="βρυχάομαι"/>
+<edge source="βρυχάομαι" target="δέ"/>
+<edge source="προχοή" target="ἐπί"/>
+<edge source="Διιπετής" target="ποταμός"/>
+<edge source="ποταμός" target="προχοή"/>
+<edge source="μέγας" target="κῦμα"/>
+<edge source="κῦμα" target="βρυχάομαι"/>
+<edge source="πρός" target="βρυχάομαι"/>
+<edge source="ῥόος" target="πρός"/>
+<edge source="," target="δέ"/>
+<edge source="ἀμφί" target="βοάω"/>
+<edge source="βοάω" target="δέ"/>
+<edge source="τε" target="βοάω"/>
+<edge source="ἄκρος" target="ἠιών"/>
+<edge source="ἠιών" target="βοάω"/>
+<edge source="ἐρεύγομαι" target="βοάω"/>
+<edge source="ἅλς" target="ἐρεύγομαι"/>
+<edge source="ἔξω" target="ἐρεύγομαι"/>
+<edge source="ἰαχή" target="εἶμι"/>
+<edge source="ἄρα" target="εἶμι"/>
+<edge source="εἶμι" target="δέ"/>
+<edge source="Τρώς" target="εἶμι"/>
+</graph></graphml>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἔνθα"/>
+<node id="φαίνω"/>
+<node id="ἄν"/>
+<node id="σύ"/>
+<node id="Μενέλαος"/>
+<node id="Ἀτρείδης"/>
+<node id="βίοτος"/>
+<node id="τελευτή"/>
+<node id="Ἕκτωρ"/>
+<node id="παλάμη"/>
+<node id="ἐν"/>
+<node id=","/>
+<node id="τε"/>
+<node id="ἐπεί"/>
+<node id="πολύς"/>
+<node id="φέρτατος"/>
+<node id="εἰμί"/>
+<node id="εἰ"/>
+<node id="μή"/>
+<node id="αἱρέω"/>
+<node id="ἀναίσσω"/>
+<node id="βασιλεύς"/>
+<node id="Ἀχαιός"/>
+<node id="αὐτός"/>
+<node id="Ἀγαμέμνων"/>
+<node id="εὐρύς"/>
+<node id="κρείων"/>
+<node id="δεξιτερός"/>
+<node id="χείρ"/>
+<node id="ἔπος"/>
+<node id="φημί"/>
+<node id="ἐκ"/>
+<node id="ὀνομάζω"/>
+<edge source="ἔνθα" target="φαίνω"/>
+<edge source="φαίνω" target="Ἀτρείδης"/>
+<edge source="ἄν" target="φαίνω"/>
+<edge source="σύ" target="φαίνω"/>
+<edge source="Μενέλαος" target="φαίνω"/>
+<edge source="Ἀτρείδης" target="Ἀγαμέμνων"/>
+<edge source="βίοτος" target="τελευτή"/>
+<edge source="τελευτή" target="φαίνω"/>
+<edge source="Ἕκτωρ" target="παλάμη"/>
+<edge source="παλάμη" target="ἐν"/>
+<edge source="ἐν" target="φαίνω"/>
+<edge source="," target="τε"/>
+<edge source="τε" target="τε"/>
+<edge source="ἐπεί" target="φαίνω"/>
+<edge source="πολύς" target="φέρτατος"/>
+<edge source="φέρτατος" target="εἰμί"/>
+<edge source="εἰμί" target="ἐπεί"/>
+<edge source="εἰ" target="φαίνω"/>
+<edge source="μή" target="αἱρέω"/>
+<edge source="αἱρέω" target="τε"/>
+<edge source="ἀναίσσω" target="αἱρέω"/>
+<edge source="βασιλεύς" target="αἱρέω"/>
+<edge source="Ἀχαιός" target="βασιλεύς"/>
+<edge source="αὐτός" target="Ἀγαμέμνων"/>
+<edge source="Ἀγαμέμνων" target="τε"/>
+<edge source="εὐρύς" target="κρείων"/>
+<edge source="κρείων" target="Ἀγαμέμνων"/>
+<edge source="δεξιτερός" target="χείρ"/>
+<edge source="χείρ" target="αἱρέω"/>
+<edge source="ἔπος" target="φημί"/>
+<edge source="φημί" target="τε"/>
+<edge source="ἐκ" target="ὀνομάζω"/>
+<edge source="ὀνομάζω" target="τε"/>
+</graph></graphml>

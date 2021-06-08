@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Ἀργεῖος"/>
+<node id="δέ"/>
+<node id="κατέρχομαι"/>
+<node id="ὑποχωρέω"/>
+<node id="ὡς"/>
+<node id=","/>
+<node id="λήγω"/>
+<node id="φόνος"/>
+<node id="φημί"/>
+<node id="τις"/>
+<node id="ἐκ"/>
+<node id="ἀθάνατος"/>
+<node id="οὐρανός"/>
+<node id="ἀστερόεις"/>
+<node id="τρώς"/>
+<node id="ἀλέξω"/>
+<edge source="Ἀργεῖος" target="δέ"/>
+<edge source="δέ" target="κατέρχομαι"/>
+<edge source="κατέρχομαι" target="ὡς"/>
+<edge source="ὑποχωρέω" target="ὡς"/>
+<edge source="," target="κατέρχομαι"/>
+<edge source="λήγω" target="λήγω"/>
+<edge source="φόνος" target="δέ"/>
+<edge source="φημί" target="τις"/>
+<edge source="τις" target="ἐκ"/>
+<edge source="ἐκ" target="κατέρχομαι"/>
+<edge source="ἀθάνατος" target="οὐρανός"/>
+<edge source="οὐρανός" target="τις"/>
+<edge source="ἀστερόεις" target="φημί"/>
+<edge source="τρώς" target="ὡς"/>
+<edge source="ἀλέξω" target="κατέρχομαι"/>
+</graph></graphml>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀτάρ"/>
+<node id="ἐνθρώσκω"/>
+<node id="ὁ"/>
+<node id="λάμπω"/>
+<node id="πῦρ"/>
+<node id="πάντοθεν"/>
+<node id="δέ"/>
+<node id="ὅμιλος"/>
+<node id=","/>
+<node id="ἐν"/>
+<node id="πίπτω"/>
+<node id="κῦμα"/>
+<node id="ὡς"/>
+<node id="ὅτε"/>
+<node id="ναῦς"/>
+<node id="θοός"/>
+<node id="λάβρος"/>
+<node id="ὑπό"/>
+<node id="νέφος"/>
+<edge source="ἀτάρ" target="ἐνθρώσκω"/>
+<edge source="ἐνθρώσκω" target="δέ"/>
+<edge source="ὁ" target="ἐνθρώσκω"/>
+<edge source="λάμπω" target="ἐνθρώσκω"/>
+<edge source="πῦρ" target="λάμπω"/>
+<edge source="πάντοθεν" target="λάμπω"/>
+<edge source="δέ" target="πίπτω"/>
+<edge source="ὅμιλος" target="ἐνθρώσκω"/>
+<edge source="," target="δέ"/>
+<edge source="ἐν" target="ἐν"/>
+<edge source="πίπτω" target="κῦμα"/>
+<edge source="κῦμα" target="ναῦς"/>
+<edge source="ὡς" target="πίπτω"/>
+<edge source="ὅτε" target="πίπτω"/>
+<edge source="ναῦς" target="πίπτω"/>
+<edge source="θοός" target="πίπτω"/>
+<edge source="λάβρος" target="πίπτω"/>
+<edge source="ὑπό" target="ὑπό"/>
+<edge source="νέφος" target="κῦμα"/>
+</graph></graphml>

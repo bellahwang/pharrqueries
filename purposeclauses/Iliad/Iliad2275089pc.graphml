@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἧμαι"/>
+<node id="ἀλλά"/>
+<node id="παρά"/>
+<node id="αὐτός"/>
+<node id="εἰμί"/>
+<node id=","/>
+<node id="καί"/>
+<node id="θεός"/>
+<node id="κέλευθος"/>
+<node id="δέ"/>
+<node id="ἀποείκω"/>
+<node id="μή"/>
+<node id="ὑποστρέφω"/>
+<node id="ἔτι"/>
+<node id="σός"/>
+<node id="πούς"/>
+<node id="Ὄλυμπος"/>
+<node id="ἀεί"/>
+<node id="ὀιζύω"/>
+<node id="περί"/>
+<node id="ἐκεῖνος"/>
+<node id="φυλάσσω"/>
+<node id="ἕ"/>
+<node id="εἰς"/>
+<node id="ποιέω"/>
+<node id="ὅς"/>
+<node id="ἄν"/>
+<node id="σύ"/>
+<node id="ἤ"/>
+<node id="ἄλοχος"/>
+<node id="ὁ"/>
+<node id="γε"/>
+<edge source="ἧμαι" target="ἀλλά"/>
+<edge source="ἀλλά" target="καί"/>
+<edge source="παρά" target="ἧμαι"/>
+<edge source="αὐτός" target="παρά"/>
+<edge source="εἰμί" target="ἧμαι"/>
+<edge source="," target="καί"/>
+<edge source="καί" target="φυλάσσω"/>
+<edge source="θεός" target="κέλευθος"/>
+<edge source="κέλευθος" target="ἀποείκω"/>
+<edge source="δέ" target="ἀλλά"/>
+<edge source="ἀποείκω" target="ἀλλά"/>
+<edge source="μή" target="ὑποστρέφω"/>
+<edge source="ὑποστρέφω" target="ἀλλά"/>
+<edge source="ἔτι" target="ὑποστρέφω"/>
+<edge source="σός" target="πούς"/>
+<edge source="πούς" target="ὑποστρέφω"/>
+<edge source="Ὄλυμπος" target="ὑποστρέφω"/>
+<edge source="ἀεί" target="ὀιζύω"/>
+<edge source="ὀιζύω" target="ἀλλά"/>
+<edge source="περί" target="περί"/>
+<edge source="ἐκεῖνος" target="καί"/>
+<edge source="φυλάσσω" target="εἰς"/>
+<edge source="ἕ" target="καί"/>
+<edge source="εἰς" target="ποιέω"/>
+<edge source="ποιέω" target="ποιέω"/>
+<edge source="ὅς" target="ποιέω"/>
+<edge source="ἄν" target="ποιέω"/>
+<edge source="σύ" target="ποιέω"/>
+<edge source="ἤ" target="ποιέω"/>
+<edge source="ἄλοχος" target="εἰς"/>
+<edge source="ὁ" target="ὁ"/>
+<edge source="γε" target="ἤ"/>
+</graph></graphml>

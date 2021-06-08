@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="νοέω"/>
+<node id="δέ"/>
+<node id="καί"/>
+<node id="ὡς"/>
+<node id="τιταίνω"/>
+<node id="οὖν"/>
+<node id="Λυκάων"/>
+<node id="υἱός"/>
+<node id="ἀγλαός"/>
+<node id="θύνω"/>
+<node id=""/>
+<node id="ἀνά"/>
+<node id="πεδίον"/>
+<node id="πρό"/>
+<node id="κλονέω"/>
+<node id="ἕ"/>
+<node id="φάλαγξ"/>
+<node id=","/>
+<node id="αἶψα"/>
+<node id="ἐπί"/>
+<node id="Τυδείδης"/>
+<node id="καμπύλος"/>
+<node id="τόξον"/>
+<node id="βάλλω"/>
+<node id="ἐπαίσσω"/>
+<node id="τυγχάνω"/>
+<node id="κατά"/>
+<node id="ὦμος"/>
+<node id="δεξιός"/>
+<node id="γύαλον"/>
+<node id="θώραξ"/>
+<edge source="ὁ" target="νοέω"/>
+<edge source="νοέω" target="ὡς"/>
+<edge source="δέ" target="καί"/>
+<edge source="καί" target="καί"/>
+<edge source="ὡς" target="τιταίνω"/>
+<edge source="τιταίνω" target="καί"/>
+<edge source="οὖν" target="νοέω"/>
+<edge source="Λυκάων" target="υἱός"/>
+<edge source="υἱός" target="νοέω"/>
+<edge source="ἀγλαός" target="υἱός"/>
+<edge source="θύνω" target=""/>
+<edge source="ἀνά" target="θύνω"/>
+<edge source="πεδίον" target="ἀνά"/>
+<edge source="πρό" target="κλονέω"/>
+<edge source="κλονέω" target=""/>
+<edge source="ἕ" target="πρό"/>
+<edge source="φάλαγξ" target="κλονέω"/>
+<edge source="," target="καί"/>
+<edge source="αἶψα" target="τιταίνω"/>
+<edge source="ἐπί" target="τιταίνω"/>
+<edge source="Τυδείδης" target="ἐπί"/>
+<edge source="καμπύλος" target="τόξον"/>
+<edge source="τόξον" target="τιταίνω"/>
+<edge source="βάλλω" target="βάλλω"/>
+<edge source="ἐπαίσσω" target="βάλλω"/>
+<edge source="τυγχάνω" target="βάλλω"/>
+<edge source="κατά" target="ὦμος"/>
+<edge source="ὦμος" target="γύαλον"/>
+<edge source="δεξιός" target="κατά"/>
+<edge source="γύαλον" target="ὁ"/>
+<edge source="θώραξ" target="βάλλω"/>
+</graph></graphml>

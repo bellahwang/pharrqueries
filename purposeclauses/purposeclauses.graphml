@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="μή"/>
+<node id="χραισμέω"/>
+<node id="σύ"/>
+<node id="γέρων"/>
+<node id="κιχάνω"/>
+<node id="κοῖλος"/>
+<node id="ναῦς"/>
+<node id="ἐγώ"/>
+<node id="παρά"/>
+<node id="ἤ"/>
+<node id="εἶμι"/>
+<node id="νῦν"/>
+<node id="δηθύνω"/>
+<node id="ὕστερος"/>
+<node id="αὖθις"/>
+<node id=","/>
+<node id="οὐ"/>
+<node id="καί"/>
+<node id="σκῆπτρον"/>
+<node id="στέμμα"/>
+<edge source="μή" target="χραισμέω">
+  <data key="d0">1</data>
+</edge>
+<edge source="χραισμέω" target="καί">
+  <data key="d0">1</data>
+</edge>
+<edge source="σύ" target="χραισμέω">
+  <data key="d0">1</data>
+</edge>
+<edge source="γέρων" target="κιχάνω">
+  <data key="d0">1</data>
+</edge>
+<edge source="κιχάνω" target="σύ">
+  <data key="d0">1</data>
+</edge>
+<edge source="κοῖλος" target="ναῦς">
+  <data key="d0">1</data>
+</edge>
+<edge source="ναῦς" target="παρά">
+  <data key="d0">1</data>
+</edge>
+<edge source="ἐγώ" target="κιχάνω">
+  <data key="d0">1</data>
+</edge>
+<edge source="παρά" target="κιχάνω">
+  <data key="d0">1</data>
+</edge>
+<edge source="ἤ" target="εἶμι">
+  <data key="d0">1</data>
+</edge>
+<edge source="εἶμι" target="μή">
+  <data key="d0">1</data>
+</edge>
+<edge source="νῦν" target="χραισμέω">
+  <data key="d0">1</data>
+</edge>
+<edge source="δηθύνω" target="σύ">
+  <data key="d0">1</data>
+</edge>
+<edge source="ὕστερος" target="εἶμι">
+  <data key="d0">1</data>
+</edge>
+<edge source="αὖθις" target="ἤ">
+  <data key="d0">1</data>
+</edge>
+<edge source="," target="κιχάνω">
+  <data key="d0">1</data>
+</edge>
+<edge source="οὐ" target="μή">
+  <data key="d0">1</data>
+</edge>
+<edge source="καί" target="καί">
+  <data key="d0">1</data>
+</edge>
+<edge source="σκῆπτρον" target="χραισμέω">
+  <data key="d0">1</data>
+</edge>
+<edge source="στέμμα" target="στέμμα">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="πατήρ"/>
+<node id="δέ"/>
+<node id="ἐπικέλομαι"/>
+<node id="ἐμός"/>
+<node id="οἴομαι"/>
+<node id="αὐτίκα"/>
+<node id="καταράομαι"/>
+<node id="πολύς"/>
+<node id="μή"/>
+<node id=","/>
+<node id="ἐπιέννυμι"/>
+<node id="στυγερός"/>
+<node id="Ἐρινύς"/>
+<node id="ποτέ"/>
+<node id="γόνυ"/>
+<node id="ἑός"/>
+<node id="υἱός"/>
+<node id="φίλος"/>
+<node id="γίγνομαι"/>
+<node id="ἐκ"/>
+<edge source="πατήρ" target="δέ"/>
+<edge source="δέ" target="ἐπικέλομαι"/>
+<edge source="ἐπικέλομαι" target="μή"/>
+<edge source="ἐμός" target="οἴομαι"/>
+<edge source="οἴομαι" target="καταράομαι"/>
+<edge source="αὐτίκα" target="καταράομαι"/>
+<edge source="καταράομαι" target="μή"/>
+<edge source="πολύς" target="δέ"/>
+<edge source="μή" target="ἐπιέννυμι"/>
+<edge source="," target="ἐπιέννυμι"/>
+<edge source="ἐπιέννυμι" target="ἐπιέννυμι"/>
+<edge source="στυγερός" target="δέ"/>
+<edge source="Ἐρινύς" target="ἐπικέλομαι"/>
+<edge source="ποτέ" target="γόνυ"/>
+<edge source="γόνυ" target="μή"/>
+<edge source="ἑός" target="υἱός"/>
+<edge source="υἱός" target="ἐκ"/>
+<edge source="φίλος" target="γίγνομαι"/>
+<edge source="ἐκ" target="υἱός"/>
+</graph></graphml>

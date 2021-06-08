@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="εἶδον"/>
+<node id="δέ"/>
+<node id="μυθέομαι"/>
+<node id="ὡς"/>
+<node id="οὖν"/>
+<node id="ἀπάνευθε"/>
+<node id="Ζεύς"/>
+<node id="νεφεληγερέτα"/>
+<node id="κορύσσω"/>
+<node id="τεῦχος"/>
+<node id="Πηλείδης"/>
+<node id="θεῖος"/>
+<node id=","/>
+<node id="κινέω"/>
+<node id="ἄρα"/>
+<node id="κάρα"/>
+<node id="πρός"/>
+<node id="θυμός"/>
+<node id="ἑός"/>
+<edge source="ὁ" target="εἶδον"/>
+<edge source="εἶδον" target="Ζεύς"/>
+<edge source="δέ" target="μυθέομαι"/>
+<edge source="μυθέομαι" target="πρός"/>
+<edge source="ὡς" target="εἶδον"/>
+<edge source="οὖν" target="εἶδον"/>
+<edge source="ἀπάνευθε" target="ὡς"/>
+<edge source="Ζεύς" target="κορύσσω"/>
+<edge source="νεφεληγερέτα" target="εἶδον"/>
+<edge source="κορύσσω" target="Πηλείδης"/>
+<edge source="τεῦχος" target="τεῦχος"/>
+<edge source="Πηλείδης" target="ὁ"/>
+<edge source="θεῖος" target="ὡς"/>
+<edge source="," target="μυθέομαι"/>
+<edge source="κινέω" target="μυθέομαι"/>
+<edge source="ἄρα" target="κινέω"/>
+<edge source="κάρα" target="μυθέομαι"/>
+<edge source="πρός" target="θυμός"/>
+<edge source="ἑός" target="δέ"/>
+</graph></graphml>

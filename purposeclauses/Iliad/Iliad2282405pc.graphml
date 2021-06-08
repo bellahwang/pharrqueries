@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="κατά"/>
+<node id="λείπω"/>
+<node id="δέ"/>
+<node id="οἶκος"/>
+<node id="δύο"/>
+<node id="φᾶρος"/>
+<node id="τε"/>
+<node id="ἐύννητος"/>
+<node id="χιτών"/>
+<node id=","/>
+<node id="ὄφρα"/>
+<node id="νέκυς"/>
+<node id="δίδωμι"/>
+<node id="πυκάζω"/>
+<node id="φέρω"/>
+<edge source="κατά" target="λείπω"/>
+<edge source="λείπω" target="δέ"/>
+<edge source="δέ" target="οἶκος"/>
+<edge source="οἶκος" target="φέρω"/>
+<edge source="δύο" target="φᾶρος"/>
+<edge source="φᾶρος" target="τε"/>
+<edge source="τε" target="λείπω"/>
+<edge source="ἐύννητος" target="χιτών"/>
+<edge source="χιτών" target="τε"/>
+<edge source="," target="ὄφρα"/>
+<edge source="ὄφρα" target="λείπω"/>
+<edge source="νέκυς" target="δίδωμι"/>
+<edge source="δίδωμι" target="ὄφρα"/>
+<edge source="πυκάζω" target="δίδωμι"/>
+<edge source="φέρω" target="δίδωμι"/>
+</graph></graphml>

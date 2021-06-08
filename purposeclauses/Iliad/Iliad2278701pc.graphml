@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="καί"/>
+<node id="δμητήρ"/>
+<node id="ἄν"/>
+<node id="ἐμβάλλω"/>
+<node id="ἐγώ"/>
+<node id="ἄιστος"/>
+<node id="ἀπό"/>
+<node id="αἰθήρ"/>
+<node id="πόντος"/>
+<node id=","/>
+<node id="εἰ"/>
+<node id="μή"/>
+<node id="σώζω"/>
+<node id="νύξ"/>
+<node id=""/>
+<node id="θεός"/>
+<node id="ἀνήρ"/>
+<node id="·"/>
+<edge source="καί" target="δμητήρ"/>
+<edge source="δμητήρ" target=""/>
+<edge source="ἄν" target="ἐμβάλλω"/>
+<edge source="ἐμβάλλω" target="καί"/>
+<edge source="ἐγώ" target="ἐμβάλλω"/>
+<edge source="ἄιστος" target="ἐγώ"/>
+<edge source="ἀπό" target="ἐμβάλλω"/>
+<edge source="αἰθήρ" target="ἀπό"/>
+<edge source="πόντος" target="ἐμβάλλω"/>
+<edge source="," target="εἰ"/>
+<edge source="εἰ" target="ἐμβάλλω"/>
+<edge source="μή" target="σώζω"/>
+<edge source="σώζω" target="εἰ"/>
+<edge source="νύξ" target=""/>
+<edge source="θεός" target="καί"/>
+<edge source="ἀνήρ" target="καί"/>
+<edge source="·" target="σώζω"/>
+</graph></graphml>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="μήκων"/>
+<node id="βάλλω"/>
+<node id="δέ"/>
+<node id="ἠμύω"/>
+<node id="ὡς"/>
+<node id="ἑτέρωσε"/>
+<node id="κάρα"/>
+<node id="βαρύνω"/>
+<node id=","/>
+<node id="ὅς"/>
+<node id="βρίθω"/>
+<node id="τε"/>
+<node id="νοτία"/>
+<node id="ἐν"/>
+<node id=""/>
+<node id="κῆπος"/>
+<node id="καρπός"/>
+<node id="ἐαρινός"/>
+<node id="πήληξ"/>
+<edge source="μήκων" target="βάλλω"/>
+<edge source="βάλλω" target="ὡς"/>
+<edge source="δέ" target="ἠμύω"/>
+<edge source="ἠμύω" target="ἠμύω"/>
+<edge source="ὡς" target="ἠμύω"/>
+<edge source="ἑτέρωσε" target="δέ"/>
+<edge source="κάρα" target="βαρύνω"/>
+<edge source="βαρύνω" target="μήκων"/>
+<edge source="," target="ἠμύω"/>
+<edge source="ὅς" target="βρίθω"/>
+<edge source="βρίθω" target="τε"/>
+<edge source="τε" target="νοτία"/>
+<edge source="νοτία" target="βρίθω"/>
+<edge source="ἐν" target=""/>
+<edge source="κῆπος" target="τε"/>
+<edge source="καρπός" target=""/>
+<edge source="ἐαρινός" target="ὡς"/>
+<edge source="πήληξ" target="κάρα"/>
+</graph></graphml>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="δέ"/>
+<node id="ἄρα"/>
+<node id="πίπτω"/>
+<node id="ὑπό"/>
+<node id="Ἀτρείδης"/>
+<node id="Ἀγαμέμνων"/>
+<node id="κάρηνον"/>
+<node id="Τρώς"/>
+<node id="φεύγω"/>
+<node id=","/>
+<node id="πολύς"/>
+<node id="ἵππος"/>
+<node id="ἐριαύχην"/>
+<node id="κροταλίζω"/>
+<node id="ὄχος"/>
+<node id="κει~νος"/>
+<node id="ἀνά"/>
+<node id="γέφυρα"/>
+<node id="πόλεμος"/>
+<node id="ποθέω"/>
+<node id="ἡνίοχος"/>
+<edge source="ὡς" target="δέ"/>
+<edge source="δέ" target="ἵππος"/>
+<edge source="ἄρα" target="πίπτω"/>
+<edge source="πίπτω" target="δέ"/>
+<edge source="ὑπό" target="πίπτω"/>
+<edge source="Ἀτρείδης" target="Ἀγαμέμνων"/>
+<edge source="Ἀγαμέμνων" target="ὑπό"/>
+<edge source="κάρηνον" target="πίπτω"/>
+<edge source="Τρώς" target="κάρηνον"/>
+<edge source="φεύγω" target="Τρώς"/>
+<edge source="," target="δέ"/>
+<edge source="πολύς" target="ἵππος"/>
+<edge source="ἵππος" target="ὄχος"/>
+<edge source="ἐριαύχην" target="κροταλίζω"/>
+<edge source="κροταλίζω" target="κροταλίζω"/>
+<edge source="ὄχος" target="δέ"/>
+<edge source="κει~νος" target="κροταλίζω"/>
+<edge source="ἀνά" target="γέφυρα"/>
+<edge source="γέφυρα" target="ποθέω"/>
+<edge source="πόλεμος" target="ἀνά"/>
+<edge source="ποθέω" target="ἡνίοχος"/>
+<edge source="ἡνίοχος" target="κροταλίζω"/>
+</graph></graphml>

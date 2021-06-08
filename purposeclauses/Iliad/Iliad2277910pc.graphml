@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὄφρα"/>
+<node id="εἰμί"/>
+<node id="μέν"/>
+<node id="καί"/>
+<node id="Ἕκτωρ"/>
+<node id="ζωός"/>
+<node id="δέ"/>
+<node id="τεῖχος"/>
+<node id="μηνίω"/>
+<node id="Ἀχιλλεύς"/>
+<node id="Πρίαμος"/>
+<node id="πόλις"/>
+<node id="ἄναξ"/>
+<node id="ἀπόρθητος"/>
+<node id="πέλω"/>
+<node id=","/>
+<node id="τόφρα"/>
+<node id="μέγας"/>
+<node id="Ἀχαιός"/>
+<node id="ἔμπεδος"/>
+<edge source="ὄφρα" target="εἰμί"/>
+<edge source="εἰμί" target="δέ"/>
+<edge source="μέν" target="καί"/>
+<edge source="καί" target="τεῖχος"/>
+<edge source="Ἕκτωρ" target="εἰμί"/>
+<edge source="ζωός" target="εἰμί"/>
+<edge source="δέ" target="εἰμί"/>
+<edge source="τεῖχος" target="τεῖχος"/>
+<edge source="μηνίω" target="καί"/>
+<edge source="Ἀχιλλεύς" target="μηνίω"/>
+<edge source="Πρίαμος" target="πόλις"/>
+<edge source="πόλις" target="πέλω"/>
+<edge source="ἄναξ" target="Πρίαμος"/>
+<edge source="ἀπόρθητος" target="πέλω"/>
+<edge source="πέλω" target="καί"/>
+<edge source="," target="ὄφρα"/>
+<edge source="τόφρα" target="εἰμί"/>
+<edge source="μέγας" target="εἰμί"/>
+<edge source="Ἀχαιός" target="εἰμί"/>
+<edge source="ἔμπεδος" target="δέ"/>
+</graph></graphml>

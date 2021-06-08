@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="ὀτρύνω"/>
+<node id="ἄλλος"/>
+<node id="Ἀχαιός"/>
+<node id="κομάω"/>
+<node id="κάρα"/>
+<node id="ὄφρα"/>
+<node id="συμμαχέω"/>
+<node id="ταχύς"/>
+<node id="ἐπεί"/>
+<node id=","/>
+<node id="χέω"/>
+<node id="σύν"/>
+<node id="γε"/>
+<node id="ὅρκιον"/>
+<edge source="ἀλλά" target="ὀτρύνω"/>
+<edge source="ὀτρύνω" target="κομάω"/>
+<edge source="ἄλλος" target="Ἀχαιός"/>
+<edge source="Ἀχαιός" target="ὀτρύνω"/>
+<edge source="κομάω" target="ὀτρύνω"/>
+<edge source="κάρα" target="Ἀχαιός"/>
+<edge source="ὄφρα" target="συμμαχέω"/>
+<edge source="συμμαχέω" target="ἐπεί"/>
+<edge source="ταχύς" target="ὄφρα"/>
+<edge source="ἐπεί" target="χέω"/>
+<edge source="," target="ὀτρύνω"/>
+<edge source="χέω" target="χέω"/>
+<edge source="σύν" target="σύν"/>
+<edge source="γε" target="χέω"/>
+<edge source="ὅρκιον" target="ἐπεί"/>
+</graph></graphml>

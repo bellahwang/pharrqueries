@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="εἶδον"/>
+<node id="δή"/>
+<node id="ἀνήρ"/>
+<node id="ἄλλος"/>
+<node id="τε"/>
+<node id="κάρτος"/>
+<node id="πείθω"/>
+<node id="πλῆθος"/>
+<node id="σθένος"/>
+<node id="ἠνορέη"/>
+<node id="σφέτερος"/>
+<node id="ὑπερδεής"/>
+<node id="καί"/>
+<node id="δῆμος"/>
+<node id="ἔχω"/>
+<edge source="ὡς" target="εἶδον"/>
+<edge source="εἶδον" target="εἶδον"/>
+<edge source="δή" target="εἶδον"/>
+<edge source="ἀνήρ" target="ἀνήρ"/>
+<edge source="ἄλλος" target="τε"/>
+<edge source="τε" target="πλῆθος"/>
+<edge source="κάρτος" target="πείθω"/>
+<edge source="πείθω" target="τε"/>
+<edge source="πλῆθος" target="πείθω"/>
+<edge source="σθένος" target="πείθω"/>
+<edge source="ἠνορέη" target="πείθω"/>
+<edge source="σφέτερος" target="ὑπερδεής"/>
+<edge source="ὑπερδεής" target="ἔχω"/>
+<edge source="καί" target="δῆμος"/>
+<edge source="δῆμος" target="ἀνήρ"/>
+</graph></graphml>

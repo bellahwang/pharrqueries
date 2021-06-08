@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="τείνω"/>
+<node id="ὡς"/>
+<node id="τε"/>
+<node id="στάθμη"/>
+<node id="ἐξιθύνω"/>
+<node id="δόρυ"/>
+<node id="νήιος"/>
+<node id="τέκτων"/>
+<node id="παλάμη"/>
+<node id="ἐν"/>
+<node id="δαήμων"/>
+<node id=","/>
+<node id="ὅς"/>
+<node id="οἶδα"/>
+<node id="ἄρα"/>
+<node id="πᾶς"/>
+<node id="σοφία"/>
+<node id="εὖ"/>
+<node id="ὑποθημοσύνη"/>
+<node id="Ἀθήνη"/>
+<node id="μέν"/>
+<node id="ὁ"/>
+<node id="ἐπί"/>
+<node id="ἴσος"/>
+<node id="μάχη"/>
+<node id="πόλεμος"/>
+<edge source="ἀλλά" target="τείνω"/>
+<edge source="τείνω" target="τε"/>
+<edge source="ὡς" target="τείνω"/>
+<edge source="τε" target="τείνω"/>
+<edge source="στάθμη" target="ἐξιθύνω"/>
+<edge source="ἐξιθύνω" target="ὡς"/>
+<edge source="δόρυ" target="ἐξιθύνω"/>
+<edge source="νήιος" target="δόρυ"/>
+<edge source="τέκτων" target="παλάμη"/>
+<edge source="παλάμη" target="ἐν"/>
+<edge source="ἐν" target="ἐξιθύνω"/>
+<edge source="δαήμων" target="τέκτων"/>
+<edge source="," target="ἐξιθύνω"/>
+<edge source="ὅς" target="οἶδα"/>
+<edge source="οἶδα" target="τέκτων"/>
+<edge source="ἄρα" target="οἶδα"/>
+<edge source="πᾶς" target="σοφία"/>
+<edge source="σοφία" target="οἶδα"/>
+<edge source="εὖ" target="οἶδα"/>
+<edge source="ὑποθημοσύνη" target="οἶδα"/>
+<edge source="Ἀθήνη" target="ὑποθημοσύνη"/>
+<edge source="μέν" target="τείνω"/>
+<edge source="ὁ" target="τε"/>
+<edge source="ἐπί" target="τείνω"/>
+<edge source="ἴσος" target="τείνω"/>
+<edge source="μάχη" target="τε"/>
+<edge source="πόλεμος" target="τείνω"/>
+</graph></graphml>

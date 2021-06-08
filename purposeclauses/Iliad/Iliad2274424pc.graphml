@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="νῦν"/>
+<node id="δείδω"/>
+<node id="δέ"/>
+<node id="αἰνός"/>
+<node id="κατά"/>
+<node id="φρήν"/>
+<node id="μή"/>
+<node id="παρεῖπον"/>
+<node id="σύ"/>
+<node id="Θέτις"/>
+<node id="ἀργυρόπεζος"/>
+<node id=""/>
+<node id="θυγάτηρ"/>
+<node id="γέρων"/>
+<node id="ἅλιος"/>
+<edge source="νῦν" target="δείδω"/>
+<edge source="δείδω" target="δείδω"/>
+<edge source="δέ" target="δείδω"/>
+<edge source="αἰνός" target="δέ"/>
+<edge source="κατά" target="κατά"/>
+<edge source="φρήν" target="δείδω"/>
+<edge source="μή" target="παρεῖπον"/>
+<edge source="παρεῖπον" target="Θέτις"/>
+<edge source="σύ" target="μή"/>
+<edge source="Θέτις" target=""/>
+<edge source="ἀργυρόπεζος" target=""/>
+<edge source="θυγάτηρ" target="γέρων"/>
+<edge source="γέρων" target="παρεῖπον"/>
+<edge source="ἅλιος" target="θυγάτηρ"/>
+</graph></graphml>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Ζεύς"/>
+<node id="δέ"/>
+<node id="πάτηρ"/>
+<node id="εἰ"/>
+<node id="ποτέ"/>
+<node id="εὔχομαι"/>
+<node id="τις"/>
+<node id="σύ"/>
+<node id="καί"/>
+<node id="ἐν"/>
+<node id="Ἄργος"/>
+<node id="πέρ"/>
+<node id="πολύπυρος"/>
+<node id="ἤ"/>
+<node id="μηρία"/>
+<node id="βοῦς"/>
+<node id="ὄις"/>
+<node id="κατά"/>
+<node id="καίω"/>
+<node id="πίων"/>
+<node id="νοστέω"/>
+<node id=","/>
+<node id="ἐάω"/>
+<node id="ὑπισχνέομαι"/>
+<node id="κατανεύω"/>
+<node id="ὁ"/>
+<node id="μιμνήσκω"/>
+<node id="ἀμύνω"/>
+<node id="Ὀλύμπιος"/>
+<node id="ἦμαρ"/>
+<node id="νηλής"/>
+<node id="μή"/>
+<node id="οὕτως"/>
+<node id="Τρώς"/>
+<node id="δάμνημι"/>
+<edge source="Ζεύς" target="δέ"/>
+<edge source="δέ" target="ἐάω"/>
+<edge source="πάτηρ" target="Ζεύς"/>
+<edge source="εἰ" target="δέ"/>
+<edge source="ποτέ" target="εὔχομαι"/>
+<edge source="εὔχομαι" target="δέ"/>
+<edge source="τις" target="εὔχομαι"/>
+<edge source="σύ" target="καί"/>
+<edge source="καί" target="καί"/>
+<edge source="ἐν" target="εὔχομαι"/>
+<edge source="Ἄργος" target="ἐν"/>
+<edge source="πέρ" target="Ἄργος"/>
+<edge source="πολύπυρος" target="Ἄργος"/>
+<edge source="ἤ" target="μηρία"/>
+<edge source="μηρία" target="καίω"/>
+<edge source="βοῦς" target="ἤ"/>
+<edge source="ὄις" target="ἤ"/>
+<edge source="κατά" target="καίω"/>
+<edge source="καίω" target="εὔχομαι"/>
+<edge source="πίων" target="μηρία"/>
+<edge source="νοστέω" target="εὔχομαι"/>
+<edge source="," target="ἐάω"/>
+<edge source="ἐάω" target="δάμνημι"/>
+<edge source="ὑπισχνέομαι" target="δέ"/>
+<edge source="κατανεύω" target="δέ"/>
+<edge source="ὁ" target="καί"/>
+<edge source="μιμνήσκω" target="δέ"/>
+<edge source="ἀμύνω" target="ἀμύνω"/>
+<edge source="Ὀλύμπιος" target="ἦμαρ"/>
+<edge source="ἦμαρ" target="δέ"/>
+<edge source="νηλής" target="ἀμύνω"/>
+<edge source="μή" target="ἐάω"/>
+<edge source="οὕτως" target="δέ"/>
+<edge source="Τρώς" target="ἐάω"/>
+</graph></graphml>

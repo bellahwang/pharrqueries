@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="σύ"/>
+<node id="βάλλω"/>
+<node id="δέ"/>
+<node id="ἠδέ"/>
+<node id="ἐν"/>
+<node id="γόνυ"/>
+<node id="μένος"/>
+<node id="θυμός"/>
+<node id="ὄφρα"/>
+<node id=","/>
+<node id="Αὐτομέδων"/>
+<node id="καί"/>
+<node id="σώζω"/>
+<node id="ἐκ"/>
+<node id="πόλεμος"/>
+<node id="ἐπί"/>
+<node id="ναῦς"/>
+<edge source="σύ" target="βάλλω"/>
+<edge source="βάλλω" target="βάλλω"/>
+<edge source="δέ" target="ἠδέ"/>
+<edge source="ἠδέ" target="ἠδέ"/>
+<edge source="ἐν" target="ἐν"/>
+<edge source="γόνυ" target="δέ"/>
+<edge source="μένος" target="βάλλω"/>
+<edge source="θυμός" target="ὄφρα"/>
+<edge source="ὄφρα" target="Αὐτομέδων"/>
+<edge source="," target="βάλλω"/>
+<edge source="Αὐτομέδων" target="ὄφρα"/>
+<edge source="καί" target="σώζω"/>
+<edge source="σώζω" target="σώζω"/>
+<edge source="ἐκ" target="ἐκ"/>
+<edge source="πόλεμος" target="ἐπί"/>
+<edge source="ἐπί" target="ναῦς"/>
+<edge source="ναῦς" target="σώζω"/>
+</graph></graphml>

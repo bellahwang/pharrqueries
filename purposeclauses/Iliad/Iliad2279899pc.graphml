@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὦ"/>
+<node id="φίλος"/>
+<node id="ἐρωέω"/>
+<node id=","/>
+<node id="εἰ"/>
+<node id="καί"/>
+<node id="μοῖρα"/>
+<node id=""/>
+<node id="παρά"/>
+<node id="δαμάζω"/>
+<node id="ἀνήρ"/>
+<node id="ὅδε"/>
+<node id="πᾶς"/>
+<node id="ὁμῶς"/>
+<node id="μή"/>
+<node id="πω"/>
+<node id="τις"/>
+<node id="πόλεμος"/>
+<edge source="ὦ" target="φίλος"/>
+<edge source="φίλος" target="ἐρωέω"/>
+<edge source="ἐρωέω" target="ἐρωέω"/>
+<edge source="," target="εἰ"/>
+<edge source="εἰ" target="ἐρωέω"/>
+<edge source="καί" target="μοῖρα"/>
+<edge source="μοῖρα" target=""/>
+<edge source="παρά" target="δαμάζω"/>
+<edge source="δαμάζω" target=""/>
+<edge source="ἀνήρ" target="παρά"/>
+<edge source="ὅδε" target="ἀνήρ"/>
+<edge source="πᾶς" target="δαμάζω"/>
+<edge source="ὁμῶς" target="δαμάζω"/>
+<edge source="μή" target="ἐρωέω"/>
+<edge source="πω" target="ἐρωέω"/>
+<edge source="τις" target="ἐρωέω"/>
+<edge source="πόλεμος" target="εἰ"/>
+</graph></graphml>

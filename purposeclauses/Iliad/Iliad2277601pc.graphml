@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="αἱρέω"/>
+<node id="ἄρα"/>
+<node id="γε"/>
+<node id="ἡγεμών"/>
+<node id="Δαναοί"/>
+<node id="ἀτάρ"/>
+<node id=","/>
+<node id=""/>
+<node id="ἔπειτα"/>
+<node id="πληθύς"/>
+<node id="ὁπότε"/>
+<node id="ὡς"/>
+<node id="στυφελίζω"/>
+<node id="νέφος"/>
+<node id="Ζέφυρος"/>
+<node id="Νότος"/>
+<node id="ἀργεστής"/>
+<node id="λαῖλαψ"/>
+<node id="βαθύς"/>
+<node id="τύπτω"/>
+<edge source="ὁ" target="αἱρέω"/>
+<edge source="αἱρέω" target="ἀτάρ"/>
+<edge source="ἄρα" target="αἱρέω"/>
+<edge source="γε" target="ὁ"/>
+<edge source="ἡγεμών" target="αἱρέω"/>
+<edge source="Δαναοί" target="ἡγεμών"/>
+<edge source="ἀτάρ" target=""/>
+<edge source="," target=""/>
+<edge source="ἔπειτα" target=""/>
+<edge source="πληθύς" target="ὁπότε"/>
+<edge source="ὁπότε" target="στυφελίζω"/>
+<edge source="ὡς" target=""/>
+<edge source="στυφελίζω" target="Νότος"/>
+<edge source="νέφος" target="στυφελίζω"/>
+<edge source="Ζέφυρος" target=""/>
+<edge source="Νότος" target="λαῖλαψ"/>
+<edge source="ἀργεστής" target="νέφος"/>
+<edge source="λαῖλαψ" target="στυφελίζω"/>
+<edge source="βαθύς" target="τύπτω"/>
+</graph></graphml>

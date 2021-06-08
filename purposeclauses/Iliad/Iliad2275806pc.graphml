@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Ἀργεῖος"/>
+<node id="τε"/>
+<node id="δέ"/>
+<node id="ἀλλά"/>
+<node id="ὑπό"/>
+<node id="Ἄρης"/>
+<node id="πυνθάνομαι"/>
+<node id="καί"/>
+<node id="Ἕκτωρ"/>
+<node id="χαλκοκορυστής"/>
+<node id="οὐ"/>
+<node id="ἀντιφέρω"/>
+<node id="ποτέ"/>
+<node id="προτρέπω"/>
+<node id="μέλας"/>
+<node id="ναῦς"/>
+<node id="ἐπί"/>
+<node id="μάχη"/>
+<node id=","/>
+<node id="χάζω"/>
+<node id="ἀεί"/>
+<node id="ὀπίσω"/>
+<node id="ὡς"/>
+<node id=""/>
+<node id="μετά"/>
+<node id="Τρώς"/>
+<edge source="Ἀργεῖος" target="τε"/>
+<edge source="τε" target="ἀλλά"/>
+<edge source="δέ" target="ἀλλά"/>
+<edge source="ἀλλά" target="χάζω"/>
+<edge source="ὑπό" target="τε"/>
+<edge source="Ἄρης" target="πυνθάνομαι"/>
+<edge source="πυνθάνομαι" target=""/>
+<edge source="καί" target="ὑπό"/>
+<edge source="Ἕκτωρ" target="καί"/>
+<edge source="χαλκοκορυστής" target="Ἕκτωρ"/>
+<edge source="οὐ" target="ἀντιφέρω"/>
+<edge source="ἀντιφέρω" target="τε"/>
+<edge source="ποτέ" target="ἀντιφέρω"/>
+<edge source="προτρέπω" target="τε"/>
+<edge source="μέλας" target="ναῦς"/>
+<edge source="ναῦς" target="ἐπί"/>
+<edge source="ἐπί" target="προτρέπω"/>
+<edge source="μάχη" target="ἀντιφέρω"/>
+<edge source="," target="πυνθάνομαι"/>
+<edge source="χάζω" target="πυνθάνομαι"/>
+<edge source="ἀεί" target="χάζω"/>
+<edge source="ὀπίσω" target="ἀλλά"/>
+<edge source="ὡς" target="χάζω"/>
+<edge source="μετά" target="μετά"/>
+<edge source="Τρώς" target=""/>
+</graph></graphml>

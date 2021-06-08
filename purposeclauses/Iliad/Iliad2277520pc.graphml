@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="εἰ"/>
+<node id="τίνω"/>
+<node id="μέν"/>
+<node id="δή"/>
+<node id="Ἀντίμαχος"/>
+<node id="υἱός"/>
+<node id="δαίφρων"/>
+<node id="εἰμί"/>
+<node id=","/>
+<node id="ὅς"/>
+<node id="ἄνωγα"/>
+<node id="ποτέ"/>
+<node id="ἐν"/>
+<node id="Τρώς"/>
+<node id="ἀγορά"/>
+<node id="Μενέλαος"/>
+<node id="δέ"/>
+<node id="ἀγγελία"/>
+<node id="ἔρχομαι"/>
+<node id="σύν"/>
+<node id="ἀντίθεος"/>
+<node id="Ὀδυσσεύς"/>
+<node id="αὖθι"/>
+<node id="κατακτείνω"/>
+<node id="μή"/>
+<node id="ἐξίημι"/>
+<node id="ἄψ"/>
+<node id="εἰς"/>
+<node id="Ἀχαιός"/>
+<node id="νῦν"/>
+<node id="ὁ"/>
+<node id="πατήρ"/>
+<node id="λώβη"/>
+<node id="ἀεικής"/>
+<edge source="εἰ" target="τίνω"/>
+<edge source="τίνω" target="τίνω"/>
+<edge source="μέν" target="τίνω"/>
+<edge source="δή" target="τίνω"/>
+<edge source="Ἀντίμαχος" target="υἱός"/>
+<edge source="υἱός" target="εἰμί"/>
+<edge source="δαίφρων" target="Ἀντίμαχος"/>
+<edge source="εἰμί" target="εἰ"/>
+<edge source="," target="εἰ"/>
+<edge source="ὅς" target="ἄνωγα"/>
+<edge source="ἄνωγα" target="Ἀντίμαχος"/>
+<edge source="ποτέ" target="ἄνωγα"/>
+<edge source="ἐν" target="ἄνωγα"/>
+<edge source="Τρώς" target="ἀγορά"/>
+<edge source="ἀγορά" target="ἐν"/>
+<edge source="Μενέλαος" target="δέ"/>
+<edge source="δέ" target="ἄνωγα"/>
+<edge source="ἀγγελία" target="ἔρχομαι"/>
+<edge source="ἔρχομαι" target="Μενέλαος"/>
+<edge source="σύν" target="ἔρχομαι"/>
+<edge source="ἀντίθεος" target="Ὀδυσσεύς"/>
+<edge source="Ὀδυσσεύς" target="σύν"/>
+<edge source="αὖθι" target="κατακτείνω"/>
+<edge source="κατακτείνω" target="δέ"/>
+<edge source="μή" target="ἐξίημι"/>
+<edge source="ἐξίημι" target="δέ"/>
+<edge source="ἄψ" target="ἐξίημι"/>
+<edge source="εἰς" target="ἐξίημι"/>
+<edge source="Ἀχαιός" target="εἰς"/>
+<edge source="νῦν" target="τίνω"/>
+<edge source="ὁ" target="πατήρ"/>
+<edge source="πατήρ" target="λώβη"/>
+<edge source="ἀεικής" target="λώβη"/>
+</graph></graphml>

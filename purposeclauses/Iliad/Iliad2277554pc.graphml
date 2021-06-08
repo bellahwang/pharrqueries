@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὄφρα"/>
+<node id="τόφρα"/>
+<node id="ἄν"/>
+<node id="ὁράω"/>
+<node id="μέν"/>
+<node id="Ἀγαμέμνων"/>
+<node id=""/>
+<node id="ποιμήν"/>
+<node id="λαός"/>
+<node id="δέ"/>
+<node id="θύνω"/>
+<node id=","/>
+<node id="ἐν"/>
+<node id="πρόμαχος"/>
+<node id="ἐναίρω"/>
+<node id="στίξ"/>
+<node id="ἀνήρ"/>
+<node id="ὑπείκω"/>
+<node id="μάχη"/>
+<node id="ὁ"/>
+<node id="ἄλλος"/>
+<node id="ἄνωγα"/>
+<node id="μάρναμαι"/>
+<node id="δάιος"/>
+<node id="κατά"/>
+<node id="ὑσμίνη"/>
+<node id="κρατερός"/>
+<edge source="ὄφρα" target="τόφρα"/>
+<edge source="τόφρα" target="δέ"/>
+<edge source="ἄν" target="ὁράω"/>
+<edge source="ὁράω" target="ὄφρα"/>
+<edge source="μέν" target="ὁράω"/>
+<edge source="Ἀγαμέμνων" target=""/>
+<edge source="ποιμήν" target="Ἀγαμέμνων"/>
+<edge source="λαός" target="δέ"/>
+<edge source="δέ" target="λαός"/>
+<edge source="θύνω" target=","/>
+<edge source="," target="δέ"/>
+<edge source="ἐν" target="θύνω"/>
+<edge source="πρόμαχος" target="ἐν"/>
+<edge source="ἐναίρω" target=","/>
+<edge source="στίξ" target="ἐναίρω"/>
+<edge source="ἀνήρ" target="στίξ"/>
+<edge source="ὑπείκω" target="δέ"/>
+<edge source="μάχη" target="ὑπείκω"/>
+<edge source="ὁ" target="λαός"/>
+<edge source="ἄλλος" target="ἄνωγα"/>
+<edge source="ἄνωγα" target="ἄνωγα"/>
+<edge source="μάρναμαι" target="μάρναμαι"/>
+<edge source="δάιος" target="μάρναμαι"/>
+<edge source="κατά" target="ὑσμίνη"/>
+<edge source="ὑσμίνη" target="ὁράω"/>
+<edge source="κρατερός" target="κατά"/>
+</graph></graphml>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="εἶπον"/>
+<node id="ἐφέζομαι"/>
+<node id="αὐτός"/>
+<node id="μέν"/>
+<node id="δέ"/>
+<node id="Πέργαμος"/>
+<node id="ἄκρος"/>
+<node id=","/>
+<node id="Τρωιός"/>
+<node id="στίξ"/>
+<node id="ὀτρύνω"/>
+<node id="Ἄρης"/>
+<node id="οὖλος"/>
+<node id="μετέρχομαι"/>
+<node id="εἴδομαι"/>
+<node id="Ἀκάμας"/>
+<node id="θοός"/>
+<node id="ἡγήτωρ"/>
+<edge source="ὡς" target="εἶπον"/>
+<edge source="εἶπον" target="ἐφέζομαι"/>
+<edge source="ἐφέζομαι" target="δέ"/>
+<edge source="αὐτός" target="ἐφέζομαι"/>
+<edge source="μέν" target="δέ"/>
+<edge source="δέ" target="ὀτρύνω"/>
+<edge source="Πέργαμος" target="ἐφέζομαι"/>
+<edge source="ἄκρος" target="Πέργαμος"/>
+<edge source="," target="δέ"/>
+<edge source="Τρωιός" target="στίξ"/>
+<edge source="στίξ" target="Ἄρης"/>
+<edge source="ὀτρύνω" target="ὀτρύνω"/>
+<edge source="Ἄρης" target="δέ"/>
+<edge source="οὖλος" target="ὀτρύνω"/>
+<edge source="μετέρχομαι" target="ὀτρύνω"/>
+<edge source="εἴδομαι" target="εἴδομαι"/>
+<edge source="Ἀκάμας" target="Ἀκάμας"/>
+<edge source="θοός" target="Ἀκάμας"/>
+<edge source="ἡγήτωρ" target="ἡγήτωρ"/>
+</graph></graphml>

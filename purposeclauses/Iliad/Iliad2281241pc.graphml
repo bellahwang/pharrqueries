@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἐν"/>
+<node id="βάλλω"/>
+<node id="μέν"/>
+<node id="ἕ"/>
+<node id="ἵστημι"/>
+<node id="καρδία"/>
+<node id="θάρσος"/>
+<node id="δέ"/>
+<node id=","/>
+<node id="παρά"/>
+<node id="αὐτός"/>
+<node id="ὅπως"/>
+<node id="χείρ"/>
+<node id="θάνατος"/>
+<node id="βαρύς"/>
+<node id="ἄλαλκε"/>
+<node id="κλίνω"/>
+<node id="φηγός"/>
+<edge source="ἐν" target="βάλλω"/>
+<edge source="βάλλω" target="δέ"/>
+<edge source="μέν" target="βάλλω"/>
+<edge source="ἕ" target="ἵστημι"/>
+<edge source="ἵστημι" target="ὅπως"/>
+<edge source="καρδία" target="ἐν"/>
+<edge source="θάρσος" target="βάλλω"/>
+<edge source="δέ" target="παρά"/>
+<edge source="," target="δέ"/>
+<edge source="παρά" target="ἵστημι"/>
+<edge source="αὐτός" target="δέ"/>
+<edge source="ὅπως" target="χείρ"/>
+<edge source="χείρ" target="ὅπως"/>
+<edge source="θάνατος" target="χείρ"/>
+<edge source="βαρύς" target="ἄλαλκε"/>
+<edge source="ἄλαλκε" target="κλίνω"/>
+<edge source="φηγός" target="ἄλαλκε"/>
+</graph></graphml>

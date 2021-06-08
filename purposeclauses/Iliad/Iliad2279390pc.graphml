@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="βαίνω"/>
+<node id="ὁ"/>
+<node id=""/>
+<node id="μέν"/>
+<node id="δοιοί"/>
+<node id="κασίγνητος"/>
+<node id="δαμάζω"/>
+<node id="εἰς"/>
+<node id="Ἔρεβος"/>
+<node id="ἑταῖρος"/>
+<node id="Σαρπηδών"/>
+<node id="ἐσθλός"/>
+<node id="υἱός"/>
+<node id="ἀκοντιστής"/>
+<node id="Ἀμισώδαρος"/>
+<node id="τρέφω"/>
+<node id=","/>
+<node id="ὅς"/>
+<node id="ἄρα"/>
+<node id="Χίμαιρα"/>
+<node id="ἀμαιμάκετος"/>
+<node id="ἄνθρωπος"/>
+<node id="πολύς"/>
+<node id="κακός"/>
+<edge source="ὡς" target="βαίνω"/>
+<edge source="βαίνω" target="βαίνω"/>
+<edge source="ὁ" target=""/>
+<edge source="μέν" target="βαίνω"/>
+<edge source="δοιοί" target="κασίγνητος"/>
+<edge source="κασίγνητος" target="δαμάζω"/>
+<edge source="δαμάζω" target="βαίνω"/>
+<edge source="εἰς" target="εἰς"/>
+<edge source="Ἔρεβος" target="ἑταῖρος"/>
+<edge source="ἑταῖρος" target=""/>
+<edge source="Σαρπηδών" target="ἑταῖρος"/>
+<edge source="ἐσθλός" target=""/>
+<edge source="υἱός" target="υἱός"/>
+<edge source="ἀκοντιστής" target="υἱός"/>
+<edge source="Ἀμισώδαρος" target="τρέφω"/>
+<edge source="τρέφω" target="Χίμαιρα"/>
+<edge source="," target="τρέφω"/>
+<edge source="ὅς" target="τρέφω"/>
+<edge source="ἄρα" target="τρέφω"/>
+<edge source="Χίμαιρα" target="Ἀμισώδαρος"/>
+<edge source="ἀμαιμάκετος" target="ἄνθρωπος"/>
+<edge source="ἄνθρωπος" target="βαίνω"/>
+<edge source="πολύς" target="Χίμαιρα"/>
+<edge source="κακός" target="κακός"/>
+</graph></graphml>

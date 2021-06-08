@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Ἀτρείδης"/>
+<node id="φοιτάω"/>
+<node id="δέ"/>
+<node id="κελεύω"/>
+<node id="ἄχος"/>
+<node id="βεβόλημαι"/>
+<node id="μέγας"/>
+<node id="ἦτορ"/>
+<node id="κῆρυξ"/>
+<node id="λιγύφθογγος"/>
+<node id="κλήδην"/>
+<node id="κικλήσκω"/>
+<node id="εἰς"/>
+<node id="ἀγορά"/>
+<node id="ἀνήρ"/>
+<node id="ἕκαστος"/>
+<node id=","/>
+<node id="μή"/>
+<node id="βοάω"/>
+<edge source="Ἀτρείδης" target="φοιτάω"/>
+<edge source="φοιτάω" target="δέ"/>
+<edge source="δέ" target="κελεύω"/>
+<edge source="κελεύω" target="φοιτάω"/>
+<edge source="ἄχος" target="βεβόλημαι"/>
+<edge source="βεβόλημαι" target="φοιτάω"/>
+<edge source="μέγας" target="ἄχος"/>
+<edge source="ἦτορ" target="βεβόλημαι"/>
+<edge source="κῆρυξ" target="κελεύω"/>
+<edge source="λιγύφθογγος" target="κῆρυξ"/>
+<edge source="κλήδην" target="κικλήσκω"/>
+<edge source="κικλήσκω" target="δέ"/>
+<edge source="εἰς" target="κικλήσκω"/>
+<edge source="ἀγορά" target="εἰς"/>
+<edge source="ἀνήρ" target="κικλήσκω"/>
+<edge source="ἕκαστος" target="ἀνήρ"/>
+<edge source="," target="δέ"/>
+<edge source="μή" target="βοάω"/>
+<edge source="βοάω" target="δέ"/>
+</graph></graphml>

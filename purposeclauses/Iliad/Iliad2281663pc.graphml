@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="πολύς"/>
+<node id="λιτανεύω"/>
+<node id="δέ"/>
+<node id="σπένδω"/>
+<node id="καί"/>
+<node id="δέπας"/>
+<node id="χρύσεος"/>
+<node id="ἔρχομαι"/>
+<node id="τε"/>
+<node id=","/>
+<node id="σεύω"/>
+<node id="ὄφρα"/>
+<node id="φλεγέθω"/>
+<node id="ταχύς"/>
+<node id="πῦρ"/>
+<node id="νεκρός"/>
+<node id="ὕλη"/>
+<edge source="πολύς" target="λιτανεύω"/>
+<edge source="λιτανεύω" target="λιτανεύω"/>
+<edge source="δέ" target="σπένδω"/>
+<edge source="σπένδω" target="δέπας"/>
+<edge source="καί" target="λιτανεύω"/>
+<edge source="δέπας" target="δέ"/>
+<edge source="χρύσεος" target="σπένδω"/>
+<edge source="ἔρχομαι" target="τε"/>
+<edge source="τε" target="τε"/>
+<edge source="," target="σεύω"/>
+<edge source="σεύω" target="σεύω"/>
+<edge source="ὄφρα" target="φλεγέθω"/>
+<edge source="φλεγέθω" target="φλεγέθω"/>
+<edge source="ταχύς" target="φλεγέθω"/>
+<edge source="πῦρ" target="τε"/>
+<edge source="νεκρός" target="τε"/>
+<edge source="ὕλη" target="ὄφρα"/>
+</graph></graphml>

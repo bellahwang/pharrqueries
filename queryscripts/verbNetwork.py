@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 import networkx as nx
-import matplotlib.pyplot as plt
 
 # change FILENAME to local path
 FILENAME = "tlg0012.tlg001.perseus-grc1.tb.xml"
@@ -12,38 +11,34 @@ G = nx.DiGraph()
 
 verbid = None
 attribhead = None
-# generalcount = 1
-# verbcount = None
-# attribcount = None
 
 for sentence in root.findall(".//sentence"):
 	for word in sentence.findall("./word"):
 		if ('postag' in word.attrib):
 			postag = word.get('postag')
 			pos = postag[0]
-			if (pos == 'v'):
+		if ('relation' in word.attrib):
+			relation = word.get('relation')
+			if (relation == 'PRED' or relation == 'PRED_CO' and pos == 'v'):
 				verbid = word.get('id')
 				verblemma = word.get('lemma')
-				verbcite = word.get('cite')
-				# print("verb:", verblemma)
-				G.add_node(verblemma, lemma = verblemma, pos = pos, cite = verbcite)
-				# verbcount = generalcount
-				# generalcount += 1
+				verbform = word.get('form')
+				G.add_node(verblemma, pos = pos)
 			else:
-				attribhead = word.get('head')
-				attriblemma = word.get('lemma')
-				attribcite = word.get('cite')
 				attribrelation = word.get('relation')
-				
-			if (attribhead == verbid):
-				# print("attrib:", attriblemma)
-				G.add_node(attriblemma, lemma = attriblemma, pos = pos, cite = attribcite)
-				# attribcount = generalcount
-				# generalcount += 1
+				if (attribrelation == 'SBJ' or attribrelation == 'SBJ_CO'):
+					attribhead = word.get('head')
+					attriblemma = word.get('lemma')
+					attribcite = word.get('cite')
+					G.add_node(attriblemma, pos = pos)
+					if (attribhead == verbid and attriblemma != None):
+						# if G.has_edge(verblemma, attriblemma):
+						# 	G[verblemma][attriblemma]['weight'] += 1
+						# else:
+						# 	G.add_edge(verblemma, attriblemma, relation = attribrelation, weight = 1)
+						if G.has_edge(attriblemma, verblemma):
+							G[attriblemma][verblemma]['weight'] += 1
+						else:
+							G.add_edge(attriblemma, verblemma, relation = attribrelation, weight = 1)
 
-				# print(verblemma + " is modified by " + attriblemma)
-				G.add_edge(verblemma, attriblemma, relation = attribrelation)
-
-nx.write_graphml(G, "verbNetworkDirected.graphml")
-# nx.draw(G)
-# plt.show()
+nx.write_graphml(G, "CONJPNOM.graphml")

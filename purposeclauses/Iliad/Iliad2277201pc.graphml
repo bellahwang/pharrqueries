@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="ἕπομαι"/>
+<node id="βουλεύω"/>
+<node id=","/>
+<node id="ἠέ"/>
+<node id="ὄφρα"/>
+<node id="ἄλλος"/>
+<node id="καί"/>
+<node id="ἐγείρω"/>
+<node id="ὅς"/>
+<node id="ἐπέοικε"/>
+<node id="τε"/>
+<node id="βουλή"/>
+<node id="ἤ"/>
+<node id="φεύγω"/>
+<edge source="ἀλλά" target="ἕπομαι"/>
+<edge source="ἕπομαι" target="βουλεύω"/>
+<edge source="βουλεύω" target="βουλεύω"/>
+<edge source="," target="ἠέ"/>
+<edge source="ἠέ" target="ἠέ"/>
+<edge source="ὄφρα" target="ἄλλος"/>
+<edge source="ἄλλος" target="ὄφρα"/>
+<edge source="καί" target="ἐγείρω"/>
+<edge source="ἐγείρω" target="βουλεύω"/>
+<edge source="ὅς" target="ἐπέοικε"/>
+<edge source="ἐπέοικε" target=","/>
+<edge source="τε" target="ἄλλος"/>
+<edge source="βουλή" target="ἐπέοικε"/>
+<edge source="ἤ" target="ἠέ"/>
+<edge source="φεύγω" target=","/>
+</graph></graphml>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="ἐκτέμνω"/>
+<node id="μέν"/>
+<node id="τε"/>
+<node id=""/>
+<node id="ἁρματοπηγός"/>
+<node id="ἀνήρ"/>
+<node id="αἴθων"/>
+<node id="σίδηρος"/>
+<node id=","/>
+<node id="ὄφρα"/>
+<node id="ἴτυς"/>
+<node id="κάμπτω"/>
+<node id="περικαλλής"/>
+<node id="δίφρος"/>
+<edge source="ὁ" target="ἐκτέμνω"/>
+<edge source="ἐκτέμνω" target=""/>
+<edge source="μέν" target="ἐκτέμνω"/>
+<edge source="τε" target=""/>
+<edge source="ἁρματοπηγός" target="ἀνήρ"/>
+<edge source="ἀνήρ" target="ἐκτέμνω"/>
+<edge source="αἴθων" target="σίδηρος"/>
+<edge source="σίδηρος" target="ἐκτέμνω"/>
+<edge source="," target="ὄφρα"/>
+<edge source="ὄφρα" target="ἐκτέμνω"/>
+<edge source="ἴτυς" target="κάμπτω"/>
+<edge source="κάμπτω" target="ὄφρα"/>
+<edge source="περικαλλής" target="δίφρος"/>
+<edge source="δίφρος" target="κάμπτω"/>
+</graph></graphml>

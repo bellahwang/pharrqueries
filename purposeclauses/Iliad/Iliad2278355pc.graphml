@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="δαιμόνιος"/>
+<node id="ἵστημι"/>
+<node id="ἀλλά"/>
+<node id="καί"/>
+<node id="αὐτός"/>
+<node id="ἐναντίον"/>
+<node id="ἐγώ"/>
+<node id="τίκτω"/>
+<node id=","/>
+<node id="ὄφρα"/>
+<node id="εἶδον"/>
+<node id="γόνος"/>
+<node id="οἷος"/>
+<node id="Ζεύς"/>
+<node id="ἱκάνω"/>
+<node id="ἐνθάδε"/>
+<node id="ὅς"/>
+<node id="πρότερος"/>
+<node id="Μίνως"/>
+<node id="ἐπίουρος"/>
+<node id="Κρήτη"/>
+<edge source="δαιμόνιος" target="ἵστημι"/>
+<edge source="ἵστημι" target="ἐναντίον"/>
+<edge source="ἀλλά" target="ἵστημι"/>
+<edge source="καί" target="αὐτός"/>
+<edge source="αὐτός" target="ἵστημι"/>
+<edge source="ἐναντίον" target="ἵστημι"/>
+<edge source="ἐγώ" target="τίκτω"/>
+<edge source="τίκτω" target="ἐπίουρος"/>
+<edge source="," target="τίκτω"/>
+<edge source="ὄφρα" target="ὄφρα"/>
+<edge source="εἶδον" target="γόνος"/>
+<edge source="γόνος" target="ἱκάνω"/>
+<edge source="οἷος" target="γόνος"/>
+<edge source="Ζεύς" target="ἱκάνω"/>
+<edge source="ἱκάνω" target="τίκτω"/>
+<edge source="ἐνθάδε" target="εἶδον"/>
+<edge source="ὅς" target="τίκτω"/>
+<edge source="πρότερος" target="τίκτω"/>
+<edge source="Μίνως" target="Ζεύς"/>
+<edge source="Κρήτη" target="Μίνως"/>
+</graph></graphml>

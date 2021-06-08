@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἐκεῖθεν"/>
+<node id="φράζω"/>
+<node id="δέ"/>
+<node id="ἐγώ"/>
+<node id="αὐτός"/>
+<node id="τε"/>
+<node id="ἔργον"/>
+<node id="ὡς"/>
+<node id="ἔπος"/>
+<node id=","/>
+<node id="ἀναπνέω"/>
+<node id="ἄν"/>
+<node id="αὖθις"/>
+<node id="καί"/>
+<node id="Ἀχαιός"/>
+<edge source="ἐκεῖθεν" target="φράζω"/>
+<edge source="φράζω" target="τε"/>
+<edge source="δέ" target="ἐγώ"/>
+<edge source="ἐγώ" target="δέ"/>
+<edge source="αὐτός" target="φράζω"/>
+<edge source="τε" target="ὡς"/>
+<edge source="ἔργον" target="φράζω"/>
+<edge source="ὡς" target="ἀναπνέω"/>
+<edge source="ἔπος" target="φράζω"/>
+<edge source="," target="φράζω"/>
+<edge source="ἀναπνέω" target="ἀναπνέω"/>
+<edge source="ἄν" target="αὖθις"/>
+<edge source="αὖθις" target="ἀναπνέω"/>
+<edge source="καί" target="ἀναπνέω"/>
+<edge source="Ἀχαιός" target="ὡς"/>
+</graph></graphml>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="μάρπτω"/>
+<node id="οὐ"/>
+<node id="Ἑρμῆς"/>
+<node id="ἐριούνιος"/>
+<node id="ὕπνος"/>
+<node id="ὁρμαίνω"/>
+<node id="ἀνά"/>
+<node id="θυμός"/>
+<node id="ἐκπέμπω"/>
+<node id="ὅπως"/>
+<node id="Πρίαμος"/>
+<node id="βασιλεύς"/>
+<node id="ναῦς"/>
+<node id="λανθάνω"/>
+<node id="πυλαωρός"/>
+<node id="ἱερός"/>
+<edge source="ἀλλά" target="μάρπτω"/>
+<edge source="μάρπτω" target="Ἑρμῆς"/>
+<edge source="οὐ" target="μάρπτω"/>
+<edge source="Ἑρμῆς" target="μάρπτω"/>
+<edge source="ἐριούνιος" target="Ἑρμῆς"/>
+<edge source="ὕπνος" target="μάρπτω"/>
+<edge source="ὁρμαίνω" target="ὁρμαίνω"/>
+<edge source="ἀνά" target="ἀνά"/>
+<edge source="θυμός" target="ἐκπέμπω"/>
+<edge source="ἐκπέμπω" target="ἐκπέμπω"/>
+<edge source="ὅπως" target="ἐκπέμπω"/>
+<edge source="Πρίαμος" target="Πρίαμος"/>
+<edge source="βασιλεύς" target="ἐκπέμπω"/>
+<edge source="ναῦς" target="ὁρμαίνω"/>
+<edge source="λανθάνω" target="πυλαωρός"/>
+<edge source="ἱερός" target="λανθάνω"/>
+</graph></graphml>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="μάρναμαι"/>
+<node id="δέ"/>
+<node id="πόλεμος"/>
+<node id="ἐπιόσσομαι"/>
+<node id="θάνατος"/>
+<node id="καί"/>
+<node id="φύζα"/>
+<node id="ἑταῖρος"/>
+<node id="νόσφι"/>
+<node id=","/>
+<node id="ἐπεί"/>
+<node id="ὡς"/>
+<node id="ἐπιτέλλω"/>
+<node id="Νέστωρ"/>
+<node id="ὀτρύνω"/>
+<node id="μέλας"/>
+<node id="ναῦς"/>
+<node id="ἀπό"/>
+<edge source="ὁ" target="μάρναμαι"/>
+<edge source="μάρναμαι" target="δέ"/>
+<edge source="δέ" target="πόλεμος"/>
+<edge source="πόλεμος" target="ὀτρύνω"/>
+<edge source="ἐπιόσσομαι" target="μάρναμαι"/>
+<edge source="θάνατος" target="καί"/>
+<edge source="καί" target="ἐπιόσσομαι"/>
+<edge source="φύζα" target="καί"/>
+<edge source="ἑταῖρος" target="καί"/>
+<edge source="νόσφι" target="μάρναμαι"/>
+<edge source="," target="ἐπεί"/>
+<edge source="ἐπεί" target="μάρναμαι"/>
+<edge source="ὡς" target="ἐπιτέλλω"/>
+<edge source="ἐπιτέλλω" target="ἐπεί"/>
+<edge source="Νέστωρ" target="ἐπιτέλλω"/>
+<edge source="ὀτρύνω" target="ἐπιτέλλω"/>
+<edge source="μέλας" target="ναῦς"/>
+<edge source="ναῦς" target="ἀπό"/>
+<edge source="ἀπό" target="ὀτρύνω"/>
+</graph></graphml>

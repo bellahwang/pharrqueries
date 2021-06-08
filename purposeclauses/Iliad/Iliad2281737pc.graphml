@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἐν"/>
+<node id="ἐγχρίμπτω"/>
+<node id="νύσσα"/>
+<node id="δέ"/>
+<node id="δοάσσατο"/>
+<node id="τοι"/>
+<node id="ἵππος"/>
+<node id="ἀριστερός"/>
+<node id="ὡς"/>
+<node id=","/>
+<node id="ἄν"/>
+<node id="πλήμνη"/>
+<node id="γε"/>
+<node id="ἱκνέομαι"/>
+<node id="ἄκρον"/>
+<node id="κύκλος"/>
+<edge source="ἐν" target="ἐγχρίμπτω"/>
+<edge source="ἐγχρίμπτω" target="ὡς"/>
+<edge source="νύσσα" target="ἐν"/>
+<edge source="δέ" target="δοάσσατο"/>
+<edge source="δοάσσατο" target="ἱκνέομαι"/>
+<edge source="τοι" target="δοάσσατο"/>
+<edge source="ἵππος" target="ἵππος"/>
+<edge source="ἀριστερός" target="δέ"/>
+<edge source="ὡς" target="δοάσσατο"/>
+<edge source="," target="ἐγχρίμπτω"/>
+<edge source="ἄν" target="δοάσσατο"/>
+<edge source="πλήμνη" target="πλήμνη"/>
+<edge source="γε" target="ὡς"/>
+<edge source="ἱκνέομαι" target="πλήμνη"/>
+<edge source="ἄκρον" target="δοάσσατο"/>
+<edge source="κύκλος" target="κύκλος"/>
+</graph></graphml>

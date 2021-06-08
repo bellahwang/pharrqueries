@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀνά"/>
+<node id="ἵστημι"/>
+<node id="δέ"/>
+<node id="Ἀγαμέμνων"/>
+<node id="χέω"/>
+<node id="δάκρυον"/>
+<node id="κρήνη"/>
+<node id="ὡς"/>
+<node id="τε"/>
+<node id="μελάνυδρος"/>
+<node id="ὅς"/>
+<node id="κατά"/>
+<node id="πέτρα"/>
+<node id="αἰγίλιψ"/>
+<node id="ὕδωρ"/>
+<node id="δνοφερός"/>
+<edge source="ἀνά" target="ἵστημι"/>
+<edge source="ἵστημι" target="χέω"/>
+<edge source="δέ" target="ἵστημι"/>
+<edge source="Ἀγαμέμνων" target="δέ"/>
+<edge source="χέω" target="χέω"/>
+<edge source="δάκρυον" target="κρήνη"/>
+<edge source="κρήνη" target="κρήνη"/>
+<edge source="ὡς" target="χέω"/>
+<edge source="τε" target="χέω"/>
+<edge source="μελάνυδρος" target="χέω"/>
+<edge source="ὅς" target="χέω"/>
+<edge source="κατά" target="πέτρα"/>
+<edge source="πέτρα" target="ὕδωρ"/>
+<edge source="αἰγίλιψ" target="κατά"/>
+<edge source="ὕδωρ" target="χέω"/>
+<edge source="δνοφερός" target="κρήνη"/>
+</graph></graphml>

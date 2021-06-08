@@ -19,7 +19,6 @@ anid = None
 # sys.stdout.write("<table>" + "\n")
 
 for sentence in root.findall('.//sentence'):
-	subdoc = sentence.get('subdoc')
 	sentid = sentence.get('id')
 	for word in sentence.findall('./word'):
 		if 'postag' in word.attrib:

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="στιχάομαι"/>
+<node id="ὁ"/>
+<node id="ἔθνος"/>
+<node id="πολύς"/>
+<node id="ναῦς"/>
+<node id="καί"/>
+<node id="ἀπό"/>
+<node id="κλισία"/>
+<node id="ἠιών"/>
+<node id="προπάροιθε"/>
+<node id="βαθύς"/>
+<node id="ἰλαδόν"/>
+<node id="εἰς"/>
+<edge source="ὡς" target="στιχάομαι"/>
+<edge source="στιχάομαι" target="στιχάομαι"/>
+<edge source="ὁ" target="ἔθνος"/>
+<edge source="ἔθνος" target="στιχάομαι"/>
+<edge source="πολύς" target="ἔθνος"/>
+<edge source="ναῦς" target="καί"/>
+<edge source="καί" target="ἀπό"/>
+<edge source="ἀπό" target="στιχάομαι"/>
+<edge source="κλισία" target="καί"/>
+<edge source="ἠιών" target="προπάροιθε"/>
+<edge source="προπάροιθε" target="στιχάομαι"/>
+<edge source="βαθύς" target="ἠιών"/>
+<edge source="ἰλαδόν" target="στιχάομαι"/>
+<edge source="εἰς" target="εἰς"/>
+</graph></graphml>

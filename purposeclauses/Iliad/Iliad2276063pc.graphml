@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="ἔρχομαι"/>
+<node id="σύ"/>
+<node id="μέν"/>
+<node id="δέ"/>
+<node id="πρός"/>
+<node id="ναός"/>
+<node id="Ἀθήνη"/>
+<node id="ἀγελείη"/>
+<node id=","/>
+<node id="ἐγώ"/>
+<node id="μετέρχομαι"/>
+<node id="Πάρις"/>
+<node id="ὄφρα"/>
+<node id="καλέω"/>
+<node id="εἰ"/>
+<node id="ἐθέλω"/>
+<node id="ἄν"/>
+<node id="ἀκούω"/>
+<node id="εἶπον"/>
+<edge source="ἀλλά" target="ἔρχομαι"/>
+<edge source="ἔρχομαι" target="δέ"/>
+<edge source="σύ" target="ἔρχομαι"/>
+<edge source="μέν" target="δέ"/>
+<edge source="δέ" target="μετέρχομαι"/>
+<edge source="πρός" target="ἔρχομαι"/>
+<edge source="ναός" target="πρός"/>
+<edge source="Ἀθήνη" target="ναός"/>
+<edge source="ἀγελείη" target="Ἀθήνη"/>
+<edge source="," target="δέ"/>
+<edge source="ἐγώ" target="μετέρχομαι"/>
+<edge source="μετέρχομαι" target="μετέρχομαι"/>
+<edge source="Πάρις" target="δέ"/>
+<edge source="ὄφρα" target="ὄφρα"/>
+<edge source="καλέω" target="μετέρχομαι"/>
+<edge source="εἰ" target="ἐθέλω"/>
+<edge source="ἐθέλω" target="ἀκούω"/>
+<edge source="ἄν" target="εἰ"/>
+<edge source="εἶπον" target="ἐθέλω"/>
+</graph></graphml>

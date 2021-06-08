@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="εἶπον"/>
+<node id="αἱρέω"/>
+<node id="σάκος"/>
+<node id="τεύχω"/>
+<node id=""/>
+<node id="υἱός"/>
+<node id="ἑός"/>
+<node id="κεῖμαι"/>
+<node id="ἐν"/>
+<node id="κλισία"/>
+<node id="Θρασυμήδης"/>
+<node id="ἱππόδαμος"/>
+<node id="παμφαίνω"/>
+<node id="χαλκός"/>
+<edge source="ὡς" target="εἶπον"/>
+<edge source="εἶπον" target="αἱρέω"/>
+<edge source="αἱρέω" target="σάκος"/>
+<edge source="σάκος" target="αἱρέω"/>
+<edge source="τεύχω" target=""/>
+<edge source="υἱός" target="υἱός"/>
+<edge source="ἑός" target="σάκος"/>
+<edge source="κεῖμαι" target="κεῖμαι"/>
+<edge source="ἐν" target="ἐν"/>
+<edge source="κλισία" target=""/>
+<edge source="Θρασυμήδης" target="Θρασυμήδης"/>
+<edge source="ἱππόδαμος" target="παμφαίνω"/>
+<edge source="παμφαίνω" target="σάκος"/>
+<edge source="χαλκός" target="σάκος"/>
+</graph></graphml>

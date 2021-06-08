@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὄφρα"/>
+<node id="τόφρα"/>
+<node id="μέν"/>
+<node id="πολεμίζω"/>
+<node id="οὖν"/>
+<node id="Μελέαγρος"/>
+<node id="Ἄρης"/>
+<node id="φίλος"/>
+<node id=","/>
+<node id="δύναμαι"/>
+<node id="εἰμί"/>
+<node id="δέ"/>
+<node id="ἔκτοσθεν"/>
+<node id="Κουρῆτες"/>
+<node id="κακός"/>
+<node id="οὐ"/>
+<node id="μίμνω"/>
+<node id="τεῖχος"/>
+<node id="πολύς"/>
+<edge source="ὄφρα" target="τόφρα"/>
+<edge source="τόφρα" target="εἰμί"/>
+<edge source="μέν" target="πολεμίζω"/>
+<edge source="πολεμίζω" target="ὄφρα"/>
+<edge source="οὖν" target="πολεμίζω"/>
+<edge source="Μελέαγρος" target="πολεμίζω"/>
+<edge source="Ἄρης" target="φίλος"/>
+<edge source="φίλος" target="Μελέαγρος"/>
+<edge source="," target="δύναμαι"/>
+<edge source="δύναμαι" target="μίμνω"/>
+<edge source="εἰμί" target="δέ"/>
+<edge source="δέ" target="ἔκτοσθεν"/>
+<edge source="ἔκτοσθεν" target="εἰμί"/>
+<edge source="Κουρῆτες" target="εἰμί"/>
+<edge source="κακός" target="δύναμαι"/>
+<edge source="οὐ" target="δέ"/>
+<edge source="μίμνω" target="εἰμί"/>
+<edge source="τεῖχος" target="δύναμαι"/>
+<edge source="πολύς" target="δύναμαι"/>
+</graph></graphml>

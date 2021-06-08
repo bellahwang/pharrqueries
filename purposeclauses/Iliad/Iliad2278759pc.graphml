@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Ἀργεῖος"/>
+<node id="μεθίημι"/>
+<node id="καί"/>
+<node id="αἴρω"/>
+<node id="δέ"/>
+<node id="αὖτε"/>
+<node id="Ἕκτωρ"/>
+<node id="νίκη"/>
+<node id="Πριαμίδης"/>
+<node id="ἵνα"/>
+<node id=","/>
+<node id="αἱρέω"/>
+<node id="ναῦς"/>
+<node id="κῦδος"/>
+<edge source="Ἀργεῖος" target="μεθίημι"/>
+<edge source="μεθίημι" target="μεθίημι"/>
+<edge source="καί" target="αἴρω"/>
+<edge source="δέ" target="μεθίημι"/>
+<edge source="αὖτε" target="μεθίημι"/>
+<edge source="Ἕκτωρ" target="μεθίημι"/>
+<edge source="νίκη" target="Ἕκτωρ"/>
+<edge source="Πριαμίδης" target="ἵνα"/>
+<edge source="ἵνα" target="αἱρέω"/>
+<edge source="," target="μεθίημι"/>
+<edge source="αἱρέω" target="ἵνα"/>
+<edge source="ναῦς" target="καί"/>
+<edge source="κῦδος" target="καί"/>
+</graph></graphml>

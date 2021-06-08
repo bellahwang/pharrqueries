@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="δείδω"/>
+<node id="καί"/>
+<node id="δέ"/>
+<node id="μή"/>
+<node id="ὑπένερθε"/>
+<node id="ἄναξ"/>
+<node id="Ἀιδωνεύς"/>
+<node id="ἔνεροι"/>
+<node id=","/>
+<node id="στυγέω"/>
+<node id="ἐκ"/>
+<node id="ἅλλομαι"/>
+<node id="θρόνος"/>
+<node id="φαίνω"/>
+<node id="ἰάχω"/>
+<node id="ἕ"/>
+<node id="ὕπερθεν"/>
+<node id="ἀναρρήγνυμι"/>
+<node id="γαῖα"/>
+<node id="Ποσειδεών"/>
+<node id="Ἐνοσίχθων"/>
+<node id="οἰκίον"/>
+<node id="θνητός"/>
+<node id="ἀθάνατος"/>
+<node id="σμερδαλέος"/>
+<node id="εὐρώεις"/>
+<node id="ὁ"/>
+<node id="τε"/>
+<node id="θεός"/>
+<node id="πέρ"/>
+<edge source="δείδω" target="καί"/>
+<edge source="καί" target="φαίνω"/>
+<edge source="δέ" target="μή"/>
+<edge source="μή" target="ἰάχω"/>
+<edge source="ὑπένερθε" target="δείδω"/>
+<edge source="ἄναξ" target="Ἀιδωνεύς"/>
+<edge source="Ἀιδωνεύς" target="δείδω"/>
+<edge source="ἔνεροι" target="ἄναξ"/>
+<edge source="," target="στυγέω"/>
+<edge source="στυγέω" target="οἰκίον"/>
+<edge source="ἐκ" target="ἅλλομαι"/>
+<edge source="ἅλλομαι" target="καί"/>
+<edge source="θρόνος" target="ἐκ"/>
+<edge source="φαίνω" target="δέ"/>
+<edge source="ἰάχω" target="καί"/>
+<edge source="ἕ" target="ὕπερθεν"/>
+<edge source="ὕπερθεν" target="ἀναρρήγνυμι"/>
+<edge source="ἀναρρήγνυμι" target="δέ"/>
+<edge source="γαῖα" target="ἀναρρήγνυμι"/>
+<edge source="Ποσειδεών" target="ἀναρρήγνυμι"/>
+<edge source="Ἐνοσίχθων" target="Ποσειδεών"/>
+<edge source="οἰκίον" target="φαίνω"/>
+<edge source="θνητός" target="καί"/>
+<edge source="ἀθάνατος" target="καί"/>
+<edge source="σμερδαλέος" target="οἰκίον"/>
+<edge source="εὐρώεις" target="οἰκίον"/>
+<edge source="ὁ" target="στυγέω"/>
+<edge source="τε" target="στυγέω"/>
+<edge source="θεός" target="στυγέω"/>
+<edge source="πέρ" target="θεός"/>
+</graph></graphml>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἐγώ"/>
+<node id="ἀνίημι"/>
+<node id="δέ"/>
+<node id="Κῶς"/>
+<node id="οὐ"/>
+<node id="ὡς"/>
+<node id="θυμός"/>
+<node id="ἀζηχής"/>
+<node id="ὀδύνη"/>
+<node id="Ἡρακλέης"/>
+<node id="θεῖος"/>
+<node id=","/>
+<node id="καί"/>
+<node id="ὁ"/>
+<node id="πέμπω"/>
+<node id="σύ"/>
+<node id="σύν"/>
+<node id="Βορέας"/>
+<node id="ἄνεμος"/>
+<node id="πείθω"/>
+<node id="θύελλα"/>
+<node id="ἐπί"/>
+<node id="ἀτρύγετος"/>
+<node id="πόντος"/>
+<node id="κακός"/>
+<node id="μητιάω"/>
+<node id="μιν"/>
+<node id="ἀποφέρω"/>
+<node id="ἔπειτα"/>
+<node id="εὖ"/>
+<node id="ναίω"/>
+<edge source="ἐγώ" target="ἀνίημι"/>
+<edge source="ἀνίημι" target="δέ"/>
+<edge source="δέ" target="Κῶς"/>
+<edge source="Κῶς" target="ἀποφέρω"/>
+<edge source="οὐ" target="ἀνίημι"/>
+<edge source="ὡς" target="ἀνίημι"/>
+<edge source="θυμός" target="ἀνίημι"/>
+<edge source="ἀζηχής" target="ὀδύνη"/>
+<edge source="ὀδύνη" target="ἀνίημι"/>
+<edge source="Ἡρακλέης" target="ὀδύνη"/>
+<edge source="θεῖος" target="Ἡρακλέης"/>
+<edge source="," target="καί"/>
+<edge source="καί" target="Ἡρακλέης"/>
+<edge source="ὁ" target="πέμπω"/>
+<edge source="πέμπω" target="καί"/>
+<edge source="σύ" target="καί"/>
+<edge source="σύν" target="πέμπω"/>
+<edge source="Βορέας" target="ἄνεμος"/>
+<edge source="ἄνεμος" target="σύν"/>
+<edge source="πείθω" target="πέμπω"/>
+<edge source="θύελλα" target="πείθω"/>
+<edge source="ἐπί" target="πέμπω"/>
+<edge source="ἀτρύγετος" target="πόντος"/>
+<edge source="πόντος" target="ἐπί"/>
+<edge source="κακός" target="μητιάω"/>
+<edge source="μητιάω" target="πέμπω"/>
+<edge source="μιν" target="ἀποφέρω"/>
+<edge source="ἀποφέρω" target="καί"/>
+<edge source="ἔπειτα" target="ἀποφέρω"/>
+<edge source="εὖ" target="ναίω"/>
+<edge source="ναίω" target="Κῶς"/>
+</graph></graphml>

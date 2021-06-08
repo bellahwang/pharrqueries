@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="δέ"/>
+<node id="σύ"/>
+<node id="ὕπνος"/>
+<node id="σός"/>
+<node id="φρήν"/>
+<node id="ἔχω"/>
+<node id=","/>
+<node id="μή"/>
+<node id="αἱρέω"/>
+<node id="ἀνίημι"/>
+<node id="λήθη"/>
+<node id="εὖτε"/>
+<node id="ἄν"/>
+<node id="μελίφρων"/>
+<edge source="ἀλλά" target="δέ"/>
+<edge source="δέ" target="ἀνίημι"/>
+<edge source="σύ" target="ὕπνος"/>
+<edge source="ὕπνος" target="εὖτε"/>
+<edge source="σός" target="φρήν"/>
+<edge source="φρήν" target="ἔχω"/>
+<edge source="ἔχω" target="δέ"/>
+<edge source="," target="δέ"/>
+<edge source="μή" target="αἱρέω"/>
+<edge source="αἱρέω" target="αἱρέω"/>
+<edge source="λήθη" target="δέ"/>
+<edge source="εὖτε" target="ἀνίημι"/>
+<edge source="ἄν" target="ἀνίημι"/>
+<edge source="μελίφρων" target="ἀνίημι"/>
+</graph></graphml>

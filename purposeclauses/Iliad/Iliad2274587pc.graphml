@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἤ"/>
+<node id="ἄγω"/>
+<node id="ἔτι"/>
+<node id="ἐπιδέω"/>
+<node id="καί"/>
+<node id="χρυσός"/>
+<node id="ἠέ"/>
+<node id=","/>
+<node id="κατίσχω"/>
+<node id="ὅς"/>
+<node id="ἄν"/>
+<node id="τις"/>
+<node id="φέρω"/>
+<node id="Τρώς"/>
+<node id="ἱππόδαμος"/>
+<node id="ἐκ"/>
+<node id="Ἴλιος"/>
+<node id="υἱός"/>
+<node id="ἄποινα"/>
+<node id="ἐγώ"/>
+<node id="δέω"/>
+<node id="ἄλλος"/>
+<node id="Ἀχαιός"/>
+<node id=""/>
+<node id="γυνή"/>
+<node id="νέος"/>
+<node id="ἵνα"/>
+<node id="μίγνυμι"/>
+<node id="ἐν"/>
+<node id="φιλότης"/>
+<node id="τε"/>
+<node id="αὐτός"/>
+<node id="ἀπονόσφι"/>
+<edge source="ἤ" target="ἄγω"/>
+<edge source="ἄγω" target="υἱός"/>
+<edge source="ἔτι" target="ἐπιδέω"/>
+<edge source="ἐπιδέω" target="ἠέ"/>
+<edge source="καί" target="χρυσός"/>
+<edge source="χρυσός" target="ἐπιδέω"/>
+<edge source="ἠέ" target=""/>
+<edge source="," target="κατίσχω"/>
+<edge source="κατίσχω" target="ἠέ"/>
+<edge source="ὅς" target="ὅς"/>
+<edge source="ἄν" target="ἄγω"/>
+<edge source="τις" target="φέρω"/>
+<edge source="φέρω" target="χρυσός"/>
+<edge source="Τρώς" target="τις"/>
+<edge source="ἱππόδαμος" target="Τρώς"/>
+<edge source="ἐκ" target="φέρω"/>
+<edge source="Ἴλιος" target="ἐκ"/>
+<edge source="υἱός" target="ἄποινα"/>
+<edge source="ἄποινα" target="ὅς"/>
+<edge source="ἐγώ" target="ἤ"/>
+<edge source="δέω" target="ἄγω"/>
+<edge source="ἄλλος" target="ἤ"/>
+<edge source="Ἀχαιός" target="ἄλλος"/>
+<edge source="γυνή" target="γυνή"/>
+<edge source="νέος" target="κατίσχω"/>
+<edge source="ἵνα" target="ἵνα"/>
+<edge source="μίγνυμι" target="μίγνυμι"/>
+<edge source="ἐν" target="ἐν"/>
+<edge source="φιλότης" target="κατίσχω"/>
+<edge source="τε" target="κατίσχω"/>
+<edge source="αὐτός" target="κατίσχω"/>
+<edge source="ἀπονόσφι" target="γυνή"/>
+</graph></graphml>

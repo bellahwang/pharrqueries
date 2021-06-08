@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="ἐμπίπτω"/>
+<node id="καί"/>
+<node id="ὡς"/>
+<node id="Πάτροκλος"/>
+<node id="ναῦς"/>
+<node id="δέ"/>
+<node id="ἀπό"/>
+<node id="αἱρέω"/>
+<node id="λοιγός"/>
+<node id="ἀμύνω"/>
+<node id="ἐπικρατής"/>
+<node id=","/>
+<node id="νόστος"/>
+<node id="μή"/>
+<node id="ἐμπρήθω"/>
+<node id="δή"/>
+<node id="πῦρ"/>
+<node id="αἴθω"/>
+<node id="φίλος"/>
+<edge source="ἀλλά" target="ἐμπίπτω"/>
+<edge source="ἐμπίπτω" target="ἐμπίπτω"/>
+<edge source="καί" target="ὡς"/>
+<edge source="ὡς" target="ἐμπίπτω"/>
+<edge source="Πάτροκλος" target="ἐμπίπτω"/>
+<edge source="ναῦς" target="δέ"/>
+<edge source="δέ" target="αἱρέω"/>
+<edge source="ἀπό" target="αἱρέω"/>
+<edge source="λοιγός" target="ἀμύνω"/>
+<edge source="ἀμύνω" target="ἐμπίπτω"/>
+<edge source="ἐπικρατής" target="δέ"/>
+<edge source="," target="νόστος"/>
+<edge source="νόστος" target="δέ"/>
+<edge source="μή" target="ἐμπρήθω"/>
+<edge source="ἐμπρήθω" target="δέ"/>
+<edge source="δή" target="ἐμπρήθω"/>
+<edge source="πῦρ" target="πῦρ"/>
+<edge source="αἴθω" target="ἐμπρήθω"/>
+<edge source="φίλος" target="μή"/>
+</graph></graphml>

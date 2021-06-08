@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="εἶπον"/>
+<node id="κέλομαι"/>
+<node id="ἑταῖρος"/>
+<node id="Ἀχιλλεύς"/>
+<node id="δῖος"/>
+<node id="ἵστημι"/>
+<node id="ἀμφί"/>
+<node id="πῦρ"/>
+<node id="τρίπους"/>
+<node id="μέγας"/>
+<node id="ὄφρα"/>
+<node id=","/>
+<node id="λούω"/>
+<node id="ταχύς"/>
+<node id="Πάτροκλος"/>
+<node id="ἀπό"/>
+<node id="βρότος"/>
+<edge source="ὡς" target="εἶπον"/>
+<edge source="εἶπον" target="κέλομαι"/>
+<edge source="κέλομαι" target="Ἀχιλλεύς"/>
+<edge source="ἑταῖρος" target="κέλομαι"/>
+<edge source="Ἀχιλλεύς" target="ἵστημι"/>
+<edge source="δῖος" target="κέλομαι"/>
+<edge source="ἵστημι" target="ἵστημι"/>
+<edge source="ἀμφί" target="ἵστημι"/>
+<edge source="πῦρ" target="κέλομαι"/>
+<edge source="τρίπους" target="τρίπους"/>
+<edge source="μέγας" target="ὄφρα"/>
+<edge source="ὄφρα" target="λούω"/>
+<edge source="," target="ἵστημι"/>
+<edge source="λούω" target="λούω"/>
+<edge source="ταχύς" target="λούω"/>
+<edge source="Πάτροκλος" target="ὄφρα"/>
+<edge source="ἀπό" target="λούω"/>
+<edge source="βρότος" target="βρότος"/>
+</graph></graphml>

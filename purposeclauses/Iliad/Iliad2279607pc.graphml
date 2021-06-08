@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="εἶπον"/>
+<node id="βαίνω"/>
+<node id="ὁ"/>
+<node id=""/>
+<node id="μέν"/>
+<node id="δέ"/>
+<node id="αὖθις"/>
+<node id="θεός"/>
+<node id="ἀνά"/>
+<node id="πόνος"/>
+<node id="ἀνήρ"/>
+<node id=","/>
+<node id="Κεβριόνης"/>
+<node id="κελεύω"/>
+<node id="δαίφρων"/>
+<node id="Ἕκτωρ"/>
+<node id="φαίδιμος"/>
+<node id="πλήσσω"/>
+<node id="ἵππος"/>
+<node id="εἰς"/>
+<node id="πόλεμος"/>
+<edge source="ὡς" target="εἶπον"/>
+<edge source="εἶπον" target="βαίνω"/>
+<edge source="βαίνω" target="δέ"/>
+<edge source="ὁ" target=""/>
+<edge source="μέν" target="δέ"/>
+<edge source="δέ" target="δέ"/>
+<edge source="αὖθις" target="βαίνω"/>
+<edge source="θεός" target=""/>
+<edge source="ἀνά" target="θεός"/>
+<edge source="πόνος" target="ἀνά"/>
+<edge source="ἀνήρ" target="πόνος"/>
+<edge source="," target="δέ"/>
+<edge source="Κεβριόνης" target="κελεύω"/>
+<edge source="κελεύω" target="Κεβριόνης"/>
+<edge source="δαίφρων" target="Ἕκτωρ"/>
+<edge source="Ἕκτωρ" target="πλήσσω"/>
+<edge source="φαίδιμος" target="κελεύω"/>
+<edge source="πλήσσω" target="βαίνω"/>
+<edge source="ἵππος" target="πλήσσω"/>
+<edge source="εἰς" target="εἰς"/>
+<edge source="πόλεμος" target="κελεύω"/>
+</graph></graphml>

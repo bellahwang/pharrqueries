@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="ἄγω"/>
+<node id="ἄγε"/>
+<node id="ἐγώ"/>
+<node id="πέρ"/>
+<node id="μιν"/>
+<node id="ὑπέκ"/>
+<node id="θάνατος"/>
+<node id="εἰ"/>
+<node id=","/>
+<node id="χολόω"/>
+<node id="μή"/>
+<node id="πως"/>
+<node id="Κρονίδης"/>
+<node id="καί"/>
+<node id="κατακτείνω"/>
+<node id="ἄν"/>
+<node id="Ἀχιλλεύς"/>
+<node id="ὅδε"/>
+<edge source="ἀλλά" target="ἄγω"/>
+<edge source="ἄγω" target="εἰ"/>
+<edge source="ἄγε" target="ἄγω"/>
+<edge source="ἐγώ" target="ἄγω"/>
+<edge source="πέρ" target="ἐγώ"/>
+<edge source="μιν" target="ἄγω"/>
+<edge source="ὑπέκ" target="ἄγω"/>
+<edge source="θάνατος" target="ὑπέκ"/>
+<edge source="εἰ" target="κατακτείνω"/>
+<edge source="," target="χολόω"/>
+<edge source="χολόω" target="εἰ"/>
+<edge source="μή" target="χολόω"/>
+<edge source="πως" target="Κρονίδης"/>
+<edge source="Κρονίδης" target="μή"/>
+<edge source="καί" target="χολόω"/>
+<edge source="ἄν" target="κατακτείνω"/>
+<edge source="Ἀχιλλεύς" target="κατακτείνω"/>
+<edge source="ὅδε" target="εἰ"/>
+</graph></graphml>

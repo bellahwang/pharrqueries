@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="καί"/>
+<node id="ἄρα"/>
+<node id="φημί"/>
+<node id="ὡς"/>
+<node id="τε"/>
+<node id="οὖν"/>
+<node id="νοέω"/>
+<node id="θεά"/>
+<node id="περικαλλής"/>
+<node id="δειρή"/>
+<node id="στῆθος"/>
+<node id="ἱμερόεις"/>
+<node id="ὄμμα"/>
+<node id="μαρμαίρω"/>
+<node id=","/>
+<node id="θαμβέω"/>
+<node id="ἔπειτα"/>
+<node id="ἔπος"/>
+<node id="ὀνομάζω"/>
+<edge source="καί" target="καί"/>
+<edge source="ἄρα" target="φημί"/>
+<edge source="ὡς" target="τε"/>
+<edge source="τε" target="τε"/>
+<edge source="οὖν" target="νοέω"/>
+<edge source="νοέω" target="ὡς"/>
+<edge source="θεά" target="καί"/>
+<edge source="περικαλλής" target="δειρή"/>
+<edge source="δειρή" target="καί"/>
+<edge source="στῆθος" target="καί"/>
+<edge source="ἱμερόεις" target="νοέω"/>
+<edge source="ὄμμα" target="ὄμμα"/>
+<edge source="μαρμαίρω" target="ὡς"/>
+<edge source="," target="τε"/>
+<edge source="θαμβέω" target="θαμβέω"/>
+<edge source="ἔπειτα" target="τε"/>
+<edge source="ἔπος" target="ὀνομάζω"/>
+</graph></graphml>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="οὐ"/>
+<node id="ἔτι"/>
+<node id="δέ"/>
+<node id="ἄν"/>
+<node id="γιγνώσκω"/>
+<node id="σκοπιάζω"/>
+<node id="μάλα"/>
+<node id="πέρ"/>
+<node id="κλονέω"/>
+<node id="ὁποτέρωθε"/>
+<node id="Ἀχαιός"/>
+<node id="ὀρίνω"/>
+<node id=","/>
+<node id="ἵκω"/>
+<node id="ὡς"/>
+<node id="κτείνω"/>
+<node id="ἐπιμίξ"/>
+<node id="ἀυτή"/>
+<edge source="οὐ" target="ἔτι"/>
+<edge source="ἔτι" target="δέ"/>
+<edge source="δέ" target="δέ"/>
+<edge source="ἄν" target="γιγνώσκω"/>
+<edge source="γιγνώσκω" target="σκοπιάζω"/>
+<edge source="σκοπιάζω" target="κλονέω"/>
+<edge source="μάλα" target="μάλα"/>
+<edge source="πέρ" target="γιγνώσκω"/>
+<edge source="κλονέω" target="δέ"/>
+<edge source="ὁποτέρωθε" target="κλονέω"/>
+<edge source="Ἀχαιός" target="κλονέω"/>
+<edge source="ὀρίνω" target="γιγνώσκω"/>
+<edge source="," target="ἵκω"/>
+<edge source="ὡς" target="κτείνω"/>
+<edge source="κτείνω" target="δέ"/>
+<edge source="ἐπιμίξ" target="γιγνώσκω"/>
+<edge source="ἀυτή" target="ἵκω"/>
+</graph></graphml>

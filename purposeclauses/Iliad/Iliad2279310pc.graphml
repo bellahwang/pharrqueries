@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="λύκος"/>
+<node id="δέ"/>
+<node id=""/>
+<node id="ὡς"/>
+<node id="ὠμοφάγος"/>
+<node id="τε"/>
+<node id=","/>
+<node id="δάπτω"/>
+<node id="περί"/>
+<node id="φρήν"/>
+<node id="ἀλκή"/>
+<node id="ἄσπετος"/>
+<node id="ἔλαφος"/>
+<node id="κεραός"/>
+<node id="μέγας"/>
+<node id="δηιόω"/>
+<node id="ὄρος"/>
+<node id="·"/>
+<edge source="ὁ" target="λύκος"/>
+<edge source="λύκος" target=""/>
+<edge source="δέ" target=""/>
+<edge source="ὡς" target="λύκος"/>
+<edge source="ὠμοφάγος" target="τε"/>
+<edge source="τε" target="δάπτω"/>
+<edge source="," target="δάπτω"/>
+<edge source="δάπτω" target=""/>
+<edge source="περί" target="περί"/>
+<edge source="φρήν" target="ἀλκή"/>
+<edge source="ἀλκή" target="τε"/>
+<edge source="ἄσπετος" target=""/>
+<edge source="ἔλαφος" target="ἔλαφος"/>
+<edge source="κεραός" target="ἔλαφος"/>
+<edge source="μέγας" target="δηιόω"/>
+<edge source="δηιόω" target="τε"/>
+<edge source="ὄρος" target="δάπτω"/>
+<edge source="·" target=""/>
+</graph></graphml>

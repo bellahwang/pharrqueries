@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="φημί"/>
+<node id="δέ"/>
+<node id=","/>
+<node id=""/>
+<node id="ὄρνυμι"/>
+<node id="ἔπειτα"/>
+<node id="βία"/>
+<node id="Τεῦκρος"/>
+<node id="ἄναξ"/>
+<node id="ἀνά"/>
+<node id="ἄρα"/>
+<node id="Μηριόνης"/>
+<node id="θεράπων"/>
+<node id="ἐύς"/>
+<edge source="ὡς" target="φημί"/>
+<edge source="φημί" target="δέ"/>
+<edge source="δέ" target=""/>
+<edge source="," target=""/>
+<edge source="ὄρνυμι" target="δέ"/>
+<edge source="ἔπειτα" target="ὄρνυμι"/>
+<edge source="βία" target="βία"/>
+<edge source="Τεῦκρος" target="Τεῦκρος"/>
+<edge source="ἄναξ" target="δέ"/>
+<edge source="ἀνά" target=""/>
+<edge source="ἄρα" target="Μηριόνης"/>
+<edge source="Μηριόνης" target="θεράπων"/>
+<edge source="θεράπων" target="θεράπων"/>
+<edge source="ἐύς" target="δέ"/>
+</graph></graphml>

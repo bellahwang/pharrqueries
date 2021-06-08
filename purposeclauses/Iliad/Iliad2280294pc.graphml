@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὄφρα"/>
+<node id="πονέω"/>
+<node id="ὁ"/>
+<node id="γε"/>
+<node id="οὗτος"/>
+<node id="τόφρα"/>
+<node id="εἴδω"/>
+<node id="πραπίδες"/>
+<node id=","/>
+<node id="ἔρχομαι"/>
+<node id="ἕ"/>
+<node id="ἐγγύθεν"/>
+<node id=""/>
+<node id="θεά"/>
+<node id="Θέτις"/>
+<node id="ἀργυρόπεζα"/>
+<edge source="ὄφρα" target="πονέω"/>
+<edge source="πονέω" target="τόφρα"/>
+<edge source="ὁ" target="πονέω"/>
+<edge source="γε" target="ὁ"/>
+<edge source="οὗτος" target="πονέω"/>
+<edge source="τόφρα" target="ἔρχομαι"/>
+<edge source="εἴδω" target="πραπίδες"/>
+<edge source="πραπίδες" target="πονέω"/>
+<edge source="," target="πονέω"/>
+<edge source="ἔρχομαι" target=""/>
+<edge source="ἕ" target="ἐγγύθεν"/>
+<edge source="ἐγγύθεν" target="ἔρχομαι"/>
+<edge source="θεά" target=""/>
+<edge source="Θέτις" target="Θέτις"/>
+<edge source="ἀργυρόπεζα" target="ἔρχομαι"/>
+</graph></graphml>

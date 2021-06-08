@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀτάρ"/>
+<node id="ἀρέσκω"/>
+<node id="ἔπειτα"/>
+<node id="σύ"/>
+<node id="δαίς"/>
+<node id="ἐν"/>
+<node id="κλισία"/>
+<node id="πίων"/>
+<node id="ἵνα"/>
+<node id=","/>
+<node id="ἔχω"/>
+<node id="μή"/>
+<node id="τις"/>
+<node id="ἐπιδευής"/>
+<node id="δίκη"/>
+<edge source="ἀτάρ" target="ἀρέσκω"/>
+<edge source="ἀρέσκω" target="δαίς"/>
+<edge source="ἔπειτα" target="ἀρέσκω"/>
+<edge source="σύ" target="ἀρέσκω"/>
+<edge source="δαίς" target="ἀρέσκω"/>
+<edge source="ἐν" target="ἀρέσκω"/>
+<edge source="κλισία" target="ἐν"/>
+<edge source="πίων" target="ἵνα"/>
+<edge source="ἵνα" target="ἔχω"/>
+<edge source="," target="ἀρέσκω"/>
+<edge source="μή" target="ἔχω"/>
+<edge source="τις" target="ἐπιδευής"/>
+<edge source="ἐπιδευής" target="ἵνα"/>
+<edge source="δίκη" target="τις"/>
+</graph></graphml>

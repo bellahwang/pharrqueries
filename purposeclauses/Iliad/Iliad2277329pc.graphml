@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="ἐμβάλλω"/>
+<node id="ὅτε"/>
+<node id="δή"/>
+<node id="τάχα"/>
+<node id="μέλλω"/>
+<node id="μίγνυμι"/>
+<node id="φύλαξ"/>
+<node id="φεύγω"/>
+<node id="εἰς"/>
+<node id="ναῦς"/>
+<node id=","/>
+<node id="ἔρχομαι"/>
+<node id="τότε"/>
+<node id="μένος"/>
+<node id="Ἀθήνη"/>
+<node id="Τυδείδης"/>
+<node id="δέ"/>
+<node id="ἵνα"/>
+<node id="μή"/>
+<node id="φθάνω"/>
+<node id="τις"/>
+<node id="Ἀχαιός"/>
+<node id="χαλκοχίτων"/>
+<node id="ἐπεύχομαι"/>
+<node id="βάλλω"/>
+<node id="ὁ"/>
+<node id="δεύτερος"/>
+<edge source="ἀλλά" target="ἐμβάλλω"/>
+<edge source="ἐμβάλλω" target="ἐμβάλλω"/>
+<edge source="ὅτε" target="ἐμβάλλω"/>
+<edge source="δή" target="ἐμβάλλω"/>
+<edge source="τάχα" target="μέλλω"/>
+<edge source="μέλλω" target="ὅτε"/>
+<edge source="μίγνυμι" target="μέλλω"/>
+<edge source="φύλαξ" target="μίγνυμι"/>
+<edge source="φεύγω" target="μίγνυμι"/>
+<edge source="εἰς" target="φεύγω"/>
+<edge source="ναῦς" target="εἰς"/>
+<edge source="," target="ἔρχομαι"/>
+<edge source="τότε" target="ἐμβάλλω"/>
+<edge source="μένος" target="ἐμβάλλω"/>
+<edge source="Ἀθήνη" target="ἐμβάλλω"/>
+<edge source="Τυδείδης" target="δέ"/>
+<edge source="δέ" target="ὁ"/>
+<edge source="ἵνα" target="δέ"/>
+<edge source="μή" target="φθάνω"/>
+<edge source="φθάνω" target="φθάνω"/>
+<edge source="τις" target="τις"/>
+<edge source="Ἀχαιός" target="Ἀχαιός"/>
+<edge source="χαλκοχίτων" target="δέ"/>
+<edge source="ἐπεύχομαι" target="φθάνω"/>
+<edge source="βάλλω" target="δέ"/>
+<edge source="ὁ" target="ἵνα"/>
+<edge source="δεύτερος" target="δέ"/>
+</graph></graphml>

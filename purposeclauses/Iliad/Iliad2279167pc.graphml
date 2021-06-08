@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="φοβέω"/>
+<node id="τότε"/>
+<node id="Ἀχαιός"/>
+<node id="θεσπέσιος"/>
+<node id="δέ"/>
+<node id="ὑπό"/>
+<node id="Ἕκτωρ"/>
+<node id="καί"/>
+<node id="Ζεύς"/>
+<node id="πατήρ"/>
+<node id="πᾶς"/>
+<node id=","/>
+<node id="οἰχνέω"/>
+<node id="ὁ"/>
+<node id="θείνω"/>
+<node id="Περιφήτης"/>
+<node id="οἶος"/>
+<node id="Μυκηναῖος"/>
+<node id="Κοπρεύς"/>
+<node id="υἱός"/>
+<node id="φίλος"/>
+<node id="ὅς"/>
+<node id="ἀγγελία"/>
+<node id="Εὐρυσθεύς"/>
+<node id="ἄναξ"/>
+<node id="βία"/>
+<edge source="ὡς" target="φοβέω"/>
+<edge source="φοβέω" target="δέ"/>
+<edge source="τότε" target="φοβέω"/>
+<edge source="Ἀχαιός" target="φοβέω"/>
+<edge source="θεσπέσιος" target="φοβέω"/>
+<edge source="δέ" target="Περιφήτης"/>
+<edge source="ὑπό" target="φοβέω"/>
+<edge source="Ἕκτωρ" target="καί"/>
+<edge source="καί" target="ὑπό"/>
+<edge source="Ζεύς" target="καί"/>
+<edge source="πατήρ" target="Ζεύς"/>
+<edge source="πᾶς" target="Ἀχαιός"/>
+<edge source="," target="οἰχνέω"/>
+<edge source="οἰχνέω" target="οἰχνέω"/>
+<edge source="ὁ" target="θείνω"/>
+<edge source="θείνω" target="Περιφήτης"/>
+<edge source="Περιφήτης" target="οἰχνέω"/>
+<edge source="οἶος" target="δέ"/>
+<edge source="Μυκηναῖος" target=","/>
+<edge source="Κοπρεύς" target="υἱός"/>
+<edge source="υἱός" target="οἰχνέω"/>
+<edge source="φίλος" target=","/>
+<edge source="ὅς" target="ἀγγελία"/>
+<edge source="ἀγγελία" target="Περιφήτης"/>
+<edge source="Εὐρυσθεύς" target="Εὐρυσθεύς"/>
+<edge source="ἄναξ" target="οἰχνέω"/>
+<edge source="βία" target="βία"/>
+</graph></graphml>

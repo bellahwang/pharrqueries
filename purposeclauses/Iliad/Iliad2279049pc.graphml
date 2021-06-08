@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Τρώς"/>
+<node id="καί"/>
+<node id="ἀλλά"/>
+<node id="Λύκιοι"/>
+<node id="Δάρδανος"/>
+<node id="ἀγχιμαχητής"/>
+<node id="μή"/>
+<node id="συλάω"/>
+<node id="δή"/>
+<node id="χάζω"/>
+<node id="πω"/>
+<node id="μάχη"/>
+<node id="ἐν"/>
+<node id="στεῖνος"/>
+<node id="ὅδε"/>
+<node id=","/>
+<node id="σώζω"/>
+<node id="υἱός"/>
+<node id="Κλυτίος"/>
+<node id="μιν"/>
+<node id="Ἀχαιός"/>
+<node id="τεῦχος"/>
+<node id="ἀγών"/>
+<node id="ναῦς"/>
+<node id="πίπτω"/>
+<edge source="Τρώς" target="καί"/>
+<edge source="καί" target="ἀλλά"/>
+<edge source="ἀλλά" target="σώζω"/>
+<edge source="Λύκιοι" target="καί"/>
+<edge source="Δάρδανος" target="καί"/>
+<edge source="ἀγχιμαχητής" target="Δάρδανος"/>
+<edge source="μή" target="συλάω"/>
+<edge source="συλάω" target="ἀγών"/>
+<edge source="δή" target="χάζω"/>
+<edge source="χάζω" target="ἀλλά"/>
+<edge source="πω" target="χάζω"/>
+<edge source="μάχη" target="χάζω"/>
+<edge source="ἐν" target="ἐν"/>
+<edge source="στεῖνος" target="ἐν"/>
+<edge source="ὅδε" target="στεῖνος"/>
+<edge source="," target="σώζω"/>
+<edge source="σώζω" target="μή"/>
+<edge source="υἱός" target="υἱός"/>
+<edge source="Κλυτίος" target="ἀλλά"/>
+<edge source="μιν" target="συλάω"/>
+<edge source="Ἀχαιός" target="συλάω"/>
+<edge source="τεῦχος" target="μή"/>
+<edge source="ἀγών" target="μιν"/>
+<edge source="ναῦς" target="πίπτω"/>
+</graph></graphml>

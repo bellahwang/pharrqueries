@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="τῷ"/>
+<node id="μάχομαι"/>
+<node id="νῦν"/>
+<node id="εἰ"/>
+<node id="ἄν"/>
+<node id="ἱκνέομαι"/>
+<node id="θεός"/>
+<node id="πειράω"/>
+<node id="ἐνθάδε"/>
+<node id="μή"/>
+<node id="τις"/>
+<node id="σύ"/>
+<node id="γε"/>
+<node id="ἀθάνατος"/>
+<node id="ἀντικρύ"/>
+<node id="ἄλλος"/>
+<node id="ὁ"/>
+<edge source="τῷ" target="μάχομαι"/>
+<edge source="μάχομαι" target="ἄλλος"/>
+<edge source="νῦν" target="μάχομαι"/>
+<edge source="εἰ" target="μάχομαι"/>
+<edge source="ἄν" target="ἱκνέομαι"/>
+<edge source="ἱκνέομαι" target="εἰ"/>
+<edge source="θεός" target="μάχομαι"/>
+<edge source="πειράω" target="ἱκνέομαι"/>
+<edge source="ἐνθάδε" target="ἱκνέομαι"/>
+<edge source="μή" target="μάχομαι"/>
+<edge source="τις" target="μάχομαι"/>
+<edge source="σύ" target="μάχομαι"/>
+<edge source="γε" target="σύ"/>
+<edge source="ἀθάνατος" target="θεός"/>
+<edge source="ἀντικρύ" target="μάχομαι"/>
+<edge source="ὁ" target="θεός"/>
+</graph></graphml>

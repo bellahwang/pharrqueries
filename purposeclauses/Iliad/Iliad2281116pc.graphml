@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="μή"/>
+<node id="ἀποπαύω"/>
+<node id="δέ"/>
+<node id="ἀλλά"/>
+<node id="πρίν"/>
+<node id="τεός"/>
+<node id="μένος"/>
+<node id=","/>
+<node id="ἔχω"/>
+<node id="φθέγγομαι"/>
+<node id="ὁπότε"/>
+<node id="ἄν"/>
+<node id="δή"/>
+<node id="τότε"/>
+<node id="ἐγώ"/>
+<node id="ἰάχω"/>
+<node id="πῦρ"/>
+<node id="ἀκάματος"/>
+<edge source="μή" target="ἀποπαύω"/>
+<edge source="ἀποπαύω" target="ἀλλά"/>
+<edge source="δέ" target="ἀλλά"/>
+<edge source="ἀλλά" target="φθέγγομαι"/>
+<edge source="πρίν" target="ἀποπαύω"/>
+<edge source="τεός" target="μένος"/>
+<edge source="μένος" target="ἀποπαύω"/>
+<edge source="," target="ἔχω"/>
+<edge source="ἔχω" target="πῦρ"/>
+<edge source="φθέγγομαι" target="φθέγγομαι"/>
+<edge source="ὁπότε" target="φθέγγομαι"/>
+<edge source="ἄν" target="ὁπότε"/>
+<edge source="δή" target="τότε"/>
+<edge source="τότε" target="ἀλλά"/>
+<edge source="ἐγώ" target="φθέγγομαι"/>
+<edge source="ἰάχω" target="φθέγγομαι"/>
+<edge source="ἀκάματος" target="ἔχω"/>
+</graph></graphml>

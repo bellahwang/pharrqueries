@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="εἰ"/>
+<node id="τίθημι"/>
+<node id="δέ"/>
+<node id="καί"/>
+<node id="ἄν"/>
+<node id="νοστέω"/>
+<node id="εἰσοράω"/>
+<node id="δῶμα"/>
+<node id="ὀφθαλμός"/>
+<node id="πατρίς"/>
+<node id="ἐμός"/>
+<node id="ἄλοχος"/>
+<node id="τε"/>
+<node id="ὑψερεφής"/>
+<node id="μέγας"/>
+<node id=","/>
+<node id="τέμνω"/>
+<node id="αὐτίκα"/>
+<node id="ἔπειτα"/>
+<node id="ἀπό"/>
+<node id="ἐγώ"/>
+<node id="τόξον"/>
+<node id="κάρα"/>
+<node id="φώς"/>
+<node id="ἀλλότριος"/>
+<node id="μή"/>
+<node id="ὅδε"/>
+<node id="πῦρ"/>
+<node id="φαεινός"/>
+<node id="ἐν"/>
+<node id="διακλάω"/>
+<node id="χείρ"/>
+<edge source="εἰ" target="τίθημι"/>
+<edge source="τίθημι" target="διακλάω"/>
+<edge source="δέ" target="καί"/>
+<edge source="καί" target="δῶμα"/>
+<edge source="ἄν" target="καί"/>
+<edge source="νοστέω" target="εἰσοράω"/>
+<edge source="εἰσοράω" target="εἰσοράω"/>
+<edge source="δῶμα" target="εἰ"/>
+<edge source="ὀφθαλμός" target="καί"/>
+<edge source="πατρίς" target="πατρίς"/>
+<edge source="ἐμός" target="καί"/>
+<edge source="ἄλοχος" target="καί"/>
+<edge source="τε" target="εἰσοράω"/>
+<edge source="ὑψερεφής" target="δῶμα"/>
+<edge source="μέγας" target="καί"/>
+<edge source="," target="τέμνω"/>
+<edge source="τέμνω" target="φώς"/>
+<edge source="αὐτίκα" target="τέμνω"/>
+<edge source="ἔπειτα" target="τέμνω"/>
+<edge source="ἀπό" target="τίθημι"/>
+<edge source="ἐγώ" target="τόξον"/>
+<edge source="τόξον" target="πῦρ"/>
+<edge source="κάρα" target="δέ"/>
+<edge source="φώς" target="τέμνω"/>
+<edge source="ἀλλότριος" target="τέμνω"/>
+<edge source="μή" target="τίθημι"/>
+<edge source="ὅδε" target="τίθημι"/>
+<edge source="πῦρ" target="εἰ"/>
+<edge source="φαεινός" target="τίθημι"/>
+<edge source="ἐν" target="ἐν"/>
+<edge source="χείρ" target="τίθημι"/>
+</graph></graphml>

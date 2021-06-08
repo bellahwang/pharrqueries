@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἤτοι"/>
+<node id="ἕζομαι"/>
+<node id="ὁ"/>
+<node id="καί"/>
+<node id="γε"/>
+<node id="ὡς"/>
+<node id="εἶπον"/>
+<node id="κατά"/>
+<node id="ἄρα"/>
+<node id="εἰμί"/>
+<node id=","/>
+<node id="φρονέω"/>
+<node id="δέ"/>
+<node id="ἀνίστημι"/>
+<node id="Νέστωρ"/>
+<node id="ὅς"/>
+<node id="ἄναξ"/>
+<node id="Πύλος"/>
+<node id="ἠμαθόεις"/>
+<node id="σφεῖς"/>
+<node id="εὖ"/>
+<edge source="ἤτοι" target="ἕζομαι"/>
+<edge source="ἕζομαι" target=","/>
+<edge source="ὁ" target="καί"/>
+<edge source="γε" target="ὁ"/>
+<edge source="ὡς" target="εἶπον"/>
+<edge source="εἶπον" target="ἕζομαι"/>
+<edge source="κατά" target="ἕζομαι"/>
+<edge source="ἄρα" target="εἰμί"/>
+<edge source="εἰμί" target="καί"/>
+<edge source="," target="φρονέω"/>
+<edge source="φρονέω" target="καί"/>
+<edge source="δέ" target=","/>
+<edge source="ἀνίστημι" target="ἀνίστημι"/>
+<edge source="Νέστωρ" target="εἰμί"/>
+<edge source="ὅς" target="ἄναξ"/>
+<edge source="ἄναξ" target="Πύλος"/>
+<edge source="Πύλος" target="Νέστωρ"/>
+<edge source="ἠμαθόεις" target="καί"/>
+<edge source="σφεῖς" target="καί"/>
+<edge source="εὖ" target=","/>
+</graph></graphml>

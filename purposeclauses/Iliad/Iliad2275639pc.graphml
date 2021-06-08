@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="καί"/>
+<node id="ἀπόλλυμι"/>
+<node id="νῦν"/>
+<node id="ἄν"/>
+<node id="ἔνθα"/>
+<node id="Ἄρης"/>
+<node id="ἄατος"/>
+<node id="πόλεμος"/>
+<node id="εἰ"/>
+<node id=","/>
+<node id="ἐξαγγέλλω"/>
+<node id="μή"/>
+<node id="Ἠερίβοια"/>
+<node id="μητρυιά"/>
+<node id="περικαλλής"/>
+<node id="Ἑρμῆς"/>
+<edge source="καί" target="ἀπόλλυμι"/>
+<edge source="ἀπόλλυμι" target="ἀπόλλυμι"/>
+<edge source="νῦν" target="ἀπόλλυμι"/>
+<edge source="ἄν" target="ἀπόλλυμι"/>
+<edge source="ἔνθα" target="καί"/>
+<edge source="Ἄρης" target="Ἄρης"/>
+<edge source="ἄατος" target="ἄατος"/>
+<edge source="πόλεμος" target="εἰ"/>
+<edge source="εἰ" target="ἐξαγγέλλω"/>
+<edge source="," target="ἀπόλλυμι"/>
+<edge source="μή" target="Ἠερίβοια"/>
+<edge source="Ἠερίβοια" target="ἐξαγγέλλω"/>
+<edge source="μητρυιά" target="Ἠερίβοια"/>
+<edge source="περικαλλής" target="ἐξαγγέλλω"/>
+<edge source="Ἑρμῆς" target="εἰ"/>
+</graph></graphml>

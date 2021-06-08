@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="φωνέω"/>
+<node id="ἄρα"/>
+<node id="ἀπαυράω"/>
+<node id="ἀποβαίνω"/>
+<node id="δέ"/>
+<node id=","/>
+<node id="ὁ"/>
+<node id="λείπω"/>
+<node id="αὐτοῦ"/>
+<node id="χώομαι"/>
+<node id="κατά"/>
+<node id="θυμός"/>
+<node id="γυνή"/>
+<node id="εὔζωνος"/>
+<node id="βία"/>
+<node id="ἀέκων"/>
+<edge source="ὡς" target="φωνέω"/>
+<edge source="φωνέω" target="ἀποβαίνω"/>
+<edge source="ἄρα" target="ἀπαυράω"/>
+<edge source="ἀποβαίνω" target="δέ"/>
+<edge source="δέ" target="δέ"/>
+<edge source="," target="δέ"/>
+<edge source="ὁ" target="ἀπαυράω"/>
+<edge source="λείπω" target="λείπω"/>
+<edge source="αὐτοῦ" target="ὁ"/>
+<edge source="χώομαι" target="χώομαι"/>
+<edge source="κατά" target="κατά"/>
+<edge source="θυμός" target="γυνή"/>
+<edge source="γυνή" target="ἀπαυράω"/>
+<edge source="εὔζωνος" target="χώομαι"/>
+<edge source="βία" target="ἀπαυράω"/>
+<edge source="ἀέκων" target="γυνή"/>
+</graph></graphml>

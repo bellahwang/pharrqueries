@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="εἶπον"/>
+<node id="βαίνω"/>
+<node id="ὁ"/>
+<node id="μέν"/>
+<node id="δέ"/>
+<node id="αὖθις"/>
+<node id="θεός"/>
+<node id="ἀνά"/>
+<node id="πόνος"/>
+<node id="ἀνήρ"/>
+<node id=","/>
+<node id="Ἕκτωρ"/>
+<node id="πυκάζω"/>
+<node id="ἄχος"/>
+<node id="αἰνός"/>
+<node id="ἀμφί"/>
+<node id="φρήν"/>
+<edge source="ὡς" target="εἶπον"/>
+<edge source="εἶπον" target="βαίνω"/>
+<edge source="βαίνω" target="δέ"/>
+<edge source="ὁ" target="βαίνω"/>
+<edge source="μέν" target="δέ"/>
+<edge source="δέ" target="ἄχος"/>
+<edge source="αὖθις" target="βαίνω"/>
+<edge source="θεός" target="ὁ"/>
+<edge source="ἀνά" target="βαίνω"/>
+<edge source="πόνος" target="ἀνά"/>
+<edge source="ἀνήρ" target="πόνος"/>
+<edge source="," target="δέ"/>
+<edge source="Ἕκτωρ" target="πυκάζω"/>
+<edge source="πυκάζω" target="ἀμφί"/>
+<edge source="ἄχος" target="δέ"/>
+<edge source="αἰνός" target="πυκάζω"/>
+<edge source="ἀμφί" target="φρήν"/>
+<edge source="φρήν" target="πυκάζω"/>
+</graph></graphml>

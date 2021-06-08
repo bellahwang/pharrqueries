@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="νοέω"/>
+<node id="δέ"/>
+<node id="βαίνω"/>
+<node id="ὡς"/>
+<node id="οὖν"/>
+<node id=""/>
+<node id="θεά"/>
+<node id="Ἀθήνη"/>
+<node id="γλαυκῶπις"/>
+<node id="ὀλέκω"/>
+<node id="Ἀργεῖος"/>
+<node id="ἐν"/>
+<node id="ὑσμίνη"/>
+<node id="κρατερός"/>
+<node id=","/>
+<node id="ἄρα"/>
+<node id="κατά"/>
+<node id="κάρηνον"/>
+<node id="Ὄλυμπος"/>
+<node id="ἀίσσω"/>
+<node id="εἰς"/>
+<node id="Ἴλιος"/>
+<node id="ἱερός"/>
+<edge source="ὁ" target="νοέω"/>
+<edge source="νοέω" target=""/>
+<edge source="δέ" target="βαίνω"/>
+<edge source="βαίνω" target="βαίνω"/>
+<edge source="ὡς" target="ὡς"/>
+<edge source="οὖν" target="ὡς"/>
+<edge source="θεά" target="Ἀθήνη"/>
+<edge source="Ἀθήνη" target="ὀλέκω"/>
+<edge source="γλαυκῶπις" target=""/>
+<edge source="ὀλέκω" target="ὀλέκω"/>
+<edge source="Ἀργεῖος" target="ὁ"/>
+<edge source="ἐν" target="ὑσμίνη"/>
+<edge source="ὑσμίνη" target="ὡς"/>
+<edge source="κρατερός" target="ἐν"/>
+<edge source="," target="δέ"/>
+<edge source="ἄρα" target="βαίνω"/>
+<edge source="κατά" target="κάρηνον"/>
+<edge source="κάρηνον" target="βαίνω"/>
+<edge source="Ὄλυμπος" target="κατά"/>
+<edge source="ἀίσσω" target="εἰς"/>
+<edge source="εἰς" target="Ἴλιος"/>
+<edge source="Ἴλιος" target="βαίνω"/>
+<edge source="ἱερός" target="νοέω"/>
+</graph></graphml>

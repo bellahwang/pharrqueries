@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="εἰ"/>
+<node id="ἵστημι"/>
+<node id="πέρ"/>
+<node id=""/>
+<node id="γάρ"/>
+<node id="τε"/>
+<node id="πίνω"/>
+<node id="ἄλλος"/>
+<node id="Ἀχαιός"/>
+<node id="γε"/>
+<node id="κάρα"/>
+<node id="κομάω"/>
+<node id="δαιτρόν"/>
+<node id=","/>
+<node id="σός"/>
+<node id="δέπας"/>
+<node id="δέ"/>
+<node id="πλέως"/>
+<node id="ἀεί"/>
+<node id="ὡς"/>
+<node id="ἐγώ"/>
+<node id="ὅτε"/>
+<node id="ἄνωγα"/>
+<node id="θυμός"/>
+<node id="."/>
+<edge source="εἰ" target="ἵστημι"/>
+<edge source="ἵστημι" target="πίνω"/>
+<edge source="πέρ" target=""/>
+<edge source="γάρ" target="ἵστημι"/>
+<edge source="τε" target="πίνω"/>
+<edge source="πίνω" target="πίνω"/>
+<edge source="ἄλλος" target="Ἀχαιός"/>
+<edge source="Ἀχαιός" target="πίνω"/>
+<edge source="γε" target="ἄλλος"/>
+<edge source="κάρα" target="κομάω"/>
+<edge source="κομάω" target="Ἀχαιός"/>
+<edge source="δαιτρόν" target="πίνω"/>
+<edge source="," target="ἵστημι"/>
+<edge source="σός" target="δέπας"/>
+<edge source="δέπας" target="ἵστημι"/>
+<edge source="δέ" target="δέπας"/>
+<edge source="πλέως" target="ἵστημι"/>
+<edge source="ἀεί" target="δέ"/>
+<edge source="ὡς" target=""/>
+<edge source="ἐγώ" target="πίνω"/>
+<edge source="ὅτε" target="ἄνωγα"/>
+<edge source="ἄνωγα" target=""/>
+<edge source="θυμός" target="ὅτε"/>
+<edge source="." target=""/>
+</graph></graphml>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="εἶπον"/>
+<node id="νῦν"/>
+<node id="ἐγώ"/>
+<node id="Μοῦσα"/>
+<node id="δῶμα"/>
+<node id="Ὀλύμπιος"/>
+<node id="ἔχω"/>
+<node id="ὅπως"/>
+<node id=","/>
+<node id="ἐμπίπτω"/>
+<node id="δή"/>
+<node id="πρῶτος"/>
+<node id="πῦρ"/>
+<node id="ναῦς"/>
+<edge source="εἶπον" target="εἶπον"/>
+<edge source="νῦν" target="εἶπον"/>
+<edge source="ἐγώ" target="εἶπον"/>
+<edge source="Μοῦσα" target="δῶμα"/>
+<edge source="δῶμα" target="Μοῦσα"/>
+<edge source="Ὀλύμπιος" target="ἔχω"/>
+<edge source="ἔχω" target="ὅπως"/>
+<edge source="ὅπως" target="ἐμπίπτω"/>
+<edge source="," target="εἶπον"/>
+<edge source="ἐμπίπτω" target="ἐμπίπτω"/>
+<edge source="δή" target="ἐμπίπτω"/>
+<edge source="πρῶτος" target="ἐμπίπτω"/>
+<edge source="πῦρ" target="ὅπως"/>
+<edge source="ναῦς" target="ναῦς"/>
+</graph></graphml>

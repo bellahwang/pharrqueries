@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="λήγω"/>
+<node id="δέ"/>
+<node id="ἔρις"/>
+<node id="κακομήχανος"/>
+<node id="ὄφρα"/>
+<node id=","/>
+<node id="τίω"/>
+<node id="σύ"/>
+<node id="μᾶλλον"/>
+<node id="ἠδέ"/>
+<node id="Ἀργεῖος"/>
+<node id="ἠμέν"/>
+<node id="νέος"/>
+<edge source="λήγω" target="δέ"/>
+<edge source="δέ" target="λήγω"/>
+<edge source="ἔρις" target="ἔρις"/>
+<edge source="κακομήχανος" target="ὄφρα"/>
+<edge source="ὄφρα" target="τίω"/>
+<edge source="," target="λήγω"/>
+<edge source="τίω" target="ἠδέ"/>
+<edge source="σύ" target="τίω"/>
+<edge source="μᾶλλον" target="ὄφρα"/>
+<edge source="ἠδέ" target="ἠδέ"/>
+<edge source="Ἀργεῖος" target="ἠδέ"/>
+<edge source="ἠμέν" target="ἠδέ"/>
+<edge source="νέος" target="τίω"/>
+</graph></graphml>

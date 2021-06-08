@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="εἰ"/>
+<node id="φράζω"/>
+<node id="δέ"/>
+<node id="τλάω"/>
+<node id="ἐγώ"/>
+<node id="μένω"/>
+<node id="οὐ"/>
+<node id="ἔπος"/>
+<node id="ἐπιπείθομαι"/>
+<node id="ἀλλά"/>
+<node id=","/>
+<node id="ἐπεί"/>
+<node id="ἀλογέω"/>
+<node id="δή"/>
+<node id="ἔπειτα"/>
+<node id="κατά"/>
+<node id="καί"/>
+<node id="φρήν"/>
+<node id="εἰμί"/>
+<node id="θυμός"/>
+<node id="μή"/>
+<node id="κρατερός"/>
+<node id="πέρ"/>
+<node id="φημί"/>
+<node id="ἔπειμι"/>
+<node id="ἕ"/>
+<node id="βία"/>
+<node id="φέρτατος"/>
+<node id="πολύς"/>
+<node id="γενεά"/>
+<node id="πρότερος"/>
+<edge source="εἰ" target="φράζω"/>
+<edge source="φράζω" target="δέ"/>
+<edge source="δέ" target="τλάω"/>
+<edge source="τλάω" target="μή"/>
+<edge source="ἐγώ" target="μένω"/>
+<edge source="μένω" target="τλάω"/>
+<edge source="οὐ" target="τλάω"/>
+<edge source="ἔπος" target="ἐπιπείθομαι"/>
+<edge source="ἐπιπείθομαι" target="ἀλλά"/>
+<edge source="ἀλλά" target="εἰ"/>
+<edge source="," target="ἐπεί"/>
+<edge source="ἐπεί" target="τλάω"/>
+<edge source="ἀλογέω" target="ἀλλά"/>
+<edge source="δή" target="φράζω"/>
+<edge source="ἔπειτα" target="φράζω"/>
+<edge source="κατά" target="καί"/>
+<edge source="καί" target="εἰμί"/>
+<edge source="φρήν" target="κατά"/>
+<edge source="εἰμί" target="φημί"/>
+<edge source="θυμός" target="κατά"/>
+<edge source="μή" target="φράζω"/>
+<edge source="κρατερός" target="εἰμί"/>
+<edge source="πέρ" target="κρατερός"/>
+<edge source="φημί" target="ἐπεί"/>
+<edge source="ἔπειμι" target="ἐγώ"/>
+<edge source="ἕ" target="καί"/>
+<edge source="βία" target="φέρτατος"/>
+<edge source="φέρτατος" target="καί"/>
+<edge source="πολύς" target="φέρτατος"/>
+<edge source="γενεά" target="πρότερος"/>
+<edge source="πρότερος" target="καί"/>
+</graph></graphml>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="εἷς"/>
+<node id="ἀνήρ"/>
+<node id="δέ"/>
+<node id="τις"/>
+<node id="ἀρχός"/>
+<node id="ἔκπαγλος"/>
+<node id="ὄφρα"/>
+<node id="βουληφόρος"/>
+<node id="εἰμί"/>
+<node id=","/>
+<node id="ἤ"/>
+<node id="Ὀδυσσεύς"/>
+<node id="Αἴας"/>
+<node id="ἠέ"/>
+<node id="Ἰδομενεύς"/>
+<node id="δῖος"/>
+<node id="σύ"/>
+<node id="Πηλείδης"/>
+<node id="πᾶς"/>
+<node id="ἱλάσκομαι"/>
+<node id="ἐγώ"/>
+<node id="ʽἑκάεργος"/>
+<node id="ῥέζω"/>
+<node id="ἱερόν"/>
+<edge source="εἷς" target="ἀνήρ"/>
+<edge source="ἀνήρ" target="ὄφρα"/>
+<edge source="δέ" target="ἀνήρ"/>
+<edge source="τις" target="ἀνήρ"/>
+<edge source="ἀρχός" target="ἔκπαγλος"/>
+<edge source="ἔκπαγλος" target="ἔκπαγλος"/>
+<edge source="ὄφρα" target="ἱλάσκομαι"/>
+<edge source="βουληφόρος" target="δέ"/>
+<edge source="εἰμί" target="ὄφρα"/>
+<edge source="," target="εἰμί"/>
+<edge source="ἤ" target="Ὀδυσσεύς"/>
+<edge source="Ὀδυσσεύς" target=","/>
+<edge source="Αἴας" target="ἠέ"/>
+<edge source="ἠέ" target="ἠέ"/>
+<edge source="Ἰδομενεύς" target="ἠέ"/>
+<edge source="δῖος" target="ἠέ"/>
+<edge source="σύ" target="εἰμί"/>
+<edge source="Πηλείδης" target="ἀνήρ"/>
+<edge source="πᾶς" target="Πηλείδης"/>
+<edge source="ἱλάσκομαι" target="ῥέζω"/>
+<edge source="ἐγώ" target="ἱλάσκομαι"/>
+<edge source="ʽἑκάεργος" target="ὄφρα"/>
+<edge source="ἱερόν" target="ἱλάσκομαι"/>
+</graph></graphml>

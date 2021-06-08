@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀλλά"/>
+<node id="ἰθύω"/>
+<node id="ὡς"/>
+<node id="τε"/>
+<node id="ἐφορμάω"/>
+<node id="ὄρνις"/>
+<node id=""/>
+<node id="πετεινός"/>
+<node id="ἀετός"/>
+<node id="αἴθων"/>
+<node id="ἔθνος"/>
+<node id="ποταμός"/>
+<node id="παρά"/>
+<node id="βόσκω"/>
+<node id="χήν"/>
+<node id="ἤ"/>
+<node id="γέρανος"/>
+<node id="κύκνος"/>
+<node id="δολιχόδειρος"/>
+<node id=","/>
+<node id="Ἕκτωρ"/>
+<node id="ναῦς"/>
+<node id="κυανόπρῳρος"/>
+<node id="ἀίσσω"/>
+<node id="ἀντίος"/>
+<edge source="ἀλλά" target="ἰθύω"/>
+<edge source="ἰθύω" target="ἰθύω"/>
+<edge source="ὡς" target="ἰθύω"/>
+<edge source="τε" target="ἐφορμάω"/>
+<edge source="ἐφορμάω" target="ὡς"/>
+<edge source="ὄρνις" target=""/>
+<edge source="πετεινός" target="ὄρνις"/>
+<edge source="ἀετός" target="ἐφορμάω"/>
+<edge source="αἴθων" target="ἀετός"/>
+<edge source="ἔθνος" target="ἐφορμάω"/>
+<edge source="ποταμός" target="παρά"/>
+<edge source="παρά" target="βόσκω"/>
+<edge source="βόσκω" target="ὄρνις"/>
+<edge source="χήν" target="ἤ"/>
+<edge source="ἤ" target=""/>
+<edge source="γέρανος" target="ἤ"/>
+<edge source="κύκνος" target="ἤ"/>
+<edge source="δολιχόδειρος" target="κύκνος"/>
+<edge source="," target="ἐφορμάω"/>
+<edge source="Ἕκτωρ" target="ἰθύω"/>
+<edge source="ναῦς" target="ναῦς"/>
+<edge source="κυανόπρῳρος" target="ἀίσσω"/>
+<edge source="ἀίσσω" target="ἔθνος"/>
+<edge source="ἀντίος" target="ἰθύω"/>
+</graph></graphml>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="νῦν"/>
+<node id="αἱρέω"/>
+<node id="μέν"/>
+<node id="καί"/>
+<node id="δόρπον"/>
+<node id="κατά"/>
+<node id="πόλις"/>
+<node id="ὡς"/>
+<node id=""/>
+<node id="ὁ"/>
+<node id="πάρος"/>
+<node id="πέρ"/>
+<node id=","/>
+<node id="ἐγείρω"/>
+<node id="φυλακή"/>
+<node id="μιμνήσκω"/>
+<edge source="νῦν" target="αἱρέω"/>
+<edge source="αἱρέω" target="καί"/>
+<edge source="μέν" target="καί"/>
+<edge source="καί" target="ἐγείρω"/>
+<edge source="δόρπον" target="αἱρέω"/>
+<edge source="κατά" target="αἱρέω"/>
+<edge source="πόλις" target="κατά"/>
+<edge source="ὡς" target=""/>
+<edge source="ὁ" target="πάρος"/>
+<edge source="πάρος" target=""/>
+<edge source="πέρ" target="πάρος"/>
+<edge source="," target="καί"/>
+<edge source="ἐγείρω" target="αἱρέω"/>
+<edge source="φυλακή" target="καί"/>
+<edge source="μιμνήσκω" target="καί"/>
+</graph></graphml>

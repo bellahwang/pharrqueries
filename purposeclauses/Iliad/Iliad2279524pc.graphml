@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Ζεύς"/>
+<node id="τανύω"/>
+<node id="δέ"/>
+<node id="ἐπί"/>
+<node id="νύξ"/>
+<node id="πόνος"/>
+<node id="ὀλοός"/>
+<node id="εἰμί"/>
+<node id="ὑσμίνη"/>
+<node id="κρατερός"/>
+<node id="ὄφρα"/>
+<node id=","/>
+<node id="παῖς"/>
+<node id="φίλος"/>
+<node id="περί"/>
+<node id="μάχη"/>
+<edge source="Ζεύς" target="τανύω"/>
+<edge source="τανύω" target="ὑσμίνη"/>
+<edge source="δέ" target="τανύω"/>
+<edge source="ἐπί" target="τανύω"/>
+<edge source="νύξ" target="πόνος"/>
+<edge source="πόνος" target="ὄφρα"/>
+<edge source="ὀλοός" target="εἰμί"/>
+<edge source="ὑσμίνη" target="ὄφρα"/>
+<edge source="κρατερός" target="τανύω"/>
+<edge source="ὄφρα" target="παῖς"/>
+<edge source="," target="τανύω"/>
+<edge source="παῖς" target="πόνος"/>
+<edge source="φίλος" target="εἰμί"/>
+<edge source="περί" target="περί"/>
+<edge source="μάχη" target="πόνος"/>
+</graph></graphml>

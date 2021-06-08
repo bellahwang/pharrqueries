@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="βάλλω"/>
+<node id="δέ"/>
+<node id="ἀλλά"/>
+<node id="ὡς"/>
+<node id="οὖν"/>
+<node id="νοέω"/>
+<node id="ποδαρκής"/>
+<node id="Ἀχιλλεύς"/>
+<node id="δῖος"/>
+<node id="γυμνός"/>
+<node id="ἄτερ"/>
+<node id="κόρυς"/>
+<node id="καί"/>
+<node id="τε"/>
+<node id="ἀσπίς"/>
+<node id=","/>
+<node id="οὐ"/>
+<node id="ἔχω"/>
+<node id="ἔγχος"/>
+<node id=""/>
+<node id="μέν"/>
+<node id="ἆρα"/>
+<node id="ἀπό"/>
+<node id="πᾶς"/>
+<node id="χαμαί"/>
+<node id="·"/>
+<edge source="ὁ" target="βάλλω"/>
+<edge source="βάλλω" target="ἀλλά"/>
+<edge source="δέ" target="ἀλλά"/>
+<edge source="ἀλλά" target=""/>
+<edge source="ὡς" target="ἀλλά"/>
+<edge source="οὖν" target="νοέω"/>
+<edge source="νοέω" target="ἀλλά"/>
+<edge source="ποδαρκής" target="Ἀχιλλεύς"/>
+<edge source="Ἀχιλλεύς" target="νοέω"/>
+<edge source="δῖος" target="Ἀχιλλεύς"/>
+<edge source="γυμνός" target="ὁ"/>
+<edge source="ἄτερ" target="γυμνός"/>
+<edge source="κόρυς" target="καί"/>
+<edge source="καί" target="ἄτερ"/>
+<edge source="τε" target="καί"/>
+<edge source="ἀσπίς" target="καί"/>
+<edge source="," target="ἀλλά"/>
+<edge source="οὐ" target="ἔχω"/>
+<edge source="ἔχω" target="ἀλλά"/>
+<edge source="ἔγχος" target="ἔχω"/>
+<edge source="μέν" target="βάλλω"/>
+<edge source="ἆρα" target="βάλλω"/>
+<edge source="ἀπό" target="βάλλω"/>
+<edge source="πᾶς" target="ὁ"/>
+<edge source="χαμαί" target="βάλλω"/>
+<edge source="·" target="δέ"/>
+</graph></graphml>

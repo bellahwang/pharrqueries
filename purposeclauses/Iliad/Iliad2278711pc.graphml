@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="δέ"/>
+<node id="φημί"/>
+<node id=","/>
+<node id="οὐ"/>
+<node id="ἀπιθέω"/>
+<node id="ὑποταρτάριος"/>
+<node id=""/>
+<node id="θεά"/>
+<node id="Ἥρα"/>
+<node id="λευκώλενος"/>
+<node id="ὄμνυμι"/>
+<node id="κελεύω"/>
+<node id="ὀνομαίνω"/>
+<node id="θεός"/>
+<node id="ἅπας"/>
+<node id="καλέω"/>
+<node id="ὁ"/>
+<node id="ὅς"/>
+<edge source="ὡς" target="δέ"/>
+<edge source="δέ" target="ὑποταρτάριος"/>
+<edge source="φημί" target="δέ"/>
+<edge source="," target="δέ"/>
+<edge source="οὐ" target="ἀπιθέω"/>
+<edge source="ἀπιθέω" target=""/>
+<edge source="ὑποταρτάριος" target="θεός"/>
+<edge source="θεά" target="Ἥρα"/>
+<edge source="Ἥρα" target="δέ"/>
+<edge source="λευκώλενος" target=""/>
+<edge source="ὄμνυμι" target="κελεύω"/>
+<edge source="κελεύω" target="ὀνομαίνω"/>
+<edge source="ὀνομαίνω" target="θεός"/>
+<edge source="θεός" target="θεός"/>
+<edge source="ἅπας" target="καλέω"/>
+<edge source="ὁ" target="καλέω"/>
+<edge source="ὅς" target="ἀπιθέω"/>
+</graph></graphml>

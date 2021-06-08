@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="εἶπον"/>
+<node id="ἕζομαι"/>
+<node id="Νέστωρ"/>
+<node id="Νηλεύς"/>
+<node id="ἄψ"/>
+<node id="ἐν"/>
+<node id="χώρα"/>
+<node id=","/>
+<node id="ἐπεί"/>
+<node id="παῖς"/>
+<node id="ἑός"/>
+<node id="πεῖραρ"/>
+<node id="ἕκαστος"/>
+<edge source="ὡς" target="εἶπον"/>
+<edge source="εἶπον" target="ἕζομαι"/>
+<edge source="ἕζομαι" target="εἶπον"/>
+<edge source="Νέστωρ" target="ἕζομαι"/>
+<edge source="Νηλεύς" target="Νέστωρ"/>
+<edge source="ἄψ" target="ἕζομαι"/>
+<edge source="ἐν" target="ἕζομαι"/>
+<edge source="χώρα" target="ἐν"/>
+<edge source="," target="εἶπον"/>
+<edge source="ἐπεί" target="παῖς"/>
+<edge source="παῖς" target="πεῖραρ"/>
+<edge source="ἑός" target="εἶπον"/>
+<edge source="πεῖραρ" target="ἕζομαι"/>
+<edge source="ἕκαστος" target="εἶπον"/>
+</graph></graphml>

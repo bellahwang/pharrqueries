@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="μή"/>
+<node id="κτείνω"/>
+<node id="ἐγώ"/>
+<node id="θείνω"/>
+<node id=","/>
+<node id="ἐπεί"/>
+<node id="εἰμί"/>
+<node id="οὐ"/>
+<node id="ὁμογάστριος"/>
+<node id="Ἕκτωρ"/>
+<node id="ὅς"/>
+<node id="ἑταῖρος"/>
+<node id="σύ"/>
+<node id="τε"/>
+<node id="ἐνηής"/>
+<node id="κρατερός"/>
+<edge source="μή" target="κτείνω"/>
+<edge source="κτείνω" target="θείνω"/>
+<edge source="ἐγώ" target="κτείνω"/>
+<edge source="θείνω" target="τε"/>
+<edge source="," target="θείνω"/>
+<edge source="ἐπεί" target="εἰμί"/>
+<edge source="εἰμί" target="θείνω"/>
+<edge source="οὐ" target="εἰμί"/>
+<edge source="ὁμογάστριος" target="ὁμογάστριος"/>
+<edge source="Ἕκτωρ" target="ἐπεί"/>
+<edge source="ὅς" target="ἑταῖρος"/>
+<edge source="ἑταῖρος" target="Ἕκτωρ"/>
+<edge source="σύ" target="θείνω"/>
+<edge source="τε" target="τε"/>
+<edge source="ἐνηής" target="ἑταῖρος"/>
+<edge source="κρατερός" target="ἑταῖρος"/>
+</graph></graphml>

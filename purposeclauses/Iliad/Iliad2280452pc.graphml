@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="φωνέω"/>
+<node id="ἄρα"/>
+<node id="ἐνίημι"/>
+<node id="μένος"/>
+<node id="πολυθαρσής"/>
+<node id="δέ"/>
+<node id=","/>
+<node id="στάζω"/>
+<node id="Πάτροκλος"/>
+<node id="αὖτε"/>
+<node id="καί"/>
+<node id="ἀμβροσίη"/>
+<node id="νέκταρ"/>
+<node id="ἐρυθρός"/>
+<node id="κατά"/>
+<node id="ῥίς"/>
+<node id="ἵνα"/>
+<node id="εἰμί"/>
+<node id="ἕ"/>
+<node id="χρώς"/>
+<node id="ἔμπεδος"/>
+<edge source="ὡς" target="φωνέω"/>
+<edge source="φωνέω" target="ἐνίημι"/>
+<edge source="ἄρα" target="φωνέω"/>
+<edge source="ἐνίημι" target="δέ"/>
+<edge source="μένος" target="ἐνίημι"/>
+<edge source="πολυθαρσής" target="μένος"/>
+<edge source="δέ" target="στάζω"/>
+<edge source="," target="στάζω"/>
+<edge source="στάζω" target="στάζω"/>
+<edge source="Πάτροκλος" target="στάζω"/>
+<edge source="αὖτε" target="καί"/>
+<edge source="καί" target="καί"/>
+<edge source="ἀμβροσίη" target="στάζω"/>
+<edge source="νέκταρ" target="νέκταρ"/>
+<edge source="ἐρυθρός" target="δέ"/>
+<edge source="κατά" target="κατά"/>
+<edge source="ῥίς" target="ἵνα"/>
+<edge source="ἵνα" target="εἰμί"/>
+<edge source="ἕ" target="εἰμί"/>
+<edge source="χρώς" target="εἰμί"/>
+<edge source="ἔμπεδος" target="ἵνα"/>
+</graph></graphml>

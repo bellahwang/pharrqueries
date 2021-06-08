@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="νοέω"/>
+<node id="δέ"/>
+<node id="καλύπτω"/>
+<node id="ὡς"/>
+<node id="οὖν"/>
+<node id="Κόων"/>
+<node id="ἀριδείκετος"/>
+<node id="ἀνήρ"/>
+<node id="Ἀντηνορίδης"/>
+<node id="πρεσβυγενής"/>
+<node id=","/>
+<node id="πένθος"/>
+<node id="κρατερός"/>
+<node id="ἄρα"/>
+<node id="ἕ"/>
+<node id="ὀφθαλμός"/>
+<node id="κασίγνητος"/>
+<edge source="ὁ" target="νοέω"/>
+<edge source="νοέω" target="νοέω"/>
+<edge source="δέ" target="καλύπτω"/>
+<edge source="καλύπτω" target="πένθος"/>
+<edge source="ὡς" target="νοέω"/>
+<edge source="οὖν" target="ὡς"/>
+<edge source="Κόων" target="Κόων"/>
+<edge source="ἀριδείκετος" target="ἀριδείκετος"/>
+<edge source="ἀνήρ" target="Ἀντηνορίδης"/>
+<edge source="Ἀντηνορίδης" target="ὡς"/>
+<edge source="πρεσβυγενής" target="Κόων"/>
+<edge source="," target="πένθος"/>
+<edge source="πένθος" target="ἀριδείκετος"/>
+<edge source="κρατερός" target="καλύπτω"/>
+<edge source="ἄρα" target="καλύπτω"/>
+<edge source="ἕ" target="καλύπτω"/>
+<edge source="ὀφθαλμός" target="δέ"/>
+<edge source="κασίγνητος" target="κασίγνητος"/>
+</graph></graphml>

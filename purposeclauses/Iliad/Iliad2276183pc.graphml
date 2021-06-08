@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id=""/>
+<node id="υἱός"/>
+<node id="Πρίαμος"/>
+<node id="Πάρις"/>
+<node id="κατά"/>
+<node id="βαίνω"/>
+<node id="Πέργαμος"/>
+<node id="ἄκρος"/>
+<node id="τεῦχος"/>
+<node id="παμφαίνω"/>
+<node id="τε"/>
+<node id="ἠλέκτωρ"/>
+<node id="δέ"/>
+<node id="καγχαλάω"/>
+<node id=","/>
+<node id="ταχύς"/>
+<node id="πούς"/>
+<node id="φέρω"/>
+<node id="·"/>
+<edge source="ὡς" target=""/>
+<edge source="υἱός" target=""/>
+<edge source="Πρίαμος" target="υἱός"/>
+<edge source="Πάρις" target=""/>
+<edge source="κατά" target="βαίνω"/>
+<edge source="βαίνω" target="δέ"/>
+<edge source="Πέργαμος" target="κατά"/>
+<edge source="ἄκρος" target="Πέργαμος"/>
+<edge source="τεῦχος" target="παμφαίνω"/>
+<edge source="παμφαίνω" target="βαίνω"/>
+<edge source="τε" target=""/>
+<edge source="ἠλέκτωρ" target=""/>
+<edge source="δέ" target="φέρω"/>
+<edge source="καγχαλάω" target="βαίνω"/>
+<edge source="," target="δέ"/>
+<edge source="ταχύς" target="πούς"/>
+<edge source="πούς" target="δέ"/>
+<edge source="φέρω" target="βαίνω"/>
+<edge source="·" target="βαίνω"/>
+</graph></graphml>

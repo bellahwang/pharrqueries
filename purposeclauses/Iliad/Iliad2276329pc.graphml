@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="ἐγχείη"/>
+<node id="δέ"/>
+<node id="ἀπολήγω"/>
+<node id="διαπρό"/>
+<node id="ἔρχομαι"/>
+<node id="ἀλλά"/>
+<node id=","/>
+<node id="αἱρέω"/>
+<node id="στυφελίζω"/>
+<node id="μιν"/>
+<node id="μέμαα"/>
+<node id="τμήδην"/>
+<node id="ἐπέρχομαι"/>
+<node id="αὐχήν"/>
+<node id="μέλας"/>
+<node id="λίθος"/>
+<node id="ἀνακηκίω"/>
+<node id="αἷμα"/>
+<node id="οὐ"/>
+<node id="ὡς"/>
+<node id="μάχη"/>
+<node id="Ἕκτωρ"/>
+<node id="κορυθαίολος"/>
+<node id="ἀναχάζω"/>
+<node id="χείρ"/>
+<node id="παχύς"/>
+<node id="κεῖμαι"/>
+<node id="ἐν"/>
+<node id="τε"/>
+<node id="πεδίον"/>
+<node id="τραχύς"/>
+<edge source="ὁ" target="ἐγχείη"/>
+<edge source="ἐγχείη" target="δέ"/>
+<edge source="δέ" target="ἀπολήγω"/>
+<edge source="ἀπολήγω" target="ἀπολήγω"/>
+<edge source="διαπρό" target="ἔρχομαι"/>
+<edge source="ἔρχομαι" target="ἀλλά"/>
+<edge source="ἀλλά" target="αἱρέω"/>
+<edge source="," target="αἱρέω"/>
+<edge source="αἱρέω" target="χείρ"/>
+<edge source="στυφελίζω" target="ἀλλά"/>
+<edge source="μιν" target="στυφελίζω"/>
+<edge source="μέμαα" target="μιν"/>
+<edge source="τμήδην" target="ἐπέρχομαι"/>
+<edge source="ἐπέρχομαι" target="ἀλλά"/>
+<edge source="αὐχήν" target="ἐπέρχομαι"/>
+<edge source="μέλας" target="λίθος"/>
+<edge source="λίθος" target="αἱρέω"/>
+<edge source="ἀνακηκίω" target="ἀλλά"/>
+<edge source="αἷμα" target="ἀνακηκίω"/>
+<edge source="οὐ" target="ἀπολήγω"/>
+<edge source="ὡς" target="ἀλλά"/>
+<edge source="μάχη" target="Ἕκτωρ"/>
+<edge source="Ἕκτωρ" target="ἀλλά"/>
+<edge source="κορυθαίολος" target="ἀπολήγω"/>
+<edge source="ἀναχάζω" target="ἀλλά"/>
+<edge source="χείρ" target="λίθος"/>
+<edge source="παχύς" target="κεῖμαι"/>
+<edge source="κεῖμαι" target="ἐν"/>
+<edge source="ἐν" target="τε"/>
+<edge source="τε" target="λίθος"/>
+<edge source="πεδίον" target="τε"/>
+<edge source="τραχύς" target="τε"/>
+</graph></graphml>

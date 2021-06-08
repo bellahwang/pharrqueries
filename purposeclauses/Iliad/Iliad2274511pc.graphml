@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὡς"/>
+<node id="φωνέω"/>
+<node id="ἄρα"/>
+<node id="ἐξάρχω"/>
+<node id="βουλή"/>
+<node id="δέ"/>
+<node id="νέομαι"/>
+<node id=","/>
+<node id="ὁ"/>
+<node id="βασιλεύς"/>
+<node id="τε"/>
+<node id="ἐπανίστημι"/>
+<node id="πείθω"/>
+<node id="ποιμήν"/>
+<node id="λαός"/>
+<node id="σκηπτοῦχος"/>
+<edge source="ὡς" target="φωνέω"/>
+<edge source="φωνέω" target="ἐξάρχω"/>
+<edge source="ἄρα" target="ἐξάρχω"/>
+<edge source="ἐξάρχω" target="δέ"/>
+<edge source="βουλή" target="ἐξάρχω"/>
+<edge source="δέ" target="τε"/>
+<edge source="νέομαι" target="ἐξάρχω"/>
+<edge source="," target="δέ"/>
+<edge source="ὁ" target="βασιλεύς"/>
+<edge source="τε" target="πείθω"/>
+<edge source="ἐπανίστημι" target="τε"/>
+<edge source="πείθω" target="δέ"/>
+<edge source="ποιμήν" target="ποιμήν"/>
+<edge source="λαός" target="βασιλεύς"/>
+<edge source="σκηπτοῦχος" target="τε"/>
+</graph></graphml>

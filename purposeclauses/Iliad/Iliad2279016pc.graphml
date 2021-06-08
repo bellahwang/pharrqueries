@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὄφρα"/>
+<node id="ἐναρίζω"/>
+<node id="ὁ"/>
+<node id="τόφρα"/>
+<node id="ἀπό"/>
+<node id="ἔντεα"/>
+<node id=","/>
+<node id="δέ"/>
+<node id="φέβομαι"/>
+<node id="δύω"/>
+<node id="Ἀχαιός"/>
+<node id="καί"/>
+<node id="τάφρος"/>
+<node id="σκόλοψ"/>
+<node id="ἐμπλήσσω"/>
+<node id="ὀρυκτός"/>
+<node id="ἔνθα"/>
+<edge source="ὄφρα" target="ἐναρίζω"/>
+<edge source="ἐναρίζω" target="τόφρα"/>
+<edge source="ὁ" target="ἐναρίζω"/>
+<edge source="τόφρα" target="φέβομαι"/>
+<edge source="ἀπό" target="ἐναρίζω"/>
+<edge source="ἔντεα" target="ἐναρίζω"/>
+<edge source="," target="δέ"/>
+<edge source="δέ" target="δύω"/>
+<edge source="φέβομαι" target="δέ"/>
+<edge source="δύω" target="δύω"/>
+<edge source="Ἀχαιός" target="καί"/>
+<edge source="καί" target="καί"/>
+<edge source="τάφρος" target="φέβομαι"/>
+<edge source="σκόλοψ" target="φέβομαι"/>
+<edge source="ἐμπλήσσω" target="τάφρος"/>
+<edge source="ὀρυκτός" target="καί"/>
+<edge source="ἔνθα" target="δέ"/>
+</graph></graphml>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="πίπτω"/>
+<node id="δέ"/>
+<node id="αὖτε"/>
+<node id=""/>
+<node id="μελία"/>
+<node id="ὡς"/>
+<node id="πελάζω"/>
+<node id="ὅς"/>
+<node id="τε"/>
+<node id="κορυφή"/>
+<node id="ὄρος"/>
+<node id="περιφαίνομαι"/>
+<node id="ἕκαθεν"/>
+<node id="τέμνω"/>
+<node id="χαλκός"/>
+<node id="φύλλον"/>
+<node id="τέρην"/>
+<node id="χθών"/>
+<edge source="ὁ" target="πίπτω"/>
+<edge source="πίπτω" target=""/>
+<edge source="δέ" target="πίπτω"/>
+<edge source="αὖτε" target="δέ"/>
+<edge source="μελία" target=""/>
+<edge source="ὡς" target="πελάζω"/>
+<edge source="πελάζω" target="πίπτω"/>
+<edge source="ὅς" target="πελάζω"/>
+<edge source="τε" target="κορυφή"/>
+<edge source="κορυφή" target="περιφαίνομαι"/>
+<edge source="ὄρος" target="πελάζω"/>
+<edge source="περιφαίνομαι" target="τέμνω"/>
+<edge source="ἕκαθεν" target="ὄρος"/>
+<edge source="τέμνω" target="φύλλον"/>
+<edge source="χαλκός" target="πελάζω"/>
+<edge source="φύλλον" target="μελία"/>
+<edge source="τέρην" target="πελάζω"/>
+<edge source="χθών" target="πελάζω"/>
+</graph></graphml>

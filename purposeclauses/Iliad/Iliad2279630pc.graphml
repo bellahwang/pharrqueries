@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὄφρα"/>
+<node id="τόφρα"/>
+<node id="μέν"/>
+<node id="δέ"/>
+<node id="ἠέλιος"/>
+<node id="ἀμφιβαίνω"/>
+<node id="μέσος"/>
+<node id="οὐρανός"/>
+<node id=","/>
+<node id="μάλα"/>
+<node id="ἅπτω"/>
+<node id="ἀμφότερος"/>
+<node id="βέλος"/>
+<node id="πίπτω"/>
+<edge source="ὄφρα" target="τόφρα"/>
+<edge source="τόφρα" target="δέ"/>
+<edge source="μέν" target="δέ"/>
+<edge source="δέ" target="πίπτω"/>
+<edge source="ἠέλιος" target="ἀμφιβαίνω"/>
+<edge source="ἀμφιβαίνω" target="ὄφρα"/>
+<edge source="μέσος" target="οὐρανός"/>
+<edge source="οὐρανός" target="ἀμφιβαίνω"/>
+<edge source="," target="δέ"/>
+<edge source="μάλα" target="ἅπτω"/>
+<edge source="ἅπτω" target="δέ"/>
+<edge source="ἀμφότερος" target="ἅπτω"/>
+<edge source="βέλος" target="ἅπτω"/>
+<edge source="πίπτω" target="δέ"/>
+</graph></graphml>

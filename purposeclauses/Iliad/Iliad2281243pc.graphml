@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ἀτάρ"/>
+<node id="δέ"/>
+<node id="ὁ"/>
+<node id="ἵστημι"/>
+<node id="γε"/>
+<node id="ὡς"/>
+<node id="νοέω"/>
+<node id="Ἀχιλλεύς"/>
+<node id="πτολίπορθος"/>
+<node id=","/>
+<node id="πολύς"/>
+<node id="πορφύρω"/>
+<node id="καρδία"/>
+<node id="ἕ"/>
+<edge source="ἀτάρ" target="δέ"/>
+<edge source="δέ" target="καρδία"/>
+<edge source="ὁ" target="ἵστημι"/>
+<edge source="ἵστημι" target="δέ"/>
+<edge source="γε" target="ὁ"/>
+<edge source="ὡς" target="νοέω"/>
+<edge source="νοέω" target="ἵστημι"/>
+<edge source="Ἀχιλλεύς" target="νοέω"/>
+<edge source="πτολίπορθος" target="Ἀχιλλεύς"/>
+<edge source="," target="δέ"/>
+<edge source="πολύς" target="πορφύρω"/>
+<edge source="πορφύρω" target="ἕ"/>
+<edge source="καρδία" target="δέ"/>
+<edge source="ἕ" target="πορφύρω"/>
+</graph></graphml>

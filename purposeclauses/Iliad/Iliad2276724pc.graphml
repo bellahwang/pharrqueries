@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="μή"/>
+<node id="ἐπιβαίνω"/>
+<node id="μήν"/>
+<node id="ἀσπουδί"/>
+<node id="γε"/>
+<node id="πέσσω"/>
+<node id="ναῦς"/>
+<node id="βάλλω"/>
+<node id="ἀλλά"/>
+<node id="ἕκηλος"/>
+<node id=","/>
+<node id="ὡς"/>
+<node id="στυγέω"/>
+<node id="τις"/>
+<node id="ἵνα"/>
+<node id="οὗτος"/>
+<node id="βέλος"/>
+<node id="ἄλλος"/>
+<node id="καί"/>
+<node id="οἴκοθι"/>
+<node id=""/>
+<node id="ἤ"/>
+<node id="ἰός"/>
+<node id="ἔγχος"/>
+<node id="ὀξυόεις"/>
+<node id="ἐπιθρῴσκω"/>
+<node id="ἐπί"/>
+<node id="Τρώς"/>
+<node id="φέρω"/>
+<node id="ἱππόδαμος"/>
+<node id="Ἄρης"/>
+<node id="πολύδακρυς"/>
+<edge source="μή" target="ἐπιβαίνω"/>
+<edge source="ἐπιβαίνω" target="ἀλλά"/>
+<edge source="μήν" target="ἐπιβαίνω"/>
+<edge source="ἀσπουδί" target="ἐπιβαίνω"/>
+<edge source="γε" target="πέσσω"/>
+<edge source="πέσσω" target="πέσσω"/>
+<edge source="ναῦς" target="βάλλω"/>
+<edge source="βάλλω" target="βάλλω"/>
+<edge source="ἀλλά" target="ἀλλά"/>
+<edge source="ἕκηλος" target="ἐπιβαίνω"/>
+<edge source="," target="πέσσω"/>
+<edge source="ὡς" target="στυγέω"/>
+<edge source="στυγέω" target="ἄλλος"/>
+<edge source="τις" target="ἵνα"/>
+<edge source="ἵνα" target="στυγέω"/>
+<edge source="οὗτος" target="οὗτος"/>
+<edge source="βέλος" target="ἄλλος"/>
+<edge source="ἄλλος" target="ἐπί"/>
+<edge source="καί" target="τις"/>
+<edge source="οἴκοθι" target=""/>
+<edge source="ἤ" target="ἤ"/>
+<edge source="ἰός" target="βάλλω"/>
+<edge source="ἔγχος" target="ἔγχος"/>
+<edge source="ὀξυόεις" target="ἐπιθρῴσκω"/>
+<edge source="ἐπιθρῴσκω" target="ἵνα"/>
+<edge source="ἐπί" target="Τρώς"/>
+<edge source="Τρώς" target="φέρω"/>
+<edge source="φέρω" target="Ἄρης"/>
+<edge source="ἱππόδαμος" target="στυγέω"/>
+<edge source="Ἄρης" target="ὡς"/>
+<edge source="πολύδακρυς" target="φέρω"/>
+</graph></graphml>

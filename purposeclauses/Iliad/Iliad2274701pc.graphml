@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="ὁ"/>
+<node id="ἔθνος"/>
+<node id="δέ"/>
+<node id="ὡς"/>
+<node id="προχέω"/>
+<node id="τε"/>
+<node id="σμαραγέω"/>
+<node id="ὄρνις"/>
+<node id=""/>
+<node id="πετεινός"/>
+<node id="πολύς"/>
+<node id="χήν"/>
+<node id="ἤ"/>
+<node id="γέρανος"/>
+<node id="κύκνος"/>
+<node id="δολιχόδειρος"/>
+<node id="Ἄσιος"/>
+<node id="λειμών"/>
+<node id="ἐν"/>
+<node id="ποτάομαι"/>
+<node id="Καύστριος"/>
+<node id="ῥεῖθρον"/>
+<node id="ἀμφί"/>
+<node id="ἔνθα"/>
+<node id="καί"/>
+<node id="ἀπό"/>
+<node id="ἀγάλλω"/>
+<node id="πτέρυξ"/>
+<node id="κλαγγηδόν"/>
+<node id="προκαθίζω"/>
+<node id=","/>
+<node id="ναῦς"/>
+<node id="κλισία"/>
+<node id="εἰς"/>
+<node id="πεδίον"/>
+<node id="Σκαμάνδριος"/>
+<node id="·"/>
+<edge source="ὁ" target="ἔθνος"/>
+<edge source="ἔθνος" target="προχέω"/>
+<edge source="δέ" target="ὡς"/>
+<edge source="ὡς" target="προχέω"/>
+<edge source="προχέω" target="δέ"/>
+<edge source="τε" target="σμαραγέω"/>
+<edge source="σμαραγέω" target="δέ"/>
+<edge source="ὄρνις" target=""/>
+<edge source="πετεινός" target="ὄρνις"/>
+<edge source="πολύς" target="ἔθνος"/>
+<edge source="χήν" target="ἤ"/>
+<edge source="ἤ" target=""/>
+<edge source="γέρανος" target="ἤ"/>
+<edge source="κύκνος" target="ἤ"/>
+<edge source="δολιχόδειρος" target="κύκνος"/>
+<edge source="Ἄσιος" target="λειμών"/>
+<edge source="λειμών" target="σμαραγέω"/>
+<edge source="ἐν" target="ποτάομαι"/>
+<edge source="ποτάομαι" target="δέ"/>
+<edge source="Καύστριος" target="ῥεῖθρον"/>
+<edge source="ῥεῖθρον" target="ἀμφί"/>
+<edge source="ἀμφί" target="ποτάομαι"/>
+<edge source="ἔνθα" target="καί"/>
+<edge source="καί" target="ἀπό"/>
+<edge source="ἀπό" target="προχέω"/>
+<edge source="ἀγάλλω" target="ποτάομαι"/>
+<edge source="πτέρυξ" target="ἀγάλλω"/>
+<edge source="κλαγγηδόν" target="προκαθίζω"/>
+<edge source="προκαθίζω" target="ὄρνις"/>
+<edge source="," target="δέ"/>
+<edge source="ναῦς" target="καί"/>
+<edge source="κλισία" target="καί"/>
+<edge source="εἰς" target="προχέω"/>
+<edge source="πεδίον" target="εἰς"/>
+<edge source="Σκαμάνδριος" target="πεδίον"/>
+<edge source="·" target="ἔθνος"/>
+</graph></graphml>

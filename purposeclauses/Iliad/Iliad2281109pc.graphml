@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="Ἥρα"/>
+<node id="αὔω"/>
+<node id="δέ"/>
+<node id="μέγας"/>
+<node id="ἀπαυράω"/>
+<node id="περιδείδω"/>
+<node id="Ἀχιλλεύς"/>
+<node id="μή"/>
+<node id="μιν"/>
+<node id="ποταμός"/>
+<node id="βαθυδίνης"/>
+<node id=","/>
+<node id="προσφωνέω"/>
+<node id="αὐτίκα"/>
+<node id="Ἥφαιστος"/>
+<node id="υἱός"/>
+<node id="ἑός"/>
+<edge source="Ἥρα" target="αὔω"/>
+<edge source="αὔω" target="αὔω"/>
+<edge source="δέ" target="δέ"/>
+<edge source="μέγας" target="ἀπαυράω"/>
+<edge source="ἀπαυράω" target="ποταμός"/>
+<edge source="περιδείδω" target="περιδείδω"/>
+<edge source="Ἀχιλλεύς" target="περιδείδω"/>
+<edge source="μή" target="ἀπαυράω"/>
+<edge source="μιν" target="μή"/>
+<edge source="ποταμός" target="ποταμός"/>
+<edge source="βαθυδίνης" target="δέ"/>
+<edge source="," target="προσφωνέω"/>
+<edge source="προσφωνέω" target="υἱός"/>
+<edge source="αὐτίκα" target="προσφωνέω"/>
+<edge source="Ἥφαιστος" target="υἱός"/>
+<edge source="ἑός" target="Ἥφαιστος"/>
+</graph></graphml>
