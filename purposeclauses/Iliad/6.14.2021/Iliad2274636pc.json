@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.321",
+            "id": "ὡς_1"
+        },
+        {
+            "wID": "2",
+            "form": "οὖν",
+            "lemma": "οὖν",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.321",
+            "id": "οὖν_2"
+        },
+        {
+            "wID": "3",
+            "form": "δεινὰ",
+            "lemma": "δεινός",
+            "postag": "a-p---nn-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.321",
+            "id": "δεινὰ_3"
+        },
+        {
+            "wID": "4",
+            "form": "πέλωρα",
+            "lemma": "πέλωρον",
+            "postag": "n-p---nn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.321",
+            "id": "πέλωρα_4"
+        },
+        {
+            "wID": "5",
+            "form": "θεῶν",
+            "lemma": "θεός",
+            "postag": "n-p---mg-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.321",
+            "id": "θεῶν_5"
+        },
+        {
+            "wID": "6",
+            "form": "εἰσῆλθ'",
+            "lemma": "εἰσέρχομαι",
+            "postag": "v3saia---",
+            "head": "14",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.321",
+            "id": "εἰσῆλθ'_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἑκατόμβας",
+            "lemma": "ἑκατόμβη",
+            "postag": "n-p---fa-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.321",
+            "id": "ἑκατόμβας_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "6",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.321",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "Κάλχας",
+            "lemma": "Κάλχας",
+            "postag": "n-s---mn-",
+            "head": "14",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.322",
+            "id": "Κάλχας_9"
+        },
+        {
+            "wID": "10",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "14",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.322",
+            "id": "δ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "αὐτίκ'",
+            "lemma": "αὐτίκα",
+            "postag": "d--------",
+            "head": "14",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.322",
+            "id": "αὐτίκ'_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἔπειτα",
+            "lemma": "ἔπειτα",
+            "postag": "d--------",
+            "head": "14",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.322",
+            "id": "ἔπειτα_12"
+        },
+        {
+            "wID": "13",
+            "form": "θεοπροπέων",
+            "lemma": "θεοπροπέω",
+            "postag": "v-sppamn-",
+            "head": "14",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.322",
+            "id": "θεοπροπέων_13"
+        },
+        {
+            "wID": "14",
+            "form": "ἀγόρευε",
+            "lemma": "ἀγορεύω",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.322",
+            "id": "ἀγόρευε_14"
+        },
+        {
+            "wID": "15",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.322",
+            "id": "·_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὡς_1",
+            "target": "εἰσῆλθ'_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "οὖν_2",
+            "target": "εἰσῆλθ'_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δεινὰ_3",
+            "target": "πέλωρα_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "πέλωρα_4",
+            "target": "εἰσῆλθ'_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "θεῶν_5",
+            "target": "ἑκατόμβας_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἰσῆλθ'_6",
+            "target": "ἀγόρευε_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἑκατόμβας_7",
+            "target": "εἰσῆλθ'_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "εἰσῆλθ'_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Κάλχας_9",
+            "target": "ἀγόρευε_14",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δ'_10",
+            "target": "ἀγόρευε_14",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "αὐτίκ'_11",
+            "target": "ἀγόρευε_14",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἔπειτα_12",
+            "target": "ἀγόρευε_14",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "θεοπροπέων_13",
+            "target": "ἀγόρευε_14",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἀγόρευε_14",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

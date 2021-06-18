@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἔφατ'",
+            "lemma": "φημί",
+            "postag": "v3siie---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": "ἔφατ'_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "Ἀντίλοχος",
+            "lemma": "Ἀντίλοχος",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": "Ἀντίλοχος_4"
+        },
+        {
+            "wID": "5",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": "δὲ_5"
+        },
+        {
+            "wID": "6",
+            "form": "κατέστυγε",
+            "lemma": "καταστυγέω",
+            "postag": "v3saia---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": "κατέστυγε_6"
+        },
+        {
+            "wID": "7",
+            "form": "μῦθον",
+            "lemma": "μῦθος",
+            "postag": "n-s---ma-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": "μῦθον_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀκούσας",
+            "lemma": "ἀκούω",
+            "postag": "v-sapamn-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": "ἀκούσας_8"
+        },
+        {
+            "wID": "9",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.694",
+            "id": "·_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔφατ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔφατ'_2",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀντίλοχος_4",
+            "target": "κατέστυγε_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κατέστυγε_6",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μῦθον_7",
+            "target": "ἀκούσας_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀκούσας_8",
+            "target": "κατέστυγε_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

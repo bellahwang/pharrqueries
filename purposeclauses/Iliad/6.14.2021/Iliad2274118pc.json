@@ -1,0 +1,186 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλ'",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "ἀλλ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἴθι",
+            "lemma": "εἶμι",
+            "postag": "v2spma---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "ἴθι_2"
+        },
+        {
+            "wID": "3",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "μή_3"
+        },
+        {
+            "wID": "4",
+            "form": "μ'",
+            "lemma": "ἐγώ",
+            "postag": "p-s---ma-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "μ'_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἐρέθιζε",
+            "lemma": "ἐρεθίζω",
+            "postag": "v2spma---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "ἐρέθιζε_5"
+        },
+        {
+            "wID": "6",
+            "form": "σαώτερος",
+            "lemma": "σῶς",
+            "postag": "a-s---mnc",
+            "head": "9",
+            "relation": "AtvV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "σαώτερος_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὥς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "11",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "ὥς_7"
+        },
+        {
+            "wID": "8",
+            "form": "κε",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "9",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "κε_8"
+        },
+        {
+            "wID": "9",
+            "form": "νέηαι",
+            "lemma": "νέομαι",
+            "postag": "v2spse---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "νέηαι_9"
+        },
+        {
+            "wID": "10",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.32",
+            "id": "._10"
+        },
+        {
+            "wID": "11",
+            "form": "[0]",
+            "head": "0",
+            "relation": "COORD",
+            "id": "[0]_11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλ'_1",
+            "target": "ἴθι_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἴθι_2",
+            "target": "[0]_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μή_3",
+            "target": "ἐρέθιζε_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μ'_4",
+            "target": "ἐρέθιζε_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐρέθιζε_5",
+            "target": "[0]_11",
+            "key": 0
+        },
+        {
+            "relation": "AtvV",
+            "source": "σαώτερος_6",
+            "target": "νέηαι_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὥς_7",
+            "target": "[0]_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "κε_8",
+            "target": "νέηαι_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νέηαι_9",
+            "target": "ὥς_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._10",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "[0]_11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

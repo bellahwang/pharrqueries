@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.304",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "τώ",
+            "lemma": "ὁ",
+            "postag": "p-d---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.304",
+            "id": "τώ_2"
+        },
+        {
+            "wID": "3",
+            "form": "γ'",
+            "lemma": "γε",
+            "postag": "g--------",
+            "head": "2",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.304",
+            "id": "γ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἀντιβίοισι",
+            "lemma": "ἀντίβιος",
+            "postag": "a-p---nd-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.304",
+            "id": "ἀντιβίοισι_4"
+        },
+        {
+            "wID": "5",
+            "form": "μαχεσσαμένω",
+            "lemma": "μάχομαι",
+            "postag": "v-dapmmn-",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.304",
+            "id": "μαχεσσαμένω_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐπέεσσιν",
+            "lemma": "ἔπος",
+            "postag": "n-p---nd-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.304",
+            "id": "ἐπέεσσιν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀνστήτην",
+            "lemma": "ἀνίστημι",
+            "postag": "v3daia---",
+            "head": "10",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": "ἀνστήτην_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "10",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "λῦσαν",
+            "lemma": "λύω",
+            "postag": "v3paia---",
+            "head": "10",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": "λῦσαν_9"
+        },
+        {
+            "wID": "10",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": "δ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἀγορὴν",
+            "lemma": "ἀγορά",
+            "postag": "n-s---fa-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": "ἀγορὴν_11"
+        },
+        {
+            "wID": "12",
+            "form": "παρὰ",
+            "lemma": "παρά",
+            "postag": "r--------",
+            "head": "9",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": "παρὰ_12"
+        },
+        {
+            "wID": "13",
+            "form": "νηυσὶν",
+            "lemma": "ναῦς",
+            "postag": "n-p---fd-",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": "νηυσὶν_13"
+        },
+        {
+            "wID": "14",
+            "form": "Ἀχαιῶν",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mg-",
+            "head": "13",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": "Ἀχαιῶν_14"
+        },
+        {
+            "wID": "15",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.305",
+            "id": "·_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "μαχεσσαμένω_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "τώ_2",
+            "target": "ἀνστήτην_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "γ'_3",
+            "target": "τώ_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀντιβίοισι_4",
+            "target": "ἐπέεσσιν_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μαχεσσαμένω_5",
+            "target": "ἀνστήτην_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐπέεσσιν_6",
+            "target": "μαχεσσαμένω_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἀνστήτην_7",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "λῦσαν_9",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_10",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀγορὴν_11",
+            "target": "λῦσαν_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "παρὰ_12",
+            "target": "λῦσαν_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νηυσὶν_13",
+            "target": "παρὰ_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀχαιῶν_14",
+            "target": "νηυσὶν_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

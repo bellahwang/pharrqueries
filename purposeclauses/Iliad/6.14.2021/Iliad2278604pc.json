@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλ'",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "ἀλλ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἄγεθ'",
+            "lemma": "ἄγε",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "ἄγεθ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "ὡς_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἂν",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "ἂν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἐγὼν",
+            "lemma": "ἐγώ",
+            "postag": "p-s---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "ἐγὼν_5"
+        },
+        {
+            "wID": "6",
+            "form": "εἴπω",
+            "lemma": "εἶπον",
+            "postag": "v1sasa---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "εἴπω_6"
+        },
+        {
+            "wID": "7",
+            "form": "πειθώμεθα",
+            "lemma": "πείθω",
+            "postag": "v1ppse---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "πειθώμεθα_7"
+        },
+        {
+            "wID": "8",
+            "form": "πάντες",
+            "lemma": "πᾶς",
+            "postag": "a-p---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "πάντες_8"
+        },
+        {
+            "wID": "9",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.74",
+            "id": "._9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλ'_1",
+            "target": "πειθώμεθα_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄγεθ'_2",
+            "target": "πειθώμεθα_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_3",
+            "target": "εἴπω_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἂν_4",
+            "target": "εἴπω_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἐγὼν_5",
+            "target": "εἴπω_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἴπω_6",
+            "target": "πειθώμεθα_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "πειθώμεθα_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "πάντες_8",
+            "target": "πειθώμεθα_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.254",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "εἰπόνθ'",
+            "lemma": "εἶπον",
+            "postag": "v-dapamn-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.254",
+            "id": "εἰπόνθ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὅπλοισιν",
+            "lemma": "ὅπλον",
+            "postag": "n-p---nd-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.254",
+            "id": "ὅπλοισιν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἔνι",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "6",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.254",
+            "id": "ἔνι_4"
+        },
+        {
+            "wID": "5",
+            "form": "δεινοῖσιν",
+            "lemma": "δεινός",
+            "postag": "a-p---nd-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.254",
+            "id": "δεινοῖσιν_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐδύτην",
+            "lemma": "δύω",
+            "postag": "v3daia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.254",
+            "id": "ἐδύτην_6"
+        },
+        {
+            "wID": "7",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.254",
+            "id": "._7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "εἰπόνθ'_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἰπόνθ'_2",
+            "target": "ἐδύτην_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὅπλοισιν_3",
+            "target": "ἔνι_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἔνι_4",
+            "target": "ἐδύτην_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δεινοῖσιν_5",
+            "target": "ὅπλοισιν_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἐδύτην_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

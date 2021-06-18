@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.889",
+            "id": "μή_1"
+        },
+        {
+            "wID": "2",
+            "form": "τί",
+            "lemma": "τις",
+            "postag": "p-s---na-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.889",
+            "id": "τί_2"
+        },
+        {
+            "wID": "3",
+            "form": "μοι",
+            "lemma": "ἐγώ",
+            "postag": "p-s---md-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.889",
+            "id": "μοι_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἀλλοπρόσαλλε",
+            "lemma": "ἀλλοπρόσαλλος",
+            "postag": "n-s---mv-",
+            "head": "6",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.889",
+            "id": "ἀλλοπρόσαλλε_4"
+        },
+        {
+            "wID": "5",
+            "form": "παρεζόμενος",
+            "lemma": "παρέζομαι",
+            "postag": "v-sppemn-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.889",
+            "id": "παρεζόμενος_5"
+        },
+        {
+            "wID": "6",
+            "form": "μινύριζε",
+            "lemma": "μινυρίζω",
+            "postag": "v2spma---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.889",
+            "id": "μινύριζε_6"
+        },
+        {
+            "wID": "7",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.889",
+            "id": "._7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μή_1",
+            "target": "μινύριζε_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τί_2",
+            "target": "μινύριζε_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μοι_3",
+            "target": "παρεζόμενος_5",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "ἀλλοπρόσαλλε_4",
+            "target": "μινύριζε_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "παρεζόμενος_5",
+            "target": "μινύριζε_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "μινύριζε_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

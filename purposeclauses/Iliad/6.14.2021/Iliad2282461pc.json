@@ -1,0 +1,205 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἔφατ'",
+            "lemma": "φημί",
+            "postag": "v3siie---",
+            "head": "10",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "ἔφατ'_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "10",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἔδεισεν",
+            "lemma": "δείδω",
+            "postag": "v3saia---",
+            "head": "10",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "ἔδεισεν_4"
+        },
+        {
+            "wID": "5",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "10",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "δ'_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὃ",
+            "lemma": "ὁ",
+            "postag": "l-s---mn-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "ὃ_6"
+        },
+        {
+            "wID": "7",
+            "form": "γέρων",
+            "lemma": "γέρων",
+            "postag": "n-s---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "γέρων_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "10",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "κήρυκα",
+            "lemma": "κῆρυξ",
+            "postag": "n-s---ma-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "κήρυκα_9"
+        },
+        {
+            "wID": "10",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "δ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἀνίστη",
+            "lemma": "ἀνίστημι",
+            "postag": "v3siia---",
+            "head": "10",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "ἀνίστη_11"
+        },
+        {
+            "wID": "12",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.689",
+            "id": "._12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔφατ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔφατ'_2",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔδεισεν_4",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δ'_5",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὃ_6",
+            "target": "γέρων_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "γέρων_7",
+            "target": "ἔδεισεν_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κήρυκα_9",
+            "target": "ἀνίστη_11",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_10",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἀνίστη_11",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._12",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

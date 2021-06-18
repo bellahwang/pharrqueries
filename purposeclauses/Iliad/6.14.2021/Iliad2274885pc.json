@@ -1,0 +1,154 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.27",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἐχάρη",
+            "lemma": "χαίρω",
+            "postag": "v3saip---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.27",
+            "id": "ἐχάρη_2"
+        },
+        {
+            "wID": "3",
+            "form": "Μενέλαος",
+            "lemma": "Μενέλαος",
+            "postag": "n-s---mn-",
+            "head": "2",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.27",
+            "id": "Μενέλαος_3"
+        },
+        {
+            "wID": "4",
+            "form": "Ἀλέξανδρον",
+            "lemma": "Ἀλέξανδρος",
+            "postag": "n-s---ma-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.27",
+            "id": "Ἀλέξανδρον_4"
+        },
+        {
+            "wID": "5",
+            "form": "θεοειδέα",
+            "lemma": "θεοειδής",
+            "postag": "a-s---ma-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.27",
+            "id": "θεοειδέα_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὀφθαλμοῖσιν",
+            "lemma": "ὀφθαλμός",
+            "postag": "n-p---md-",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.28",
+            "id": "ὀφθαλμοῖσιν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἰδών",
+            "lemma": "εἶδον",
+            "postag": "v-sapamn-",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.28",
+            "id": "ἰδών_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.28",
+            "id": "·_8"
+        },
+        {
+            "wID": "9",
+            "form": "[0]",
+            "head": "0",
+            "relation": "COORD",
+            "id": "[0]_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἐχάρη_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐχάρη_2",
+            "target": "[0]_9",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Μενέλαος_3",
+            "target": "ἐχάρη_2",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀλέξανδρον_4",
+            "target": "ἰδών_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "θεοειδέα_5",
+            "target": "Ἀλέξανδρον_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὀφθαλμοῖσιν_6",
+            "target": "ἰδών_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἰδών_7",
+            "target": "ἐχάρη_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "[0]_9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

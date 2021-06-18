@@ -1,0 +1,196 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "ὡς_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "10",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἐν",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "6",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "ἐν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὀνείρῳ",
+            "lemma": "ὄνειρος",
+            "postag": "n-s---md-",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "ὀνείρῳ_4"
+        },
+        {
+            "wID": "5",
+            "form": "οὐ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "οὐ_5"
+        },
+        {
+            "wID": "6",
+            "form": "δύναται",
+            "lemma": "δύναμαι",
+            "postag": "v3spie---",
+            "head": "11",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "δύναται_6"
+        },
+        {
+            "wID": "7",
+            "form": "φεύγοντα",
+            "lemma": "φεύγω",
+            "postag": "v-sppama-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "φεύγοντα_7"
+        },
+        {
+            "wID": "8",
+            "form": "διώκειν",
+            "lemma": "διώκω",
+            "postag": "v--pna---",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "διώκειν_8"
+        },
+        {
+            "wID": "9",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.199",
+            "id": "·_9"
+        },
+        {
+            "wID": "10",
+            "form": "[0]",
+            "head": "0",
+            "relation": "COORD",
+            "id": "[0]_10"
+        },
+        {
+            "wID": "11",
+            "form": "[2]",
+            "head": "12",
+            "relation": "ADV",
+            "id": "[2]_11"
+        },
+        {
+            "wID": "12",
+            "form": "[1]",
+            "head": "10",
+            "relation": "PRED_CO",
+            "id": "[1]_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὡς_1",
+            "target": "δύναται_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δ'_2",
+            "target": "[0]_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐν_3",
+            "target": "δύναται_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὀνείρῳ_4",
+            "target": "ἐν_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὐ_5",
+            "target": "δύναται_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δύναται_6",
+            "target": "[2]_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "φεύγοντα_7",
+            "target": "διώκειν_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "διώκειν_8",
+            "target": "δύναται_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "[0]_10",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "[2]_11",
+            "target": "[1]_12",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "[1]_12",
+            "target": "[0]_10",
+            "key": 0
+        }
+    ]
+}

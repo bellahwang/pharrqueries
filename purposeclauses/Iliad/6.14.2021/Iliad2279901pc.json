@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.424",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "οἳ",
+            "lemma": "ὁ",
+            "postag": "p-p---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.424",
+            "id": "οἳ_2"
+        },
+        {
+            "wID": "3",
+            "form": "μὲν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.424",
+            "id": "μὲν_3"
+        },
+        {
+            "wID": "4",
+            "form": "μάρναντο",
+            "lemma": "μάρναμαι",
+            "postag": "v3piie---",
+            "head": "7",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.424",
+            "id": "μάρναντο_4"
+        },
+        {
+            "wID": "5",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "7",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.424",
+            "id": ",_5"
+        },
+        {
+            "wID": "6",
+            "form": "σιδήρειος",
+            "lemma": "σιδήρεος",
+            "postag": "a-s---mn-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.424",
+            "id": "σιδήρειος_6"
+        },
+        {
+            "wID": "7",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.424",
+            "id": "δ'_7"
+        },
+        {
+            "wID": "8",
+            "form": "ὀρυμαγδὸς",
+            "lemma": "ὀρυμαγδός",
+            "postag": "n-s---mn-",
+            "head": "11",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.424",
+            "id": "ὀρυμαγδὸς_8"
+        },
+        {
+            "wID": "9",
+            "form": "χάλκεον",
+            "lemma": "χάλκεος",
+            "postag": "a-s---ma-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.425",
+            "id": "χάλκεον_9"
+        },
+        {
+            "wID": "10",
+            "form": "οὐρανὸν",
+            "lemma": "οὐρανός",
+            "postag": "n-s---ma-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.425",
+            "id": "οὐρανὸν_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἷκε",
+            "lemma": "ἵκω",
+            "postag": "v3siia---",
+            "head": "7",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.425",
+            "id": "ἷκε_11"
+        },
+        {
+            "wID": "12",
+            "form": "δι'",
+            "lemma": "διά",
+            "postag": "r--------",
+            "head": "11",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.425",
+            "id": "δι'_12"
+        },
+        {
+            "wID": "13",
+            "form": "αἰθέρος",
+            "lemma": "αἰθήρ",
+            "postag": "n-s---mg-",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.425",
+            "id": "αἰθέρος_13"
+        },
+        {
+            "wID": "14",
+            "form": "ἀτρυγέτοιο",
+            "lemma": "ἀτρύγετος",
+            "postag": "a-s---mg-",
+            "head": "13",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.425",
+            "id": "ἀτρυγέτοιο_14"
+        },
+        {
+            "wID": "15",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.425",
+            "id": "·_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "μάρναντο_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "οἳ_2",
+            "target": "μάρναντο_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὲν_3",
+            "target": "δ'_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "μάρναντο_4",
+            "target": "δ'_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_5",
+            "target": "δ'_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "σιδήρειος_6",
+            "target": "ὀρυμαγδὸς_8",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ὀρυμαγδὸς_8",
+            "target": "ἷκε_11",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "χάλκεον_9",
+            "target": "οὐρανὸν_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "οὐρανὸν_10",
+            "target": "ἷκε_11",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἷκε_11",
+            "target": "δ'_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "δι'_12",
+            "target": "ἷκε_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "αἰθέρος_13",
+            "target": "δι'_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀτρυγέτοιο_14",
+            "target": "αἰθέρος_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

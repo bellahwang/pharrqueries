@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "i--------",
+            "head": "2",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.426",
+            "id": "ὡς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ὄφελεν",
+            "lemma": "ὀφείλω",
+            "postag": "v3saia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.426",
+            "id": "ὄφελεν_2"
+        },
+        {
+            "wID": "3",
+            "form": "θανέειν",
+            "lemma": "θνήσκω",
+            "postag": "v--ana---",
+            "head": "2",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.426",
+            "id": "θανέειν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐν",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "3",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.426",
+            "id": "ἐν_4"
+        },
+        {
+            "wID": "5",
+            "form": "χερσὶν",
+            "lemma": "χείρ",
+            "postag": "n-p---fd-",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.426",
+            "id": "χερσὶν_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐμῇσι",
+            "lemma": "ἐμός",
+            "postag": "a-p---fd-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.426",
+            "id": "ἐμῇσι_6"
+        },
+        {
+            "wID": "7",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.426",
+            "id": "·_7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ὡς_1",
+            "target": "ὄφελεν_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὄφελεν_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "θανέειν_3",
+            "target": "ὄφελεν_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐν_4",
+            "target": "θανέειν_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "χερσὶν_5",
+            "target": "ἐν_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐμῇσι_6",
+            "target": "χερσὶν_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

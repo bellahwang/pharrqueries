@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μέμβλετο",
+            "lemma": "μέλω",
+            "postag": "v3slie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.516",
+            "id": "μέμβλετο_1"
+        },
+        {
+            "wID": "2",
+            "form": "γάρ",
+            "lemma": "γάρ",
+            "postag": "g--------",
+            "head": "1",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.516",
+            "id": "γάρ_2"
+        },
+        {
+            "wID": "3",
+            "form": "οἱ",
+            "lemma": "ἕ",
+            "postag": "p-s---md-",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.516",
+            "id": "οἱ_3"
+        },
+        {
+            "wID": "4",
+            "form": "τεῖχος",
+            "lemma": "τεῖχος",
+            "postag": "n-s---na-",
+            "head": "1",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.516",
+            "id": "τεῖχος_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἐϋδμήτοιο",
+            "lemma": "εὔδμητος",
+            "postag": "a-s---fg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.516",
+            "id": "ἐϋδμήτοιο_5"
+        },
+        {
+            "wID": "6",
+            "form": "πόληος",
+            "lemma": "πόλις",
+            "postag": "n-s---fg-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.516",
+            "id": "πόληος_6"
+        },
+        {
+            "wID": "7",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.517",
+            "id": "μὴ_7"
+        },
+        {
+            "wID": "8",
+            "form": "Δαναοὶ",
+            "lemma": "Δαναοί",
+            "postag": "n-p---mn-",
+            "head": "9",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.517",
+            "id": "Δαναοὶ_8"
+        },
+        {
+            "wID": "9",
+            "form": "πέρσειαν",
+            "lemma": "πέρθω",
+            "postag": "v3paoa---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.517",
+            "id": "πέρσειαν_9"
+        },
+        {
+            "wID": "10",
+            "form": "ὑπὲρ",
+            "lemma": "ὑπέρ",
+            "postag": "r--------",
+            "head": "9",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.517",
+            "id": "ὑπὲρ_10"
+        },
+        {
+            "wID": "11",
+            "form": "μόρον",
+            "lemma": "μόρος",
+            "postag": "n-s---ma-",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.517",
+            "id": "μόρον_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἤματι",
+            "lemma": "ἦμαρ",
+            "postag": "n-s---nd-",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.517",
+            "id": "ἤματι_12"
+        },
+        {
+            "wID": "13",
+            "form": "κείνῳ",
+            "lemma": "ἐκεῖνος",
+            "postag": "a-s---nd-",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.517",
+            "id": "κείνῳ_13"
+        },
+        {
+            "wID": "14",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.517",
+            "id": "._14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "μέμβλετο_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "γάρ_2",
+            "target": "μέμβλετο_1",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "οἱ_3",
+            "target": "μέμβλετο_1",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "τεῖχος_4",
+            "target": "μέμβλετο_1",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐϋδμήτοιο_5",
+            "target": "πόληος_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πόληος_6",
+            "target": "τεῖχος_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "μὴ_7",
+            "target": "μέμβλετο_1",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Δαναοὶ_8",
+            "target": "πέρσειαν_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πέρσειαν_9",
+            "target": "μὴ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ὑπὲρ_10",
+            "target": "πέρσειαν_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μόρον_11",
+            "target": "ὑπὲρ_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἤματι_12",
+            "target": "πέρσειαν_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κείνῳ_13",
+            "target": "ἤματι_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ὃ",
+            "lemma": "ὁ",
+            "postag": "p-s---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "ὃ_2"
+        },
+        {
+            "wID": "3",
+            "form": "τὸν",
+            "lemma": "ὁ",
+            "postag": "p-s---ma-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "τὸν_3"
+        },
+        {
+            "wID": "4",
+            "form": "οὐ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "οὐ_4"
+        },
+        {
+            "wID": "5",
+            "form": "δύνατο",
+            "lemma": "δύναμαι",
+            "postag": "v3siie---",
+            "head": "10",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "δύνατο_5"
+        },
+        {
+            "wID": "6",
+            "form": "μάρψαι",
+            "lemma": "μάρπτω",
+            "postag": "v--ana---",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "μάρψαι_6"
+        },
+        {
+            "wID": "7",
+            "form": "ποσίν",
+            "lemma": "πούς",
+            "postag": "n-p---md-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "ποσίν_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "10",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "οὐ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "14",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "οὐ_9"
+        },
+        {
+            "wID": "10",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "δ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "ὃς",
+            "lemma": "ὅς",
+            "postag": "p-s---mn-",
+            "head": "14",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "ὃς_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἀλύξαι",
+            "lemma": "ἀλύσκω",
+            "postag": "v--ana---",
+            "head": "14",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "ἀλύξαι_12"
+        },
+        {
+            "wID": "13",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.201",
+            "id": "._13"
+        },
+        {
+            "wID": "14",
+            "form": "[0]",
+            "head": "10",
+            "relation": "PRED_CO",
+            "id": "[0]_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ὃ_2",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τὸν_3",
+            "target": "μάρψαι_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὐ_4",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "δύνατο_5",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μάρψαι_6",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ποσίν_7",
+            "target": "μάρψαι_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "δ'_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὐ_9",
+            "target": "[0]_14",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_10",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ὃς_11",
+            "target": "[0]_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀλύξαι_12",
+            "target": "[0]_14",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._13",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "[0]_14",
+            "target": "δ'_10",
+            "key": 0
+        }
+    ]
+}

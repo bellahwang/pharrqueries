@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἥρη",
+            "lemma": "Ἥρα",
+            "postag": "n-s---fv-",
+            "head": "5",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.65",
+            "id": "Ἥρη_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.65",
+            "id": "μὴ_2"
+        },
+        {
+            "wID": "3",
+            "form": "δὴ",
+            "lemma": "δή",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.65",
+            "id": "δὴ_3"
+        },
+        {
+            "wID": "4",
+            "form": "πάμπαν",
+            "lemma": "πάμπαν",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.65",
+            "id": "πάμπαν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἀποσκύδμαινε",
+            "lemma": "ἀποσκυδμαίνω",
+            "postag": "v2spma---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.65",
+            "id": "ἀποσκύδμαινε_5"
+        },
+        {
+            "wID": "6",
+            "form": "θεοῖσιν",
+            "lemma": "θεός",
+            "postag": "n-p---md-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.65",
+            "id": "θεοῖσιν_6"
+        },
+        {
+            "wID": "7",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.65",
+            "id": "·_7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Ἥρη_1",
+            "target": "ἀποσκύδμαινε_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_2",
+            "target": "ἀποσκύδμαινε_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δὴ_3",
+            "target": "ἀποσκύδμαινε_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πάμπαν_4",
+            "target": "ἀποσκύδμαινε_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἀποσκύδμαινε_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "θεοῖσιν_6",
+            "target": "ἀποσκύδμαινε_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

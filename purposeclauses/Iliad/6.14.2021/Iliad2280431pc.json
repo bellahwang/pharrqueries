@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἠὼς",
+            "lemma": "ἠώς",
+            "postag": "n-s---fn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.1",
+            "id": "Ἠὼς_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὲν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.1",
+            "id": "μὲν_2"
+        },
+        {
+            "wID": "3",
+            "form": "κροκόπεπλος",
+            "lemma": "κροκόπεπλος",
+            "postag": "a-s---fn-",
+            "head": "1",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.1",
+            "id": "κροκόπεπλος_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἀπ'",
+            "lemma": "ἀπό",
+            "postag": "r--------",
+            "head": "7",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.1",
+            "id": "ἀπ'_4"
+        },
+        {
+            "wID": "5",
+            "form": "Ὠκεανοῖο",
+            "lemma": "Ὠκεανός",
+            "postag": "n-s---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.1",
+            "id": "Ὠκεανοῖο_5"
+        },
+        {
+            "wID": "6",
+            "form": "ῥοάων",
+            "lemma": "ῥοή",
+            "postag": "n-p---fg-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.1",
+            "id": "ῥοάων_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὄρνυθ'",
+            "lemma": "ὄρνυμι",
+            "postag": "v3spie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": "ὄρνυθ'_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἵν'",
+            "lemma": "ἵνα",
+            "postag": "c--------",
+            "head": "7",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": "ἵν'_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἀθανάτοισι",
+            "lemma": "ἀθάνατος",
+            "postag": "a-p---md-",
+            "head": "13",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": "ἀθανάτοισι_10"
+        },
+        {
+            "wID": "11",
+            "form": "φόως",
+            "lemma": "φόως",
+            "postag": "n-s---na-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": "φόως_11"
+        },
+        {
+            "wID": "12",
+            "form": "φέροι",
+            "lemma": "φέρω",
+            "postag": "v3spoa---",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": "φέροι_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἠδὲ",
+            "lemma": "ἠδέ",
+            "postag": "c--------",
+            "head": "12",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": "ἠδὲ_13"
+        },
+        {
+            "wID": "14",
+            "form": "βροτοῖσιν",
+            "lemma": "βροτός",
+            "postag": "n-p---md-",
+            "head": "13",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": "βροτοῖσιν_14"
+        },
+        {
+            "wID": "15",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.2",
+            "id": "·_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "SBJ",
+            "source": "Ἠὼς_1",
+            "target": "ὄρνυθ'_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὲν_2",
+            "target": "ὄρνυθ'_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κροκόπεπλος_3",
+            "target": "Ἠὼς_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἀπ'_4",
+            "target": "ὄρνυθ'_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ὠκεανοῖο_5",
+            "target": "ῥοάων_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ῥοάων_6",
+            "target": "ἀπ'_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὄρνυθ'_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "ἵν'_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ἵν'_9",
+            "target": "ὄρνυθ'_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "ἀθανάτοισι_10",
+            "target": "ἠδὲ_13",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "φόως_11",
+            "target": "φέροι_12",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φέροι_12",
+            "target": "ἵν'_9",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "ἠδὲ_13",
+            "target": "φέροι_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "βροτοῖσιν_14",
+            "target": "ἠδὲ_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "οὐ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.9",
+            "id": "οὐ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δέ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "12",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.9",
+            "id": "δέ_2"
+        },
+        {
+            "wID": "3",
+            "form": "νύ",
+            "lemma": "νῦν",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.9",
+            "id": "νύ_3"
+        },
+        {
+            "wID": "4",
+            "form": "πώ",
+            "lemma": "πω",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.9",
+            "id": "πώ_4"
+        },
+        {
+            "wID": "5",
+            "form": "με",
+            "lemma": "ἐγώ",
+            "postag": "p-s---ma-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.9",
+            "id": "με_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἔγνως",
+            "lemma": "γιγνώσκω",
+            "postag": "v2saia---",
+            "head": "12",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "ἔγνως_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "6",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "ὡς_7"
+        },
+        {
+            "wID": "8",
+            "form": "θεός",
+            "lemma": "θεός",
+            "postag": "n-s---mn-",
+            "head": "9",
+            "relation": "PNOM",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "θεός_8"
+        },
+        {
+            "wID": "9",
+            "form": "εἰμι",
+            "lemma": "εἰμί",
+            "postag": "v1spia---",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "εἰμι_9"
+        },
+        {
+            "wID": "10",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "12",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": ",_10"
+        },
+        {
+            "wID": "11",
+            "form": "σὺ",
+            "lemma": "σύ",
+            "postag": "p-s---mn-",
+            "head": "14",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "σὺ_11"
+        },
+        {
+            "wID": "12",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "δ'_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἀσπερχὲς",
+            "lemma": "ἀσπερχές",
+            "postag": "d--------",
+            "head": "14",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "ἀσπερχὲς_13"
+        },
+        {
+            "wID": "14",
+            "form": "μενεαίνεις",
+            "lemma": "μενεαίνω",
+            "postag": "v2spia---",
+            "head": "12",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "μενεαίνεις_14"
+        },
+        {
+            "wID": "15",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.10",
+            "id": "._15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "οὐ_1",
+            "target": "ἔγνως_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δέ_2",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "νύ_3",
+            "target": "ἔγνως_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πώ_4",
+            "target": "ἔγνως_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "με_5",
+            "target": "ἔγνως_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔγνως_6",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὡς_7",
+            "target": "ἔγνως_6",
+            "key": 0
+        },
+        {
+            "relation": "PNOM",
+            "source": "θεός_8",
+            "target": "εἰμι_9",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "εἰμι_9",
+            "target": "ὡς_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_10",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "σὺ_11",
+            "target": "μενεαίνεις_14",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_12",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀσπερχὲς_13",
+            "target": "μενεαίνεις_14",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "μενεαίνεις_14",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

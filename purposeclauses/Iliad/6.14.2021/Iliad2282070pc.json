@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀτὰρ",
+            "lemma": "ἀτάρ",
+            "postag": "g--------",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": "ἀτὰρ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δὴ",
+            "lemma": "δή",
+            "postag": "g--------",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": "δὴ_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὀϊστὸν",
+            "lemma": "ὀιστός",
+            "postag": "n-s---ma-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": "ὀϊστὸν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἔχεν",
+            "lemma": "ἔχω",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": "ἔχεν_4"
+        },
+        {
+            "wID": "5",
+            "form": "πάλαι",
+            "lemma": "πάλαι",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": "πάλαι_5"
+        },
+        {
+            "wID": "6",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "8",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": ",_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": "ὡς_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἴθυνεν",
+            "lemma": "ἰθύνω",
+            "postag": "v3siia---",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": "ἴθυνεν_8"
+        },
+        {
+            "wID": "9",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.871",
+            "id": "._9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀτὰρ_1",
+            "target": "ἔχεν_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δὴ_2",
+            "target": "ἔχεν_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὀϊστὸν_3",
+            "target": "ἔχεν_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἔχεν_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πάλαι_5",
+            "target": "ἔχεν_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_6",
+            "target": "ἴθυνεν_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_7",
+            "target": "ἴθυνεν_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἴθυνεν_8",
+            "target": "ἔχεν_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

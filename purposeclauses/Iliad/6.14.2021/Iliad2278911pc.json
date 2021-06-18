@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἣ",
+            "lemma": "ὁ",
+            "postag": "l-s---fn-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "ἣ_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὲν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "12",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "μὲν_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄρ'",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "ἄρ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "ὣς_4"
+        },
+        {
+            "wID": "5",
+            "form": "εἰποῦσα",
+            "lemma": "εἶπον",
+            "postag": "v-sapafn-",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "εἰποῦσα_5"
+        },
+        {
+            "wID": "6",
+            "form": "πάλιν",
+            "lemma": "πάλιν",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "πάλιν_6"
+        },
+        {
+            "wID": "7",
+            "form": "κίε",
+            "lemma": "κίω",
+            "postag": "v3siia---",
+            "head": "12",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "κίε_7"
+        },
+        {
+            "wID": "8",
+            "form": "πότνια",
+            "lemma": "πότνια",
+            "postag": "a-s---fn-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "πότνια_8"
+        },
+        {
+            "wID": "9",
+            "form": "Ἥρη",
+            "lemma": "Ἥρα",
+            "postag": "n-s---fn-",
+            "head": "12",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": "Ἥρη_9"
+        },
+        {
+            "wID": "10",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "12",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.149",
+            "id": ",_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἕζετο",
+            "lemma": "ἕζομαι",
+            "postag": "v3siie---",
+            "head": "12",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.150",
+            "id": "ἕζετο_11"
+        },
+        {
+            "wID": "12",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.150",
+            "id": "δ'_12"
+        },
+        {
+            "wID": "13",
+            "form": "εἰνὶ",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "11",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.150",
+            "id": "εἰνὶ_13"
+        },
+        {
+            "wID": "14",
+            "form": "θρόνῳ",
+            "lemma": "θρόνος",
+            "postag": "n-s---md-",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.150",
+            "id": "θρόνῳ_14"
+        },
+        {
+            "wID": "15",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.150",
+            "id": "·_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ATR",
+            "source": "ἣ_1",
+            "target": "Ἥρη_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὲν_2",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρ'_3",
+            "target": "κίε_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὣς_4",
+            "target": "εἰποῦσα_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἰποῦσα_5",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πάλιν_6",
+            "target": "κίε_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κίε_7",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πότνια_8",
+            "target": "Ἥρη_9",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἥρη_9",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_10",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἕζετο_11",
+            "target": "δ'_12",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_12",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "εἰνὶ_13",
+            "target": "ἕζετο_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "θρόνῳ_14",
+            "target": "εἰνὶ_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

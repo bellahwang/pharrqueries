@@ -1,0 +1,93 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.278",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "φάσαν",
+            "lemma": "φημί",
+            "postag": "v3piia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.278",
+            "id": "φάσαν_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἣ",
+            "lemma": "ὁ",
+            "postag": "l-s---fn-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.278",
+            "id": "ἣ_3"
+        },
+        {
+            "wID": "4",
+            "form": "πληθύς",
+            "lemma": "πληθύς",
+            "postag": "n-s---fn-",
+            "head": "2",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.278",
+            "id": "πληθύς_4"
+        },
+        {
+            "wID": "5",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.278",
+            "id": "·_5"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φάσαν_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "φάσαν_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἣ_3",
+            "target": "πληθύς_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "πληθύς_4",
+            "target": "φάσαν_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_5",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

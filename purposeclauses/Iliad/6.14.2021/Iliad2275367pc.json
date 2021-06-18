@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.427",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "τότ'",
+            "lemma": "τότε",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.427",
+            "id": "τότ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἐπασσύτεραι",
+            "lemma": "ἐπασσύτερος",
+            "postag": "a-p---fn-",
+            "head": "6",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.427",
+            "id": "ἐπασσύτεραι_3"
+        },
+        {
+            "wID": "4",
+            "form": "Δαναῶν",
+            "lemma": "Δανάη",
+            "postag": "n-p---fg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.427",
+            "id": "Δαναῶν_4"
+        },
+        {
+            "wID": "5",
+            "form": "κίνυντο",
+            "lemma": "κίνυμαι",
+            "postag": "v3piie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.427",
+            "id": "κίνυντο_5"
+        },
+        {
+            "wID": "6",
+            "form": "φάλαγγες",
+            "lemma": "φάλαγξ",
+            "postag": "n-p---fn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.427",
+            "id": "φάλαγγες_6"
+        },
+        {
+            "wID": "7",
+            "form": "νωλεμέως",
+            "lemma": "νωλεμές",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.428",
+            "id": "νωλεμέως_7"
+        },
+        {
+            "wID": "8",
+            "form": "πόλεμον",
+            "lemma": "πόλεμος",
+            "postag": "n-s---ma-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.428",
+            "id": "πόλεμον_8"
+        },
+        {
+            "wID": "9",
+            "form": "δέ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "8",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.428",
+            "id": "δέ_9"
+        },
+        {
+            "wID": "10",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.428",
+            "id": "·_10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "κίνυντο_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τότ'_2",
+            "target": "κίνυντο_5",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "ἐπασσύτεραι_3",
+            "target": "φάλαγγες_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Δαναῶν_4",
+            "target": "φάλαγγες_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "κίνυντο_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "φάλαγγες_6",
+            "target": "κίνυντο_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νωλεμέως_7",
+            "target": "κίνυντο_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πόλεμον_8",
+            "target": "κίνυντο_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "δέ_9",
+            "target": "πόλεμον_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,333 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "τὸν",
+            "lemma": "ὁ",
+            "postag": "p-s---ma-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.248",
+            "id": "τὸν_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.248",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "17",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.248",
+            "id": "ὡς_3"
+        },
+        {
+            "wID": "4",
+            "form": "οὖν",
+            "lemma": "οὖν",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.248",
+            "id": "οὖν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἐνόησε",
+            "lemma": "νοέω",
+            "postag": "v3saia---",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.248",
+            "id": "ἐνόησε_5"
+        },
+        {
+            "wID": "6",
+            "form": "Κόων",
+            "lemma": "Κόων",
+            "postag": "n-s---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.248",
+            "id": "Κόων_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀριδείκετος",
+            "lemma": "ἀριδείκετος",
+            "postag": "a-s---mn-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.248",
+            "id": "ἀριδείκετος_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀνδρῶν",
+            "lemma": "ἀνήρ",
+            "postag": "n-p---mg-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.248",
+            "id": "ἀνδρῶν_8"
+        },
+        {
+            "wID": "9",
+            "form": "πρεσβυγενὴς",
+            "lemma": "πρεσβυγενής",
+            "postag": "a-s---mn-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.249",
+            "id": "πρεσβυγενὴς_9"
+        },
+        {
+            "wID": "10",
+            "form": "Ἀντηνορίδης",
+            "lemma": "Ἀντηνορίδης",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.249",
+            "id": "Ἀντηνορίδης_10"
+        },
+        {
+            "wID": "11",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "3",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.249",
+            "id": ",_11"
+        },
+        {
+            "wID": "12",
+            "form": "κρατερόν",
+            "lemma": "κρατερός",
+            "postag": "a-s---nn-",
+            "head": "15",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.249",
+            "id": "κρατερόν_12"
+        },
+        {
+            "wID": "13",
+            "form": "ῥά",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "17",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.249",
+            "id": "ῥά_13"
+        },
+        {
+            "wID": "14",
+            "form": "ἑ",
+            "lemma": "ἕ",
+            "postag": "p-s---ma-",
+            "head": "17",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.249",
+            "id": "ἑ_14"
+        },
+        {
+            "wID": "15",
+            "form": "πένθος",
+            "lemma": "πένθος",
+            "postag": "n-s---nn-",
+            "head": "17",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.249",
+            "id": "πένθος_15"
+        },
+        {
+            "wID": "16",
+            "form": "ὀφθαλμοὺς",
+            "lemma": "ὀφθαλμός",
+            "postag": "n-p---ma-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.250",
+            "id": "ὀφθαλμοὺς_16"
+        },
+        {
+            "wID": "17",
+            "form": "ἐκάλυψε",
+            "lemma": "καλύπτω",
+            "postag": "v3saia---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.250",
+            "id": "ἐκάλυψε_17"
+        },
+        {
+            "wID": "18",
+            "form": "κασιγνήτοιο",
+            "lemma": "κασίγνητος",
+            "postag": "n-s---mg-",
+            "head": "15",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.250",
+            "id": "κασιγνήτοιο_18"
+        },
+        {
+            "wID": "19",
+            "form": "πεσόντος",
+            "lemma": "πίπτω",
+            "postag": "v-sapamg-",
+            "head": "18",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.250",
+            "id": "πεσόντος_19"
+        },
+        {
+            "wID": "20",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.250",
+            "id": "._20"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "OBJ",
+            "source": "τὸν_1",
+            "target": "ἐνόησε_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὡς_3",
+            "target": "ἐκάλυψε_17",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "οὖν_4",
+            "target": "ἐνόησε_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐνόησε_5",
+            "target": "ὡς_3",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Κόων_6",
+            "target": "ἐνόησε_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀριδείκετος_7",
+            "target": "Κόων_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀνδρῶν_8",
+            "target": "ἀριδείκετος_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πρεσβυγενὴς_9",
+            "target": "Ἀντηνορίδης_10",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀντηνορίδης_10",
+            "target": "Κόων_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_11",
+            "target": "ὡς_3",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κρατερόν_12",
+            "target": "πένθος_15",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ῥά_13",
+            "target": "ἐκάλυψε_17",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἑ_14",
+            "target": "ἐκάλυψε_17",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "πένθος_15",
+            "target": "ἐκάλυψε_17",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὀφθαλμοὺς_16",
+            "target": "ἀριδείκετος_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐκάλυψε_17",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κασιγνήτοιο_18",
+            "target": "πένθος_15",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "πεσόντος_19",
+            "target": "κασιγνήτοιο_18",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._20",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

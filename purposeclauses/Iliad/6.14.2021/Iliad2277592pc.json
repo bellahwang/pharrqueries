@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἕκτωρ",
+            "lemma": "Ἕκτωρ",
+            "postag": "n-s---mn-",
+            "head": "12",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.284",
+            "id": "Ἕκτωρ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.284",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "12",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.284",
+            "id": "ὡς_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐνόησ'",
+            "lemma": "νοέω",
+            "postag": "v3saia---",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.284",
+            "id": "ἐνόησ'_4"
+        },
+        {
+            "wID": "5",
+            "form": "Ἀγαμέμνονα",
+            "lemma": "Ἀγαμέμνων",
+            "postag": "n-s---ma-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.284",
+            "id": "Ἀγαμέμνονα_5"
+        },
+        {
+            "wID": "6",
+            "form": "νόσφι",
+            "lemma": "νόσφι",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.284",
+            "id": "νόσφι_6"
+        },
+        {
+            "wID": "7",
+            "form": "κιόντα",
+            "lemma": "κίω",
+            "postag": "v-sapama-",
+            "head": "5",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.284",
+            "id": "κιόντα_7"
+        },
+        {
+            "wID": "8",
+            "form": "Τρωσί",
+            "lemma": "Τρώς",
+            "postag": "n-p---md-",
+            "head": "10",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.285",
+            "id": "Τρωσί_8"
+        },
+        {
+            "wID": "9",
+            "form": "τε",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "10",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.285",
+            "id": "τε_9"
+        },
+        {
+            "wID": "10",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "12",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.285",
+            "id": "καὶ_10"
+        },
+        {
+            "wID": "11",
+            "form": "Λυκίοισιν",
+            "lemma": "Λύκιοι",
+            "postag": "n-p---md-",
+            "head": "10",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.285",
+            "id": "Λυκίοισιν_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἐκέκλετο",
+            "lemma": "κέλομαι",
+            "postag": "v3saim---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.285",
+            "id": "ἐκέκλετο_12"
+        },
+        {
+            "wID": "13",
+            "form": "μακρὸν",
+            "lemma": "μακρός",
+            "postag": "a-s---na-",
+            "head": "14",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.285",
+            "id": "μακρὸν_13"
+        },
+        {
+            "wID": "14",
+            "form": "ἀΰσας",
+            "lemma": "αὔω",
+            "postag": "v-sapamn-",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.285",
+            "id": "ἀΰσας_14"
+        },
+        {
+            "wID": "15",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.285",
+            "id": "·_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "SBJ",
+            "source": "Ἕκτωρ_1",
+            "target": "ἐκέκλετο_12",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὡς_3",
+            "target": "ἐκέκλετο_12",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐνόησ'_4",
+            "target": "ὡς_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀγαμέμνονα_5",
+            "target": "ἐνόησ'_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "νόσφι_6",
+            "target": "κιόντα_7",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "κιόντα_7",
+            "target": "Ἀγαμέμνονα_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "Τρωσί_8",
+            "target": "καὶ_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "τε_9",
+            "target": "καὶ_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_10",
+            "target": "ἐκέκλετο_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "Λυκίοισιν_11",
+            "target": "καὶ_10",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐκέκλετο_12",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μακρὸν_13",
+            "target": "ἀΰσας_14",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀΰσας_14",
+            "target": "ἐκέκλετο_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

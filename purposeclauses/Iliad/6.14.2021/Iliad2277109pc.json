@@ -1,0 +1,250 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἀτρεΐδη",
+            "lemma": "Ἀτρείδης",
+            "postag": "n-s---mv-",
+            "head": "15",
+            "relation": "ExD_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.697",
+            "id": "Ἀτρεΐδη_1"
+        },
+        {
+            "wID": "2",
+            "form": "κύδιστε",
+            "lemma": "κύδιστος",
+            "postag": "a-s---mv-",
+            "head": "1",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.697",
+            "id": "κύδιστε_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄναξ",
+            "lemma": "ἄναξ",
+            "postag": "n-s---mv-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.697",
+            "id": "ἄναξ_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἀνδρῶν",
+            "lemma": "ἀνήρ",
+            "postag": "n-p---mg-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.697",
+            "id": "ἀνδρῶν_4"
+        },
+        {
+            "wID": "5",
+            "form": "Ἀγάμεμνον",
+            "lemma": "Ἀγαμέμνων",
+            "postag": "n-s---mv-",
+            "head": "15",
+            "relation": "ExD_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.697",
+            "id": "Ἀγάμεμνον_5"
+        },
+        {
+            "wID": "6",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.698",
+            "id": "μὴ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὄφελες",
+            "lemma": "ὀφείλω",
+            "postag": "v2saia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.698",
+            "id": "ὄφελες_7"
+        },
+        {
+            "wID": "8",
+            "form": "λίσσεσθαι",
+            "lemma": "λίσσομαι",
+            "postag": "v--pne---",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.698",
+            "id": "λίσσεσθαι_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἀμύμονα",
+            "lemma": "ἀμύμων",
+            "postag": "a-s---ma-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.698",
+            "id": "ἀμύμονα_9"
+        },
+        {
+            "wID": "10",
+            "form": "Πηλεΐωνα",
+            "lemma": "Πηλείων",
+            "postag": "n-s---ma-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.698",
+            "id": "Πηλεΐωνα_10"
+        },
+        {
+            "wID": "11",
+            "form": "μυρία",
+            "lemma": "μυρίος",
+            "postag": "a-p---na-",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.699",
+            "id": "μυρία_11"
+        },
+        {
+            "wID": "12",
+            "form": "δῶρα",
+            "lemma": "δῶρον",
+            "postag": "n-p---na-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.699",
+            "id": "δῶρα_12"
+        },
+        {
+            "wID": "13",
+            "form": "διδούς",
+            "lemma": "δίδωμι",
+            "postag": "v-sppamn-",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.699",
+            "id": "διδούς_13"
+        },
+        {
+            "wID": "14",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.699",
+            "id": "·_14"
+        },
+        {
+            "wID": "15",
+            "form": "[0]",
+            "head": "7",
+            "relation": "APOS",
+            "id": "[0]_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD_AP",
+            "source": "Ἀτρεΐδη_1",
+            "target": "[0]_15",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κύδιστε_2",
+            "target": "Ἀτρεΐδη_1",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἄναξ_3",
+            "target": "Ἀγάμεμνον_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀνδρῶν_4",
+            "target": "ἄναξ_3",
+            "key": 0
+        },
+        {
+            "relation": "ExD_AP",
+            "source": "Ἀγάμεμνον_5",
+            "target": "[0]_15",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_6",
+            "target": "ὄφελες_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὄφελες_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "λίσσεσθαι_8",
+            "target": "ὄφελες_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀμύμονα_9",
+            "target": "Πηλεΐωνα_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Πηλεΐωνα_10",
+            "target": "λίσσεσθαι_8",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "μυρία_11",
+            "target": "δῶρα_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "δῶρα_12",
+            "target": "διδούς_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "διδούς_13",
+            "target": "λίσσεσθαι_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_14",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "APOS",
+            "source": "[0]_15",
+            "target": "ὄφελες_7",
+            "key": 0
+        }
+    ]
+}

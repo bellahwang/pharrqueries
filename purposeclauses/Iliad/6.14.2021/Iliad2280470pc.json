@@ -1,0 +1,221 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.74",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἔφαθ'",
+            "lemma": "φημί",
+            "postag": "v3siie---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.74",
+            "id": "ἔφαθ'_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.74",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "οἳ",
+            "lemma": "ὁ",
+            "postag": "l-p---mn-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.74",
+            "id": "οἳ_4"
+        },
+        {
+            "wID": "5",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.74",
+            "id": "δ'_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐχάρησαν",
+            "lemma": "χαίρω",
+            "postag": "v3paip---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.74",
+            "id": "ἐχάρησαν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἐϋκνήμιδες",
+            "lemma": "ἐυκνήμις",
+            "postag": "a-p---mn-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.74",
+            "id": "ἐϋκνήμιδες_7"
+        },
+        {
+            "wID": "8",
+            "form": "Ἀχαιοὶ",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.74",
+            "id": "Ἀχαιοὶ_8"
+        },
+        {
+            "wID": "9",
+            "form": "μῆνιν",
+            "lemma": "μῆνις",
+            "postag": "n-s---fa-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.75",
+            "id": "μῆνιν_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἀπειπόντος",
+            "lemma": "ἀπεῖπον",
+            "postag": "v-sapamg-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.75",
+            "id": "ἀπειπόντος_10"
+        },
+        {
+            "wID": "11",
+            "form": "μεγαθύμου",
+            "lemma": "μεγάθυμος",
+            "postag": "a-s---mg-",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.75",
+            "id": "μεγαθύμου_11"
+        },
+        {
+            "wID": "12",
+            "form": "Πηλεΐωνος",
+            "lemma": "Πηλείων",
+            "postag": "n-s---mg-",
+            "head": "10",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.75",
+            "id": "Πηλεΐωνος_12"
+        },
+        {
+            "wID": "13",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.75",
+            "id": "._13"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔφαθ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔφαθ'_2",
+            "target": "δ'_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δ'_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "οἳ_4",
+            "target": "Ἀχαιοὶ_8",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐχάρησαν_6",
+            "target": "δ'_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐϋκνήμιδες_7",
+            "target": "Ἀχαιοὶ_8",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀχαιοὶ_8",
+            "target": "ἐχάρησαν_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μῆνιν_9",
+            "target": "ἀπειπόντος_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀπειπόντος_10",
+            "target": "ἐχάρησαν_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "μεγαθύμου_11",
+            "target": "Πηλεΐωνος_12",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Πηλεΐωνος_12",
+            "target": "ἀπειπόντος_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._13",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

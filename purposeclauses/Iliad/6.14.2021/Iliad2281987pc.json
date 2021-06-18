@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μηκέτ'",
+            "lemma": "μηκέτι",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.735",
+            "id": "μηκέτ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἐρείδεσθον",
+            "lemma": "ἐρείδω",
+            "postag": "v2dpme---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.735",
+            "id": "ἐρείδεσθον_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.735",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.735",
+            "id": "μὴ_4"
+        },
+        {
+            "wID": "5",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.735",
+            "id": "δὲ_5"
+        },
+        {
+            "wID": "6",
+            "form": "τρίβεσθε",
+            "lemma": "τρίβω",
+            "postag": "v2ppme---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.735",
+            "id": "τρίβεσθε_6"
+        },
+        {
+            "wID": "7",
+            "form": "κακοῖσι",
+            "lemma": "κακός",
+            "postag": "a-p---nd-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.735",
+            "id": "κακοῖσι_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.735",
+            "id": "·_8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "μηκέτ'_1",
+            "target": "ἐρείδεσθον_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐρείδεσθον_2",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_4",
+            "target": "τρίβεσθε_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "τρίβεσθε_6",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κακοῖσι_7",
+            "target": "τρίβεσθε_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

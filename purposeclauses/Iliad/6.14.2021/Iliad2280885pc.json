@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἆσσον",
+            "lemma": "ἆσσον",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "ἆσσον_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἴθ'",
+            "lemma": "εἶμι",
+            "postag": "v2spma---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "ἴθ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὥς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "2",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "ὥς_3"
+        },
+        {
+            "wID": "4",
+            "form": "κεν",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "8",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "κεν_4"
+        },
+        {
+            "wID": "5",
+            "form": "θᾶσσον",
+            "lemma": "ταχύς",
+            "postag": "a-s---nac",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "θᾶσσον_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὀλέθρου",
+            "lemma": "ὄλεθρος",
+            "postag": "n-s---mg-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "ὀλέθρου_6"
+        },
+        {
+            "wID": "7",
+            "form": "πείραθ'",
+            "lemma": "πεῖραρ",
+            "postag": "n-p---na-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "πείραθ'_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἵκηαι",
+            "lemma": "ἱκνέομαι",
+            "postag": "v2sase---",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "ἵκηαι_8"
+        },
+        {
+            "wID": "9",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.429",
+            "id": "._9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "OBJ",
+            "source": "ἆσσον_1",
+            "target": "ἴθ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἴθ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὥς_3",
+            "target": "ἴθ'_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "κεν_4",
+            "target": "ἵκηαι_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "θᾶσσον_5",
+            "target": "ἵκηαι_8",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὀλέθρου_6",
+            "target": "πείραθ'_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πείραθ'_7",
+            "target": "ἵκηαι_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἵκηαι_8",
+            "target": "ὥς_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

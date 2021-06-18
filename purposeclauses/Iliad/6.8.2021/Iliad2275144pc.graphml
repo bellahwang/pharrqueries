@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d6" for="node" attr.name="cite" attr.type="string"/>
+<key id="d5" for="node" attr.name="relation" attr.type="string"/>
+<key id="d4" for="node" attr.name="head" attr.type="string"/>
+<key id="d3" for="node" attr.name="postag" attr.type="string"/>
+<key id="d2" for="node" attr.name="lemma" attr.type="string"/>
+<key id="d1" for="node" attr.name="form" attr.type="string"/>
+<key id="d0" for="node" attr.name="id" attr.type="string"/>
+<graph edgedefault="directed"><node id="ἕρξον">
+  <data key="d0">1</data>
+  <data key="d1">ἕρξον</data>
+  <data key="d2">ἔρδω</data>
+  <data key="d3">v2sama---</data>
+  <data key="d4">0</data>
+  <data key="d5">PRED</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:4.37</data>
+</node>
+<node id="ὅπως">
+  <data key="d0">2</data>
+  <data key="d1">ὅπως</data>
+  <data key="d2">ὅπως</data>
+  <data key="d3">d--------</data>
+  <data key="d4">3</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:4.37</data>
+</node>
+<node id="ἐθέλεις">
+  <data key="d0">3</data>
+  <data key="d1">ἐθέλεις</data>
+  <data key="d2">ἐθέλω</data>
+  <data key="d3">v2spia---</data>
+  <data key="d4">1</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:4.37</data>
+</node>
+<node id="·">
+  <data key="d0">4</data>
+  <data key="d1">·</data>
+  <data key="d2">·</data>
+  <data key="d3">u--------</data>
+  <data key="d4">0</data>
+  <data key="d5">AuxK</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:4.37</data>
+</node>
+<edge source="ἕρξον" target="ὅπως" id="0">
+  <data key="d7">ADV</data>
+</edge>
+<edge source="ἐθέλεις" target="ἕρξον" id="0">
+  <data key="d7">PRED</data>
+</edge>
+</graph></graphml>

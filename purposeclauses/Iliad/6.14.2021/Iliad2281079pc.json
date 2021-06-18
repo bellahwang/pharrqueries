@@ -1,0 +1,221 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ζεῦ",
+            "lemma": "Ζεύς",
+            "postag": "n-s---mv-",
+            "head": "9",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "Ζεῦ_1"
+        },
+        {
+            "wID": "2",
+            "form": "πάτερ",
+            "lemma": "πάτηρ",
+            "postag": "n-s---mv-",
+            "head": "1",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "πάτερ_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "ὡς_3"
+        },
+        {
+            "wID": "4",
+            "form": "οὔ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "οὔ_4"
+        },
+        {
+            "wID": "5",
+            "form": "τίς",
+            "lemma": "τις",
+            "postag": "p-s---mn-",
+            "head": "9",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "τίς_5"
+        },
+        {
+            "wID": "6",
+            "form": "με",
+            "lemma": "ἐγώ",
+            "postag": "p-s---ma-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "με_6"
+        },
+        {
+            "wID": "7",
+            "form": "θεῶν",
+            "lemma": "θεός",
+            "postag": "n-p---mg-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "θεῶν_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἐλεεινὸν",
+            "lemma": "ἐλεεινός",
+            "postag": "a-s---ma-",
+            "head": "6",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "ἐλεεινὸν_8"
+        },
+        {
+            "wID": "9",
+            "form": "ὑπέστη",
+            "lemma": "ὑφίστημι",
+            "postag": "v3saia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.273",
+            "id": "ὑπέστη_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἐκ",
+            "lemma": "ἐκ",
+            "postag": "r--------",
+            "head": "12",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.274",
+            "id": "ἐκ_10"
+        },
+        {
+            "wID": "11",
+            "form": "ποταμοῖο",
+            "lemma": "ποταμός",
+            "postag": "n-s---mg-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.274",
+            "id": "ποταμοῖο_11"
+        },
+        {
+            "wID": "12",
+            "form": "σαῶσαι",
+            "lemma": "σώζω",
+            "postag": "v--ana---",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.274",
+            "id": "σαῶσαι_12"
+        },
+        {
+            "wID": "13",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.274",
+            "id": "·_13"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Ζεῦ_1",
+            "target": "ὑπέστη_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πάτερ_2",
+            "target": "Ζεῦ_1",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_3",
+            "target": "ὑπέστη_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὔ_4",
+            "target": "τίς_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "τίς_5",
+            "target": "ὑπέστη_9",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "με_6",
+            "target": "σαῶσαι_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "θεῶν_7",
+            "target": "τίς_5",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "ἐλεεινὸν_8",
+            "target": "με_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὑπέστη_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐκ_10",
+            "target": "σαῶσαι_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ποταμοῖο_11",
+            "target": "ἐκ_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σαῶσαι_12",
+            "target": "ὑπέστη_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_13",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

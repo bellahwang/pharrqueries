@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d6" for="node" attr.name="cite" attr.type="string"/>
+<key id="d5" for="node" attr.name="relation" attr.type="string"/>
+<key id="d4" for="node" attr.name="head" attr.type="string"/>
+<key id="d3" for="node" attr.name="postag" attr.type="string"/>
+<key id="d2" for="node" attr.name="lemma" attr.type="string"/>
+<key id="d1" for="node" attr.name="form" attr.type="string"/>
+<key id="d0" for="node" attr.name="id" attr.type="string"/>
+<graph edgedefault="directed"><node id="τέκνον">
+  <data key="d0">1</data>
+  <data key="d1">τέκνον</data>
+  <data key="d2">τέκνον</data>
+  <data key="d3">n-s---nv-</data>
+  <data key="d4">8</data>
+  <data key="d5">ExD</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<node id="μή">
+  <data key="d0">2</data>
+  <data key="d1">μή</data>
+  <data key="d2">μή</data>
+  <data key="d3">d--------</data>
+  <data key="d4">8</data>
+  <data key="d5">AuxZ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<node id="τοι">
+  <data key="d0">3</data>
+  <data key="d1">τοι</data>
+  <data key="d2">σύ</data>
+  <data key="d3">p-s---md-</data>
+  <data key="d4">8</data>
+  <data key="d5">OBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<node id="ταῦτα">
+  <data key="d0">4</data>
+  <data key="d1">ταῦτα</data>
+  <data key="d2">οὗτος</data>
+  <data key="d3">a-p---nn-</data>
+  <data key="d4">8</data>
+  <data key="d5">SBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<node id="μετὰ">
+  <data key="d0">5</data>
+  <data key="d1">μετὰ</data>
+  <data key="d2">μετά</data>
+  <data key="d3">r--------</data>
+  <data key="d4">8</data>
+  <data key="d5">AuxP</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<node id="φρεσὶ">
+  <data key="d0">6</data>
+  <data key="d1">φρεσὶ</data>
+  <data key="d2">φρήν</data>
+  <data key="d3">n-p---fd-</data>
+  <data key="d4">5</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<node id="σῇσι">
+  <data key="d0">7</data>
+  <data key="d1">σῇσι</data>
+  <data key="d2">σός</data>
+  <data key="d3">a-p---fd-</data>
+  <data key="d4">6</data>
+  <data key="d5">ATR</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<node id="μελόντων">
+  <data key="d0">8</data>
+  <data key="d1">μελόντων</data>
+  <data key="d2">μέλω</data>
+  <data key="d3">v3ppma---</data>
+  <data key="d4">0</data>
+  <data key="d5">PRED</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<node id=".">
+  <data key="d0">9</data>
+  <data key="d1">.</data>
+  <data key="d2">.</data>
+  <data key="d3">u--------</data>
+  <data key="d4">0</data>
+  <data key="d5">AuxK</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:19.29</data>
+</node>
+<edge source="μετὰ" target="φρεσὶ" id="0">
+  <data key="d7">ADV</data>
+</edge>
+<edge source="φρεσὶ" target="σῇσι" id="0">
+  <data key="d7">ATR</data>
+</edge>
+<edge source="μελόντων" target="τέκνον" id="0">
+  <data key="d7">ExD</data>
+</edge>
+<edge source="μελόντων" target="μή" id="0">
+  <data key="d7">AuxZ</data>
+</edge>
+<edge source="μελόντων" target="τοι" id="0">
+  <data key="d7">OBJ</data>
+</edge>
+<edge source="μελόντων" target="ταῦτα" id="0">
+  <data key="d7">SBJ</data>
+</edge>
+<edge source="μελόντων" target="μετὰ" id="0">
+  <data key="d7">AuxP</data>
+</edge>
+</graph></graphml>

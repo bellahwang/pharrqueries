@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὄφρα",
+            "lemma": "ὄφρα",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.257",
+            "id": "ὄφρα_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὲν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.257",
+            "id": "μὲν_2"
+        },
+        {
+            "wID": "3",
+            "form": "οὗτος",
+            "lemma": "οὗτος",
+            "postag": "a-s---mn-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.257",
+            "id": "οὗτος_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἀνὴρ",
+            "lemma": "ἀνήρ",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.257",
+            "id": "ἀνὴρ_4"
+        },
+        {
+            "wID": "5",
+            "form": "Ἀγαμέμνονι",
+            "lemma": "Ἀγαμέμνων",
+            "postag": "n-s---md-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.257",
+            "id": "Ἀγαμέμνονι_5"
+        },
+        {
+            "wID": "6",
+            "form": "μήνιε",
+            "lemma": "μηνίω",
+            "postag": "v3siia---",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.257",
+            "id": "μήνιε_6"
+        },
+        {
+            "wID": "7",
+            "form": "δίῳ",
+            "lemma": "δῖος",
+            "postag": "a-s---md-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.257",
+            "id": "δίῳ_7"
+        },
+        {
+            "wID": "8",
+            "form": "τόφρα",
+            "lemma": "τόφρα",
+            "postag": "d--------",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.258",
+            "id": "τόφρα_8"
+        },
+        {
+            "wID": "9",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "12",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.258",
+            "id": "δὲ_9"
+        },
+        {
+            "wID": "10",
+            "form": "ῥηΐτεροι",
+            "lemma": "ῥᾴδιος",
+            "postag": "a-p---mn-",
+            "head": "12",
+            "relation": "PNOM",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.258",
+            "id": "ῥηΐτεροι_10"
+        },
+        {
+            "wID": "11",
+            "form": "πολεμίζειν",
+            "lemma": "πολεμίζω",
+            "postag": "v--pna---",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.258",
+            "id": "πολεμίζειν_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἦσαν",
+            "lemma": "εἰμί",
+            "postag": "v3piia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.258",
+            "id": "ἦσαν_12"
+        },
+        {
+            "wID": "13",
+            "form": "Ἀχαιοί",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mn-",
+            "head": "12",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.258",
+            "id": "Ἀχαιοί_13"
+        },
+        {
+            "wID": "14",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.258",
+            "id": "·_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὄφρα_1",
+            "target": "μήνιε_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὲν_2",
+            "target": "μήνιε_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "οὗτος_3",
+            "target": "ἀνὴρ_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἀνὴρ_4",
+            "target": "μήνιε_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀγαμέμνονι_5",
+            "target": "μήνιε_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μήνιε_6",
+            "target": "τόφρα_8",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δίῳ_7",
+            "target": "Ἀγαμέμνονι_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τόφρα_8",
+            "target": "ἦσαν_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δὲ_9",
+            "target": "ἦσαν_12",
+            "key": 0
+        },
+        {
+            "relation": "PNOM",
+            "source": "ῥηΐτεροι_10",
+            "target": "ἦσαν_12",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πολεμίζειν_11",
+            "target": "ῥηΐτεροι_10",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἦσαν_12",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀχαιοί_13",
+            "target": "ἦσαν_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἅζετο",
+            "lemma": "ἅζομαι",
+            "postag": "v3siie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.261",
+            "id": "ἅζετο_1"
+        },
+        {
+            "wID": "2",
+            "form": "γὰρ",
+            "lemma": "γάρ",
+            "postag": "g--------",
+            "head": "1",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.261",
+            "id": "γὰρ_2"
+        },
+        {
+            "wID": "3",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.261",
+            "id": "μὴ_3"
+        },
+        {
+            "wID": "4",
+            "form": "Νυκτὶ",
+            "lemma": "νύξ",
+            "postag": "n-s---fd-",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.261",
+            "id": "Νυκτὶ_4"
+        },
+        {
+            "wID": "5",
+            "form": "θοῇ",
+            "lemma": "θοός",
+            "postag": "a-s---fd-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.261",
+            "id": "θοῇ_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἀποθύμια",
+            "lemma": "ἀποθύμιος",
+            "postag": "a-p---na-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.261",
+            "id": "ἀποθύμια_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἕρδοι",
+            "lemma": "ἔρδω",
+            "postag": "v3spoa---",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.261",
+            "id": "ἕρδοι_7"
+        },
+        {
+            "wID": "8",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.261",
+            "id": "._8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "ἅζετο_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "γὰρ_2",
+            "target": "ἅζετο_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "μὴ_3",
+            "target": "ἅζετο_1",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "Νυκτὶ_4",
+            "target": "ἕρδοι_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "θοῇ_5",
+            "target": "Νυκτὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀποθύμια_6",
+            "target": "ἕρδοι_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἕρδοι_7",
+            "target": "μὴ_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

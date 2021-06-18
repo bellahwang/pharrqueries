@@ -1,0 +1,77 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἕρξον",
+            "lemma": "ἔρδω",
+            "postag": "v2sama---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.37",
+            "id": "ἕρξον_1"
+        },
+        {
+            "wID": "2",
+            "form": "ὅπως",
+            "lemma": "ὅπως",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.37",
+            "id": "ὅπως_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἐθέλεις",
+            "lemma": "ἐθέλω",
+            "postag": "v2spia---",
+            "head": "1",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.37",
+            "id": "ἐθέλεις_3"
+        },
+        {
+            "wID": "4",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.37",
+            "id": "·_4"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "ἕρξον_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὅπως_2",
+            "target": "ἐθέλεις_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐθέλεις_3",
+            "target": "ἕρξον_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_4",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,221 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "οἳ",
+            "lemma": "ὁ",
+            "postag": "p-p---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": "οἳ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": "ὡς_3"
+        },
+        {
+            "wID": "4",
+            "form": "οὖν",
+            "lemma": "οὖν",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": "οὖν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἄϊον",
+            "lemma": "ἀίω",
+            "postag": "v3piia---",
+            "head": "11",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": "ἄϊον_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὄπα",
+            "lemma": "ὄψ",
+            "postag": "n-s---fa-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": "ὄπα_6"
+        },
+        {
+            "wID": "7",
+            "form": "χάλκεον",
+            "lemma": "χάλκεος",
+            "postag": "a-s---fa-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": "χάλκεον_7"
+        },
+        {
+            "wID": "8",
+            "form": "Αἰακίδαο",
+            "lemma": "Αἰακίδης",
+            "postag": "n-s---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": "Αἰακίδαο_8"
+        },
+        {
+            "wID": "9",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.222",
+            "id": ",_9"
+        },
+        {
+            "wID": "10",
+            "form": "πᾶσιν",
+            "lemma": "πᾶς",
+            "postag": "a-p---md-",
+            "head": "11",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.223",
+            "id": "πᾶσιν_10"
+        },
+        {
+            "wID": "11",
+            "form": "ὀρίνθη",
+            "lemma": "ὀρίνω",
+            "postag": "v3saip---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.223",
+            "id": "ὀρίνθη_11"
+        },
+        {
+            "wID": "12",
+            "form": "θυμός",
+            "lemma": "θυμός",
+            "postag": "n-s---mn-",
+            "head": "11",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.223",
+            "id": "θυμός_12"
+        },
+        {
+            "wID": "13",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.223",
+            "id": "·_13"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "SBJ",
+            "source": "οἳ_1",
+            "target": "ἄϊον_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_3",
+            "target": "ἄϊον_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "οὖν_4",
+            "target": "ἄϊον_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἄϊον_5",
+            "target": "ὀρίνθη_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὄπα_6",
+            "target": "ἄϊον_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "χάλκεον_7",
+            "target": "ὄπα_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Αἰακίδαο_8",
+            "target": "ὄπα_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_9",
+            "target": "ἄϊον_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πᾶσιν_10",
+            "target": "ὀρίνθη_11",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ὀρίνθη_11",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "θυμός_12",
+            "target": "ὀρίνθη_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_13",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

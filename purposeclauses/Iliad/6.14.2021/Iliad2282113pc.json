@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.53",
+            "id": "μὴ_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἀγαθῷ",
+            "lemma": "ἀγαθός",
+            "postag": "a-s---md-",
+            "head": "4",
+            "relation": "PNOM",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.53",
+            "id": "ἀγαθῷ_2"
+        },
+        {
+            "wID": "3",
+            "form": "περ",
+            "lemma": "πέρ",
+            "postag": "g--------",
+            "head": "2",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.53",
+            "id": "περ_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐόντι",
+            "lemma": "εἰμί",
+            "postag": "v-sppamd-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.53",
+            "id": "ἐόντι_4"
+        },
+        {
+            "wID": "5",
+            "form": "νεμεσσηθέωμέν",
+            "lemma": "νεμεσάω",
+            "postag": "v1pasp---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.53",
+            "id": "νεμεσσηθέωμέν_5"
+        },
+        {
+            "wID": "6",
+            "form": "οἱ",
+            "lemma": "ἕ",
+            "postag": "p-s---md-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.53",
+            "id": "οἱ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἡμεῖς",
+            "lemma": "ἐγώ",
+            "postag": "p-p---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.53",
+            "id": "ἡμεῖς_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.53",
+            "id": "·_8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_1",
+            "target": "νεμεσσηθέωμέν_5",
+            "key": 0
+        },
+        {
+            "relation": "PNOM",
+            "source": "ἀγαθῷ_2",
+            "target": "ἐόντι_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "περ_3",
+            "target": "ἀγαθῷ_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐόντι_4",
+            "target": "οἱ_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "νεμεσσηθέωμέν_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "οἱ_6",
+            "target": "νεμεσσηθέωμέν_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἡμεῖς_7",
+            "target": "νεμεσσηθέωμέν_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

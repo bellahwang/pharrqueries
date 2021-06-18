@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἔφαθ'",
+            "lemma": "φημί",
+            "postag": "v3siie---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "ἔφαθ'_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "οἳ",
+            "lemma": "ὁ",
+            "postag": "p-p---mn-",
+            "head": "9",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "οἳ_4"
+        },
+        {
+            "wID": "5",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "δὲ_5"
+        },
+        {
+            "wID": "6",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "καὶ_6"
+        },
+        {
+            "wID": "7",
+            "form": "αὐτοὶ",
+            "lemma": "αὐτός",
+            "postag": "a-p---mn-",
+            "head": "4",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "αὐτοὶ_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀλέξασθαι",
+            "lemma": "ἀλέξω",
+            "postag": "v--anm---",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "ἀλέξασθαι_8"
+        },
+        {
+            "wID": "9",
+            "form": "μενέαινον",
+            "lemma": "μενεαίνω",
+            "postag": "v3piia---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "μενέαινον_9"
+        },
+        {
+            "wID": "10",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.562",
+            "id": "._10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔφαθ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔφαθ'_2",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "οἳ_4",
+            "target": "μενέαινον_9",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "καὶ_6",
+            "target": "αὐτοὶ_7",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "αὐτοὶ_7",
+            "target": "οἳ_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀλέξασθαι_8",
+            "target": "μενέαινον_9",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "μενέαινον_9",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

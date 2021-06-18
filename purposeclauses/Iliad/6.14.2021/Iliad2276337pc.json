@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μηκέτι",
+            "lemma": "μηκέτι",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.279",
+            "id": "μηκέτι_1"
+        },
+        {
+            "wID": "2",
+            "form": "παῖδε",
+            "lemma": "παῖς",
+            "postag": "n-d---mv-",
+            "head": "6",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.279",
+            "id": "παῖδε_2"
+        },
+        {
+            "wID": "3",
+            "form": "φίλω",
+            "lemma": "φίλος",
+            "postag": "a-d---mv-",
+            "head": "2",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.279",
+            "id": "φίλω_3"
+        },
+        {
+            "wID": "4",
+            "form": "πολεμίζετε",
+            "lemma": "πολεμίζω",
+            "postag": "v2ppma---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.279",
+            "id": "πολεμίζετε_4"
+        },
+        {
+            "wID": "5",
+            "form": "μη",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.279",
+            "id": "μη_5"
+        },
+        {
+            "wID": "6",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.279",
+            "id": "δὲ_6"
+        },
+        {
+            "wID": "7",
+            "form": "μάχεσθον",
+            "lemma": "μάχομαι",
+            "postag": "v2dpme---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.279",
+            "id": "μάχεσθον_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.279",
+            "id": "·_8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μηκέτι_1",
+            "target": "πολεμίζετε_4",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "παῖδε_2",
+            "target": "δὲ_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "φίλω_3",
+            "target": "παῖδε_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "πολεμίζετε_4",
+            "target": "δὲ_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μη_5",
+            "target": "μάχεσθον_7",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "μάχεσθον_7",
+            "target": "δὲ_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

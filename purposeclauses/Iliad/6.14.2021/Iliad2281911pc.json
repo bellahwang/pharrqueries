@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Μηριόνης",
+            "lemma": "Μηριόνης",
+            "postag": "n-s---mn-",
+            "head": "3",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.614",
+            "id": "Μηριόνης_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.614",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἀνάειρε",
+            "lemma": "ἀναείρω",
+            "postag": "v3siia---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.614",
+            "id": "ἀνάειρε_3"
+        },
+        {
+            "wID": "4",
+            "form": "δύω",
+            "lemma": "δύο",
+            "postag": "m--------",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.614",
+            "id": "δύω_4"
+        },
+        {
+            "wID": "5",
+            "form": "χρυσοῖο",
+            "lemma": "χρυσός",
+            "postag": "n-s---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.614",
+            "id": "χρυσοῖο_5"
+        },
+        {
+            "wID": "6",
+            "form": "τάλαντα",
+            "lemma": "τάλαντον",
+            "postag": "n-p---na-",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.614",
+            "id": "τάλαντα_6"
+        },
+        {
+            "wID": "7",
+            "form": "τέτρατος",
+            "lemma": "τέταρτος",
+            "postag": "a-s---mn-",
+            "head": "1",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.615",
+            "id": "τέτρατος_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "10",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.615",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.615",
+            "id": "ὡς_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἔλασεν",
+            "lemma": "ἐλαύνω",
+            "postag": "v3saia---",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.615",
+            "id": "ἔλασεν_10"
+        },
+        {
+            "wID": "11",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.615",
+            "id": "._11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "SBJ",
+            "source": "Μηριόνης_1",
+            "target": "ἀνάειρε_3",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἀνάειρε_3",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δύω_4",
+            "target": "τάλαντα_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "χρυσοῖο_5",
+            "target": "τάλαντα_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τάλαντα_6",
+            "target": "ἀνάειρε_3",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "τέτρατος_7",
+            "target": "Μηριόνης_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "ἔλασεν_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_9",
+            "target": "ἔλασεν_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἔλασεν_10",
+            "target": "ἀνάειρε_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.111",
+            "id": "ὡς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἐμὲ",
+            "lemma": "ἐγώ",
+            "postag": "p-s---ma-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.111",
+            "id": "ἐμὲ_2"
+        },
+        {
+            "wID": "3",
+            "form": "νῦν",
+            "lemma": "νῦν",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.111",
+            "id": "νῦν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐχόλωσεν",
+            "lemma": "χολόω",
+            "postag": "v3saia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.111",
+            "id": "ἐχόλωσεν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἄναξ",
+            "lemma": "ἄναξ",
+            "postag": "n-s---mn-",
+            "head": "9",
+            "relation": "SBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.111",
+            "id": "ἄναξ_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἀνδρῶν",
+            "lemma": "ἀνήρ",
+            "postag": "n-p---mg-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.111",
+            "id": "ἀνδρῶν_6"
+        },
+        {
+            "wID": "7",
+            "form": "Ἀγαμέμνων",
+            "lemma": "Ἀγαμέμνων",
+            "postag": "n-s---mn-",
+            "head": "9",
+            "relation": "SBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.111",
+            "id": "Ἀγαμέμνων_7"
+        },
+        {
+            "wID": "8",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.111",
+            "id": "._8"
+        },
+        {
+            "wID": "9",
+            "form": "[0]",
+            "head": "4",
+            "relation": "APOS",
+            "id": "[0]_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὡς_1",
+            "target": "ἐχόλωσεν_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἐμὲ_2",
+            "target": "ἐχόλωσεν_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νῦν_3",
+            "target": "ἐχόλωσεν_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἐχόλωσεν_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_AP",
+            "source": "ἄναξ_5",
+            "target": "[0]_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀνδρῶν_6",
+            "target": "ἄναξ_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_AP",
+            "source": "Ἀγαμέμνων_7",
+            "target": "[0]_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._8",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "APOS",
+            "source": "[0]_9",
+            "target": "ἐχόλωσεν_4",
+            "key": 0
+        }
+    ]
+}

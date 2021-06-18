@@ -1,0 +1,205 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "φάτο",
+            "lemma": "φημί",
+            "postag": "v3saim---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "φάτο_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "τὸν",
+            "lemma": "ὁ",
+            "postag": "p-s---ma-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "τὸν_4"
+        },
+        {
+            "wID": "5",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "δ'_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἄχος",
+            "lemma": "ἄχος",
+            "postag": "n-s---nn-",
+            "head": "10",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "ἄχος_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὀξὺ",
+            "lemma": "ὀξύς",
+            "postag": "a-s---nn-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "ὀξὺ_7"
+        },
+        {
+            "wID": "8",
+            "form": "κατὰ",
+            "lemma": "κατά",
+            "postag": "r--------",
+            "head": "10",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "κατὰ_8"
+        },
+        {
+            "wID": "9",
+            "form": "φρένα",
+            "lemma": "φρήν",
+            "postag": "n-s---fa-",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "φρένα_9"
+        },
+        {
+            "wID": "10",
+            "form": "τύψε",
+            "lemma": "τύπτω",
+            "postag": "v3saia---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "τύψε_10"
+        },
+        {
+            "wID": "11",
+            "form": "βαθεῖαν",
+            "lemma": "βαθύς",
+            "postag": "a-s---fa-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "βαθεῖαν_11"
+        },
+        {
+            "wID": "12",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.125",
+            "id": "·_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φάτο_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "φάτο_2",
+            "target": "δ'_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δ'_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τὸν_4",
+            "target": "τύψε_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἄχος_6",
+            "target": "τύψε_10",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὀξὺ_7",
+            "target": "ἄχος_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "κατὰ_8",
+            "target": "τύψε_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φρένα_9",
+            "target": "κατὰ_8",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "τύψε_10",
+            "target": "δ'_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "βαθεῖαν_11",
+            "target": "φρένα_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_12",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.153",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "οἳ",
+            "lemma": "ὁ",
+            "postag": "p-p---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.153",
+            "id": "οἳ_2"
+        },
+        {
+            "wID": "3",
+            "form": "μέν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.153",
+            "id": "μέν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ῥ'",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.153",
+            "id": "ῥ'_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἑκάτερθε",
+            "lemma": "ἑκάτερθε",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.153",
+            "id": "ἑκάτερθε_5"
+        },
+        {
+            "wID": "6",
+            "form": "καθήατο",
+            "lemma": "κάθημαι",
+            "postag": "v3plim---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.153",
+            "id": "καθήατο_6"
+        },
+        {
+            "wID": "7",
+            "form": "μητιόωντες",
+            "lemma": "μητιάω",
+            "postag": "v-pppamn-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.153",
+            "id": "μητιόωντες_7"
+        },
+        {
+            "wID": "8",
+            "form": "βουλάς",
+            "lemma": "βουλή",
+            "postag": "n-p---fa-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.154",
+            "id": "βουλάς_8"
+        },
+        {
+            "wID": "9",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.154",
+            "id": "·_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "καθήατο_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "οἳ_2",
+            "target": "καθήατο_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μέν_3",
+            "target": "καθήατο_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ῥ'_4",
+            "target": "καθήατο_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἑκάτερθε_5",
+            "target": "καθήατο_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "καθήατο_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μητιόωντες_7",
+            "target": "καθήατο_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "βουλάς_8",
+            "target": "μητιόωντες_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

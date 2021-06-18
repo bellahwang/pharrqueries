@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὥς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "ὥς_1"
+        },
+        {
+            "wID": "2",
+            "form": "πού",
+            "lemma": "πού",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "πού_2"
+        },
+        {
+            "wID": "3",
+            "form": "σε",
+            "lemma": "σύ",
+            "postag": "p-s---ma-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "σε_3"
+        },
+        {
+            "wID": "4",
+            "form": "προσέφη",
+            "lemma": "πρόσφημι",
+            "postag": "v3siia---",
+            "head": "7",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "προσέφη_4"
+        },
+        {
+            "wID": "5",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "7",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": ",_5"
+        },
+        {
+            "wID": "6",
+            "form": "σοὶ",
+            "lemma": "σύ",
+            "postag": "p-s---md-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "σοὶ_6"
+        },
+        {
+            "wID": "7",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "δὲ_7"
+        },
+        {
+            "wID": "8",
+            "form": "φρένας",
+            "lemma": "φρήν",
+            "postag": "n-p---fa-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "φρένας_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἄφρονι",
+            "lemma": "ἄφρων",
+            "postag": "a-s---md-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "ἄφρονι_9"
+        },
+        {
+            "wID": "10",
+            "form": "πεῖθε",
+            "lemma": "πείθω",
+            "postag": "v3siia---",
+            "head": "7",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "πεῖθε_10"
+        },
+        {
+            "wID": "11",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.842",
+            "id": "._11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὥς_1",
+            "target": "προσέφη_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "πού_2",
+            "target": "προσέφη_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σε_3",
+            "target": "προσέφη_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "προσέφη_4",
+            "target": "δὲ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_5",
+            "target": "δὲ_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "σοὶ_6",
+            "target": "φρένας_8",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "φρένας_8",
+            "target": "πεῖθε_10",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἄφρονι_9",
+            "target": "σοὶ_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "πεῖθε_10",
+            "target": "δὲ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

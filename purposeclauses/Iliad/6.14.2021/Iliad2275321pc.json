@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "τὸν",
+            "lemma": "ὁ",
+            "postag": "p-s---ma-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.356",
+            "id": "τὸν_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.356",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἐπιμειδήσας",
+            "lemma": "ἐπιμειδάω",
+            "postag": "v-sapamn-",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.356",
+            "id": "ἐπιμειδήσας_3"
+        },
+        {
+            "wID": "4",
+            "form": "προσέφη",
+            "lemma": "πρόσφημι",
+            "postag": "v3siia---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.356",
+            "id": "προσέφη_4"
+        },
+        {
+            "wID": "5",
+            "form": "κρείων",
+            "lemma": "κρείων",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.356",
+            "id": "κρείων_5"
+        },
+        {
+            "wID": "6",
+            "form": "Ἀγαμέμνων",
+            "lemma": "Ἀγαμέμνων",
+            "postag": "n-s---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.356",
+            "id": "Ἀγαμέμνων_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.357",
+            "id": "ὡς_7"
+        },
+        {
+            "wID": "8",
+            "form": "γνῶ",
+            "lemma": "γιγνώσκω",
+            "postag": "v3saia---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.357",
+            "id": "γνῶ_8"
+        },
+        {
+            "wID": "9",
+            "form": "χωομένοιο",
+            "lemma": "χώομαι",
+            "postag": "v-sppemg-",
+            "head": "8",
+            "relation": "AtvV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.357",
+            "id": "χωομένοιο_9"
+        },
+        {
+            "wID": "10",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.357",
+            "id": "·_10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "OBJ",
+            "source": "τὸν_1",
+            "target": "προσέφη_4",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐπιμειδήσας_3",
+            "target": "προσέφη_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "προσέφη_4",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κρείων_5",
+            "target": "Ἀγαμέμνων_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀγαμέμνων_6",
+            "target": "προσέφη_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὡς_7",
+            "target": "προσέφη_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "γνῶ_8",
+            "target": "ὡς_7",
+            "key": 0
+        },
+        {
+            "relation": "AtvV",
+            "source": "χωομένοιο_9",
+            "target": "γνῶ_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

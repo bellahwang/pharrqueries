@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.13",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἄρα",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.13",
+            "id": "ἄρα_2"
+        },
+        {
+            "wID": "3",
+            "form": "τῶν",
+            "lemma": "ὁ",
+            "postag": "p-p---mg-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.13",
+            "id": "τῶν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὑπὸ",
+            "lemma": "ὑπό",
+            "postag": "r--------",
+            "head": "7",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.13",
+            "id": "ὑπὸ_4"
+        },
+        {
+            "wID": "5",
+            "form": "ποσσὶ",
+            "lemma": "πούς",
+            "postag": "n-p---md-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.13",
+            "id": "ποσσὶ_5"
+        },
+        {
+            "wID": "6",
+            "form": "κονίσαλος",
+            "lemma": "κονίσαλος",
+            "postag": "n-s---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.13",
+            "id": "κονίσαλος_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὄρνυτ'",
+            "lemma": "ὄρνυμι",
+            "postag": "v3siie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.13",
+            "id": "ὄρνυτ'_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀελλὴς",
+            "lemma": "ἀελλής",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.13",
+            "id": "ἀελλὴς_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἐρχομένων",
+            "lemma": "ἔρχομαι",
+            "postag": "v-pppemg-",
+            "head": "3",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.14",
+            "id": "ἐρχομένων_9"
+        },
+        {
+            "wID": "10",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.14",
+            "id": "·_10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ὄρνυτ'_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρα_2",
+            "target": "ὄρνυτ'_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "τῶν_3",
+            "target": "ποσσὶ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ὑπὸ_4",
+            "target": "ὄρνυτ'_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ποσσὶ_5",
+            "target": "ὑπὸ_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "κονίσαλος_6",
+            "target": "ὄρνυτ'_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὄρνυτ'_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "ἀελλὴς_8",
+            "target": "κονίσαλος_6",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "ἐρχομένων_9",
+            "target": "τῶν_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

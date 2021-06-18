@@ -1,0 +1,269 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.568",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἔφατ'",
+            "lemma": "φημί",
+            "postag": "v3siie---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.568",
+            "id": "ἔφατ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἔδεισεν",
+            "lemma": "δείδω",
+            "postag": "v3saia---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.568",
+            "id": "ἔδεισεν_3"
+        },
+        {
+            "wID": "4",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "9",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.568",
+            "id": "δὲ_4"
+        },
+        {
+            "wID": "5",
+            "form": "βοῶπις",
+            "lemma": "βοῶπις",
+            "postag": "a-s---fn-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.568",
+            "id": "βοῶπις_5"
+        },
+        {
+            "wID": "6",
+            "form": "πότνια",
+            "lemma": "πότνια",
+            "postag": "a-s---fn-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.568",
+            "id": "πότνια_6"
+        },
+        {
+            "wID": "7",
+            "form": "Ἥρη",
+            "lemma": "Ἥρα",
+            "postag": "n-s---fn-",
+            "head": "3",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.568",
+            "id": "Ἥρη_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.568",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "καί",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.569",
+            "id": "καί_9"
+        },
+        {
+            "wID": "10",
+            "form": "ῥ'",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "12",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.569",
+            "id": "ῥ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἀκέουσα",
+            "lemma": "ἀκέων",
+            "postag": "a-s---fn-",
+            "head": "12",
+            "relation": "AtvV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.569",
+            "id": "ἀκέουσα_11"
+        },
+        {
+            "wID": "12",
+            "form": "καθῆστο",
+            "lemma": "κάθημαι",
+            "postag": "v3slim---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.569",
+            "id": "καθῆστο_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἐπιγνάμψασα",
+            "lemma": "ἐπιγνάμπτω",
+            "postag": "v-sapafn-",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.569",
+            "id": "ἐπιγνάμψασα_13"
+        },
+        {
+            "wID": "14",
+            "form": "φίλον",
+            "lemma": "φίλος",
+            "postag": "a-s---na-",
+            "head": "15",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.569",
+            "id": "φίλον_14"
+        },
+        {
+            "wID": "15",
+            "form": "κῆρ",
+            "lemma": "κῆρ",
+            "postag": "n-s---na-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.569",
+            "id": "κῆρ_15"
+        },
+        {
+            "wID": "16",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.569",
+            "id": "·_16"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔφατ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔφατ'_2",
+            "target": "καί_9",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔδεισεν_3",
+            "target": "καί_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δὲ_4",
+            "target": "καί_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "βοῶπις_5",
+            "target": "Ἥρη_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πότνια_6",
+            "target": "Ἥρη_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἥρη_7",
+            "target": "ἔδεισεν_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "καί_9",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καί_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ῥ'_10",
+            "target": "καθῆστο_12",
+            "key": 0
+        },
+        {
+            "relation": "AtvV",
+            "source": "ἀκέουσα_11",
+            "target": "καθῆστο_12",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "καθῆστο_12",
+            "target": "καί_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐπιγνάμψασα_13",
+            "target": "καθῆστο_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "φίλον_14",
+            "target": "κῆρ_15",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κῆρ_15",
+            "target": "ἐπιγνάμψασα_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_16",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

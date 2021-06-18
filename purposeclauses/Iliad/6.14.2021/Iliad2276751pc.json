@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.8",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἐδαΐζετο",
+            "lemma": "δαίζω",
+            "postag": "v3siie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.8",
+            "id": "ἐδαΐζετο_2"
+        },
+        {
+            "wID": "3",
+            "form": "θυμὸς",
+            "lemma": "θυμός",
+            "postag": "n-s---mn-",
+            "head": "2",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.8",
+            "id": "θυμὸς_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐνὶ",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "3",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.8",
+            "id": "ἐνὶ_4"
+        },
+        {
+            "wID": "5",
+            "form": "στήθεσσιν",
+            "lemma": "στῆθος",
+            "postag": "n-p---nd-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.8",
+            "id": "στήθεσσιν_5"
+        },
+        {
+            "wID": "6",
+            "form": "Ἀχαιῶν",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mg-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.8",
+            "id": "Ἀχαιῶν_6"
+        },
+        {
+            "wID": "7",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.8",
+            "id": "._7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἐδαΐζετο_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἐδαΐζετο_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "θυμὸς_3",
+            "target": "ἐδαΐζετο_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐνὶ_4",
+            "target": "θυμὸς_3",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "στήθεσσιν_5",
+            "target": "ἐνὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀχαιῶν_6",
+            "target": "θυμὸς_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

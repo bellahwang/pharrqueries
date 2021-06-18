@@ -1,0 +1,285 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "τόφρα",
+            "lemma": "τόφρα",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "τόφρα_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἐπὶ",
+            "lemma": "ἐπί",
+            "postag": "r--------",
+            "head": "5",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "ἐπὶ_3"
+        },
+        {
+            "wID": "4",
+            "form": "Τρώεσσι",
+            "lemma": "Τρώς",
+            "postag": "n-p---md-",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "Τρώεσσι_4"
+        },
+        {
+            "wID": "5",
+            "form": "τίθει",
+            "lemma": "τίθημι",
+            "postag": "v2spma---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "τίθει_5"
+        },
+        {
+            "wID": "6",
+            "form": "κράτος",
+            "lemma": "κράτος",
+            "postag": "n-s---na-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "κράτος_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὄφρ'",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "5",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "ὄφρ'_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἂν",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "14",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "ἂν_8"
+        },
+        {
+            "wID": "9",
+            "form": "Ἀχαιοὶ",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mn-",
+            "head": "14",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.509",
+            "id": "Ἀχαιοὶ_9"
+        },
+        {
+            "wID": "10",
+            "form": "υἱὸν",
+            "lemma": "υἱός",
+            "postag": "n-s---ma-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.510",
+            "id": "υἱὸν_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἐμὸν",
+            "lemma": "ἐμός",
+            "postag": "a-s---ma-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.510",
+            "id": "ἐμὸν_11"
+        },
+        {
+            "wID": "12",
+            "form": "τίσωσιν",
+            "lemma": "τίνω",
+            "postag": "v3pasa---",
+            "head": "14",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.510",
+            "id": "τίσωσιν_12"
+        },
+        {
+            "wID": "13",
+            "form": "ὀφέλλωσίν",
+            "lemma": "ὀφέλλω",
+            "postag": "v3pasa---",
+            "head": "14",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.510",
+            "id": "ὀφέλλωσίν_13"
+        },
+        {
+            "wID": "14",
+            "form": "τέ",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.510",
+            "id": "τέ_14"
+        },
+        {
+            "wID": "15",
+            "form": "ἑ",
+            "lemma": "ἕ",
+            "postag": "p-s---ma-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.510",
+            "id": "ἑ_15"
+        },
+        {
+            "wID": "16",
+            "form": "τιμῇ",
+            "lemma": "τιμή",
+            "postag": "n-s---fd-",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.510",
+            "id": "τιμῇ_16"
+        },
+        {
+            "wID": "17",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.510",
+            "id": "._17"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "τόφρα_1",
+            "target": "τίθει_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐπὶ_3",
+            "target": "τίθει_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Τρώεσσι_4",
+            "target": "ἐπὶ_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "τίθει_5",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κράτος_6",
+            "target": "τίθει_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρ'_7",
+            "target": "τίθει_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἂν_8",
+            "target": "τέ_14",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀχαιοὶ_9",
+            "target": "τέ_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "υἱὸν_10",
+            "target": "τίσωσιν_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐμὸν_11",
+            "target": "υἱὸν_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "τίσωσιν_12",
+            "target": "τέ_14",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "ὀφέλλωσίν_13",
+            "target": "τέ_14",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "τέ_14",
+            "target": "ὄφρ'_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἑ_15",
+            "target": "ὀφέλλωσίν_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τιμῇ_16",
+            "target": "ὀφέλλωσίν_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._17",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

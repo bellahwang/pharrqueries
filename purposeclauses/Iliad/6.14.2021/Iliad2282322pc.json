@@ -1,0 +1,205 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "φάτο",
+            "lemma": "φημί",
+            "postag": "v3saim---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "φάτο_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "γήθησεν",
+            "lemma": "γηθέω",
+            "postag": "v3saia---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "γήθησεν_4"
+        },
+        {
+            "wID": "5",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "9",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "δ'_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὃ",
+            "lemma": "ὁ",
+            "postag": "l-s---mn-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "ὃ_6"
+        },
+        {
+            "wID": "7",
+            "form": "γέρων",
+            "lemma": "γέρων",
+            "postag": "n-s---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "γέρων_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "καὶ_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἀμείβετο",
+            "lemma": "ἀμείβω",
+            "postag": "v3siie---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "ἀμείβετο_10"
+        },
+        {
+            "wID": "11",
+            "form": "μύθῳ",
+            "lemma": "μῦθος",
+            "postag": "n-s---md-",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "μύθῳ_11"
+        },
+        {
+            "wID": "12",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.424",
+            "id": "·_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φάτο_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "φάτο_2",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "γήθησεν_4",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δ'_5",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὃ_6",
+            "target": "γέρων_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "γέρων_7",
+            "target": "γήθησεν_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἀμείβετο_10",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μύθῳ_11",
+            "target": "ἀμείβετο_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_12",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

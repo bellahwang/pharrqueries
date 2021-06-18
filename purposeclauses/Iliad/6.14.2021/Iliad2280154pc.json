@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.138",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἄρα",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "3",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.138",
+            "id": "ἄρα_2"
+        },
+        {
+            "wID": "3",
+            "form": "φωνήσασα",
+            "lemma": "φωνέω",
+            "postag": "v-sapafn-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.138",
+            "id": "φωνήσασα_3"
+        },
+        {
+            "wID": "4",
+            "form": "πάλιν",
+            "lemma": "πάλιν",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.138",
+            "id": "πάλιν_4"
+        },
+        {
+            "wID": "5",
+            "form": "τράπεθ'",
+            "lemma": "τρέπω",
+            "postag": "v3saim---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.138",
+            "id": "τράπεθ'_5"
+        },
+        {
+            "wID": "6",
+            "form": "υἷος",
+            "lemma": "υἱός",
+            "postag": "n-s---mg-",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.138",
+            "id": "υἷος_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἑοῖο",
+            "lemma": "ἑός",
+            "postag": "a-s---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.138",
+            "id": "ἑοῖο_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.138",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.139",
+            "id": "καὶ_9"
+        },
+        {
+            "wID": "10",
+            "form": "στρεφθεῖσ'",
+            "lemma": "στρέφω",
+            "postag": "v-sappfn-",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.139",
+            "id": "στρεφθεῖσ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἁλίῃσι",
+            "lemma": "ἅλιος",
+            "postag": "a-p---fd-",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.139",
+            "id": "ἁλίῃσι_11"
+        },
+        {
+            "wID": "12",
+            "form": "κασιγνήτῃσι",
+            "lemma": "κασιγνήτη",
+            "postag": "n-p---fd-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.139",
+            "id": "κασιγνήτῃσι_12"
+        },
+        {
+            "wID": "13",
+            "form": "μετηύδα",
+            "lemma": "μεταυδάω",
+            "postag": "v3siia---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.139",
+            "id": "μετηύδα_13"
+        },
+        {
+            "wID": "14",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.139",
+            "id": "·_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φωνήσασα_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρα_2",
+            "target": "φωνήσασα_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φωνήσασα_3",
+            "target": "τράπεθ'_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πάλιν_4",
+            "target": "τράπεθ'_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "τράπεθ'_5",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "υἷος_6",
+            "target": "πάλιν_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἑοῖο_7",
+            "target": "υἷος_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "στρεφθεῖσ'_10",
+            "target": "μετηύδα_13",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἁλίῃσι_11",
+            "target": "κασιγνήτῃσι_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κασιγνήτῃσι_12",
+            "target": "μετηύδα_13",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "μετηύδα_13",
+            "target": "καὶ_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

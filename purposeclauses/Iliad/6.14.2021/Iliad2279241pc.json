@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "μὴ_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἐμέ",
+            "lemma": "ἐγώ",
+            "postag": "p-s---ma-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "ἐμέ_2"
+        },
+        {
+            "wID": "3",
+            "form": "γ'",
+            "lemma": "γε",
+            "postag": "g--------",
+            "head": "2",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "γ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "οὖν",
+            "lemma": "οὖν",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "οὖν_4"
+        },
+        {
+            "wID": "5",
+            "form": "οὗτός",
+            "lemma": "οὗτος",
+            "postag": "a-s---mn-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "οὗτός_5"
+        },
+        {
+            "wID": "6",
+            "form": "γε",
+            "lemma": "γε",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "γε_6"
+        },
+        {
+            "wID": "7",
+            "form": "λάβοι",
+            "lemma": "λαμβάνω",
+            "postag": "v3saoa---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "λάβοι_7"
+        },
+        {
+            "wID": "8",
+            "form": "χόλος",
+            "lemma": "χόλος",
+            "postag": "n-s---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "χόλος_8"
+        },
+        {
+            "wID": "9",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "12",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": ",_9"
+        },
+        {
+            "wID": "10",
+            "form": "ὃν",
+            "lemma": "ὅς",
+            "postag": "p-s---ma-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "ὃν_10"
+        },
+        {
+            "wID": "11",
+            "form": "σὺ",
+            "lemma": "σύ",
+            "postag": "p-s---mn-",
+            "head": "12",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "σὺ_11"
+        },
+        {
+            "wID": "12",
+            "form": "φυλάσσεις",
+            "lemma": "φυλάσσω",
+            "postag": "v2spia---",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.30",
+            "id": "φυλάσσεις_12"
+        },
+        {
+            "wID": "13",
+            "form": "αἰναρέτη",
+            "lemma": "αἰναρέτης",
+            "postag": "n-s---mv-",
+            "head": "12",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.31",
+            "id": "αἰναρέτη_13"
+        },
+        {
+            "wID": "14",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.31",
+            "id": "·_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_1",
+            "target": "λάβοι_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἐμέ_2",
+            "target": "λάβοι_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "γ'_3",
+            "target": "ἐμέ_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "οὖν_4",
+            "target": "λάβοι_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "οὗτός_5",
+            "target": "χόλος_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "γε_6",
+            "target": "οὗτός_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "λάβοι_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "χόλος_8",
+            "target": "λάβοι_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_9",
+            "target": "φυλάσσεις_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὃν_10",
+            "target": "φυλάσσεις_12",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "σὺ_11",
+            "target": "φυλάσσεις_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "φυλάσσεις_12",
+            "target": "χόλος_8",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "αἰναρέτη_13",
+            "target": "φυλάσσεις_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

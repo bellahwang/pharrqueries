@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.556",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "Αἴας",
+            "lemma": "Αἴας",
+            "postag": "n-s---mn-",
+            "head": "8",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.556",
+            "id": "Αἴας_2"
+        },
+        {
+            "wID": "3",
+            "form": "τότ'",
+            "lemma": "τότε",
+            "postag": "d--------",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.556",
+            "id": "τότ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἀπὸ",
+            "lemma": "ἀπό",
+            "postag": "r--------",
+            "head": "8",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.556",
+            "id": "ἀπὸ_4"
+        },
+        {
+            "wID": "5",
+            "form": "Τρώων",
+            "lemma": "τρώς",
+            "postag": "n-p----g-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.556",
+            "id": "Τρώων_5"
+        },
+        {
+            "wID": "6",
+            "form": "τετιημένος",
+            "lemma": "τετίημαι",
+            "postag": "v-srpemn-",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.556",
+            "id": "τετιημένος_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἦτορ",
+            "lemma": "ἦτορ",
+            "postag": "n-s---na-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.556",
+            "id": "ἦτορ_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἤϊε",
+            "lemma": "εἶμι",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.557",
+            "id": "ἤϊε_8"
+        },
+        {
+            "wID": "9",
+            "form": "πόλλ'",
+            "lemma": "πολύς",
+            "postag": "a-p---na-",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.557",
+            "id": "πόλλ'_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἀέκων",
+            "lemma": "ἀέκων",
+            "postag": "a-s---mn-",
+            "head": "2",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.557",
+            "id": "ἀέκων_10"
+        },
+        {
+            "wID": "11",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.557",
+            "id": "·_11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἤϊε_8",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Αἴας_2",
+            "target": "ἤϊε_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τότ'_3",
+            "target": "ἤϊε_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἀπὸ_4",
+            "target": "ἤϊε_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Τρώων_5",
+            "target": "ἀπὸ_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τετιημένος_6",
+            "target": "ἤϊε_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἦτορ_7",
+            "target": "τετιημένος_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἤϊε_8",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πόλλ'_9",
+            "target": "ἀέκων_10",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "ἀέκων_10",
+            "target": "Αἴας_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

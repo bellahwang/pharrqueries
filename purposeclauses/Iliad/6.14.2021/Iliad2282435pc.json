@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "λέξον",
+            "lemma": "λέγω",
+            "postag": "v2sama---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": "λέξον_1"
+        },
+        {
+            "wID": "2",
+            "form": "νῦν",
+            "lemma": "νῦν",
+            "postag": "d--------",
+            "head": "1",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": "νῦν_2"
+        },
+        {
+            "wID": "3",
+            "form": "με",
+            "lemma": "ἐγώ",
+            "postag": "p-s---ma-",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": "με_3"
+        },
+        {
+            "wID": "4",
+            "form": "τάχιστα",
+            "lemma": "ταχύς",
+            "postag": "a-p---nas",
+            "head": "1",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": "τάχιστα_4"
+        },
+        {
+            "wID": "5",
+            "form": "διοτρεφές",
+            "lemma": "Διοτρεφής",
+            "postag": "a-s---mv-",
+            "head": "1",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": "διοτρεφές_5"
+        },
+        {
+            "wID": "6",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "7",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": ",_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὄφρα",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": "ὄφρα_7"
+        },
+        {
+            "wID": "8",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": "καὶ_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἤδη",
+            "lemma": "ἤδη",
+            "postag": "d--------",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.635",
+            "id": "ἤδη_9"
+        },
+        {
+            "wID": "10",
+            "form": "ὕπνῳ",
+            "lemma": "ὕπνος",
+            "postag": "n-s---md-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.636",
+            "id": "ὕπνῳ_10"
+        },
+        {
+            "wID": "11",
+            "form": "ὕπο",
+            "lemma": "ὑπό",
+            "postag": "r--------",
+            "head": "14",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.636",
+            "id": "ὕπο_11"
+        },
+        {
+            "wID": "12",
+            "form": "γλυκερῷ",
+            "lemma": "γλυκύς",
+            "postag": "a-s---md-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.636",
+            "id": "γλυκερῷ_12"
+        },
+        {
+            "wID": "13",
+            "form": "ταρπώμεθα",
+            "lemma": "τέρπω",
+            "postag": "v1pase---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.636",
+            "id": "ταρπώμεθα_13"
+        },
+        {
+            "wID": "14",
+            "form": "κοιμηθέντες",
+            "lemma": "κοιμάω",
+            "postag": "v-pappmn-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.636",
+            "id": "κοιμηθέντες_14"
+        },
+        {
+            "wID": "15",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.636",
+            "id": "·_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "λέξον_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νῦν_2",
+            "target": "λέξον_1",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "με_3",
+            "target": "λέξον_1",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τάχιστα_4",
+            "target": "λέξον_1",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "διοτρεφές_5",
+            "target": "λέξον_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_6",
+            "target": "ὄφρα_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρα_7",
+            "target": "λέξον_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "καὶ_8",
+            "target": "ἤδη_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἤδη_9",
+            "target": "ταρπώμεθα_13",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὕπνῳ_10",
+            "target": "ὕπο_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ὕπο_11",
+            "target": "κοιμηθέντες_14",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "γλυκερῷ_12",
+            "target": "ὕπνῳ_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ταρπώμεθα_13",
+            "target": "ὄφρα_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κοιμηθέντες_14",
+            "target": "ταρπώμεθα_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

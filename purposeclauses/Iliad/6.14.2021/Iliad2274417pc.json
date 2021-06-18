@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἥρη",
+            "lemma": "Ἥρα",
+            "postag": "n-s---fv-",
+            "head": "6",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.545",
+            "id": "Ἥρη_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.545",
+            "id": "μὴ_2"
+        },
+        {
+            "wID": "3",
+            "form": "δὴ",
+            "lemma": "δή",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.545",
+            "id": "δὴ_3"
+        },
+        {
+            "wID": "4",
+            "form": "πάντας",
+            "lemma": "πᾶς",
+            "postag": "a-p---ma-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.545",
+            "id": "πάντας_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἐμοὺς",
+            "lemma": "ἐμός",
+            "postag": "a-p---ma-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.545",
+            "id": "ἐμοὺς_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐπιέλπεο",
+            "lemma": "ἐπέλπομαι",
+            "postag": "v2spme---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.545",
+            "id": "ἐπιέλπεο_6"
+        },
+        {
+            "wID": "7",
+            "form": "μύθους",
+            "lemma": "μῦθος",
+            "postag": "n-p---ma-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.545",
+            "id": "μύθους_7"
+        },
+        {
+            "wID": "8",
+            "form": "εἰδήσειν",
+            "lemma": "οἶδα",
+            "postag": "v--fna---",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.546",
+            "id": "εἰδήσειν_8"
+        },
+        {
+            "wID": "9",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.546",
+            "id": "·_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Ἥρη_1",
+            "target": "ἐπιέλπεο_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_2",
+            "target": "ἐπιέλπεο_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δὴ_3",
+            "target": "ἐπιέλπεο_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πάντας_4",
+            "target": "μύθους_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐμοὺς_5",
+            "target": "μύθους_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἐπιέλπεο_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μύθους_7",
+            "target": "εἰδήσειν_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "εἰδήσειν_8",
+            "target": "ἐπιέλπεο_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

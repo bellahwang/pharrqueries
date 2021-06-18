@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.96",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "Ἕκτωρ",
+            "lemma": "Ἕκτωρ",
+            "postag": "n-s---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.96",
+            "id": "Ἕκτωρ_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄσβεστον",
+            "lemma": "ἄσβεστος",
+            "postag": "a-s---na-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.96",
+            "id": "ἄσβεστον_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἔχων",
+            "lemma": "ἔχω",
+            "postag": "v-sppamn-",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.96",
+            "id": "ἔχων_4"
+        },
+        {
+            "wID": "5",
+            "form": "μένος",
+            "lemma": "μένος",
+            "postag": "n-s---na-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.96",
+            "id": "μένος_5"
+        },
+        {
+            "wID": "6",
+            "form": "οὐχ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.96",
+            "id": "οὐχ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὑπεχώρει",
+            "lemma": "ὑποχωρέω",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.96",
+            "id": "ὑπεχώρει_7"
+        },
+        {
+            "wID": "8",
+            "form": "πύργῳ",
+            "lemma": "πύργος",
+            "postag": "n-s---md-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.97",
+            "id": "πύργῳ_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἔπι",
+            "lemma": "ἐπί",
+            "postag": "r--------",
+            "head": "13",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.97",
+            "id": "ἔπι_9"
+        },
+        {
+            "wID": "10",
+            "form": "προὔχοντι",
+            "lemma": "προέχω",
+            "postag": "v-sppamd-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.97",
+            "id": "προὔχοντι_10"
+        },
+        {
+            "wID": "11",
+            "form": "φαεινὴν",
+            "lemma": "φαεινός",
+            "postag": "a-s---fa-",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.97",
+            "id": "φαεινὴν_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἀσπίδ'",
+            "lemma": "ἀσπίς",
+            "postag": "n-s---fa-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.97",
+            "id": "ἀσπίδ'_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἐρείσας",
+            "lemma": "ἐρείδω",
+            "postag": "v-sapamn-",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.97",
+            "id": "ἐρείσας_13"
+        },
+        {
+            "wID": "14",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.97",
+            "id": "·_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ὑπεχώρει_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἕκτωρ_2",
+            "target": "ὑπεχώρει_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἄσβεστον_3",
+            "target": "μένος_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἔχων_4",
+            "target": "ὑπεχώρει_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μένος_5",
+            "target": "ἔχων_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὐχ_6",
+            "target": "ὑπεχώρει_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὑπεχώρει_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πύργῳ_8",
+            "target": "ἔπι_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἔπι_9",
+            "target": "ἐρείσας_13",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "προὔχοντι_10",
+            "target": "πύργῳ_8",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "φαεινὴν_11",
+            "target": "ἀσπίδ'_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀσπίδ'_12",
+            "target": "ἐρείσας_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐρείσας_13",
+            "target": "ὑπεχώρει_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

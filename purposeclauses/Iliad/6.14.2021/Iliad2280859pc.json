@@ -1,0 +1,413 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἕκτορ",
+            "lemma": "Ἕκτωρ",
+            "postag": "n-s---mv-",
+            "head": "5",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.376",
+            "id": "Ἕκτορ_1"
+        },
+        {
+            "wID": "2",
+            "form": "μηκέτι",
+            "lemma": "μηκέτι",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.376",
+            "id": "μηκέτι_2"
+        },
+        {
+            "wID": "3",
+            "form": "πάμπαν",
+            "lemma": "πάμπαν",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.376",
+            "id": "πάμπαν_3"
+        },
+        {
+            "wID": "4",
+            "form": "Ἀχιλλῆϊ",
+            "lemma": "Ἀχιλλεύς",
+            "postag": "n-s---md-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.376",
+            "id": "Ἀχιλλῆϊ_4"
+        },
+        {
+            "wID": "5",
+            "form": "προμάχιζε",
+            "lemma": "προμαχίζω",
+            "postag": "v2spma---",
+            "head": "7",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.376",
+            "id": "προμάχιζε_5"
+        },
+        {
+            "wID": "6",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "7",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.376",
+            "id": ",_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀλλὰ",
+            "lemma": "ἀλλά",
+            "postag": "c--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": "ἀλλὰ_7"
+        },
+        {
+            "wID": "8",
+            "form": "κατὰ",
+            "lemma": "κατά",
+            "postag": "r--------",
+            "head": "11",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": "κατὰ_8"
+        },
+        {
+            "wID": "9",
+            "form": "πληθύν",
+            "lemma": "πληθύς",
+            "postag": "n-s---fa-",
+            "head": "8",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": "πληθύν_9"
+        },
+        {
+            "wID": "10",
+            "form": "τε",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "11",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": "τε_10"
+        },
+        {
+            "wID": "11",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "14",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": "καὶ_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἐκ",
+            "lemma": "ἐκ",
+            "postag": "r--------",
+            "head": "11",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": "ἐκ_12"
+        },
+        {
+            "wID": "13",
+            "form": "φλοίσβοιο",
+            "lemma": "φλοῖσβος",
+            "postag": "n-s---mg-",
+            "head": "12",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": "φλοίσβοιο_13"
+        },
+        {
+            "wID": "14",
+            "form": "δέδεξο",
+            "lemma": "δέχομαι",
+            "postag": "v2srme---",
+            "head": "7",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": "δέδεξο_14"
+        },
+        {
+            "wID": "15",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "16",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.377",
+            "id": ",_15"
+        },
+        {
+            "wID": "16",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "14",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "μή_16"
+        },
+        {
+            "wID": "17",
+            "form": "πώς",
+            "lemma": "πῶς",
+            "postag": "d--------",
+            "head": "21",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "πώς_17"
+        },
+        {
+            "wID": "18",
+            "form": "σ'",
+            "lemma": "σύ",
+            "postag": "p-s---ma-",
+            "head": "21",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "σ'_18"
+        },
+        {
+            "wID": "19",
+            "form": "ἠὲ",
+            "lemma": "ἤ",
+            "postag": "c--------",
+            "head": "21",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "ἠὲ_19"
+        },
+        {
+            "wID": "20",
+            "form": "βάλῃ",
+            "lemma": "βάλλω",
+            "postag": "v3sasa---",
+            "head": "21",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "βάλῃ_20"
+        },
+        {
+            "wID": "21",
+            "form": "ἠὲ",
+            "lemma": "ἤ",
+            "postag": "c--------",
+            "head": "16",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "ἠὲ_21"
+        },
+        {
+            "wID": "22",
+            "form": "σχεδὸν",
+            "lemma": "σχεδόν",
+            "postag": "d--------",
+            "head": "24",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "σχεδὸν_22"
+        },
+        {
+            "wID": "23",
+            "form": "ἄορι",
+            "lemma": "ἄορ",
+            "postag": "n-s---nd-",
+            "head": "24",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "ἄορι_23"
+        },
+        {
+            "wID": "24",
+            "form": "τύψῃ",
+            "lemma": "τύπτω",
+            "postag": "v3sasa---",
+            "head": "21",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "τύψῃ_24"
+        },
+        {
+            "wID": "25",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.378",
+            "id": "._25"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Ἕκτορ_1",
+            "target": "προμάχιζε_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μηκέτι_2",
+            "target": "προμάχιζε_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πάμπαν_3",
+            "target": "προμάχιζε_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀχιλλῆϊ_4",
+            "target": "προμάχιζε_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "προμάχιζε_5",
+            "target": "ἀλλὰ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_6",
+            "target": "ἀλλὰ_7",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "ἀλλὰ_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "κατὰ_8",
+            "target": "καὶ_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "πληθύν_9",
+            "target": "κατὰ_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "τε_10",
+            "target": "καὶ_11",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_11",
+            "target": "δέδεξο_14",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐκ_12",
+            "target": "καὶ_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "φλοίσβοιο_13",
+            "target": "ἐκ_12",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "δέδεξο_14",
+            "target": "ἀλλὰ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_15",
+            "target": "μή_16",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "μή_16",
+            "target": "δέδεξο_14",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πώς_17",
+            "target": "ἠὲ_21",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σ'_18",
+            "target": "ἠὲ_21",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἠὲ_19",
+            "target": "ἠὲ_21",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "βάλῃ_20",
+            "target": "ἠὲ_21",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "ἠὲ_21",
+            "target": "μή_16",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "σχεδὸν_22",
+            "target": "τύψῃ_24",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἄορι_23",
+            "target": "τύψῃ_24",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "τύψῃ_24",
+            "target": "ἠὲ_21",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._25",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

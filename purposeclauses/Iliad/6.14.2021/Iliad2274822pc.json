@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀνδρῶν",
+            "lemma": "ἀνήρ",
+            "postag": "n-p---mg-",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.768",
+            "id": "ἀνδρῶν_1"
+        },
+        {
+            "wID": "2",
+            "form": "αὖ",
+            "lemma": "αὖ",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.768",
+            "id": "αὖ_2"
+        },
+        {
+            "wID": "3",
+            "form": "μέγ'",
+            "lemma": "μέγας",
+            "postag": "a-s---na-",
+            "head": "4",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.768",
+            "id": "μέγ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἄριστος",
+            "lemma": "ἄριστος",
+            "postag": "a-s---mns",
+            "head": "5",
+            "relation": "PNOM",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.768",
+            "id": "ἄριστος_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἔην",
+            "lemma": "εἰμί",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.768",
+            "id": "ἔην_5"
+        },
+        {
+            "wID": "6",
+            "form": "Τελαμώνιος",
+            "lemma": "Τελαμών",
+            "postag": "a-s---mn-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.768",
+            "id": "Τελαμώνιος_6"
+        },
+        {
+            "wID": "7",
+            "form": "Αἴας",
+            "lemma": "Αἴας",
+            "postag": "n-s---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.768",
+            "id": "Αἴας_7"
+        },
+        {
+            "wID": "8",
+            "form": "ὄφρ'",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "5",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.769",
+            "id": "ὄφρ'_8"
+        },
+        {
+            "wID": "9",
+            "form": "Ἀχιλεὺς",
+            "lemma": "Ἀχιλλεύς",
+            "postag": "n-s---mn-",
+            "head": "10",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.769",
+            "id": "Ἀχιλεὺς_9"
+        },
+        {
+            "wID": "10",
+            "form": "μήνιεν",
+            "lemma": "μηνίω",
+            "postag": "v3siia---",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.769",
+            "id": "μήνιεν_10"
+        },
+        {
+            "wID": "11",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.769",
+            "id": "·_11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ἀνδρῶν_1",
+            "target": "ἄριστος_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "αὖ_2",
+            "target": "ἔην_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μέγ'_3",
+            "target": "ἄριστος_4",
+            "key": 0
+        },
+        {
+            "relation": "PNOM",
+            "source": "ἄριστος_4",
+            "target": "ἔην_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἔην_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Τελαμώνιος_6",
+            "target": "Αἴας_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Αἴας_7",
+            "target": "ἔην_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρ'_8",
+            "target": "ἔην_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀχιλεὺς_9",
+            "target": "μήνιεν_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μήνιεν_10",
+            "target": "ὄφρ'_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

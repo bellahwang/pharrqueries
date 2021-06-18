@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.438",
+            "id": "μή_1"
+        },
+        {
+            "wID": "2",
+            "form": "με",
+            "lemma": "ἐγώ",
+            "postag": "p-s---ma-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.438",
+            "id": "με_2"
+        },
+        {
+            "wID": "3",
+            "form": "γύναι",
+            "lemma": "γυνή",
+            "postag": "n-s---fv-",
+            "head": "7",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.438",
+            "id": "γύναι_3"
+        },
+        {
+            "wID": "4",
+            "form": "χαλεποῖσιν",
+            "lemma": "χαλεπός",
+            "postag": "a-p---nd-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.438",
+            "id": "χαλεποῖσιν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ὀνείδεσι",
+            "lemma": "ὄνειδος",
+            "postag": "n-p---nd-",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.438",
+            "id": "ὀνείδεσι_5"
+        },
+        {
+            "wID": "6",
+            "form": "θυμὸν",
+            "lemma": "θυμός",
+            "postag": "n-s---ma-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.438",
+            "id": "θυμὸν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἔνιπτε",
+            "lemma": "ἐνίπτω",
+            "postag": "v2spma---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.438",
+            "id": "ἔνιπτε_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.438",
+            "id": "·_8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μή_1",
+            "target": "ἔνιπτε_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "με_2",
+            "target": "ἔνιπτε_7",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "γύναι_3",
+            "target": "ἔνιπτε_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "χαλεποῖσιν_4",
+            "target": "ὀνείδεσι_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὀνείδεσι_5",
+            "target": "ἔνιπτε_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "θυμὸν_6",
+            "target": "ἔνιπτε_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἔνιπτε_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

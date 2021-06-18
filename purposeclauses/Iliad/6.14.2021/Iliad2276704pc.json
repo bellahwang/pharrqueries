@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "βουλὴν",
+            "lemma": "βουλή",
+            "postag": "n-s---fa-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.467",
+            "id": "βουλὴν_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.467",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "Ἀργείοις",
+            "lemma": "Ἀργεῖος",
+            "postag": "a-p---md-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.467",
+            "id": "Ἀργείοις_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὑποθησόμεθ'",
+            "lemma": "ὑποτίθημι",
+            "postag": "v1pfim---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.467",
+            "id": "ὑποθησόμεθ'_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἥ",
+            "lemma": "ὅς",
+            "postag": "p-s---fn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.467",
+            "id": "ἥ_5"
+        },
+        {
+            "wID": "6",
+            "form": "τις",
+            "lemma": "τις",
+            "postag": "p-s---fn-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.467",
+            "id": "τις_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὀνήσει",
+            "lemma": "ὀνίνημι",
+            "postag": "v3sfia---",
+            "head": "1",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.467",
+            "id": "ὀνήσει_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.467",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.468",
+            "id": "ὡς_9"
+        },
+        {
+            "wID": "10",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "12",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.468",
+            "id": "μὴ_10"
+        },
+        {
+            "wID": "11",
+            "form": "πάντες",
+            "lemma": "πᾶς",
+            "postag": "a-p---mn-",
+            "head": "12",
+            "relation": "AtvV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.468",
+            "id": "πάντες_11"
+        },
+        {
+            "wID": "12",
+            "form": "ὄλωνται",
+            "lemma": "ὄλλυμι",
+            "postag": "v3pasm---",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.468",
+            "id": "ὄλωνται_12"
+        },
+        {
+            "wID": "13",
+            "form": "ὀδυσσαμένοιο",
+            "lemma": "ὀδύσσομαι",
+            "postag": "v-sapmmg-",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.468",
+            "id": "ὀδυσσαμένοιο_13"
+        },
+        {
+            "wID": "14",
+            "form": "τεοῖο",
+            "lemma": "σύ",
+            "postag": "p-s----g-",
+            "head": "13",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.468",
+            "id": "τεοῖο_14"
+        },
+        {
+            "wID": "15",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.468",
+            "id": "._15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "OBJ",
+            "source": "βουλὴν_1",
+            "target": "ὑποθησόμεθ'_4",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀργείοις_3",
+            "target": "ὑποθησόμεθ'_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ὑποθησόμεθ'_4",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἥ_5",
+            "target": "ὀνήσει_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "τις_6",
+            "target": "ἥ_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὀνήσει_7",
+            "target": "βουλὴν_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "ὡς_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὡς_9",
+            "target": "ὑποθησόμεθ'_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_10",
+            "target": "ὄλωνται_12",
+            "key": 0
+        },
+        {
+            "relation": "AtvV",
+            "source": "πάντες_11",
+            "target": "ὄλωνται_12",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὄλωνται_12",
+            "target": "ὡς_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὀδυσσαμένοιο_13",
+            "target": "ὄλωνται_12",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "τεοῖο_14",
+            "target": "ὀδυσσαμένοιο_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

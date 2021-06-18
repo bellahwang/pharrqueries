@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "εἰ",
+            "lemma": "εἰ",
+            "postag": "c--------",
+            "head": "10",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "εἰ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δέ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "δέ_2"
+        },
+        {
+            "wID": "3",
+            "form": "τοι",
+            "lemma": "σύ",
+            "postag": "p-s----d-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "τοι_3"
+        },
+        {
+            "wID": "4",
+            "form": "αὐτῷ",
+            "lemma": "αὐτός",
+            "postag": "a-s---md-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "αὐτῷ_4"
+        },
+        {
+            "wID": "5",
+            "form": "θυμὸς",
+            "lemma": "θυμός",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "θυμὸς_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐπέσσυται",
+            "lemma": "ἐπισεύω",
+            "postag": "v3spie---",
+            "head": "1",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "ἐπέσσυται_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὥς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "6",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "ὥς_7"
+        },
+        {
+            "wID": "8",
+            "form": "τε",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "τε_8"
+        },
+        {
+            "wID": "9",
+            "form": "νέεσθαι",
+            "lemma": "νέομαι",
+            "postag": "v--pne---",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.42",
+            "id": "νέεσθαι_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἔρχεο",
+            "lemma": "ἔρχομαι",
+            "postag": "v2spme---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.43",
+            "id": "ἔρχεο_10"
+        },
+        {
+            "wID": "11",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.43",
+            "id": "·_11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxC",
+            "source": "εἰ_1",
+            "target": "ἔρχεο_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δέ_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "τοι_3",
+            "target": "θυμὸς_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "αὐτῷ_4",
+            "target": "τοι_3",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "θυμὸς_5",
+            "target": "ἐπέσσυται_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐπέσσυται_6",
+            "target": "εἰ_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὥς_7",
+            "target": "ἐπέσσυται_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "τε_8",
+            "target": "ὥς_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "νέεσθαι_9",
+            "target": "ὥς_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔρχεο_10",
+            "target": "δέ_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

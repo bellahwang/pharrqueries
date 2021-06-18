@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "αὐτὰρ",
+            "lemma": "ἀτάρ",
+            "postag": "g--------",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.538",
+            "id": "αὐτὰρ_1"
+        },
+        {
+            "wID": "2",
+            "form": "Ἀπόλλων",
+            "lemma": "Ἀπόλλων",
+            "postag": "n-s---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.538",
+            "id": "Ἀπόλλων_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἀντίος",
+            "lemma": "ἀντίος",
+            "postag": "a-s---mn-",
+            "head": "2",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.539",
+            "id": "ἀντίος_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐξέθορε",
+            "lemma": "ἐκθρῴσκω",
+            "postag": "v3saia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.539",
+            "id": "ἐξέθορε_4"
+        },
+        {
+            "wID": "5",
+            "form": "Τρώων",
+            "lemma": "Τρώς",
+            "postag": "n-p---mg-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.539",
+            "id": "Τρώων_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἵνα",
+            "lemma": "ἵνα",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.539",
+            "id": "ἵνα_6"
+        },
+        {
+            "wID": "7",
+            "form": "λοιγὸν",
+            "lemma": "λοιγός",
+            "postag": "n-s---ma-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.539",
+            "id": "λοιγὸν_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀλάλκοι",
+            "lemma": "ἄλαλκε",
+            "postag": "v3saoa---",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.539",
+            "id": "ἀλάλκοι_8"
+        },
+        {
+            "wID": "9",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.539",
+            "id": "._9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "αὐτὰρ_1",
+            "target": "ἐξέθορε_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀπόλλων_2",
+            "target": "ἐξέθορε_4",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "ἀντίος_3",
+            "target": "Ἀπόλλων_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἐξέθορε_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Τρώων_5",
+            "target": "ἀλάλκοι_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ἵνα_6",
+            "target": "ἐξέθορε_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "λοιγὸν_7",
+            "target": "ἀλάλκοι_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀλάλκοι_8",
+            "target": "ἵνα_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

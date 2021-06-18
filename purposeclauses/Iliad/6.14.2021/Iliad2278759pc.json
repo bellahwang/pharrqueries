@@ -1,0 +1,269 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἀργεῖοι",
+            "lemma": "Ἀργεῖος",
+            "postag": "a-p---mv-",
+            "head": "5",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.364",
+            "id": "Ἀργεῖοι_1"
+        },
+        {
+            "wID": "2",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.364",
+            "id": "καὶ_2"
+        },
+        {
+            "wID": "3",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.364",
+            "id": "δ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "αὖτε",
+            "lemma": "αὖτε",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.364",
+            "id": "αὖτε_4"
+        },
+        {
+            "wID": "5",
+            "form": "μεθίεμεν",
+            "lemma": "μεθίημι",
+            "postag": "v1ppia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.364",
+            "id": "μεθίεμεν_5"
+        },
+        {
+            "wID": "6",
+            "form": "Ἕκτορι",
+            "lemma": "Ἕκτωρ",
+            "postag": "n-s---md-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.364",
+            "id": "Ἕκτορι_6"
+        },
+        {
+            "wID": "7",
+            "form": "νίκην",
+            "lemma": "νίκη",
+            "postag": "n-s---fa-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.364",
+            "id": "νίκην_7"
+        },
+        {
+            "wID": "8",
+            "form": "Πριαμίδῃ",
+            "lemma": "Πριαμίδης",
+            "postag": "n-s---md-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": "Πριαμίδῃ_8"
+        },
+        {
+            "wID": "9",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "10",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": ",_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἵνα",
+            "lemma": "ἵνα",
+            "postag": "c--------",
+            "head": "5",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": "ἵνα_10"
+        },
+        {
+            "wID": "11",
+            "form": "νῆας",
+            "lemma": "ναῦς",
+            "postag": "n-p---fa-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": "νῆας_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἕλῃ",
+            "lemma": "αἱρέω",
+            "postag": "v3sasa---",
+            "head": "13",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": "ἕλῃ_12"
+        },
+        {
+            "wID": "13",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "10",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": "καὶ_13"
+        },
+        {
+            "wID": "14",
+            "form": "κῦδος",
+            "lemma": "κῦδος",
+            "postag": "n-s---na-",
+            "head": "15",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": "κῦδος_14"
+        },
+        {
+            "wID": "15",
+            "form": "ἄρηται",
+            "lemma": "αἴρω",
+            "postag": "v3sasm---",
+            "head": "13",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": "ἄρηται_15"
+        },
+        {
+            "wID": "16",
+            "form": ";",
+            "lemma": ";",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.365",
+            "id": ";_16"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Ἀργεῖοι_1",
+            "target": "μεθίεμεν_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "καὶ_2",
+            "target": "αὖτε_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δ'_3",
+            "target": "μεθίεμεν_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "αὖτε_4",
+            "target": "μεθίεμεν_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "μεθίεμεν_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἕκτορι_6",
+            "target": "μεθίεμεν_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "νίκην_7",
+            "target": "μεθίεμεν_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Πριαμίδῃ_8",
+            "target": "Ἕκτορι_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_9",
+            "target": "ἵνα_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ἵνα_10",
+            "target": "μεθίεμεν_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "νῆας_11",
+            "target": "ἕλῃ_12",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "ἕλῃ_12",
+            "target": "καὶ_13",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_13",
+            "target": "ἵνα_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κῦδος_14",
+            "target": "ἄρηται_15",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "ἄρηται_15",
+            "target": "καὶ_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": ";_16",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

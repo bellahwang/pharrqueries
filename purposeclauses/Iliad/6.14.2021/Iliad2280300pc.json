@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.388",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἄρα",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "3",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.388",
+            "id": "ἄρα_2"
+        },
+        {
+            "wID": "3",
+            "form": "φωνήσασα",
+            "lemma": "φωνέω",
+            "postag": "v-sapafn-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.388",
+            "id": "φωνήσασα_3"
+        },
+        {
+            "wID": "4",
+            "form": "πρόσω",
+            "lemma": "πρόσω",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.388",
+            "id": "πρόσω_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἄγε",
+            "lemma": "ἄγω",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.388",
+            "id": "ἄγε_5"
+        },
+        {
+            "wID": "6",
+            "form": "δῖα",
+            "lemma": "δῖος",
+            "postag": "a-s---fn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.388",
+            "id": "δῖα_6"
+        },
+        {
+            "wID": "7",
+            "form": "θεάων",
+            "lemma": "θεά",
+            "postag": "n-p---fg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.388",
+            "id": "θεάων_7"
+        },
+        {
+            "wID": "8",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:18.388",
+            "id": "._8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φωνήσασα_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρα_2",
+            "target": "φωνήσασα_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φωνήσασα_3",
+            "target": "ἄγε_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πρόσω_4",
+            "target": "ἄγε_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἄγε_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "δῖα_6",
+            "target": "ἄγε_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "θεάων_7",
+            "target": "δῖα_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

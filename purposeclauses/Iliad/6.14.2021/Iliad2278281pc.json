@@ -1,0 +1,365 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.295",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "φάτο",
+            "lemma": "φημί",
+            "postag": "v3saim---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.295",
+            "id": "φάτο_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.295",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "Μηριόνης",
+            "lemma": "Μηριόνης",
+            "postag": "n-s---mn-",
+            "head": "16",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.295",
+            "id": "Μηριόνης_4"
+        },
+        {
+            "wID": "5",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.295",
+            "id": "δὲ_5"
+        },
+        {
+            "wID": "6",
+            "form": "θοῷ",
+            "lemma": "θοός",
+            "postag": "a-s---md-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.295",
+            "id": "θοῷ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀτάλαντος",
+            "lemma": "ἀτάλαντος",
+            "postag": "a-s---mn-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.295",
+            "id": "ἀτάλαντος_7"
+        },
+        {
+            "wID": "8",
+            "form": "Ἄρηϊ",
+            "lemma": "Ἄρης",
+            "postag": "n-s---md-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.295",
+            "id": "Ἄρηϊ_8"
+        },
+        {
+            "wID": "9",
+            "form": "καρπαλίμως",
+            "lemma": "καρπάλιμος",
+            "postag": "d--------",
+            "head": "11",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.296",
+            "id": "καρπαλίμως_9"
+        },
+        {
+            "wID": "10",
+            "form": "κλισίηθεν",
+            "lemma": "κλισίηθεν",
+            "postag": "d--------",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.296",
+            "id": "κλισίηθεν_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἀνείλετο",
+            "lemma": "ἀναιρέω",
+            "postag": "v3saim---",
+            "head": "16",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.296",
+            "id": "ἀνείλετο_11"
+        },
+        {
+            "wID": "12",
+            "form": "χάλκεον",
+            "lemma": "χάλκεος",
+            "postag": "a-s---na-",
+            "head": "13",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.296",
+            "id": "χάλκεον_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἔγχος",
+            "lemma": "ἔγχος",
+            "postag": "n-s---na-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.296",
+            "id": "ἔγχος_13"
+        },
+        {
+            "wID": "14",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "16",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.296",
+            "id": ",_14"
+        },
+        {
+            "wID": "15",
+            "form": "βῆ",
+            "lemma": "βαίνω",
+            "postag": "v3saia---",
+            "head": "16",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.297",
+            "id": "βῆ_15"
+        },
+        {
+            "wID": "16",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.297",
+            "id": "δὲ_16"
+        },
+        {
+            "wID": "17",
+            "form": "μετ'",
+            "lemma": "μετά",
+            "postag": "r--------",
+            "head": "15",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.297",
+            "id": "μετ'_17"
+        },
+        {
+            "wID": "18",
+            "form": "Ἰδομενῆα",
+            "lemma": "Ἰδομενεύς",
+            "postag": "n-s---ma-",
+            "head": "17",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.297",
+            "id": "Ἰδομενῆα_18"
+        },
+        {
+            "wID": "19",
+            "form": "μέγα",
+            "lemma": "μέγας",
+            "postag": "a-s---na-",
+            "head": "21",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.297",
+            "id": "μέγα_19"
+        },
+        {
+            "wID": "20",
+            "form": "πτολέμοιο",
+            "lemma": "πόλεμος",
+            "postag": "n-s---mg-",
+            "head": "21",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.297",
+            "id": "πτολέμοιο_20"
+        },
+        {
+            "wID": "21",
+            "form": "μεμηλώς",
+            "lemma": "μέλω",
+            "postag": "v-srpamn-",
+            "head": "15",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.297",
+            "id": "μεμηλώς_21"
+        },
+        {
+            "wID": "22",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:13.297",
+            "id": "._22"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φάτο_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "φάτο_2",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Μηριόνης_4",
+            "target": "δὲ_16",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "θοῷ_6",
+            "target": "Ἄρηϊ_8",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀτάλαντος_7",
+            "target": "Μηριόνης_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἄρηϊ_8",
+            "target": "ἀτάλαντος_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "καρπαλίμως_9",
+            "target": "ἀνείλετο_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κλισίηθεν_10",
+            "target": "ἀνείλετο_11",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἀνείλετο_11",
+            "target": "δὲ_16",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "χάλκεον_12",
+            "target": "ἔγχος_13",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἔγχος_13",
+            "target": "ἀνείλετο_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_14",
+            "target": "δὲ_16",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "βῆ_15",
+            "target": "δὲ_16",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_16",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "μετ'_17",
+            "target": "βῆ_15",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "Ἰδομενῆα_18",
+            "target": "μετ'_17",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μέγα_19",
+            "target": "μεμηλώς_21",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πτολέμοιο_20",
+            "target": "μεμηλώς_21",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μεμηλώς_21",
+            "target": "βῆ_15",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._22",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

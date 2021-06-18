@@ -1,0 +1,221 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "βάσκ'",
+            "lemma": "βάσκω",
+            "postag": "v2spma---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "βάσκ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἴθι",
+            "lemma": "εἶμι",
+            "postag": "v2spma---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "ἴθι_2"
+        },
+        {
+            "wID": "3",
+            "form": "Ἶρι",
+            "lemma": "ἶρις",
+            "postag": "n-s---fv-",
+            "head": "9",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "Ἶρι_3"
+        },
+        {
+            "wID": "4",
+            "form": "ταχεῖα",
+            "lemma": "ταχύς",
+            "postag": "a-s---fv-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "ταχεῖα_4"
+        },
+        {
+            "wID": "5",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": ",_5"
+        },
+        {
+            "wID": "6",
+            "form": "πάλιν",
+            "lemma": "πάλιν",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "πάλιν_6"
+        },
+        {
+            "wID": "7",
+            "form": "τρέπε",
+            "lemma": "τρέπω",
+            "postag": "v2spma---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "τρέπε_7"
+        },
+        {
+            "wID": "8",
+            "form": "μη",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "10",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "μη_8"
+        },
+        {
+            "wID": "9",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "δ'_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἔα",
+            "lemma": "ἐάω",
+            "postag": "v2spma---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "ἔα_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἄντην",
+            "lemma": "ἄντην",
+            "postag": "d--------",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.399",
+            "id": "ἄντην_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἔρχεσθ'",
+            "lemma": "ἔρχομαι",
+            "postag": "v--pne---",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.400",
+            "id": "ἔρχεσθ'_12"
+        },
+        {
+            "wID": "13",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:8.400",
+            "id": "·_13"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED_CO",
+            "source": "βάσκ'_1",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἴθι_2",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "Ἶρι_3",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ταχεῖα_4",
+            "target": "Ἶρι_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_5",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πάλιν_6",
+            "target": "τρέπε_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "τρέπε_7",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μη_8",
+            "target": "ἔα_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔα_10",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἄντην_11",
+            "target": "ἔρχεσθ'_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἔρχεσθ'_12",
+            "target": "ἔα_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_13",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

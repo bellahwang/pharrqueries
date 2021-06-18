@@ -1,0 +1,378 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ὅρμαινε",
+            "lemma": "ὁρμαίνω",
+            "postag": "v3siia---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "ὅρμαινε_2"
+        },
+        {
+            "wID": "3",
+            "form": "μένων",
+            "lemma": "μένω",
+            "postag": "v-sppamn-",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "μένων_3"
+        },
+        {
+            "wID": "4",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "6",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": ",_4"
+        },
+        {
+            "wID": "5",
+            "form": "ὃ",
+            "lemma": "ὁ",
+            "postag": "l-s---mn-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "ὃ_5"
+        },
+        {
+            "wID": "6",
+            "form": "δέ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "δέ_6"
+        },
+        {
+            "wID": "7",
+            "form": "οἱ",
+            "lemma": "ἕ",
+            "postag": "p-s---md-",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "οἱ_7"
+        },
+        {
+            "wID": "8",
+            "form": "σχεδὸν",
+            "lemma": "σχεδόν",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "σχεδὸν_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἦλθεν",
+            "lemma": "ἔρχομαι",
+            "postag": "v3saia---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "ἦλθεν_9"
+        },
+        {
+            "wID": "10",
+            "form": "Ἀχιλλεὺς",
+            "lemma": "Ἀχιλλεύς",
+            "postag": "n-s---mn-",
+            "head": "9",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.131",
+            "id": "Ἀχιλλεὺς_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἶσος",
+            "lemma": "ἴσος",
+            "postag": "a-s---mn-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.132",
+            "id": "ἶσος_11"
+        },
+        {
+            "wID": "12",
+            "form": "Ἐνυαλίῳ",
+            "lemma": "Ἐνυάλιος",
+            "postag": "n-s---md-",
+            "head": "23",
+            "relation": "OBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.132",
+            "id": "Ἐνυαλίῳ_12"
+        },
+        {
+            "wID": "13",
+            "form": "κορυθάϊκι",
+            "lemma": "κορυθάιξ",
+            "postag": "n-s---md-",
+            "head": "14",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.132",
+            "id": "κορυθάϊκι_13"
+        },
+        {
+            "wID": "14",
+            "form": "πτολεμιστῇ",
+            "lemma": "πολεμιστής",
+            "postag": "n-s---md-",
+            "head": "23",
+            "relation": "OBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.132",
+            "id": "πτολεμιστῇ_14"
+        },
+        {
+            "wID": "15",
+            "form": "σείων",
+            "lemma": "σείω",
+            "postag": "v-sppamn-",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.133",
+            "id": "σείων_15"
+        },
+        {
+            "wID": "16",
+            "form": "Πηλιάδα",
+            "lemma": "Πηλιάς",
+            "postag": "n-s---fa-",
+            "head": "17",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.133",
+            "id": "Πηλιάδα_16"
+        },
+        {
+            "wID": "17",
+            "form": "μελίην",
+            "lemma": "μελία",
+            "postag": "n-s---fa-",
+            "head": "15",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.133",
+            "id": "μελίην_17"
+        },
+        {
+            "wID": "18",
+            "form": "κατὰ",
+            "lemma": "κατά",
+            "postag": "r--------",
+            "head": "15",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.133",
+            "id": "κατὰ_18"
+        },
+        {
+            "wID": "19",
+            "form": "δεξιὸν",
+            "lemma": "δεξιός",
+            "postag": "a-s---ma-",
+            "head": "20",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.133",
+            "id": "δεξιὸν_19"
+        },
+        {
+            "wID": "20",
+            "form": "ὦμον",
+            "lemma": "ὦμος",
+            "postag": "n-s---ma-",
+            "head": "18",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.133",
+            "id": "ὦμον_20"
+        },
+        {
+            "wID": "21",
+            "form": "δεινήν",
+            "lemma": "δεινός",
+            "postag": "a-s---fa-",
+            "head": "17",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.134",
+            "id": "δεινήν_21"
+        },
+        {
+            "wID": "22",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.134",
+            "id": "·_22"
+        },
+        {
+            "wID": "23",
+            "form": "[0]",
+            "head": "11",
+            "relation": "APOS",
+            "id": "[0]_23"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ὅρμαινε_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ὅρμαινε_2",
+            "target": "δέ_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μένων_3",
+            "target": "ὅρμαινε_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_4",
+            "target": "δέ_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὃ_5",
+            "target": "Ἀχιλλεὺς_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δέ_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "οἱ_7",
+            "target": "σχεδὸν_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σχεδὸν_8",
+            "target": "ἦλθεν_9",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἦλθεν_9",
+            "target": "δέ_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀχιλλεὺς_10",
+            "target": "ἦλθεν_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἶσος_11",
+            "target": "Ἀχιλλεὺς_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_AP",
+            "source": "Ἐνυαλίῳ_12",
+            "target": "[0]_23",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κορυθάϊκι_13",
+            "target": "πτολεμιστῇ_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_AP",
+            "source": "πτολεμιστῇ_14",
+            "target": "[0]_23",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "σείων_15",
+            "target": "ἦλθεν_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Πηλιάδα_16",
+            "target": "μελίην_17",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μελίην_17",
+            "target": "σείων_15",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "κατὰ_18",
+            "target": "σείων_15",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δεξιὸν_19",
+            "target": "ὦμον_20",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὦμον_20",
+            "target": "κατὰ_18",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δεινήν_21",
+            "target": "μελίην_17",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_22",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "APOS",
+            "source": "[0]_23",
+            "target": "ἶσος_11",
+            "key": 0
+        }
+    ]
+}

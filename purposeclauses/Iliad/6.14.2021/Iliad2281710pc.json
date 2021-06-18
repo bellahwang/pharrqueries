@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "φάτο",
+            "lemma": "φημί",
+            "postag": "v3saim---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": "φάτο_2"
+        },
+        {
+            "wID": "3",
+            "form": "Πηλεΐδης",
+            "lemma": "Πηλείδης",
+            "postag": "n-s---mn-",
+            "head": "2",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": "Πηλεΐδης_3"
+        },
+        {
+            "wID": "4",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "6",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": ",_4"
+        },
+        {
+            "wID": "5",
+            "form": "ταχέες",
+            "lemma": "ταχύς",
+            "postag": "a-p---mn-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": "ταχέες_5"
+        },
+        {
+            "wID": "6",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": "δ'_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἱππῆες",
+            "lemma": "ἱππεύς",
+            "postag": "n-p---mn-",
+            "head": "8",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": "ἱππῆες_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἄγερθεν",
+            "lemma": "ἀγείρω",
+            "postag": "v3paip---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": "ἄγερθεν_8"
+        },
+        {
+            "wID": "9",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.287",
+            "id": "._9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φάτο_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "φάτο_2",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Πηλεΐδης_3",
+            "target": "φάτο_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_4",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ταχέες_5",
+            "target": "ἱππῆες_7",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἱππῆες_7",
+            "target": "ἄγερθεν_8",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἄγερθεν_8",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

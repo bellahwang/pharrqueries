@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "λαοῖσιν",
+            "lemma": "λαός",
+            "postag": "n-p---md-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.54",
+            "id": "λαοῖσιν_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.54",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄλλοισι",
+            "lemma": "ἄλλος",
+            "postag": "a-p---md-",
+            "head": "1",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.54",
+            "id": "ἄλλοισι_3"
+        },
+        {
+            "wID": "4",
+            "form": "μινυνθαδιώτερον",
+            "lemma": "μινυνθάδιος",
+            "postag": "a-s---nnc",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.54",
+            "id": "μινυνθαδιώτερον_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἄλγος",
+            "lemma": "ἄλγος",
+            "postag": "n-s---nn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.54",
+            "id": "ἄλγος_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἔσσεται",
+            "lemma": "εἰμί",
+            "postag": "v3sfim---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "ἔσσεται_6"
+        },
+        {
+            "wID": "7",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "8",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": ",_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἢν",
+            "lemma": "ἐάν",
+            "postag": "c--------",
+            "head": "6",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "ἢν_8"
+        },
+        {
+            "wID": "9",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "12",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "μὴ_9"
+        },
+        {
+            "wID": "10",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "d--------",
+            "head": "11",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "καὶ_10"
+        },
+        {
+            "wID": "11",
+            "form": "σὺ",
+            "lemma": "σύ",
+            "postag": "p-s---mn-",
+            "head": "12",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "σὺ_11"
+        },
+        {
+            "wID": "12",
+            "form": "θάνῃς",
+            "lemma": "θνήσκω",
+            "postag": "v2sasa---",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "θάνῃς_12"
+        },
+        {
+            "wID": "13",
+            "form": "Ἀχιλῆϊ",
+            "lemma": "Ἀχιλλεύς",
+            "postag": "n-s---md-",
+            "head": "14",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "Ἀχιλῆϊ_13"
+        },
+        {
+            "wID": "14",
+            "form": "δαμασθείς",
+            "lemma": "δαμάζω",
+            "postag": "v-sappmn-",
+            "head": "12",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "δαμασθείς_14"
+        },
+        {
+            "wID": "15",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.55",
+            "id": "._15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "λαοῖσιν_1",
+            "target": "ἔσσεται_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἄλλοισι_3",
+            "target": "λαοῖσιν_1",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "μινυνθαδιώτερον_4",
+            "target": "ἄλγος_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἄλγος_5",
+            "target": "ἔσσεται_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔσσεται_6",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_7",
+            "target": "ἢν_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ἢν_8",
+            "target": "ἔσσεται_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_9",
+            "target": "θάνῃς_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "καὶ_10",
+            "target": "σὺ_11",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "σὺ_11",
+            "target": "θάνῃς_12",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "θάνῃς_12",
+            "target": "ἢν_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀχιλῆϊ_13",
+            "target": "δαμασθείς_14",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δαμασθείς_14",
+            "target": "θάνῃς_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

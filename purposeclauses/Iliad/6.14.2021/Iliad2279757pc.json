@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.137",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "Αἴας",
+            "lemma": "Αἴας",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.137",
+            "id": "Αἴας_2"
+        },
+        {
+            "wID": "3",
+            "form": "περὶ",
+            "lemma": "περί",
+            "postag": "r--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.137",
+            "id": "περὶ_3"
+        },
+        {
+            "wID": "4",
+            "form": "Πατρόκλῳ",
+            "lemma": "Πάτροκλος",
+            "postag": "n-s---md-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.137",
+            "id": "Πατρόκλῳ_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἥρωϊ",
+            "lemma": "ἥρως",
+            "postag": "n-s---md-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.137",
+            "id": "ἥρωϊ_5"
+        },
+        {
+            "wID": "6",
+            "form": "βεβήκει",
+            "lemma": "βαίνω",
+            "postag": "v3slia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.137",
+            "id": "βεβήκει_6"
+        },
+        {
+            "wID": "7",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.137",
+            "id": "._7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "βεβήκει_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Αἴας_2",
+            "target": "βεβήκει_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "περὶ_3",
+            "target": "βεβήκει_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Πατρόκλῳ_4",
+            "target": "βεβήκει_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἥρωϊ_5",
+            "target": "Πατρόκλῳ_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "βεβήκει_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

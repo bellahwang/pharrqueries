@@ -1,0 +1,250 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Τρῶες",
+            "lemma": "Τρώς",
+            "postag": "n-p---mn-",
+            "head": "3",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.208",
+            "id": "Τρῶες_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.208",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἐρρίγησαν",
+            "lemma": "ῥιγέω",
+            "postag": "v3paia---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.208",
+            "id": "ἐρρίγησαν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὅπως",
+            "lemma": "ὅπως",
+            "postag": "c--------",
+            "head": "3",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.208",
+            "id": "ὅπως_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἴδον",
+            "lemma": "εἶδον",
+            "postag": "v3paia---",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.208",
+            "id": "ἴδον_5"
+        },
+        {
+            "wID": "6",
+            "form": "αἰόλον",
+            "lemma": "αἰόλος",
+            "postag": "a-s---ma-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.208",
+            "id": "αἰόλον_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὄφιν",
+            "lemma": "ὄφις",
+            "postag": "n-s---ma-",
+            "head": "15",
+            "relation": "OBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.208",
+            "id": "ὄφιν_7"
+        },
+        {
+            "wID": "8",
+            "form": "κείμενον",
+            "lemma": "κεῖμαι",
+            "postag": "v-sppema-",
+            "head": "7",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.209",
+            "id": "κείμενον_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἐν",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "8",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.209",
+            "id": "ἐν_9"
+        },
+        {
+            "wID": "10",
+            "form": "μέσσοισι",
+            "lemma": "μέσος",
+            "postag": "a-p---md-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.209",
+            "id": "μέσσοισι_10"
+        },
+        {
+            "wID": "11",
+            "form": "Διὸς",
+            "lemma": "Ζεύς",
+            "postag": "n-s---mg-",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.209",
+            "id": "Διὸς_11"
+        },
+        {
+            "wID": "12",
+            "form": "τέρας",
+            "lemma": "τέρας",
+            "postag": "n-s---na-",
+            "head": "15",
+            "relation": "OBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.209",
+            "id": "τέρας_12"
+        },
+        {
+            "wID": "13",
+            "form": "αἰγιόχοιο",
+            "lemma": "αἰγίοχος",
+            "postag": "a-s---mg-",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.209",
+            "id": "αἰγιόχοιο_13"
+        },
+        {
+            "wID": "14",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.209",
+            "id": "._14"
+        },
+        {
+            "wID": "15",
+            "form": "[0]",
+            "head": "5",
+            "relation": "APOS",
+            "id": "[0]_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "SBJ",
+            "source": "Τρῶες_1",
+            "target": "ἐρρίγησαν_3",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐρρίγησαν_3",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὅπως_4",
+            "target": "ἐρρίγησαν_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἴδον_5",
+            "target": "ὅπως_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "αἰόλον_6",
+            "target": "ὄφιν_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_AP",
+            "source": "ὄφιν_7",
+            "target": "[0]_15",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "κείμενον_8",
+            "target": "ὄφιν_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐν_9",
+            "target": "κείμενον_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μέσσοισι_10",
+            "target": "ἐν_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Διὸς_11",
+            "target": "τέρας_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_AP",
+            "source": "τέρας_12",
+            "target": "[0]_15",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "αἰγιόχοιο_13",
+            "target": "Διὸς_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._14",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "APOS",
+            "source": "[0]_15",
+            "target": "ἴδον_5",
+            "key": 0
+        }
+    ]
+}

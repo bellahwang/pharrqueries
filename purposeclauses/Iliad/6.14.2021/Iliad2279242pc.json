@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "τί",
+            "lemma": "τίς",
+            "postag": "x--------",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.31",
+            "id": "τί_1"
+        },
+        {
+            "wID": "2",
+            "form": "σευ",
+            "lemma": "σύ",
+            "postag": "p-s---mg-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.31",
+            "id": "σευ_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄλλος",
+            "lemma": "ἄλλος",
+            "postag": "a-s---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.31",
+            "id": "ἄλλος_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὀνήσεται",
+            "lemma": "ὀνίνημι",
+            "postag": "v3sfim---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.31",
+            "id": "ὀνήσεται_4"
+        },
+        {
+            "wID": "5",
+            "form": "ὀψίγονός",
+            "lemma": "ὀψίγονος",
+            "postag": "a-s---mn-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.31",
+            "id": "ὀψίγονός_5"
+        },
+        {
+            "wID": "6",
+            "form": "περ",
+            "lemma": "πέρ",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.31",
+            "id": "περ_6"
+        },
+        {
+            "wID": "7",
+            "form": "αἴ",
+            "lemma": "εἰ",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.32",
+            "id": "αἴ_7"
+        },
+        {
+            "wID": "8",
+            "form": "κε",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "13",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.32",
+            "id": "κε_8"
+        },
+        {
+            "wID": "9",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "13",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.32",
+            "id": "μὴ_9"
+        },
+        {
+            "wID": "10",
+            "form": "Ἀργείοισιν",
+            "lemma": "ἀργεῖος",
+            "postag": "n-p---md-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.32",
+            "id": "Ἀργείοισιν_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἀεικέα",
+            "lemma": "ἀεικής",
+            "postag": "a-s---ma-",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.32",
+            "id": "ἀεικέα_11"
+        },
+        {
+            "wID": "12",
+            "form": "λοιγὸν",
+            "lemma": "λοιγός",
+            "postag": "n-s---ma-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.32",
+            "id": "λοιγὸν_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἀμύνῃς",
+            "lemma": "ἀμύνω",
+            "postag": "v2spsa---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.32",
+            "id": "ἀμύνῃς_13"
+        },
+        {
+            "wID": "14",
+            "form": ";",
+            "lemma": ";",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.32",
+            "id": ";_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "τί_1",
+            "target": "ὀνήσεται_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σευ_2",
+            "target": "ὀνήσεται_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἄλλος_3",
+            "target": "ὀνήσεται_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὀνήσεται_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὀψίγονός_5",
+            "target": "ἄλλος_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "περ_6",
+            "target": "ὀψίγονός_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "αἴ_7",
+            "target": "ὀνήσεται_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "κε_8",
+            "target": "ἀμύνῃς_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_9",
+            "target": "ἀμύνῃς_13",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀργείοισιν_10",
+            "target": "ἀμύνῃς_13",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀεικέα_11",
+            "target": "λοιγὸν_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "λοιγὸν_12",
+            "target": "ἀμύνῃς_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀμύνῃς_13",
+            "target": "αἴ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": ";_14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

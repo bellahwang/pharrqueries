@@ -1,0 +1,93 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "i--------",
+            "head": "3",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.481",
+            "id": "ὡς_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "3",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.481",
+            "id": "μὴ_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὤφελλε",
+            "lemma": "ὀφέλλω",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.481",
+            "id": "ὤφελλε_3"
+        },
+        {
+            "wID": "4",
+            "form": "τεκέσθαι",
+            "lemma": "τίκτω",
+            "postag": "v--anm---",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.481",
+            "id": "τεκέσθαι_4"
+        },
+        {
+            "wID": "5",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.481",
+            "id": "._5"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ὡς_1",
+            "target": "ὤφελλε_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_2",
+            "target": "ὤφελλε_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὤφελλε_3",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τεκέσθαι_4",
+            "target": "ὤφελλε_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._5",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

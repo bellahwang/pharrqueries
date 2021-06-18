@@ -1,0 +1,109 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Τρῶες",
+            "lemma": "Τρώς",
+            "postag": "n-p---mv-",
+            "head": "4",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.366",
+            "id": "Τρῶες_1"
+        },
+        {
+            "wID": "2",
+            "form": "ὑπέρθυμοι",
+            "lemma": "ὑπέρθυμος",
+            "postag": "a-p---mv-",
+            "head": "1",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.366",
+            "id": "ὑπέρθυμοι_2"
+        },
+        {
+            "wID": "3",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "4",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.366",
+            "id": "μὴ_3"
+        },
+        {
+            "wID": "4",
+            "form": "δείδιτε",
+            "lemma": "δείδω",
+            "postag": "v2prma---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.366",
+            "id": "δείδιτε_4"
+        },
+        {
+            "wID": "5",
+            "form": "Πηλεΐωνα",
+            "lemma": "Πηλείων",
+            "postag": "n-s---ma-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.366",
+            "id": "Πηλεΐωνα_5"
+        },
+        {
+            "wID": "6",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.366",
+            "id": "._6"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Τρῶες_1",
+            "target": "δείδιτε_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὑπέρθυμοι_2",
+            "target": "Τρῶες_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_3",
+            "target": "δείδιτε_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "δείδιτε_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Πηλεΐωνα_5",
+            "target": "δείδιτε_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._6",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

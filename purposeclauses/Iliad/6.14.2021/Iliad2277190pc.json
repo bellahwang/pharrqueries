@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "κείνους",
+            "lemma": "κεῖνος",
+            "postag": "a-p---ma-",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.126",
+            "id": "κείνους_1"
+        },
+        {
+            "wID": "2",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.126",
+            "id": "δὲ_2"
+        },
+        {
+            "wID": "3",
+            "form": "κιχησόμεθα",
+            "lemma": "κιχάνω",
+            "postag": "v1pfim---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.126",
+            "id": "κιχησόμεθα_3"
+        },
+        {
+            "wID": "4",
+            "form": "πρὸ",
+            "lemma": "πρό",
+            "postag": "r--------",
+            "head": "3",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.126",
+            "id": "πρὸ_4"
+        },
+        {
+            "wID": "5",
+            "form": "πυλάων",
+            "lemma": "πύλη",
+            "postag": "n-p---fg-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.126",
+            "id": "πυλάων_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐν",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "3",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": "ἐν_6"
+        },
+        {
+            "wID": "7",
+            "form": "φυλάκεσσ'",
+            "lemma": "φύλαξ",
+            "postag": "n-p---md-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": "φυλάκεσσ'_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "12",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἵνα",
+            "lemma": "ἵνα",
+            "postag": "d--------",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": "ἵνα_9"
+        },
+        {
+            "wID": "10",
+            "form": "γάρ",
+            "lemma": "γάρ",
+            "postag": "g--------",
+            "head": "12",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": "γάρ_10"
+        },
+        {
+            "wID": "11",
+            "form": "σφιν",
+            "lemma": "σφεῖς",
+            "postag": "p-p---md-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": "σφιν_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἐπέφραδον",
+            "lemma": "φράζω",
+            "postag": "v1saia---",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": "ἐπέφραδον_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἠγερέθεσθαι",
+            "lemma": "ἠγερέθομαι",
+            "postag": "v--pne---",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": "ἠγερέθεσθαι_13"
+        },
+        {
+            "wID": "14",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.127",
+            "id": "._14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "OBJ",
+            "source": "κείνους_1",
+            "target": "κιχησόμεθα_3",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κιχησόμεθα_3",
+            "target": "δὲ_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "πρὸ_4",
+            "target": "κιχησόμεθα_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πυλάων_5",
+            "target": "πρὸ_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐν_6",
+            "target": "κιχησόμεθα_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "φυλάκεσσ'_7",
+            "target": "ἐν_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "ἐπέφραδον_12",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἵνα_9",
+            "target": "ἠγερέθεσθαι_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "γάρ_10",
+            "target": "ἐπέφραδον_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σφιν_11",
+            "target": "ἐπέφραδον_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐπέφραδον_12",
+            "target": "φυλάκεσσ'_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἠγερέθεσθαι_13",
+            "target": "ἐπέφραδον_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

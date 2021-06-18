@@ -1,0 +1,202 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "φάτο",
+            "lemma": "φημί",
+            "postag": "v3sai----",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "φάτο_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "τὸν",
+            "lemma": "ὁ",
+            "postag": "l-s---ma-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "τὸν_4"
+        },
+        {
+            "wID": "5",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "δὲ_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἄνακτα",
+            "lemma": "ἄναξ",
+            "postag": "n-s---ma-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "ἄνακτα_6"
+        },
+        {
+            "wID": "7",
+            "form": "χόλος",
+            "lemma": "χόλος",
+            "postag": "n-s---mn-",
+            "head": "8",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "χόλος_7"
+        },
+        {
+            "wID": "8",
+            "form": "λάβεν",
+            "lemma": "λαμβάνω",
+            "postag": "v3saia---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "λάβεν_8"
+        },
+        {
+            "wID": "9",
+            "form": "οἷον",
+            "lemma": "οἷος",
+            "postag": "a-s---na-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "οἷον_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἄκουσε",
+            "lemma": "ἀκούω",
+            "postag": "v3saia---",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "ἄκουσε_10"
+        },
+        {
+            "wID": "11",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.166",
+            "id": "·_11"
+        },
+        {
+            "wID": "12",
+            "form": "[0]",
+            "head": "7",
+            "relation": "ADV",
+            "id": "[0]_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φάτο_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "φάτο_2",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "τὸν_4",
+            "target": "ἄνακτα_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἄνακτα_6",
+            "target": "λάβεν_8",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "χόλος_7",
+            "target": "λάβεν_8",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "λάβεν_8",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "οἷον_9",
+            "target": "ἄκουσε_10",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἄκουσε_10",
+            "target": "[0]_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_11",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "[0]_12",
+            "target": "χόλος_7",
+            "key": 0
+        }
+    ]
+}

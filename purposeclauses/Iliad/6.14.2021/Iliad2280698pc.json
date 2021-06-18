@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.75",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "οἳ",
+            "lemma": "ὁ",
+            "postag": "l-p---mn-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.75",
+            "id": "οἳ_2"
+        },
+        {
+            "wID": "3",
+            "form": "μὲν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.75",
+            "id": "μὲν_3"
+        },
+        {
+            "wID": "4",
+            "form": "θεοὶ",
+            "lemma": "θεός",
+            "postag": "n-p---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.75",
+            "id": "θεοὶ_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἄντα",
+            "lemma": "ἄντα",
+            "postag": "r--------",
+            "head": "7",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.75",
+            "id": "ἄντα_5"
+        },
+        {
+            "wID": "6",
+            "form": "θεῶν",
+            "lemma": "θεός",
+            "postag": "n-p---mg-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.75",
+            "id": "θεῶν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἴσαν",
+            "lemma": "εἶμι",
+            "postag": "v3piia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.75",
+            "id": "ἴσαν_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.75",
+            "id": "·_8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἴσαν_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "οἳ_2",
+            "target": "θεοὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὲν_3",
+            "target": "ἴσαν_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "θεοὶ_4",
+            "target": "ἴσαν_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἄντα_5",
+            "target": "ἴσαν_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "θεῶν_6",
+            "target": "ἄντα_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἴσαν_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

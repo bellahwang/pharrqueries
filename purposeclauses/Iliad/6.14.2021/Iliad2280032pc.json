@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.665",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἀπὸ",
+            "lemma": "ἀπό",
+            "postag": "r--------",
+            "head": "7",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.665",
+            "id": "ἀπὸ_2"
+        },
+        {
+            "wID": "3",
+            "form": "Πατρόκλοιο",
+            "lemma": "Πάτροκλος",
+            "postag": "n-s---mg-",
+            "head": "2",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.665",
+            "id": "Πατρόκλοιο_3"
+        },
+        {
+            "wID": "4",
+            "form": "βοὴν",
+            "lemma": "βοή",
+            "postag": "n-s---fa-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.665",
+            "id": "βοὴν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἀγαθὸς",
+            "lemma": "ἀγαθός",
+            "postag": "a-s---mn-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.665",
+            "id": "ἀγαθὸς_5"
+        },
+        {
+            "wID": "6",
+            "form": "Μενέλαος",
+            "lemma": "Μενέλαος",
+            "postag": "n-s---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.665",
+            "id": "Μενέλαος_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἤϊε",
+            "lemma": "εἶμι",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.666",
+            "id": "ἤϊε_7"
+        },
+        {
+            "wID": "8",
+            "form": "πόλλ'",
+            "lemma": "πολύς",
+            "postag": "a-p---na-",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.666",
+            "id": "πόλλ'_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἀέκων",
+            "lemma": "ἀέκων",
+            "postag": "a-s---mn-",
+            "head": "6",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.666",
+            "id": "ἀέκων_9"
+        },
+        {
+            "wID": "10",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.666",
+            "id": "·_10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἤϊε_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἀπὸ_2",
+            "target": "ἤϊε_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Πατρόκλοιο_3",
+            "target": "ἀπὸ_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "βοὴν_4",
+            "target": "ἀγαθὸς_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀγαθὸς_5",
+            "target": "Μενέλαος_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Μενέλαος_6",
+            "target": "ἤϊε_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἤϊε_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πόλλ'_8",
+            "target": "ἀέκων_9",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "ἀέκων_9",
+            "target": "Μενέλαος_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

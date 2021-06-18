@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλ'",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.538",
+            "id": "ἀλλ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "αἰνῶς",
+            "lemma": "αἰνός",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.538",
+            "id": "αἰνῶς_2"
+        },
+        {
+            "wID": "3",
+            "form": "δείδοικα",
+            "lemma": "δείδω",
+            "postag": "v1sria---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.538",
+            "id": "δείδοικα_3"
+        },
+        {
+            "wID": "4",
+            "form": "κατὰ",
+            "lemma": "κατά",
+            "postag": "r--------",
+            "head": "3",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.538",
+            "id": "κατὰ_4"
+        },
+        {
+            "wID": "5",
+            "form": "φρένα",
+            "lemma": "φρήν",
+            "postag": "n-p---na-",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.538",
+            "id": "φρένα_5"
+        },
+        {
+            "wID": "6",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "3",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.538",
+            "id": "μή_6"
+        },
+        {
+            "wID": "7",
+            "form": "τι",
+            "lemma": "τις",
+            "postag": "p-s---na-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.538",
+            "id": "τι_7"
+        },
+        {
+            "wID": "8",
+            "form": "πάθωσιν",
+            "lemma": "πάσχω",
+            "postag": "v3pasa---",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.538",
+            "id": "πάθωσιν_8"
+        },
+        {
+            "wID": "9",
+            "form": "Ἀργείων",
+            "lemma": "Ἀργεῖος",
+            "postag": "a-p---mg-",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.539",
+            "id": "Ἀργείων_9"
+        },
+        {
+            "wID": "10",
+            "form": "οἳ",
+            "lemma": "ὁ",
+            "postag": "l-p---mn-",
+            "head": "11",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.539",
+            "id": "οἳ_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἄριστοι",
+            "lemma": "ἄριστος",
+            "postag": "a-p---mn-",
+            "head": "8",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.539",
+            "id": "ἄριστοι_11"
+        },
+        {
+            "wID": "12",
+            "form": "ὑπὸ",
+            "lemma": "ὑπό",
+            "postag": "r--------",
+            "head": "8",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.539",
+            "id": "ὑπὸ_12"
+        },
+        {
+            "wID": "13",
+            "form": "Τρώων",
+            "lemma": "Τρώς",
+            "postag": "n-p----g-",
+            "head": "14",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.539",
+            "id": "Τρώων_13"
+        },
+        {
+            "wID": "14",
+            "form": "ὀρυμαγδοῦ",
+            "lemma": "ὀρυμαγδός",
+            "postag": "n-s---mg-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.539",
+            "id": "ὀρυμαγδοῦ_14"
+        },
+        {
+            "wID": "15",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.539",
+            "id": "._15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλ'_1",
+            "target": "δείδοικα_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "αἰνῶς_2",
+            "target": "δείδοικα_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "δείδοικα_3",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "κατὰ_4",
+            "target": "δείδοικα_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φρένα_5",
+            "target": "κατὰ_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "μή_6",
+            "target": "δείδοικα_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τι_7",
+            "target": "πάθωσιν_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πάθωσιν_8",
+            "target": "μή_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀργείων_9",
+            "target": "ἄριστοι_11",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "οἳ_10",
+            "target": "ἄριστοι_11",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἄριστοι_11",
+            "target": "πάθωσιν_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ὑπὸ_12",
+            "target": "πάθωσιν_8",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Τρώων_13",
+            "target": "ὀρυμαγδοῦ_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὀρυμαγδοῦ_14",
+            "target": "ὑπὸ_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

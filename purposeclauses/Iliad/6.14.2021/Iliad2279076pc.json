@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.476",
+            "id": "μὴ_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὰν",
+            "lemma": "μήν",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.476",
+            "id": "μὰν_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἀσπουδί",
+            "lemma": "ἀσπουδί",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.476",
+            "id": "ἀσπουδί_3"
+        },
+        {
+            "wID": "4",
+            "form": "γε",
+            "lemma": "γε",
+            "postag": "g--------",
+            "head": "3",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.476",
+            "id": "γε_4"
+        },
+        {
+            "wID": "5",
+            "form": "δαμασσάμενοί",
+            "lemma": "δαμάζω",
+            "postag": "v-papmmn-",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.476",
+            "id": "δαμασσάμενοί_5"
+        },
+        {
+            "wID": "6",
+            "form": "περ",
+            "lemma": "πέρ",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.476",
+            "id": "περ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἕλοιεν",
+            "lemma": "αἱρέω",
+            "postag": "v3paoa---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.476",
+            "id": "ἕλοιεν_7"
+        },
+        {
+            "wID": "8",
+            "form": "νῆας",
+            "lemma": "ναῦς",
+            "postag": "n-p---fa-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.477",
+            "id": "νῆας_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἐϋσσέλμους",
+            "lemma": "εὔσελμος",
+            "postag": "a-p---fa-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.477",
+            "id": "ἐϋσσέλμους_9"
+        },
+        {
+            "wID": "10",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "11",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.477",
+            "id": ",_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἀλλὰ",
+            "lemma": "ἀλλά",
+            "postag": "c--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.477",
+            "id": "ἀλλὰ_11"
+        },
+        {
+            "wID": "12",
+            "form": "μνησώμεθα",
+            "lemma": "μιμνήσκω",
+            "postag": "v1pasm---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.477",
+            "id": "μνησώμεθα_12"
+        },
+        {
+            "wID": "13",
+            "form": "χάρμης",
+            "lemma": "χάρμη",
+            "postag": "n-s---fg-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.477",
+            "id": "χάρμης_13"
+        },
+        {
+            "wID": "14",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.477",
+            "id": "._14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_1",
+            "target": "ἕλοιεν_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὰν_2",
+            "target": "ἕλοιεν_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀσπουδί_3",
+            "target": "ἕλοιεν_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "γε_4",
+            "target": "ἀσπουδί_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δαμασσάμενοί_5",
+            "target": "ἕλοιεν_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "περ_6",
+            "target": "δαμασσάμενοί_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἕλοιεν_7",
+            "target": "ἀλλὰ_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "νῆας_8",
+            "target": "ἕλοιεν_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐϋσσέλμους_9",
+            "target": "νῆας_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_10",
+            "target": "ἀλλὰ_11",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "ἀλλὰ_11",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "μνησώμεθα_12",
+            "target": "ἀλλὰ_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "χάρμης_13",
+            "target": "μνησώμεθα_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

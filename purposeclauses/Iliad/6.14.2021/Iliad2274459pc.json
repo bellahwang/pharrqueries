@@ -1,0 +1,205 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἐλθὼν",
+            "lemma": "ἔρχομαι",
+            "postag": "v-sapamn-",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.9",
+            "id": "ἐλθὼν_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἐς",
+            "lemma": "εἰς",
+            "postag": "r--------",
+            "head": "1",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.9",
+            "id": "ἐς_2"
+        },
+        {
+            "wID": "3",
+            "form": "κλισίην",
+            "lemma": "κλισία",
+            "postag": "n-s---fa-",
+            "head": "2",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.9",
+            "id": "κλισίην_3"
+        },
+        {
+            "wID": "4",
+            "form": "Ἀγαμέμνονος",
+            "lemma": "Ἀγαμέμνων",
+            "postag": "n-s---mg-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.9",
+            "id": "Ἀγαμέμνονος_4"
+        },
+        {
+            "wID": "5",
+            "form": "Ἀτρεΐδαο",
+            "lemma": "Ἀτρείδης",
+            "postag": "n-s---mg-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.9",
+            "id": "Ἀτρεΐδαο_5"
+        },
+        {
+            "wID": "6",
+            "form": "πάντα",
+            "lemma": "πᾶς",
+            "postag": "a-p---na-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.10",
+            "id": "πάντα_6"
+        },
+        {
+            "wID": "7",
+            "form": "μάλ'",
+            "lemma": "μάλα",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.10",
+            "id": "μάλ'_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀτρεκέως",
+            "lemma": "ἀτρεκής",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.10",
+            "id": "ἀτρεκέως_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἀγορευέμεν",
+            "lemma": "ἀγορεύω",
+            "postag": "v--pna---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.10",
+            "id": "ἀγορευέμεν_9"
+        },
+        {
+            "wID": "10",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "11",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.10",
+            "id": "ὡς_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἐπιτέλλω",
+            "lemma": "ἐπιτέλλω",
+            "postag": "v1spsa---",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.10",
+            "id": "ἐπιτέλλω_11"
+        },
+        {
+            "wID": "12",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.10",
+            "id": "·_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ἐλθὼν_1",
+            "target": "ἀγορευέμεν_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐς_2",
+            "target": "ἐλθὼν_1",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κλισίην_3",
+            "target": "ἐς_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀγαμέμνονος_4",
+            "target": "κλισίην_3",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀτρεΐδαο_5",
+            "target": "Ἀγαμέμνονος_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πάντα_6",
+            "target": "ἀγορευέμεν_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μάλ'_7",
+            "target": "πάντα_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀτρεκέως_8",
+            "target": "ἀγορευέμεν_9",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἀγορευέμεν_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_10",
+            "target": "ἐπιτέλλω_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐπιτέλλω_11",
+            "target": "ἀγορευέμεν_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_12",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

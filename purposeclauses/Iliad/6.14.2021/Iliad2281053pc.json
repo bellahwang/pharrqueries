@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἔσται",
+            "lemma": "εἰμί",
+            "postag": "v3sfim---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": "ἔσται_1"
+        },
+        {
+            "wID": "2",
+            "form": "ταῦτα",
+            "lemma": "οὗτος",
+            "postag": "a-p---nn-",
+            "head": "1",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": "ταῦτα_2"
+        },
+        {
+            "wID": "3",
+            "form": "Σκάμανδρε",
+            "lemma": "Σκάμανδρος",
+            "postag": "n-s---mv-",
+            "head": "1",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": "Σκάμανδρε_3"
+        },
+        {
+            "wID": "4",
+            "form": "διοτρεφές",
+            "lemma": "διοτρεφής",
+            "postag": "a-s---mv-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": "διοτρεφές_4"
+        },
+        {
+            "wID": "5",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "8",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": ",_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": "ὡς_6"
+        },
+        {
+            "wID": "7",
+            "form": "σὺ",
+            "lemma": "σύ",
+            "postag": "p-s---mn-",
+            "head": "8",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": "σὺ_7"
+        },
+        {
+            "wID": "8",
+            "form": "κελεύεις",
+            "lemma": "κελεύω",
+            "postag": "v2spia---",
+            "head": "1",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": "κελεύεις_8"
+        },
+        {
+            "wID": "9",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.223",
+            "id": "._9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "ἔσται_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ταῦτα_2",
+            "target": "ἔσται_1",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "Σκάμανδρε_3",
+            "target": "ἔσται_1",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "διοτρεφές_4",
+            "target": "Σκάμανδρε_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_5",
+            "target": "κελεύεις_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_6",
+            "target": "κελεύεις_8",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "σὺ_7",
+            "target": "κελεύεις_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "κελεύεις_8",
+            "target": "ἔσται_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

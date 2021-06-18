@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.752",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "αἰεὶ",
+            "lemma": "ἀεί",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.752",
+            "id": "αἰεὶ_2"
+        },
+        {
+            "wID": "3",
+            "form": "Αἴαντε",
+            "lemma": "Αἴας",
+            "postag": "n-d---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.752",
+            "id": "Αἴαντε_3"
+        },
+        {
+            "wID": "4",
+            "form": "μάχην",
+            "lemma": "μάχη",
+            "postag": "n-s---fa-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.752",
+            "id": "μάχην_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἀνέεργον",
+            "lemma": "ἀνείργω",
+            "postag": "v3piia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.752",
+            "id": "ἀνέεργον_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὀπίσσω",
+            "lemma": "ὀπίσω",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.752",
+            "id": "ὀπίσσω_6"
+        },
+        {
+            "wID": "7",
+            "form": "Τρώων",
+            "lemma": "Τρώς",
+            "postag": "n-p---mg-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.753",
+            "id": "Τρώων_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.753",
+            "id": "·_8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἀνέεργον_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "αἰεὶ_2",
+            "target": "ἀνέεργον_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Αἴαντε_3",
+            "target": "ἀνέεργον_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μάχην_4",
+            "target": "ἀνέεργον_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἀνέεργον_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὀπίσσω_6",
+            "target": "ἀνέεργον_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Τρώων_7",
+            "target": "μάχην_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

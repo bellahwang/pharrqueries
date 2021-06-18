@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "φαίης",
+            "lemma": "φημί",
+            "postag": "v2spoa---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.697",
+            "id": "φαίης_1"
+        },
+        {
+            "wID": "2",
+            "form": "κ'",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "1",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.697",
+            "id": "κ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἀκμῆτας",
+            "lemma": "ἀκμής",
+            "postag": "a-p---ma-",
+            "head": "4",
+            "relation": "AtvV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.697",
+            "id": "ἀκμῆτας_3"
+        },
+        {
+            "wID": "4",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "7",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.697",
+            "id": "καὶ_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἀτειρέας",
+            "lemma": "ἀτειρής",
+            "postag": "a-p---ma-",
+            "head": "4",
+            "relation": "AtvV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.697",
+            "id": "ἀτειρέας_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἀλλήλοισιν",
+            "lemma": "ἀλλήλων",
+            "postag": "a-p---md-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.697",
+            "id": "ἀλλήλοισιν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἄντεσθ'",
+            "lemma": "ἄντομαι",
+            "postag": "v--pne---",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.698",
+            "id": "ἄντεσθ'_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἐν",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "7",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.698",
+            "id": "ἐν_8"
+        },
+        {
+            "wID": "9",
+            "form": "πολέμῳ",
+            "lemma": "πόλεμος",
+            "postag": "n-s---md-",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.698",
+            "id": "πολέμῳ_9"
+        },
+        {
+            "wID": "10",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "13",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.698",
+            "id": ",_10"
+        },
+        {
+            "wID": "11",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.698",
+            "id": "ὡς_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἐσσυμένως",
+            "lemma": "ἐσσύμενος",
+            "postag": "d--------",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.698",
+            "id": "ἐσσυμένως_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἐμάχοντο",
+            "lemma": "μάχομαι",
+            "postag": "v3piie---",
+            "head": "1",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.698",
+            "id": "ἐμάχοντο_13"
+        },
+        {
+            "wID": "14",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.698",
+            "id": "._14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "φαίης_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "κ'_2",
+            "target": "φαίης_1",
+            "key": 0
+        },
+        {
+            "relation": "AtvV_CO",
+            "source": "ἀκμῆτας_3",
+            "target": "καὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_4",
+            "target": "ἄντεσθ'_7",
+            "key": 0
+        },
+        {
+            "relation": "AtvV_CO",
+            "source": "ἀτειρέας_5",
+            "target": "καὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀλλήλοισιν_6",
+            "target": "ἄντεσθ'_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἄντεσθ'_7",
+            "target": "φαίης_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐν_8",
+            "target": "ἄντεσθ'_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πολέμῳ_9",
+            "target": "ἐν_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_10",
+            "target": "ἐμάχοντο_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_11",
+            "target": "ἐμάχοντο_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐσσυμένως_12",
+            "target": "ἐμάχοντο_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐμάχοντο_13",
+            "target": "φαίης_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

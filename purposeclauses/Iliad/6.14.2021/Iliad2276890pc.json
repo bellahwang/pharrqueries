@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλὰ",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.250",
+            "id": "ἀλλὰ_1"
+        },
+        {
+            "wID": "2",
+            "form": "πολὺ",
+            "lemma": "πολύς",
+            "postag": "a-s---na-",
+            "head": "3",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.250",
+            "id": "πολὺ_2"
+        },
+        {
+            "wID": "3",
+            "form": "πρὶν",
+            "lemma": "πρίν",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.250",
+            "id": "πρὶν_3"
+        },
+        {
+            "wID": "4",
+            "form": "φράζευ",
+            "lemma": "φράζω",
+            "postag": "v2spme---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.251",
+            "id": "φράζευ_4"
+        },
+        {
+            "wID": "5",
+            "form": "ὅπως",
+            "lemma": "ὅπως",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.251",
+            "id": "ὅπως_5"
+        },
+        {
+            "wID": "6",
+            "form": "Δαναοῖσιν",
+            "lemma": "Δαναοί",
+            "postag": "n-p---md-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.251",
+            "id": "Δαναοῖσιν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀλεξήσεις",
+            "lemma": "ἀλέξω",
+            "postag": "v2sasa---",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.251",
+            "id": "ἀλεξήσεις_7"
+        },
+        {
+            "wID": "8",
+            "form": "κακὸν",
+            "lemma": "κακός",
+            "postag": "a-s---na-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.251",
+            "id": "κακὸν_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἦμαρ",
+            "lemma": "ἦμαρ",
+            "postag": "n-s---na-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.251",
+            "id": "ἦμαρ_9"
+        },
+        {
+            "wID": "10",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.251",
+            "id": "._10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλὰ_1",
+            "target": "φράζευ_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "πολὺ_2",
+            "target": "πρὶν_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πρὶν_3",
+            "target": "φράζευ_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "φράζευ_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὅπως_5",
+            "target": "φράζευ_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Δαναοῖσιν_6",
+            "target": "ἀλεξήσεις_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀλεξήσεις_7",
+            "target": "ὅπως_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κακὸν_8",
+            "target": "ἦμαρ_9",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἦμαρ_9",
+            "target": "ἀλεξήσεις_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

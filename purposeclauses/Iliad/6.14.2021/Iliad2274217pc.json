@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλ'",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "ἀλλ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἤτοι",
+            "lemma": "ἤτοι",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "ἤτοι_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἔπεσιν",
+            "lemma": "ἔπος",
+            "postag": "n-p---nd-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "ἔπεσιν_3"
+        },
+        {
+            "wID": "4",
+            "form": "μὲν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "μὲν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ὀνείδισον",
+            "lemma": "ὀνειδίζω",
+            "postag": "v2sama---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "ὀνείδισον_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "ὡς_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἔσεταί",
+            "lemma": "εἰμί",
+            "postag": "v3sfim---",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "ἔσεταί_7"
+        },
+        {
+            "wID": "8",
+            "form": "περ",
+            "lemma": "πέρ",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "περ_8"
+        },
+        {
+            "wID": "9",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.211",
+            "id": "·_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλ'_1",
+            "target": "ὀνείδισον_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἤτοι_2",
+            "target": "ὀνείδισον_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἔπεσιν_3",
+            "target": "ὀνείδισον_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὲν_4",
+            "target": "ὀνείδισον_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὀνείδισον_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_6",
+            "target": "ἔσεταί_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἔσεταί_7",
+            "target": "ὀνείδισον_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "περ_8",
+            "target": "ἔσεταί_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

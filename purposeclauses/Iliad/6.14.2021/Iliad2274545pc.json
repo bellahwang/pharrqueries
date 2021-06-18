@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἔνθά",
+            "lemma": "ἔνθα",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.155",
+            "id": "ἔνθά_1"
+        },
+        {
+            "wID": "2",
+            "form": "κεν",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.155",
+            "id": "κεν_2"
+        },
+        {
+            "wID": "3",
+            "form": "Ἀργείοισιν",
+            "lemma": "Ἀργεῖος",
+            "postag": "a-p---md-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.155",
+            "id": "Ἀργείοισιν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὑπέρμορα",
+            "lemma": "ὑπέρμορον",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.155",
+            "id": "ὑπέρμορα_4"
+        },
+        {
+            "wID": "5",
+            "form": "νόστος",
+            "lemma": "νόστος",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.155",
+            "id": "νόστος_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐτύχθη",
+            "lemma": "τεύχω",
+            "postag": "v3saip---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.155",
+            "id": "ἐτύχθη_6"
+        },
+        {
+            "wID": "7",
+            "form": "εἰ",
+            "lemma": "εἰ",
+            "postag": "c--------",
+            "head": "6",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.156",
+            "id": "εἰ_7"
+        },
+        {
+            "wID": "8",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "13",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.156",
+            "id": "μὴ_8"
+        },
+        {
+            "wID": "9",
+            "form": "Ἀθηναίην",
+            "lemma": "Ἀθήνη",
+            "postag": "n-s---fa-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.156",
+            "id": "Ἀθηναίην_9"
+        },
+        {
+            "wID": "10",
+            "form": "Ἥρη",
+            "lemma": "Ἥρα",
+            "postag": "n-s---fn-",
+            "head": "13",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.156",
+            "id": "Ἥρη_10"
+        },
+        {
+            "wID": "11",
+            "form": "πρὸς",
+            "lemma": "πρός",
+            "postag": "r--------",
+            "head": "13",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.156",
+            "id": "πρὸς_11"
+        },
+        {
+            "wID": "12",
+            "form": "μῦθον",
+            "lemma": "μῦθος",
+            "postag": "n-s---ma-",
+            "head": "13",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.156",
+            "id": "μῦθον_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἔειπεν",
+            "lemma": "εἶπον",
+            "postag": "v3saia---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.156",
+            "id": "ἔειπεν_13"
+        },
+        {
+            "wID": "14",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.156",
+            "id": "·_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ἔνθά_1",
+            "target": "ἐτύχθη_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "κεν_2",
+            "target": "ἐτύχθη_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀργείοισιν_3",
+            "target": "ἐτύχθη_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὑπέρμορα_4",
+            "target": "ἐτύχθη_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "νόστος_5",
+            "target": "ἐτύχθη_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἐτύχθη_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "εἰ_7",
+            "target": "ἐτύχθη_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_8",
+            "target": "ἔειπεν_13",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀθηναίην_9",
+            "target": "ἔειπεν_13",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἥρη_10",
+            "target": "ἔειπεν_13",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "πρὸς_11",
+            "target": "ἔειπεν_13",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μῦθον_12",
+            "target": "ἔειπεν_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἔειπεν_13",
+            "target": "εἰ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "οἳ",
+            "lemma": "ὅς",
+            "postag": "p-p---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "οἳ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἔθελον",
+            "lemma": "ἐθέλω",
+            "postag": "v3piia---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "ἔθελον_3"
+        },
+        {
+            "wID": "4",
+            "form": "δόμεναι",
+            "lemma": "δίδωμι",
+            "postag": "v--ana---",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "δόμεναι_4"
+        },
+        {
+            "wID": "5",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "καὶ_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐπῄνεον",
+            "lemma": "ἐπαινέω",
+            "postag": "v3piia---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "ἐπῄνεον_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "ὡς_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἐκέλευον",
+            "lemma": "κελεύω",
+            "postag": "v3piia---",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "ἐκέλευον_8"
+        },
+        {
+            "wID": "9",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.380",
+            "id": "·_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "SBJ",
+            "source": "οἳ_1",
+            "target": "καὶ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δ'_2",
+            "target": "καὶ_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔθελον_3",
+            "target": "καὶ_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "δόμεναι_4",
+            "target": "ἔθελον_3",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐπῄνεον_6",
+            "target": "καὶ_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_7",
+            "target": "ἐκέλευον_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐκέλευον_8",
+            "target": "ἐπῄνεον_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,221 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "περὶ",
+            "lemma": "περί",
+            "postag": "r--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.20",
+            "id": "περὶ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.20",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "αἰγίδι",
+            "lemma": "αἰγίς",
+            "postag": "n-s---fd-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.20",
+            "id": "αἰγίδι_3"
+        },
+        {
+            "wID": "4",
+            "form": "πάντα",
+            "lemma": "πᾶς",
+            "postag": "a-p---na-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.20",
+            "id": "πάντα_4"
+        },
+        {
+            "wID": "5",
+            "form": "κάλυπτε",
+            "lemma": "καλύπτω",
+            "postag": "v3siia---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.20",
+            "id": "κάλυπτε_5"
+        },
+        {
+            "wID": "6",
+            "form": "χρυσείῃ",
+            "lemma": "χρύσεος",
+            "postag": "a-s---fd-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.21",
+            "id": "χρυσείῃ_6"
+        },
+        {
+            "wID": "7",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "8",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.21",
+            "id": ",_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἵνα",
+            "lemma": "ἵνα",
+            "postag": "c--------",
+            "head": "5",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.21",
+            "id": "ἵνα_8"
+        },
+        {
+            "wID": "9",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "d--------",
+            "head": "11",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.21",
+            "id": "μή_9"
+        },
+        {
+            "wID": "10",
+            "form": "μιν",
+            "lemma": "μιν",
+            "postag": "p-s---ma-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.21",
+            "id": "μιν_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἀποδρύφοι",
+            "lemma": "ἀποδρύπτω",
+            "postag": "v3saoa---",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.21",
+            "id": "ἀποδρύφοι_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἑλκυστάζων",
+            "lemma": "ἑλκυστάζω",
+            "postag": "v-sppamn-",
+            "head": "11",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.21",
+            "id": "ἑλκυστάζων_12"
+        },
+        {
+            "wID": "13",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.21",
+            "id": "._13"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "περὶ_1",
+            "target": "κάλυπτε_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "αἰγίδι_3",
+            "target": "κάλυπτε_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πάντα_4",
+            "target": "κάλυπτε_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κάλυπτε_5",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "χρυσείῃ_6",
+            "target": "αἰγίδι_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_7",
+            "target": "ἵνα_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ἵνα_8",
+            "target": "κάλυπτε_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μή_9",
+            "target": "ἀποδρύφοι_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μιν_10",
+            "target": "ἀποδρύφοι_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀποδρύφοι_11",
+            "target": "ἵνα_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἑλκυστάζων_12",
+            "target": "ἀποδρύφοι_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._13",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

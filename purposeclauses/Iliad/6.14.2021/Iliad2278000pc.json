@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "2",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.216",
+            "id": "μὴ_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἴομεν",
+            "lemma": "εἶμι",
+            "postag": "v1ppsa---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.216",
+            "id": "ἴομεν_2"
+        },
+        {
+            "wID": "3",
+            "form": "Δαναοῖσι",
+            "lemma": "Δαναοί",
+            "postag": "n-p---md-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.216",
+            "id": "Δαναοῖσι_3"
+        },
+        {
+            "wID": "4",
+            "form": "μαχησόμενοι",
+            "lemma": "μάχομαι",
+            "postag": "v-pfpmmn-",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.216",
+            "id": "μαχησόμενοι_4"
+        },
+        {
+            "wID": "5",
+            "form": "περὶ",
+            "lemma": "περί",
+            "postag": "r--------",
+            "head": "4",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.216",
+            "id": "περὶ_5"
+        },
+        {
+            "wID": "6",
+            "form": "νηῶν",
+            "lemma": "ναῦς",
+            "postag": "n-p---fg-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.216",
+            "id": "νηῶν_6"
+        },
+        {
+            "wID": "7",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.216",
+            "id": "._7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_1",
+            "target": "ἴομεν_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἴομεν_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Δαναοῖσι_3",
+            "target": "μαχησόμενοι_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μαχησόμενοι_4",
+            "target": "ἴομεν_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "περὶ_5",
+            "target": "μαχησόμενοι_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "νηῶν_6",
+            "target": "περὶ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

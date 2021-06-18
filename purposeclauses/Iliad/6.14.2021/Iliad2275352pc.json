@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἀτρεΐδη",
+            "lemma": "Ἀτρείδης",
+            "postag": "n-s---mv-",
+            "head": "3",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.404",
+            "id": "Ἀτρεΐδη_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "3",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.404",
+            "id": "μὴ_2"
+        },
+        {
+            "wID": "3",
+            "form": "ψεύδε'",
+            "lemma": "ψεύδω",
+            "postag": "v2spme---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.404",
+            "id": "ψεύδε'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐπιστάμενος",
+            "lemma": "ἐπίσταμαι",
+            "postag": "v-sppemn-",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.404",
+            "id": "ἐπιστάμενος_4"
+        },
+        {
+            "wID": "5",
+            "form": "σάφα",
+            "lemma": "σάφα",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.404",
+            "id": "σάφα_5"
+        },
+        {
+            "wID": "6",
+            "form": "εἰπεῖν",
+            "lemma": "εἶπον",
+            "postag": "v--ana---",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.404",
+            "id": "εἰπεῖν_6"
+        },
+        {
+            "wID": "7",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.404",
+            "id": "·_7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Ἀτρεΐδη_1",
+            "target": "ψεύδε'_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_2",
+            "target": "ψεύδε'_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ψεύδε'_3",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐπιστάμενος_4",
+            "target": "ψεύδε'_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "σάφα_5",
+            "target": "εἰπεῖν_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "εἰπεῖν_6",
+            "target": "ἐπιστάμενος_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.584",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἰθὺς",
+            "lemma": "εὐθύς",
+            "postag": "a-s---mn-",
+            "head": "6",
+            "relation": "AtvV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.584",
+            "id": "ἰθὺς_2"
+        },
+        {
+            "wID": "3",
+            "form": "Λυκίων",
+            "lemma": "Λύκιοι",
+            "postag": "n-p---mg-",
+            "head": "7",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.584",
+            "id": "Λυκίων_3"
+        },
+        {
+            "wID": "4",
+            "form": "Πατρόκλεες",
+            "lemma": "Πατροκλῆς",
+            "postag": "n-s---mv-",
+            "head": "6",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.584",
+            "id": "Πατρόκλεες_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἱπποκέλευθε",
+            "lemma": "ἱπποκέλευθος",
+            "postag": "a-s---mv-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.584",
+            "id": "ἱπποκέλευθε_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἔσσυο",
+            "lemma": "σεύω",
+            "postag": "v2saim---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": "ἔσσυο_6"
+        },
+        {
+            "wID": "7",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "6",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": "καὶ_7"
+        },
+        {
+            "wID": "8",
+            "form": "Τρώων",
+            "lemma": "Τρώς",
+            "postag": "n-p---mg-",
+            "head": "7",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": "Τρώων_8"
+        },
+        {
+            "wID": "9",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "11",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": ",_9"
+        },
+        {
+            "wID": "10",
+            "form": "κεχόλωσο",
+            "lemma": "χολόω",
+            "postag": "v2slie---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": "κεχόλωσο_10"
+        },
+        {
+            "wID": "11",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": "δὲ_11"
+        },
+        {
+            "wID": "12",
+            "form": "κῆρ",
+            "lemma": "κῆρ",
+            "postag": "n-s---na-",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": "κῆρ_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἑτάροιο",
+            "lemma": "ἑταῖρος",
+            "postag": "n-s---mg-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": "ἑτάροιο_13"
+        },
+        {
+            "wID": "14",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.585",
+            "id": "._14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔσσυο_6",
+            "key": 0
+        },
+        {
+            "relation": "AtvV",
+            "source": "ἰθὺς_2",
+            "target": "ἔσσυο_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "Λυκίων_3",
+            "target": "καὶ_7",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "Πατρόκλεες_4",
+            "target": "ἔσσυο_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἱπποκέλευθε_5",
+            "target": "Πατρόκλεες_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔσσυο_6",
+            "target": "δὲ_11",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_7",
+            "target": "ἔσσυο_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "Τρώων_8",
+            "target": "καὶ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_9",
+            "target": "δὲ_11",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κεχόλωσο_10",
+            "target": "δὲ_11",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_11",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "κῆρ_12",
+            "target": "κεχόλωσο_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἑτάροιο_13",
+            "target": "κεχόλωσο_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

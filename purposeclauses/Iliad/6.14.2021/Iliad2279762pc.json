@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "φράζεο",
+            "lemma": "φράζω",
+            "postag": "v2spme---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.144",
+            "id": "φράζεο_1"
+        },
+        {
+            "wID": "2",
+            "form": "νῦν",
+            "lemma": "νῦν",
+            "postag": "d--------",
+            "head": "1",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.144",
+            "id": "νῦν_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὅππως",
+            "lemma": "ὅπως",
+            "postag": "d--------",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.144",
+            "id": "ὅππως_3"
+        },
+        {
+            "wID": "4",
+            "form": "κε",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "8",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.144",
+            "id": "κε_4"
+        },
+        {
+            "wID": "5",
+            "form": "πόλιν",
+            "lemma": "πόλις",
+            "postag": "n-s---fa-",
+            "head": "6",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.144",
+            "id": "πόλιν_5"
+        },
+        {
+            "wID": "6",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "8",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.144",
+            "id": "καὶ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἄστυ",
+            "lemma": "ἄστυ",
+            "postag": "n-s---na-",
+            "head": "6",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.144",
+            "id": "ἄστυ_7"
+        },
+        {
+            "wID": "8",
+            "form": "σαώσῃς",
+            "lemma": "σώζω",
+            "postag": "v2sasa---",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.144",
+            "id": "σαώσῃς_8"
+        },
+        {
+            "wID": "9",
+            "form": "οἶος",
+            "lemma": "οἶος",
+            "postag": "a-s---mn-",
+            "head": "8",
+            "relation": "AtvV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.145",
+            "id": "οἶος_9"
+        },
+        {
+            "wID": "10",
+            "form": "σὺν",
+            "lemma": "σύν",
+            "postag": "r--------",
+            "head": "8",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.145",
+            "id": "σὺν_10"
+        },
+        {
+            "wID": "11",
+            "form": "λαοῖς",
+            "lemma": "λαός",
+            "postag": "n-p---md-",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.145",
+            "id": "λαοῖς_11"
+        },
+        {
+            "wID": "12",
+            "form": "τοὶ",
+            "lemma": "ὁ",
+            "postag": "p-p---mn-",
+            "head": "14",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.145",
+            "id": "τοὶ_12"
+        },
+        {
+            "wID": "13",
+            "form": "Ἰλίῳ",
+            "lemma": "Ἴλιος",
+            "postag": "n-s---fd-",
+            "head": "14",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.145",
+            "id": "Ἰλίῳ_13"
+        },
+        {
+            "wID": "14",
+            "form": "ἐγγεγάασιν",
+            "lemma": "ἐγγίγνομαι",
+            "postag": "v3pria---",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.145",
+            "id": "ἐγγεγάασιν_14"
+        },
+        {
+            "wID": "15",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.145",
+            "id": "·_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "φράζεο_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νῦν_2",
+            "target": "φράζεο_1",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὅππως_3",
+            "target": "σαώσῃς_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "κε_4",
+            "target": "σαώσῃς_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "πόλιν_5",
+            "target": "καὶ_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_6",
+            "target": "σαώσῃς_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "ἄστυ_7",
+            "target": "καὶ_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σαώσῃς_8",
+            "target": "φράζεο_1",
+            "key": 0
+        },
+        {
+            "relation": "AtvV",
+            "source": "οἶος_9",
+            "target": "σαώσῃς_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "σὺν_10",
+            "target": "σαώσῃς_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "λαοῖς_11",
+            "target": "σὺν_10",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "τοὶ_12",
+            "target": "ἐγγεγάασιν_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἰλίῳ_13",
+            "target": "ἐγγεγάασιν_14",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐγγεγάασιν_14",
+            "target": "λαοῖς_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

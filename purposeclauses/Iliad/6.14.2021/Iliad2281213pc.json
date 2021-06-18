@@ -1,0 +1,269 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἄρ'",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "3",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": "ἄρ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἔφη",
+            "lemma": "φημί",
+            "postag": "v3siia---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": "ἔφη_3"
+        },
+        {
+            "wID": "4",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "6",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": ",_4"
+        },
+        {
+            "wID": "5",
+            "form": "Λητὼ",
+            "lemma": "Λητώ",
+            "postag": "n-s---fn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": "Λητὼ_5"
+        },
+        {
+            "wID": "6",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": "δὲ_6"
+        },
+        {
+            "wID": "7",
+            "form": "συναίνυτο",
+            "lemma": "συναίνυμαι",
+            "postag": "v3siie---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": "συναίνυτο_7"
+        },
+        {
+            "wID": "8",
+            "form": "καμπύλα",
+            "lemma": "καμπύλος",
+            "postag": "a-p---na-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": "καμπύλα_8"
+        },
+        {
+            "wID": "9",
+            "form": "τόξα",
+            "lemma": "τόξον",
+            "postag": "n-p---na-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.502",
+            "id": "τόξα_9"
+        },
+        {
+            "wID": "10",
+            "form": "πεπτεῶτ'",
+            "lemma": "πίπτω",
+            "postag": "v-prpana-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.503",
+            "id": "πεπτεῶτ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἄλλυδις",
+            "lemma": "ἄλλυδις",
+            "postag": "d--------",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.503",
+            "id": "ἄλλυδις_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἄλλα",
+            "lemma": "ἄλλος",
+            "postag": "a-p---na-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.503",
+            "id": "ἄλλα_12"
+        },
+        {
+            "wID": "13",
+            "form": "μετὰ",
+            "lemma": "μετά",
+            "postag": "r--------",
+            "head": "10",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.503",
+            "id": "μετὰ_13"
+        },
+        {
+            "wID": "14",
+            "form": "στροφάλιγγι",
+            "lemma": "στροφάλιγξ",
+            "postag": "n-s---fd-",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.503",
+            "id": "στροφάλιγγι_14"
+        },
+        {
+            "wID": "15",
+            "form": "κονίης",
+            "lemma": "κονία",
+            "postag": "n-s---fg-",
+            "head": "14",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.503",
+            "id": "κονίης_15"
+        },
+        {
+            "wID": "16",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.503",
+            "id": "._16"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔφη_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρ'_2",
+            "target": "ἔφη_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔφη_3",
+            "target": "δὲ_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_4",
+            "target": "δὲ_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Λητὼ_5",
+            "target": "συναίνυτο_7",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "συναίνυτο_7",
+            "target": "δὲ_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "καμπύλα_8",
+            "target": "τόξα_9",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τόξα_9",
+            "target": "συναίνυτο_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πεπτεῶτ'_10",
+            "target": "τόξα_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἄλλυδις_11",
+            "target": "πεπτεῶτ'_10",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἄλλα_12",
+            "target": "τόξα_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "μετὰ_13",
+            "target": "πεπτεῶτ'_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "στροφάλιγγι_14",
+            "target": "μετὰ_13",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κονίης_15",
+            "target": "στροφάλιγγι_14",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._16",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

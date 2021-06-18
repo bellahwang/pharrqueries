@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μη",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.192",
+            "id": "μη_1"
+        },
+        {
+            "wID": "2",
+            "form": "δέ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.192",
+            "id": "δέ_2"
+        },
+        {
+            "wID": "3",
+            "form": "τιν'",
+            "lemma": "τις",
+            "postag": "p-s---ma-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.192",
+            "id": "τιν'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὕπνος",
+            "lemma": "ὕπνος",
+            "postag": "n-s---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.192",
+            "id": "ὕπνος_4"
+        },
+        {
+            "wID": "5",
+            "form": "αἱρείτω",
+            "lemma": "αἱρέω",
+            "postag": "v3spma---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.193",
+            "id": "αἱρείτω_5"
+        },
+        {
+            "wID": "6",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "7",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.193",
+            "id": ",_6"
+        },
+        {
+            "wID": "7",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "5",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.193",
+            "id": "μὴ_7"
+        },
+        {
+            "wID": "8",
+            "form": "χάρμα",
+            "lemma": "χάρμα",
+            "postag": "n-s---nn-",
+            "head": "9",
+            "relation": "PNOM",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.193",
+            "id": "χάρμα_8"
+        },
+        {
+            "wID": "9",
+            "form": "γενώμεθα",
+            "lemma": "γίγνομαι",
+            "postag": "v1pasm---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.193",
+            "id": "γενώμεθα_9"
+        },
+        {
+            "wID": "10",
+            "form": "δυσμενέεσσιν",
+            "lemma": "δυσμενής",
+            "postag": "a-p---md-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.193",
+            "id": "δυσμενέεσσιν_10"
+        },
+        {
+            "wID": "11",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.193",
+            "id": "._11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μη_1",
+            "target": "αἱρείτω_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δέ_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τιν'_3",
+            "target": "αἱρείτω_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ὕπνος_4",
+            "target": "αἱρείτω_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "αἱρείτω_5",
+            "target": "δέ_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_6",
+            "target": "μὴ_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "μὴ_7",
+            "target": "αἱρείτω_5",
+            "key": 0
+        },
+        {
+            "relation": "PNOM",
+            "source": "χάρμα_8",
+            "target": "γενώμεθα_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "γενώμεθα_9",
+            "target": "μὴ_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "δυσμενέεσσιν_10",
+            "target": "γενώμεθα_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

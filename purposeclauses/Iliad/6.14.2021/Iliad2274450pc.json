@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἄσβεστος",
+            "lemma": "ἄσβεστος",
+            "postag": "a-s---mn-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.599",
+            "id": "ἄσβεστος_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.599",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄρ'",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.599",
+            "id": "ἄρ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐνῶρτο",
+            "lemma": "ἐνόρνυμι",
+            "postag": "v3saim---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.599",
+            "id": "ἐνῶρτο_4"
+        },
+        {
+            "wID": "5",
+            "form": "γέλως",
+            "lemma": "γέλως",
+            "postag": "n-s---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.599",
+            "id": "γέλως_5"
+        },
+        {
+            "wID": "6",
+            "form": "μακάρεσσι",
+            "lemma": "μάκαρ",
+            "postag": "a-p---md-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.599",
+            "id": "μακάρεσσι_6"
+        },
+        {
+            "wID": "7",
+            "form": "θεοῖσιν",
+            "lemma": "θεός",
+            "postag": "n-p---md-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.599",
+            "id": "θεοῖσιν_7"
+        },
+        {
+            "wID": "8",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.600",
+            "id": "ὡς_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἴδον",
+            "lemma": "εἶδον",
+            "postag": "v3paia---",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.600",
+            "id": "ἴδον_9"
+        },
+        {
+            "wID": "10",
+            "form": "Ἥφαιστον",
+            "lemma": "Ἥφαιστος",
+            "postag": "n-s---ma-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.600",
+            "id": "Ἥφαιστον_10"
+        },
+        {
+            "wID": "11",
+            "form": "διὰ",
+            "lemma": "διά",
+            "postag": "r--------",
+            "head": "13",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.600",
+            "id": "διὰ_11"
+        },
+        {
+            "wID": "12",
+            "form": "δώματα",
+            "lemma": "δῶμα",
+            "postag": "n-p---na-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.600",
+            "id": "δώματα_12"
+        },
+        {
+            "wID": "13",
+            "form": "ποιπνύοντα",
+            "lemma": "ποιπνύω",
+            "postag": "v-sppama-",
+            "head": "10",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.600",
+            "id": "ποιπνύοντα_13"
+        },
+        {
+            "wID": "14",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.600",
+            "id": "._14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ATR",
+            "source": "ἄσβεστος_1",
+            "target": "γέλως_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρ'_3",
+            "target": "ἐνῶρτο_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐνῶρτο_4",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "γέλως_5",
+            "target": "ἐνῶρτο_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "μακάρεσσι_6",
+            "target": "θεοῖσιν_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "θεοῖσιν_7",
+            "target": "ἐνῶρτο_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὡς_8",
+            "target": "ἐνῶρτο_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἴδον_9",
+            "target": "ὡς_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἥφαιστον_10",
+            "target": "ἴδον_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "διὰ_11",
+            "target": "ποιπνύοντα_13",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "δώματα_12",
+            "target": "διὰ_11",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "ποιπνύοντα_13",
+            "target": "Ἥφαιστον_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

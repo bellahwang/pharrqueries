@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "μή_1"
+        },
+        {
+            "wID": "2",
+            "form": "μοι",
+            "lemma": "ἐγώ",
+            "postag": "p-s---md-",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "μοι_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἐρύκεσθον",
+            "lemma": "ἐρύκω",
+            "postag": "v2dpme---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "ἐρύκεσθον_3"
+        },
+        {
+            "wID": "4",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "μὴ_4"
+        },
+        {
+            "wID": "5",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "δ'_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἕστατον",
+            "lemma": "ἵστημι",
+            "postag": "v2drma---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "ἕστατον_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀχνυμένω",
+            "lemma": "ἀχεύω",
+            "postag": "v-dpppmn-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "ἀχνυμένω_7"
+        },
+        {
+            "wID": "8",
+            "form": "κῆρ",
+            "lemma": "κῆρ",
+            "postag": "n-s---na-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "κῆρ_8"
+        },
+        {
+            "wID": "9",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:23.443",
+            "id": "._9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μή_1",
+            "target": "ἐρύκεσθον_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μοι_2",
+            "target": "ἐρύκεσθον_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐρύκεσθον_3",
+            "target": "δ'_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_4",
+            "target": "ἕστατον_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἕστατον_6",
+            "target": "δ'_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀχνυμένω_7",
+            "target": "ἕστατον_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κῆρ_8",
+            "target": "ἀχνυμένω_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

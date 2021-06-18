@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "εἰ",
+            "lemma": "εἰ",
+            "postag": "i--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "εἰ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄγε",
+            "lemma": "ἄγε",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "ἄγε_3"
+        },
+        {
+            "wID": "4",
+            "form": "μὴν",
+            "lemma": "μήν",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "μὴν_4"
+        },
+        {
+            "wID": "5",
+            "form": "πείρησαι",
+            "lemma": "πειράω",
+            "postag": "v2samm---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "πείρησαι_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἵνα",
+            "lemma": "ἵνα",
+            "postag": "c--------",
+            "head": "5",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "ἵνα_6"
+        },
+        {
+            "wID": "7",
+            "form": "γνώωσι",
+            "lemma": "γιγνώσκω",
+            "postag": "v3pasa---",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "γνώωσι_7"
+        },
+        {
+            "wID": "8",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "καὶ_8"
+        },
+        {
+            "wID": "9",
+            "form": "οἵδε",
+            "lemma": "ὅδε",
+            "postag": "p-p---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "οἵδε_9"
+        },
+        {
+            "wID": "10",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.302",
+            "id": "·_10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "εἰ_1",
+            "target": "πείρησαι_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄγε_3",
+            "target": "πείρησαι_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὴν_4",
+            "target": "πείρησαι_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "πείρησαι_5",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ἵνα_6",
+            "target": "πείρησαι_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "γνώωσι_7",
+            "target": "ἵνα_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "καὶ_8",
+            "target": "οἵδε_9",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "οἵδε_9",
+            "target": "γνώωσι_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

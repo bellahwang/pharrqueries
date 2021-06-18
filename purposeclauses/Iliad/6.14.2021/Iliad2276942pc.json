@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλ'",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.351",
+            "id": "ἀλλ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "οὐ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.351",
+            "id": "οὐ_2"
+        },
+        {
+            "wID": "3",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "2",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.351",
+            "id": "δ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὧς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.351",
+            "id": "ὧς_4"
+        },
+        {
+            "wID": "5",
+            "form": "δύναται",
+            "lemma": "δύναμαι",
+            "postag": "v3spie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.351",
+            "id": "δύναται_5"
+        },
+        {
+            "wID": "6",
+            "form": "σθένος",
+            "lemma": "σθένος",
+            "postag": "n-s---na-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.351",
+            "id": "σθένος_6"
+        },
+        {
+            "wID": "7",
+            "form": "Ἕκτορος",
+            "lemma": "Ἕκτωρ",
+            "postag": "n-s---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.351",
+            "id": "Ἕκτορος_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀνδροφόνοιο",
+            "lemma": "ἀνδροφόνος",
+            "postag": "a-s---mg-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.351",
+            "id": "ἀνδροφόνοιο_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἴσχειν",
+            "lemma": "ἴσχω",
+            "postag": "v--pna---",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.352",
+            "id": "ἴσχειν_9"
+        },
+        {
+            "wID": "10",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.352",
+            "id": "·_10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλ'_1",
+            "target": "δύναται_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὐ_2",
+            "target": "δύναται_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "δ'_3",
+            "target": "οὐ_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὧς_4",
+            "target": "δύναται_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "δύναται_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σθένος_6",
+            "target": "ἴσχειν_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἕκτορος_7",
+            "target": "σθένος_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀνδροφόνοιο_8",
+            "target": "Ἕκτορος_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἴσχειν_9",
+            "target": "δύναται_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

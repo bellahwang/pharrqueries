@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.1",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "οἱ",
+            "lemma": "ὁ",
+            "postag": "l-p---mn-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.1",
+            "id": "οἱ_2"
+        },
+        {
+            "wID": "3",
+            "form": "μὲν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.1",
+            "id": "μὲν_3"
+        },
+        {
+            "wID": "4",
+            "form": "Τρῶες",
+            "lemma": "Τρώς",
+            "postag": "n-p---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.1",
+            "id": "Τρῶες_4"
+        },
+        {
+            "wID": "5",
+            "form": "φυλακὰς",
+            "lemma": "φυλακή",
+            "postag": "n-p---fa-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.1",
+            "id": "φυλακὰς_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἔχον",
+            "lemma": "ἔχω",
+            "postag": "v3piia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.1",
+            "id": "ἔχον_6"
+        },
+        {
+            "wID": "7",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.1",
+            "id": "·_7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔχον_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "οἱ_2",
+            "target": "Τρῶες_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὲν_3",
+            "target": "ἔχον_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Τρῶες_4",
+            "target": "ἔχον_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "φυλακὰς_5",
+            "target": "ἔχον_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἔχον_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

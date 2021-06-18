@@ -1,0 +1,250 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "15",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.487",
+            "id": "μή_1"
+        },
+        {
+            "wID": "2",
+            "form": "πως",
+            "lemma": "πως",
+            "postag": "g--------",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.487",
+            "id": "πως_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.487",
+            "id": "ὡς_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἀψῖσι",
+            "lemma": "ἁψίς",
+            "postag": "n-p---fd-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.487",
+            "id": "ἀψῖσι_4"
+        },
+        {
+            "wID": "5",
+            "form": "λίνου",
+            "lemma": "λίνον",
+            "postag": "n-s---ng-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.487",
+            "id": "λίνου_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἁλόντε",
+            "lemma": "ἁλίσκομαι",
+            "postag": "v-dapamn-",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.487",
+            "id": "ἁλόντε_6"
+        },
+        {
+            "wID": "7",
+            "form": "πανάγρου",
+            "lemma": "πάναγρος",
+            "postag": "a-s---ng-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.487",
+            "id": "πανάγρου_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀνδράσι",
+            "lemma": "ἀνήρ",
+            "postag": "n-p---md-",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.488",
+            "id": "ἀνδράσι_8"
+        },
+        {
+            "wID": "9",
+            "form": "δυσμενέεσσιν",
+            "lemma": "δυσμενής",
+            "postag": "a-p---md-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.488",
+            "id": "δυσμενέεσσιν_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἕλωρ",
+            "lemma": "ἕλωρ",
+            "postag": "n-s---nn-",
+            "head": "11",
+            "relation": "PNOM_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.488",
+            "id": "ἕλωρ_10"
+        },
+        {
+            "wID": "11",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "13",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.488",
+            "id": "καὶ_11"
+        },
+        {
+            "wID": "12",
+            "form": "κύρμα",
+            "lemma": "κύρμα",
+            "postag": "n-s---nn-",
+            "head": "11",
+            "relation": "PNOM_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.488",
+            "id": "κύρμα_12"
+        },
+        {
+            "wID": "13",
+            "form": "γένησθε",
+            "lemma": "γίγνομαι",
+            "postag": "v2pasm---",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.488",
+            "id": "γένησθε_13"
+        },
+        {
+            "wID": "14",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.488",
+            "id": "·_14"
+        },
+        {
+            "wID": "15",
+            "form": "[0]",
+            "head": "0",
+            "relation": "PRED",
+            "id": "[0]_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxC",
+            "source": "μή_1",
+            "target": "[0]_15",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πως_2",
+            "target": "γένησθε_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_3",
+            "target": "ἁλόντε_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀψῖσι_4",
+            "target": "ἁλόντε_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "λίνου_5",
+            "target": "ἀψῖσι_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἁλόντε_6",
+            "target": "γένησθε_13",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πανάγρου_7",
+            "target": "λίνου_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀνδράσι_8",
+            "target": "γένησθε_13",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δυσμενέεσσιν_9",
+            "target": "ἀνδράσι_8",
+            "key": 0
+        },
+        {
+            "relation": "PNOM_CO",
+            "source": "ἕλωρ_10",
+            "target": "καὶ_11",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_11",
+            "target": "γένησθε_13",
+            "key": 0
+        },
+        {
+            "relation": "PNOM_CO",
+            "source": "κύρμα_12",
+            "target": "καὶ_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "γένησθε_13",
+            "target": "μή_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_14",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "[0]_15",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

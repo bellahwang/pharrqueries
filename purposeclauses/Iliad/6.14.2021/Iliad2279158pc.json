@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλ'",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "ἀλλ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "οὐ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "οὐ_2"
+        },
+        {
+            "wID": "3",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "δ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὧς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "ὧς_4"
+        },
+        {
+            "wID": "5",
+            "form": "δύνατο",
+            "lemma": "δύναμαι",
+            "postag": "v3siie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "δύνατο_5"
+        },
+        {
+            "wID": "6",
+            "form": "ῥῆξαι",
+            "lemma": "ῥήγνυμι",
+            "postag": "v--ana---",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "ῥῆξαι_6"
+        },
+        {
+            "wID": "7",
+            "form": "μάλα",
+            "lemma": "μάλα",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "μάλα_7"
+        },
+        {
+            "wID": "8",
+            "form": "περ",
+            "lemma": "πέρ",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "περ_8"
+        },
+        {
+            "wID": "9",
+            "form": "μενεαίνων",
+            "lemma": "μενεαίνω",
+            "postag": "v-sppamn-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "μενεαίνων_9"
+        },
+        {
+            "wID": "10",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:15.617",
+            "id": "·_10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλ'_1",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὐ_2",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "δ'_3",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὧς_4",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "δύνατο_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ῥῆξαι_6",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μάλα_7",
+            "target": "μενεαίνων_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "περ_8",
+            "target": "μάλα_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μενεαίνων_9",
+            "target": "δύνατο_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

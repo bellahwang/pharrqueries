@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἴσχεσθ'",
+            "lemma": "ἴσχω",
+            "postag": "v2ppme---",
+            "head": "3",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.82",
+            "id": "ἴσχεσθ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "Ἀργεῖοι",
+            "lemma": "Ἀργεῖος",
+            "postag": "a-p---mv-",
+            "head": "1",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.82",
+            "id": "Ἀργεῖοι_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.82",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.82",
+            "id": "μὴ_4"
+        },
+        {
+            "wID": "5",
+            "form": "βάλλετε",
+            "lemma": "βάλλω",
+            "postag": "v2ppma---",
+            "head": "3",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.82",
+            "id": "βάλλετε_5"
+        },
+        {
+            "wID": "6",
+            "form": "κοῦροι",
+            "lemma": "κοῦρος",
+            "postag": "n-p---mv-",
+            "head": "5",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.82",
+            "id": "κοῦροι_6"
+        },
+        {
+            "wID": "7",
+            "form": "Ἀχαιῶν",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.82",
+            "id": "Ἀχαιῶν_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:3.82",
+            "id": "·_8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED_CO",
+            "source": "ἴσχεσθ'_1",
+            "target": ",_3",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "Ἀργεῖοι_2",
+            "target": "ἴσχεσθ'_1",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": ",_3",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_4",
+            "target": "βάλλετε_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "βάλλετε_5",
+            "target": ",_3",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "κοῦροι_6",
+            "target": "βάλλετε_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀχαιῶν_7",
+            "target": "κοῦροι_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.187",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "τῶν",
+            "lemma": "ὁ",
+            "postag": "p-p---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.187",
+            "id": "τῶν_2"
+        },
+        {
+            "wID": "3",
+            "form": "νήδυμος",
+            "lemma": "νήδυμος",
+            "postag": "a-s---mn-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.187",
+            "id": "νήδυμος_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὕπνος",
+            "lemma": "ὕπνος",
+            "postag": "n-s---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.187",
+            "id": "ὕπνος_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἀπὸ",
+            "lemma": "ἀπό",
+            "postag": "r--------",
+            "head": "7",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.187",
+            "id": "ἀπὸ_5"
+        },
+        {
+            "wID": "6",
+            "form": "βλεφάροιιν",
+            "lemma": "βλέφαρον",
+            "postag": "n-d---nd-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.187",
+            "id": "βλεφάροιιν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὀλώλει",
+            "lemma": "ὄλλυμι",
+            "postag": "v3slia---",
+            "head": "12",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.187",
+            "id": "ὀλώλει_7"
+        },
+        {
+            "wID": "8",
+            "form": "νύκτα",
+            "lemma": "νύξ",
+            "postag": "n-s---fa-",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.188",
+            "id": "νύκτα_8"
+        },
+        {
+            "wID": "9",
+            "form": "φυλασσομένοισι",
+            "lemma": "φυλάσσω",
+            "postag": "v-pppemd-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.188",
+            "id": "φυλασσομένοισι_9"
+        },
+        {
+            "wID": "10",
+            "form": "κακήν",
+            "lemma": "κακός",
+            "postag": "a-s---fa-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.188",
+            "id": "κακήν_10"
+        },
+        {
+            "wID": "11",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.188",
+            "id": "·_11"
+        },
+        {
+            "wID": "12",
+            "form": "[0]",
+            "head": "0",
+            "relation": "COORD",
+            "id": "[0]_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ὀλώλει_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "τῶν_2",
+            "target": "βλεφάροιιν_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "νήδυμος_3",
+            "target": "ὕπνος_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ὕπνος_4",
+            "target": "ὀλώλει_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἀπὸ_5",
+            "target": "ὀλώλει_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "βλεφάροιιν_6",
+            "target": "ἀπὸ_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ὀλώλει_7",
+            "target": "[0]_12",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νύκτα_8",
+            "target": "φυλασσομένοισι_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "φυλασσομένοισι_9",
+            "target": "βλεφάροιιν_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "κακήν_10",
+            "target": "νύκτα_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_11",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "[0]_12",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

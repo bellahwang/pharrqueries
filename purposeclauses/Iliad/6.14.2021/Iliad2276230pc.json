@@ -1,0 +1,266 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "κέκλυτέ",
+            "lemma": "κλύω",
+            "postag": "v2paia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.67",
+            "id": "κέκλυτέ_1"
+        },
+        {
+            "wID": "2",
+            "form": "μευ",
+            "lemma": "ἐγώ",
+            "postag": "p-s---mg-",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.67",
+            "id": "μευ_2"
+        },
+        {
+            "wID": "3",
+            "form": "Τρῶες",
+            "lemma": "Τρώς",
+            "postag": "n-p---mv-",
+            "head": "4",
+            "relation": "ExD_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.67",
+            "id": "Τρῶες_3"
+        },
+        {
+            "wID": "4",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.67",
+            "id": "καὶ_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἐϋκνήμιδες",
+            "lemma": "ἐυ",
+            "postag": "---------",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.67",
+            "id": "ἐϋκνήμιδες_5"
+        },
+        {
+            "wID": "6",
+            "form": "Ἀχαιοὶ",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mv-",
+            "head": "4",
+            "relation": "ExD_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.67",
+            "id": "Ἀχαιοὶ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὄφρ'",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "ὄφρ'_7"
+        },
+        {
+            "wID": "8",
+            "form": "εἴπω",
+            "lemma": "εἶπον",
+            "postag": "v1sasa---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "εἴπω_8"
+        },
+        {
+            "wID": "9",
+            "form": "τά",
+            "lemma": "ὁ",
+            "postag": "p-p---na-",
+            "head": "16",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "τά_9"
+        },
+        {
+            "wID": "10",
+            "form": "με",
+            "lemma": "ἐγώ",
+            "postag": "p-s---ma-",
+            "head": "16",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "με_10"
+        },
+        {
+            "wID": "11",
+            "form": "θυμὸς",
+            "lemma": "θυμός",
+            "postag": "n-s---mn-",
+            "head": "14",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "θυμὸς_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἐνὶ",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "11",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "ἐνὶ_12"
+        },
+        {
+            "wID": "13",
+            "form": "στήθεσσι",
+            "lemma": "στῆθος",
+            "postag": "n-p---nd-",
+            "head": "12",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "στήθεσσι_13"
+        },
+        {
+            "wID": "14",
+            "form": "κελεύει",
+            "lemma": "κελεύω",
+            "postag": "v3spia---",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "κελεύει_14"
+        },
+        {
+            "wID": "15",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.68",
+            "id": "._15"
+        },
+        {
+            "wID": "16",
+            "form": "[0]",
+            "head": "14",
+            "relation": "OBJ",
+            "id": "[0]_16"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "κέκλυτέ_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μευ_2",
+            "target": "κέκλυτέ_1",
+            "key": 0
+        },
+        {
+            "relation": "ExD_CO",
+            "source": "Τρῶες_3",
+            "target": "καὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_4",
+            "target": "κέκλυτέ_1",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐϋκνήμιδες_5",
+            "target": "Ἀχαιοὶ_6",
+            "key": 0
+        },
+        {
+            "relation": "ExD_CO",
+            "source": "Ἀχαιοὶ_6",
+            "target": "καὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρ'_7",
+            "target": "κέκλυτέ_1",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἴπω_8",
+            "target": "ὄφρ'_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τά_9",
+            "target": "[0]_16",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "με_10",
+            "target": "[0]_16",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "θυμὸς_11",
+            "target": "κελεύει_14",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐνὶ_12",
+            "target": "θυμὸς_11",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "στήθεσσι_13",
+            "target": "ἐνὶ_12",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κελεύει_14",
+            "target": "εἴπω_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._15",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "[0]_16",
+            "target": "κελεύει_14",
+            "key": 0
+        }
+    ]
+}

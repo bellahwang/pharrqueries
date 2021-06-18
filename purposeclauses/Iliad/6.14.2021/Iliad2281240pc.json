@@ -1,0 +1,381 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἔνθά",
+            "lemma": "ἔνθα",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.544",
+            "id": "ἔνθά_1"
+        },
+        {
+            "wID": "2",
+            "form": "κεν",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.544",
+            "id": "κεν_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὑψίπυλον",
+            "lemma": "ὑψίπυλος",
+            "postag": "a-s---fa-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.544",
+            "id": "ὑψίπυλον_3"
+        },
+        {
+            "wID": "4",
+            "form": "Τροίην",
+            "lemma": "Τροία",
+            "postag": "n-s---fa-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.544",
+            "id": "Τροίην_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἕλον",
+            "lemma": "αἱρέω",
+            "postag": "v3paia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.544",
+            "id": "ἕλον_5"
+        },
+        {
+            "wID": "6",
+            "form": "υἷες",
+            "lemma": "υἱός",
+            "postag": "n-p---mn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.544",
+            "id": "υἷες_6"
+        },
+        {
+            "wID": "7",
+            "form": "Ἀχαιῶν",
+            "lemma": "Ἀχαιός",
+            "postag": "n-p---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.544",
+            "id": "Ἀχαιῶν_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.544",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "εἰ",
+            "lemma": "εἰ",
+            "postag": "c--------",
+            "head": "5",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.545",
+            "id": "εἰ_9"
+        },
+        {
+            "wID": "10",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "15",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.545",
+            "id": "μὴ_10"
+        },
+        {
+            "wID": "11",
+            "form": "Ἀπόλλων",
+            "lemma": "Ἀπόλλων",
+            "postag": "n-s---mn-",
+            "head": "15",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.545",
+            "id": "Ἀπόλλων_11"
+        },
+        {
+            "wID": "12",
+            "form": "Φοῖβος",
+            "lemma": "Φοῖβος",
+            "postag": "n-s---mn-",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.545",
+            "id": "Φοῖβος_12"
+        },
+        {
+            "wID": "13",
+            "form": "Ἀγήνορα",
+            "lemma": "Ἀγήνωρ",
+            "postag": "n-s---ma-",
+            "head": "15",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.545",
+            "id": "Ἀγήνορα_13"
+        },
+        {
+            "wID": "14",
+            "form": "δῖον",
+            "lemma": "δῖος",
+            "postag": "a-s---ma-",
+            "head": "13",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.545",
+            "id": "δῖον_14"
+        },
+        {
+            "wID": "15",
+            "form": "ἀνῆκε",
+            "lemma": "ἀνίημι",
+            "postag": "v3saia---",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.545",
+            "id": "ἀνῆκε_15"
+        },
+        {
+            "wID": "16",
+            "form": "φῶτ'",
+            "lemma": "φώς",
+            "postag": "n-s---ma-",
+            "head": "13",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.546",
+            "id": "φῶτ'_16"
+        },
+        {
+            "wID": "17",
+            "form": "Ἀντήνορος",
+            "lemma": "Ἀντήνωρ",
+            "postag": "n-s---mg-",
+            "head": "18",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.546",
+            "id": "Ἀντήνορος_17"
+        },
+        {
+            "wID": "18",
+            "form": "υἱὸν",
+            "lemma": "υἱός",
+            "postag": "n-s---ma-",
+            "head": "13",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.546",
+            "id": "υἱὸν_18"
+        },
+        {
+            "wID": "19",
+            "form": "ἀμύμονά",
+            "lemma": "ἀμύμων",
+            "postag": "a-s---ma-",
+            "head": "22",
+            "relation": "ATR_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.546",
+            "id": "ἀμύμονά_19"
+        },
+        {
+            "wID": "20",
+            "form": "τε",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "22",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.546",
+            "id": "τε_20"
+        },
+        {
+            "wID": "21",
+            "form": "κρατερόν",
+            "lemma": "κρατερός",
+            "postag": "a-s---ma-",
+            "head": "22",
+            "relation": "ATR_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.546",
+            "id": "κρατερόν_21"
+        },
+        {
+            "wID": "22",
+            "form": "τε",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "18",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.546",
+            "id": "τε_22"
+        },
+        {
+            "wID": "23",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.546",
+            "id": "._23"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ἔνθά_1",
+            "target": "ἕλον_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "κεν_2",
+            "target": "ἕλον_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὑψίπυλον_3",
+            "target": "Τροίην_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Τροίην_4",
+            "target": "ἕλον_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἕλον_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "υἷες_6",
+            "target": "ἕλον_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀχαιῶν_7",
+            "target": "υἷες_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "εἰ_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "εἰ_9",
+            "target": "ἕλον_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_10",
+            "target": "ἀνῆκε_15",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἀπόλλων_11",
+            "target": "ἀνῆκε_15",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Φοῖβος_12",
+            "target": "Ἀπόλλων_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀγήνορα_13",
+            "target": "ἀνῆκε_15",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δῖον_14",
+            "target": "Ἀγήνορα_13",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀνῆκε_15",
+            "target": "εἰ_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "φῶτ'_16",
+            "target": "Ἀγήνορα_13",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀντήνορος_17",
+            "target": "υἱὸν_18",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "υἱὸν_18",
+            "target": "Ἀγήνορα_13",
+            "key": 0
+        },
+        {
+            "relation": "ATR_CO",
+            "source": "ἀμύμονά_19",
+            "target": "τε_22",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "τε_20",
+            "target": "τε_22",
+            "key": 0
+        },
+        {
+            "relation": "ATR_CO",
+            "source": "κρατερόν_21",
+            "target": "τε_22",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "τε_22",
+            "target": "υἱὸν_18",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._23",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

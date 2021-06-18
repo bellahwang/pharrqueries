@@ -1,0 +1,234 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἔρχομαι",
+            "lemma": "ἔρχομαι",
+            "postag": "v1spie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.839",
+            "id": "ἔρχομαι_1"
+        },
+        {
+            "wID": "2",
+            "form": "ὄφρ'",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.839",
+            "id": "ὄφρ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "Ἀχιλῆϊ",
+            "lemma": "Ἀχιλλεύς",
+            "postag": "n-s---md-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.839",
+            "id": "Ἀχιλῆϊ_3"
+        },
+        {
+            "wID": "4",
+            "form": "δαΐφρονι",
+            "lemma": "δαίφρων",
+            "postag": "a-s----d-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.839",
+            "id": "δαΐφρονι_4"
+        },
+        {
+            "wID": "5",
+            "form": "μῦθον",
+            "lemma": "μῦθος",
+            "postag": "n-s---ma-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.839",
+            "id": "μῦθον_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐνίσπω",
+            "lemma": "ἐνέπω",
+            "postag": "v1sasa---",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.839",
+            "id": "ἐνίσπω_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὃν",
+            "lemma": "ὅς",
+            "postag": "p-s---ma-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.840",
+            "id": "ὃν_7"
+        },
+        {
+            "wID": "8",
+            "form": "Νέστωρ",
+            "lemma": "Νέστωρ",
+            "postag": "n-s---mn-",
+            "head": "14",
+            "relation": "SBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.840",
+            "id": "Νέστωρ_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἐπέτελλε",
+            "lemma": "ἐπιτέλλω",
+            "postag": "v3siia---",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.840",
+            "id": "ἐπέτελλε_9"
+        },
+        {
+            "wID": "10",
+            "form": "Γερήνιος",
+            "lemma": "Γερήνιος",
+            "postag": "a-s---mn-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.840",
+            "id": "Γερήνιος_10"
+        },
+        {
+            "wID": "11",
+            "form": "οὖρος",
+            "lemma": "οὖρος",
+            "postag": "n-s---mn-",
+            "head": "14",
+            "relation": "SBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.840",
+            "id": "οὖρος_11"
+        },
+        {
+            "wID": "12",
+            "form": "Ἀχαιῶν",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mg-",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.840",
+            "id": "Ἀχαιῶν_12"
+        },
+        {
+            "wID": "13",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:11.840",
+            "id": "·_13"
+        },
+        {
+            "wID": "14",
+            "form": "[0]",
+            "head": "9",
+            "relation": "APOS",
+            "id": "[0]_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "ἔρχομαι_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρ'_2",
+            "target": "ἔρχομαι_1",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀχιλῆϊ_3",
+            "target": "ἐνίσπω_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δαΐφρονι_4",
+            "target": "Ἀχιλῆϊ_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μῦθον_5",
+            "target": "ἐνίσπω_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἐνίσπω_6",
+            "target": "ὄφρ'_2",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὃν_7",
+            "target": "ἐπέτελλε_9",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_AP",
+            "source": "Νέστωρ_8",
+            "target": "[0]_14",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐπέτελλε_9",
+            "target": "μῦθον_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Γερήνιος_10",
+            "target": "Νέστωρ_8",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_AP",
+            "source": "οὖρος_11",
+            "target": "[0]_14",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀχαιῶν_12",
+            "target": "οὖρος_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_13",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "APOS",
+            "source": "[0]_14",
+            "target": "ἐπέτελλε_9",
+            "key": 0
+        }
+    ]
+}

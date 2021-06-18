@@ -1,0 +1,301 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "φάθ'",
+            "lemma": "φημί",
+            "postag": "v3sai----",
+            "head": "12",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "φάθ'_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "12",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὃ",
+            "lemma": "ὁ",
+            "postag": "p-s---mn-",
+            "head": "10",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "ὃ_4"
+        },
+        {
+            "wID": "5",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "12",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "δ'_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐξ",
+            "lemma": "ἐκ",
+            "postag": "r--------",
+            "head": "10",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "ἐξ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὕπνοιο",
+            "lemma": "ὕπνον",
+            "postag": "n-s---ng-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "ὕπνοιο_7"
+        },
+        {
+            "wID": "8",
+            "form": "μάλα",
+            "lemma": "μάλα",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "μάλα_8"
+        },
+        {
+            "wID": "9",
+            "form": "κραιπνῶς",
+            "lemma": "κραιπνός",
+            "postag": "d--------",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "κραιπνῶς_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἀνόρουσε",
+            "lemma": "ἀνορούω",
+            "postag": "v3saia---",
+            "head": "12",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": "ἀνόρουσε_10"
+        },
+        {
+            "wID": "11",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "12",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.162",
+            "id": ",_11"
+        },
+        {
+            "wID": "12",
+            "form": "καί",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.163",
+            "id": "καί_12"
+        },
+        {
+            "wID": "13",
+            "form": "μιν",
+            "lemma": "μιν",
+            "postag": "p-s---ma-",
+            "head": "17",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.163",
+            "id": "μιν_13"
+        },
+        {
+            "wID": "14",
+            "form": "φωνήσας",
+            "lemma": "φωνέω",
+            "postag": "v-sapamn-",
+            "head": "17",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.163",
+            "id": "φωνήσας_14"
+        },
+        {
+            "wID": "15",
+            "form": "ἔπεα",
+            "lemma": "ἔπος",
+            "postag": "n-p---na-",
+            "head": "17",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.163",
+            "id": "ἔπεα_15"
+        },
+        {
+            "wID": "16",
+            "form": "πτερόεντα",
+            "lemma": "πτερόεις",
+            "postag": "a-p---na-",
+            "head": "15",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.163",
+            "id": "πτερόεντα_16"
+        },
+        {
+            "wID": "17",
+            "form": "προσηύδα",
+            "lemma": "προσαυδάω",
+            "postag": "v3siia---",
+            "head": "12",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.163",
+            "id": "προσηύδα_17"
+        },
+        {
+            "wID": "18",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.163",
+            "id": "·_18"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φάθ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "φάθ'_2",
+            "target": "καί_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "καί_12",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ὃ_4",
+            "target": "ἀνόρουσε_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δ'_5",
+            "target": "καί_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐξ_6",
+            "target": "ἀνόρουσε_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ὕπνοιο_7",
+            "target": "ἐξ_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μάλα_8",
+            "target": "κραιπνῶς_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "κραιπνῶς_9",
+            "target": "ἀνόρουσε_10",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἀνόρουσε_10",
+            "target": "καί_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_11",
+            "target": "καί_12",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καί_12",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μιν_13",
+            "target": "προσηύδα_17",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φωνήσας_14",
+            "target": "προσηύδα_17",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἔπεα_15",
+            "target": "προσηύδα_17",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πτερόεντα_16",
+            "target": "ἔπεα_15",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "προσηύδα_17",
+            "target": "καί_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_18",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

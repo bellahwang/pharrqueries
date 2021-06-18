@@ -1,0 +1,109 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "σὺ",
+            "lemma": "σύ",
+            "postag": "p-s----n-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.33",
+            "id": "σὺ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.33",
+            "id": "δὲ_2"
+        },
+        {
+            "wID": "3",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.33",
+            "id": "μή_3"
+        },
+        {
+            "wID": "4",
+            "form": "τι",
+            "lemma": "τις",
+            "postag": "p-s---na-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.33",
+            "id": "τι_4"
+        },
+        {
+            "wID": "5",
+            "form": "χολωθῇς",
+            "lemma": "χολόω",
+            "postag": "v2sasp---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.33",
+            "id": "χολωθῇς_5"
+        },
+        {
+            "wID": "6",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.33",
+            "id": "._6"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "SBJ",
+            "source": "σὺ_1",
+            "target": "χολωθῇς_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μή_3",
+            "target": "χολωθῇς_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τι_4",
+            "target": "χολωθῇς_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "χολωθῇς_5",
+            "target": "δὲ_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._6",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

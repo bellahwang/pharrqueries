@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "φάτο",
+            "lemma": "φημί",
+            "postag": "v3saim---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": "φάτο_2"
+        },
+        {
+            "wID": "3",
+            "form": "Σαρπηδών",
+            "lemma": "Σαρπηδών",
+            "postag": "n-s---mn-",
+            "head": "2",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": "Σαρπηδών_3"
+        },
+        {
+            "wID": "4",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "6",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": ",_4"
+        },
+        {
+            "wID": "5",
+            "form": "ὃ",
+            "lemma": "ὁ",
+            "postag": "l-s---mn-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": "ὃ_5"
+        },
+        {
+            "wID": "6",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": "δ'_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀνέσχετο",
+            "lemma": "ἀνέχω",
+            "postag": "v3saim---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": "ἀνέσχετο_7"
+        },
+        {
+            "wID": "8",
+            "form": "μείλινον",
+            "lemma": "μέλινος",
+            "postag": "a-s---na-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": "μείλινον_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἔγχος",
+            "lemma": "ἔγχος",
+            "postag": "n-s---na-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.655",
+            "id": "ἔγχος_9"
+        },
+        {
+            "wID": "10",
+            "form": "Τληπόλεμος",
+            "lemma": "Τληπόλεμος",
+            "postag": "n-s---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.656",
+            "id": "Τληπόλεμος_10"
+        },
+        {
+            "wID": "11",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.656",
+            "id": "·_11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "φάτο_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "φάτο_2",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Σαρπηδών_3",
+            "target": "φάτο_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_4",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὃ_5",
+            "target": "Τληπόλεμος_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἀνέσχετο_7",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "μείλινον_8",
+            "target": "ἔγχος_9",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἔγχος_9",
+            "target": "ἀνέσχετο_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Τληπόλεμος_10",
+            "target": "ἀνέσχετο_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

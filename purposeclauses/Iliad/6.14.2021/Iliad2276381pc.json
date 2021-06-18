@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἤτοι",
+            "lemma": "ἤτοι",
+            "postag": "g--------",
+            "head": "8",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "ἤτοι_1"
+        },
+        {
+            "wID": "2",
+            "form": "ὅ",
+            "lemma": "ὁ",
+            "postag": "p-s---mn-",
+            "head": "8",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "ὅ_2"
+        },
+        {
+            "wID": "3",
+            "form": "γ'",
+            "lemma": "γε",
+            "postag": "g--------",
+            "head": "2",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "γ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "ὣς_4"
+        },
+        {
+            "wID": "5",
+            "form": "εἰπὼν",
+            "lemma": "εἶπον",
+            "postag": "v-sapamn-",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "εἰπὼν_5"
+        },
+        {
+            "wID": "6",
+            "form": "κατ'",
+            "lemma": "κατά",
+            "postag": "r--------",
+            "head": "8",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "κατ'_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἄρ'",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "8",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "ἄρ'_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἕζετο",
+            "lemma": "ἕζομαι",
+            "postag": "v3siie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "ἕζετο_8"
+        },
+        {
+            "wID": "9",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.354",
+            "id": "·_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἤτοι_1",
+            "target": "ἕζετο_8",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ὅ_2",
+            "target": "ἕζετο_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "γ'_3",
+            "target": "ὅ_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὣς_4",
+            "target": "εἰπὼν_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἰπὼν_5",
+            "target": "ἕζετο_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "κατ'_6",
+            "target": "ἕζετο_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρ'_7",
+            "target": "ἕζετο_8",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἕζετο_8",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

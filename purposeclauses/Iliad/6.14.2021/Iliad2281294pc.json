@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.32",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "τοῦ",
+            "lemma": "ὁ",
+            "postag": "p-s---mg-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.32",
+            "id": "τοῦ_2"
+        },
+        {
+            "wID": "3",
+            "form": "χαλκὸς",
+            "lemma": "χαλκός",
+            "postag": "n-s---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.32",
+            "id": "χαλκὸς_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἔλαμπε",
+            "lemma": "λάμπω",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.32",
+            "id": "ἔλαμπε_4"
+        },
+        {
+            "wID": "5",
+            "form": "περὶ",
+            "lemma": "περί",
+            "postag": "r--------",
+            "head": "4",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.32",
+            "id": "περὶ_5"
+        },
+        {
+            "wID": "6",
+            "form": "στήθεσσι",
+            "lemma": "στῆθος",
+            "postag": "n-p---nd-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.32",
+            "id": "στήθεσσι_6"
+        },
+        {
+            "wID": "7",
+            "form": "θέοντος",
+            "lemma": "θέω",
+            "postag": "v-sppamg-",
+            "head": "2",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.32",
+            "id": "θέοντος_7"
+        },
+        {
+            "wID": "8",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.32",
+            "id": "._8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔλαμπε_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "τοῦ_2",
+            "target": "στήθεσσι_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "χαλκὸς_3",
+            "target": "ἔλαμπε_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἔλαμπε_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "περὶ_5",
+            "target": "ἔλαμπε_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "στήθεσσι_6",
+            "target": "περὶ_5",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "θέοντος_7",
+            "target": "τοῦ_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

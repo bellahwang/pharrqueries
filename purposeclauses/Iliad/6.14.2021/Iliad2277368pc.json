@@ -1,0 +1,93 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "δίειπέ",
+            "lemma": "διεῖπον",
+            "postag": "v2sama---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.425",
+            "id": "δίειπέ_1"
+        },
+        {
+            "wID": "2",
+            "form": "μοι",
+            "lemma": "ἐγώ",
+            "postag": "p-s---md-",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.425",
+            "id": "μοι_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὄφρα",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.425",
+            "id": "ὄφρα_3"
+        },
+        {
+            "wID": "4",
+            "form": "δαείω",
+            "lemma": "δάω",
+            "postag": "v1sasa---",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.425",
+            "id": "δαείω_4"
+        },
+        {
+            "wID": "5",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:10.425",
+            "id": "._5"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "δίειπέ_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μοι_2",
+            "target": "δίειπέ_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρα_3",
+            "target": "δίειπέ_1",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δαείω_4",
+            "target": "ὄφρα_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._5",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

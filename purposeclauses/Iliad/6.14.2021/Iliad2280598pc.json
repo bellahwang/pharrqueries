@@ -1,0 +1,413 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.309",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "εἰπὼν",
+            "lemma": "εἶπον",
+            "postag": "v-sapamn-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.309",
+            "id": "εἰπὼν_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄλλους",
+            "lemma": "ἄλλος",
+            "postag": "a-p---ma-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.309",
+            "id": "ἄλλους_3"
+        },
+        {
+            "wID": "4",
+            "form": "μὲν",
+            "lemma": "μέν",
+            "postag": "g--------",
+            "head": "9",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.309",
+            "id": "μὲν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἀπεσκέδασεν",
+            "lemma": "ἀποσκεδάννυμι",
+            "postag": "v3saia---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.309",
+            "id": "ἀπεσκέδασεν_5"
+        },
+        {
+            "wID": "6",
+            "form": "βασιλῆας",
+            "lemma": "βασιλεύς",
+            "postag": "n-p---ma-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.309",
+            "id": "βασιλῆας_6"
+        },
+        {
+            "wID": "7",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.309",
+            "id": ",_7"
+        },
+        {
+            "wID": "8",
+            "form": "δοιὼ",
+            "lemma": "δοιώ",
+            "postag": "a-d---mn-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.310",
+            "id": "δοιὼ_8"
+        },
+        {
+            "wID": "9",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.310",
+            "id": "δ'_9"
+        },
+        {
+            "wID": "10",
+            "form": "Ἀτρεΐδα",
+            "lemma": "Ἀτρείδης",
+            "postag": "n-d---mn-",
+            "head": "19",
+            "relation": "SBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.310",
+            "id": "Ἀτρεΐδα_10"
+        },
+        {
+            "wID": "11",
+            "form": "μενέτην",
+            "lemma": "μένω",
+            "postag": "v3diia---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.310",
+            "id": "μενέτην_11"
+        },
+        {
+            "wID": "12",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "19",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.310",
+            "id": "καὶ_12"
+        },
+        {
+            "wID": "13",
+            "form": "δῖος",
+            "lemma": "δῖος",
+            "postag": "a-s---mn-",
+            "head": "14",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.310",
+            "id": "δῖος_13"
+        },
+        {
+            "wID": "14",
+            "form": "Ὀδυσσεὺς",
+            "lemma": "Ὀδυσσεύς",
+            "postag": "n-s---mn-",
+            "head": "19",
+            "relation": "SBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.310",
+            "id": "Ὀδυσσεὺς_14"
+        },
+        {
+            "wID": "15",
+            "form": "Νέστωρ",
+            "lemma": "Νέστωρ",
+            "postag": "n-s---mn-",
+            "head": "19",
+            "relation": "SBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.311",
+            "id": "Νέστωρ_15"
+        },
+        {
+            "wID": "16",
+            "form": "Ἰδομενεύς",
+            "lemma": "Ἰδομενεύς",
+            "postag": "n-s---mn-",
+            "head": "19",
+            "relation": "SBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.311",
+            "id": "Ἰδομενεύς_16"
+        },
+        {
+            "wID": "17",
+            "form": "τε",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "19",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.311",
+            "id": "τε_17"
+        },
+        {
+            "wID": "18",
+            "form": "γέρων",
+            "lemma": "γέρων",
+            "postag": "n-s---mn-",
+            "head": "21",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.311",
+            "id": "γέρων_18"
+        },
+        {
+            "wID": "19",
+            "form": "θ'",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "11",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.311",
+            "id": "θ'_19"
+        },
+        {
+            "wID": "20",
+            "form": "ἱππηλάτα",
+            "lemma": "ἱππηλάτης",
+            "postag": "n-s---mn-",
+            "head": "21",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.311",
+            "id": "ἱππηλάτα_20"
+        },
+        {
+            "wID": "21",
+            "form": "Φοῖνιξ",
+            "lemma": "Φοῖνιξ",
+            "postag": "n-s---mn-",
+            "head": "19",
+            "relation": "SBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.311",
+            "id": "Φοῖνιξ_21"
+        },
+        {
+            "wID": "22",
+            "form": "τέρποντες",
+            "lemma": "τέρπω",
+            "postag": "v-pppamn-",
+            "head": "11",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.312",
+            "id": "τέρποντες_22"
+        },
+        {
+            "wID": "23",
+            "form": "πυκινῶς",
+            "lemma": "πυκνός",
+            "postag": "d--------",
+            "head": "24",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.312",
+            "id": "πυκινῶς_23"
+        },
+        {
+            "wID": "24",
+            "form": "ἀκαχήμενον",
+            "lemma": "ἀχεύω",
+            "postag": "v-spppma-",
+            "head": "22",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.312",
+            "id": "ἀκαχήμενον_24"
+        },
+        {
+            "wID": "25",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.312",
+            "id": "·_25"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "εἰπὼν_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἰπὼν_2",
+            "target": "ἀπεσκέδασεν_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἄλλους_3",
+            "target": "βασιλῆας_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μὲν_4",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἀπεσκέδασεν_5",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "βασιλῆας_6",
+            "target": "ἀπεσκέδασεν_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_7",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δοιὼ_8",
+            "target": "Ἀτρεΐδα_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_CO",
+            "source": "Ἀτρεΐδα_10",
+            "target": "θ'_19",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "μενέτην_11",
+            "target": "δ'_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "καὶ_12",
+            "target": "θ'_19",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "δῖος_13",
+            "target": "Ὀδυσσεὺς_14",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_CO",
+            "source": "Ὀδυσσεὺς_14",
+            "target": "θ'_19",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_CO",
+            "source": "Νέστωρ_15",
+            "target": "θ'_19",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_CO",
+            "source": "Ἰδομενεύς_16",
+            "target": "θ'_19",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "τε_17",
+            "target": "θ'_19",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "γέρων_18",
+            "target": "Φοῖνιξ_21",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "θ'_19",
+            "target": "μενέτην_11",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἱππηλάτα_20",
+            "target": "Φοῖνιξ_21",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_CO",
+            "source": "Φοῖνιξ_21",
+            "target": "θ'_19",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τέρποντες_22",
+            "target": "μενέτην_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πυκινῶς_23",
+            "target": "ἀκαχήμενον_24",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀκαχήμενον_24",
+            "target": "τέρποντες_22",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_25",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἔφαθ'",
+            "lemma": "φημί",
+            "postag": "v3siie---",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": "ἔφαθ'_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "5",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἣ",
+            "lemma": "ὅς",
+            "postag": "p-s---fn-",
+            "head": "10",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": "ἣ_4"
+        },
+        {
+            "wID": "5",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": "δὲ_5"
+        },
+        {
+            "wID": "6",
+            "form": "μολοῦσα",
+            "lemma": "βλώσκω",
+            "postag": "v-sapafn-",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": "μολοῦσα_6"
+        },
+        {
+            "wID": "7",
+            "form": "ποτὶ",
+            "lemma": "πρός",
+            "postag": "r--------",
+            "head": "6",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": "ποτὶ_7"
+        },
+        {
+            "wID": "8",
+            "form": "μέγαρ'",
+            "lemma": "μέγαρον",
+            "postag": "n-p---na-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": "μέγαρ'_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἀμφιπόλοισι",
+            "lemma": "ἀμφίπολος",
+            "postag": "a-p---fd-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.286",
+            "id": "ἀμφιπόλοισι_9"
+        },
+        {
+            "wID": "10",
+            "form": "κέκλετο",
+            "lemma": "κέλομαι",
+            "postag": "v3sai----",
+            "head": "5",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.287",
+            "id": "κέκλετο_10"
+        },
+        {
+            "wID": "11",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:6.287",
+            "id": "·_11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔφαθ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔφαθ'_2",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἣ_4",
+            "target": "κέκλετο_10",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μολοῦσα_6",
+            "target": "κέκλετο_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ποτὶ_7",
+            "target": "μολοῦσα_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μέγαρ'_8",
+            "target": "ποτὶ_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀμφιπόλοισι_9",
+            "target": "κέκλετο_10",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κέκλετο_10",
+            "target": "δὲ_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

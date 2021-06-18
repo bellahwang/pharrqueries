@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.349",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "εἰπὼν",
+            "lemma": "εἶπον",
+            "postag": "v-sapamn-",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.349",
+            "id": "εἰπὼν_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὄτρυνε",
+            "lemma": "ὀτρύνω",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.349",
+            "id": "ὄτρυνε_3"
+        },
+        {
+            "wID": "4",
+            "form": "πάρος",
+            "lemma": "πάρος",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.349",
+            "id": "πάρος_4"
+        },
+        {
+            "wID": "5",
+            "form": "μεμαυῖαν",
+            "lemma": "μέμαα",
+            "postag": "v-srpafa-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.349",
+            "id": "μεμαυῖαν_5"
+        },
+        {
+            "wID": "6",
+            "form": "Ἀθήνην",
+            "lemma": "Ἀθήνη",
+            "postag": "n-s---fa-",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.349",
+            "id": "Ἀθήνην_6"
+        },
+        {
+            "wID": "7",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.349",
+            "id": "·_7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "εἰπὼν_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἰπὼν_2",
+            "target": "ὄτρυνε_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὄτρυνε_3",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πάρος_4",
+            "target": "μεμαυῖαν_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "μεμαυῖαν_5",
+            "target": "Ἀθήνην_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀθήνην_6",
+            "target": "ὄτρυνε_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

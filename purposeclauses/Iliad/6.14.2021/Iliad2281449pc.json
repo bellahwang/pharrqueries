@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.311",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "Ἕκτωρ",
+            "lemma": "Ἕκτωρ",
+            "postag": "n-s---mn-",
+            "head": "3",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.311",
+            "id": "Ἕκτωρ_2"
+        },
+        {
+            "wID": "3",
+            "form": "οἴμησε",
+            "lemma": "οἰμάω",
+            "postag": "v3saia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.311",
+            "id": "οἴμησε_3"
+        },
+        {
+            "wID": "4",
+            "form": "τινάσσων",
+            "lemma": "τινάσσω",
+            "postag": "v-sppamn-",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.311",
+            "id": "τινάσσων_4"
+        },
+        {
+            "wID": "5",
+            "form": "φάσγανον",
+            "lemma": "φάσγανον",
+            "postag": "n-s---na-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.311",
+            "id": "φάσγανον_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὀξύ",
+            "lemma": "ὀξύς",
+            "postag": "a-s---na-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.311",
+            "id": "ὀξύ_6"
+        },
+        {
+            "wID": "7",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.311",
+            "id": "._7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "οἴμησε_3",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἕκτωρ_2",
+            "target": "οἴμησε_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "οἴμησε_3",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τινάσσων_4",
+            "target": "οἴμησε_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "φάσγανον_5",
+            "target": "τινάσσων_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ὀξύ_6",
+            "target": "φάσγανον_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

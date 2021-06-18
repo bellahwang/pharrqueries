@@ -1,0 +1,173 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἰδαῖ'",
+            "lemma": "Ἰδαῖος",
+            "postag": "n-s---mv-",
+            "head": "6",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.406",
+            "id": "Ἰδαῖ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἤτοι",
+            "lemma": "ἤτοι",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.406",
+            "id": "ἤτοι_2"
+        },
+        {
+            "wID": "3",
+            "form": "μῦθον",
+            "lemma": "μῦθος",
+            "postag": "n-s---ma-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.406",
+            "id": "μῦθον_3"
+        },
+        {
+            "wID": "4",
+            "form": "Ἀχαιῶν",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mg-",
+            "head": "3",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.406",
+            "id": "Ἀχαιῶν_4"
+        },
+        {
+            "wID": "5",
+            "form": "αὐτὸς",
+            "lemma": "αὐτός",
+            "postag": "a-s---mn-",
+            "head": "6",
+            "relation": "AtvV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.406",
+            "id": "αὐτὸς_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἀκούεις",
+            "lemma": "ἀκούω",
+            "postag": "v2spia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.406",
+            "id": "ἀκούεις_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὥς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "6",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.407",
+            "id": "ὥς_7"
+        },
+        {
+            "wID": "8",
+            "form": "τοι",
+            "lemma": "σύ",
+            "postag": "p-s----d-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.407",
+            "id": "τοι_8"
+        },
+        {
+            "wID": "9",
+            "form": "ὑποκρίνονται",
+            "lemma": "ὑποκρίνομαι",
+            "postag": "v3ppie---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.407",
+            "id": "ὑποκρίνονται_9"
+        },
+        {
+            "wID": "10",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:7.407",
+            "id": "·_10"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Ἰδαῖ'_1",
+            "target": "ἀκούεις_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἤτοι_2",
+            "target": "ἀκούεις_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μῦθον_3",
+            "target": "ἀκούεις_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀχαιῶν_4",
+            "target": "μῦθον_3",
+            "key": 0
+        },
+        {
+            "relation": "AtvV",
+            "source": "αὐτὸς_5",
+            "target": "ἀκούεις_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἀκούεις_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὥς_7",
+            "target": "ἀκούεις_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τοι_8",
+            "target": "ὑποκρίνονται_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὑποκρίνονται_9",
+            "target": "ὥς_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_10",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

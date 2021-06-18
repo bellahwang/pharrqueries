@@ -1,0 +1,285 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "2",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἔφαθ'",
+            "lemma": "φημί",
+            "postag": "v3siie---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": "ἔφαθ'_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "11",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "Ἥφαιστος",
+            "lemma": "Ἥφαιστος",
+            "postag": "n-s---mn-",
+            "head": "6",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": "Ἥφαιστος_4"
+        },
+        {
+            "wID": "5",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "11",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": "δὲ_5"
+        },
+        {
+            "wID": "6",
+            "form": "κατέσβεσε",
+            "lemma": "κατασβέννυμι",
+            "postag": "v3saia---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": "κατέσβεσε_6"
+        },
+        {
+            "wID": "7",
+            "form": "θεσπιδαὲς",
+            "lemma": "θεσπιδαής",
+            "postag": "a-s---na-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": "θεσπιδαὲς_7"
+        },
+        {
+            "wID": "8",
+            "form": "πῦρ",
+            "lemma": "πῦρ",
+            "postag": "n-s---na-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": "πῦρ_8"
+        },
+        {
+            "wID": "9",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "11",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.381",
+            "id": ",_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἄψορρον",
+            "lemma": "ἄψορρος",
+            "postag": "a-s---na-",
+            "head": "14",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.382",
+            "id": "ἄψορρον_10"
+        },
+        {
+            "wID": "11",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.382",
+            "id": "δ'_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἄρα",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "14",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.382",
+            "id": "ἄρα_12"
+        },
+        {
+            "wID": "13",
+            "form": "κῦμα",
+            "lemma": "κῦμα",
+            "postag": "n-s---nn-",
+            "head": "14",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.382",
+            "id": "κῦμα_13"
+        },
+        {
+            "wID": "14",
+            "form": "κατέσσυτο",
+            "lemma": "κατασεύομαι",
+            "postag": "v3siie---",
+            "head": "11",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.382",
+            "id": "κατέσσυτο_14"
+        },
+        {
+            "wID": "15",
+            "form": "καλὰ",
+            "lemma": "καλός",
+            "postag": "a-p---na-",
+            "head": "16",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.382",
+            "id": "καλὰ_15"
+        },
+        {
+            "wID": "16",
+            "form": "ῥέεθρα",
+            "lemma": "ῥεῖθρον",
+            "postag": "n-p---na-",
+            "head": "14",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.382",
+            "id": "ῥέεθρα_16"
+        },
+        {
+            "wID": "17",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.382",
+            "id": "._17"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἔφαθ'_2",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἔφαθ'_2",
+            "target": "δ'_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "δ'_11",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ἥφαιστος_4",
+            "target": "κατέσβεσε_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δὲ_5",
+            "target": "δ'_11",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κατέσβεσε_6",
+            "target": "δ'_11",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "θεσπιδαὲς_7",
+            "target": "πῦρ_8",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "πῦρ_8",
+            "target": "κατέσβεσε_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_9",
+            "target": "δ'_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἄψορρον_10",
+            "target": "κατέσσυτο_14",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_11",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρα_12",
+            "target": "κατέσσυτο_14",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "κῦμα_13",
+            "target": "κατέσσυτο_14",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κατέσσυτο_14",
+            "target": "δ'_11",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "καλὰ_15",
+            "target": "ῥέεθρα_16",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ῥέεθρα_16",
+            "target": "κατέσσυτο_14",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._17",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἐμοὶ",
+            "lemma": "ἐγώ",
+            "postag": "p-s---md-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.523",
+            "id": "ἐμοὶ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δέ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.523",
+            "id": "δέ_2"
+        },
+        {
+            "wID": "3",
+            "form": "κε",
+            "lemma": "ἄν",
+            "postag": "g--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.523",
+            "id": "κε_3"
+        },
+        {
+            "wID": "4",
+            "form": "ταῦτα",
+            "lemma": "οὗτος",
+            "postag": "a-p---nn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.523",
+            "id": "ταῦτα_4"
+        },
+        {
+            "wID": "5",
+            "form": "μελήσεται",
+            "lemma": "μέλω",
+            "postag": "v3sfim---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.523",
+            "id": "μελήσεται_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὄφρα",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "5",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.523",
+            "id": "ὄφρα_6"
+        },
+        {
+            "wID": "7",
+            "form": "τελέσσω",
+            "lemma": "τελέω",
+            "postag": "v1sasa---",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.523",
+            "id": "τελέσσω_7"
+        },
+        {
+            "wID": "8",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.523",
+            "id": "·_8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "OBJ",
+            "source": "ἐμοὶ_1",
+            "target": "μελήσεται_5",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δέ_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "κε_3",
+            "target": "μελήσεται_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ταῦτα_4",
+            "target": "μελήσεται_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "μελήσεται_5",
+            "target": "δέ_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρα_6",
+            "target": "μελήσεται_5",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τελέσσω_7",
+            "target": "ὄφρα_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ᾔδεε",
+            "lemma": "εἴδω",
+            "postag": "v3slia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.409",
+            "id": "ᾔδεε_1"
+        },
+        {
+            "wID": "2",
+            "form": "γὰρ",
+            "lemma": "γάρ",
+            "postag": "g--------",
+            "head": "1",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.409",
+            "id": "γὰρ_2"
+        },
+        {
+            "wID": "3",
+            "form": "κατὰ",
+            "lemma": "κατά",
+            "postag": "r--------",
+            "head": "1",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.409",
+            "id": "κατὰ_3"
+        },
+        {
+            "wID": "4",
+            "form": "θυμὸν",
+            "lemma": "θυμός",
+            "postag": "n-s---ma-",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.409",
+            "id": "θυμὸν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἀδελφεὸν",
+            "lemma": "ἀδελφός",
+            "postag": "n-s---ma-",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.409",
+            "id": "ἀδελφεὸν_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.409",
+            "id": "ὡς_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἐπονεῖτο",
+            "lemma": "πονέω",
+            "postag": "v3siie---",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.409",
+            "id": "ἐπονεῖτο_7"
+        },
+        {
+            "wID": "8",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:2.409",
+            "id": "._8"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "ᾔδεε_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "γὰρ_2",
+            "target": "ᾔδεε_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "κατὰ_3",
+            "target": "ᾔδεε_1",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "θυμὸν_4",
+            "target": "κατὰ_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀδελφεὸν_5",
+            "target": "ᾔδεε_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὡς_6",
+            "target": "ᾔδεε_1",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἐπονεῖτο_7",
+            "target": "ὡς_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._8",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

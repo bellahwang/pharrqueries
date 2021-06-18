@@ -1,0 +1,205 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "οἶδα",
+            "lemma": "οἶδα",
+            "postag": "v1sria---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.360",
+            "id": "οἶδα_1"
+        },
+        {
+            "wID": "2",
+            "form": "γὰρ",
+            "lemma": "γάρ",
+            "postag": "g--------",
+            "head": "1",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.360",
+            "id": "γὰρ_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὥς",
+            "lemma": "ὡς",
+            "postag": "c--------",
+            "head": "1",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.360",
+            "id": "ὥς_3"
+        },
+        {
+            "wID": "4",
+            "form": "τοι",
+            "lemma": "σύ",
+            "postag": "p-s----d-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.360",
+            "id": "τοι_4"
+        },
+        {
+            "wID": "5",
+            "form": "θυμὸς",
+            "lemma": "θυμός",
+            "postag": "n-s---mn-",
+            "head": "11",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.360",
+            "id": "θυμὸς_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἐνὶ",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "5",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.360",
+            "id": "ἐνὶ_6"
+        },
+        {
+            "wID": "7",
+            "form": "στήθεσσι",
+            "lemma": "στῆθος",
+            "postag": "n-p---nd-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.360",
+            "id": "στήθεσσι_7"
+        },
+        {
+            "wID": "8",
+            "form": "φίλοισιν",
+            "lemma": "φίλος",
+            "postag": "a-p---nd-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.360",
+            "id": "φίλοισιν_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἤπια",
+            "lemma": "ἤπιος",
+            "postag": "a-p---na-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.361",
+            "id": "ἤπια_9"
+        },
+        {
+            "wID": "10",
+            "form": "δήνεα",
+            "lemma": "δῆνος",
+            "postag": "n-p---na-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.361",
+            "id": "δήνεα_10"
+        },
+        {
+            "wID": "11",
+            "form": "οἶδε",
+            "lemma": "οἶδα",
+            "postag": "v3sria---",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.361",
+            "id": "οἶδε_11"
+        },
+        {
+            "wID": "12",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.361",
+            "id": "·_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED",
+            "source": "οἶδα_1",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "γὰρ_2",
+            "target": "οἶδα_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὥς_3",
+            "target": "οἶδα_1",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "τοι_4",
+            "target": "θυμὸς_5",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "θυμὸς_5",
+            "target": "οἶδε_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐνὶ_6",
+            "target": "θυμὸς_5",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "στήθεσσι_7",
+            "target": "ἐνὶ_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "φίλοισιν_8",
+            "target": "στήθεσσι_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἤπια_9",
+            "target": "δήνεα_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "δήνεα_10",
+            "target": "οἶδε_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "οἶδε_11",
+            "target": "ὥς_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_12",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

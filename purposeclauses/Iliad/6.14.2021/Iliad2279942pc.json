@@ -1,0 +1,234 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "Ἀλκίμεδον",
+            "lemma": "Ἀλκιμέδων",
+            "postag": "n-s---mv-",
+            "head": "6",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.501",
+            "id": "Ἀλκίμεδον_1"
+        },
+        {
+            "wID": "2",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.501",
+            "id": "μὴ_2"
+        },
+        {
+            "wID": "3",
+            "form": "δή",
+            "lemma": "δή",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.501",
+            "id": "δή_3"
+        },
+        {
+            "wID": "4",
+            "form": "μοι",
+            "lemma": "ἐγώ",
+            "postag": "p-s---md-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.501",
+            "id": "μοι_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἀπόπροθεν",
+            "lemma": "ἀπόπροθε",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.501",
+            "id": "ἀπόπροθεν_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἰσχέμεν",
+            "lemma": "ἴσχω",
+            "postag": "v--pna---",
+            "head": "9",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.501",
+            "id": "ἰσχέμεν_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἵππους",
+            "lemma": "ἵππος",
+            "postag": "n-p---ma-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.501",
+            "id": "ἵππους_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.501",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἀλλὰ",
+            "lemma": "ἀλλά",
+            "postag": "c--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.502",
+            "id": "ἀλλὰ_9"
+        },
+        {
+            "wID": "10",
+            "form": "μάλ'",
+            "lemma": "μάλα",
+            "postag": "d--------",
+            "head": "11",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.502",
+            "id": "μάλ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἐμπνείοντε",
+            "lemma": "ἐμπνέω",
+            "postag": "v-dppama-",
+            "head": "14",
+            "relation": "AtvV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.502",
+            "id": "ἐμπνείοντε_11"
+        },
+        {
+            "wID": "12",
+            "form": "μεταφρένῳ",
+            "lemma": "μετάφρενον",
+            "postag": "n-s---nd-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.502",
+            "id": "μεταφρένῳ_12"
+        },
+        {
+            "wID": "13",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:17.502",
+            "id": "·_13"
+        },
+        {
+            "wID": "14",
+            "form": "[0]",
+            "head": "9",
+            "relation": "PRED_CO",
+            "id": "[0]_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ExD",
+            "source": "Ἀλκίμεδον_1",
+            "target": "ἰσχέμεν_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μὴ_2",
+            "target": "ἰσχέμεν_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "δή_3",
+            "target": "ἰσχέμεν_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μοι_4",
+            "target": "ἰσχέμεν_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀπόπροθεν_5",
+            "target": "ἰσχέμεν_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἰσχέμεν_6",
+            "target": "ἀλλὰ_9",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἵππους_7",
+            "target": "ἰσχέμεν_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "ἀλλὰ_9",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "ἀλλὰ_9",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "μάλ'_10",
+            "target": "ἐμπνείοντε_11",
+            "key": 0
+        },
+        {
+            "relation": "AtvV",
+            "source": "ἐμπνείοντε_11",
+            "target": "[0]_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μεταφρένῳ_12",
+            "target": "ἐμπνείοντε_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_13",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "[0]_14",
+            "target": "ἀλλὰ_9",
+            "key": 0
+        }
+    ]
+}

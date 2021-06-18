@@ -1,0 +1,205 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἡμεῖς",
+            "lemma": "ἐγώ",
+            "postag": "p-p---mn-",
+            "head": "3",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.61",
+            "id": "ἡμεῖς_1"
+        },
+        {
+            "wID": "2",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.61",
+            "id": "δὲ_2"
+        },
+        {
+            "wID": "3",
+            "form": "φραζώμεθ'",
+            "lemma": "φράζω",
+            "postag": "v1ppse---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.61",
+            "id": "φραζώμεθ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ὅπως",
+            "lemma": "ὅπως",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "PNOM",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.61",
+            "id": "ὅπως_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἔσται",
+            "lemma": "εἰμί",
+            "postag": "v3sfim---",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.61",
+            "id": "ἔσται_5"
+        },
+        {
+            "wID": "6",
+            "form": "τάδε",
+            "lemma": "ὅδε",
+            "postag": "p-p---nn-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.61",
+            "id": "τάδε_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἔργα",
+            "lemma": "ἔργον",
+            "postag": "n-p---nn-",
+            "head": "5",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.61",
+            "id": "ἔργα_7"
+        },
+        {
+            "wID": "8",
+            "form": "εἴ",
+            "lemma": "εἰ",
+            "postag": "c--------",
+            "head": "3",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.62",
+            "id": "εἴ_8"
+        },
+        {
+            "wID": "9",
+            "form": "τι",
+            "lemma": "τις",
+            "postag": "p-s---na-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.62",
+            "id": "τι_9"
+        },
+        {
+            "wID": "10",
+            "form": "νόος",
+            "lemma": "νόος",
+            "postag": "n-s---mn-",
+            "head": "11",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.62",
+            "id": "νόος_10"
+        },
+        {
+            "wID": "11",
+            "form": "ῥέξει",
+            "lemma": "ῥέζω",
+            "postag": "v3sfia---",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.62",
+            "id": "ῥέξει_11"
+        },
+        {
+            "wID": "12",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:14.62",
+            "id": "·_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "SBJ",
+            "source": "ἡμεῖς_1",
+            "target": "φραζώμεθ'_3",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "φραζώμεθ'_3",
+            "target": "δὲ_2",
+            "key": 0
+        },
+        {
+            "relation": "PNOM",
+            "source": "ὅπως_4",
+            "target": "ἔσται_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἔσται_5",
+            "target": "φραζώμεθ'_3",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "τάδε_6",
+            "target": "ἔργα_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἔργα_7",
+            "target": "ἔσται_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "εἴ_8",
+            "target": "φραζώμεθ'_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τι_9",
+            "target": "ῥέξει_11",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "νόος_10",
+            "target": "ῥέξει_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ῥέξει_11",
+            "target": "εἴ_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_12",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

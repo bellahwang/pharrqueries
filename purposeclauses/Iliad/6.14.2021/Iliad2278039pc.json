@@ -1,0 +1,237 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὥς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.307",
+            "id": "ὥς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ῥα",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.307",
+            "id": "ῥα_2"
+        },
+        {
+            "wID": "3",
+            "form": "τότ'",
+            "lemma": "τότε",
+            "postag": "d--------",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.307",
+            "id": "τότ'_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἀντίθεον",
+            "lemma": "ἀντίθεος",
+            "postag": "a-s---ma-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.307",
+            "id": "ἀντίθεον_4"
+        },
+        {
+            "wID": "5",
+            "form": "Σαρπηδόνα",
+            "lemma": "Σαρπηδών",
+            "postag": "n-s---ma-",
+            "head": "7",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.307",
+            "id": "Σαρπηδόνα_5"
+        },
+        {
+            "wID": "6",
+            "form": "θυμὸς",
+            "lemma": "θυμός",
+            "postag": "n-s---mn-",
+            "head": "7",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.307",
+            "id": "θυμὸς_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀνῆκε",
+            "lemma": "ἀνίημι",
+            "postag": "v3saia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.307",
+            "id": "ἀνῆκε_7"
+        },
+        {
+            "wID": "8",
+            "form": "τεῖχος",
+            "lemma": "τεῖχος",
+            "postag": "n-s---na-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.308",
+            "id": "τεῖχος_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἐπαΐξαι",
+            "lemma": "ἐπαίσσω",
+            "postag": "v--ana---",
+            "head": "11",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.308",
+            "id": "ἐπαΐξαι_9"
+        },
+        {
+            "wID": "10",
+            "form": "διά",
+            "lemma": "ζεύς",
+            "postag": "n-s---ma-",
+            "head": "12",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.308",
+            "id": "διά_10"
+        },
+        {
+            "wID": "11",
+            "form": "τε",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "7",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.308",
+            "id": "τε_11"
+        },
+        {
+            "wID": "12",
+            "form": "ῥήξασθαι",
+            "lemma": "ῥήγνυμι",
+            "postag": "v--anm---",
+            "head": "11",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.308",
+            "id": "ῥήξασθαι_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἐπάλξεις",
+            "lemma": "ἔπαλξις",
+            "postag": "n-p---fa-",
+            "head": "12",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.308",
+            "id": "ἐπάλξεις_13"
+        },
+        {
+            "wID": "14",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.308",
+            "id": "._14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὥς_1",
+            "target": "ἀνῆκε_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ῥα_2",
+            "target": "ἀνῆκε_7",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "τότ'_3",
+            "target": "ἀνῆκε_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀντίθεον_4",
+            "target": "Σαρπηδόνα_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Σαρπηδόνα_5",
+            "target": "ἀνῆκε_7",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "θυμὸς_6",
+            "target": "ἀνῆκε_7",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἀνῆκε_7",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τεῖχος_8",
+            "target": "ἐπαΐξαι_9",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "ἐπαΐξαι_9",
+            "target": "τε_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "διά_10",
+            "target": "ῥήξασθαι_12",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "τε_11",
+            "target": "ἀνῆκε_7",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "ῥήξασθαι_12",
+            "target": "τε_11",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἐπάλξεις_13",
+            "target": "ῥήξασθαι_12",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

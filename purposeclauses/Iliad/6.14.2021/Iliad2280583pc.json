@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὣς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": "ὣς_1"
+        },
+        {
+            "wID": "2",
+            "form": "ἄρ'",
+            "lemma": "ἄρα",
+            "postag": "g--------",
+            "head": "3",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": "ἄρ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἐφώνησεν",
+            "lemma": "φωνέω",
+            "postag": "v3saia---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": "ἐφώνησεν_3"
+        },
+        {
+            "wID": "4",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "6",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": ",_4"
+        },
+        {
+            "wID": "5",
+            "form": "λῦσεν",
+            "lemma": "λύω",
+            "postag": "v3saia---",
+            "head": "6",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": "λῦσεν_5"
+        },
+        {
+            "wID": "6",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": "δ'_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀγορὴν",
+            "lemma": "ἀγορά",
+            "postag": "n-s---fa-",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": "ἀγορὴν_7"
+        },
+        {
+            "wID": "8",
+            "form": "αἰψηρήν",
+            "lemma": "αἰψηρός",
+            "postag": "a-s---fa-",
+            "head": "7",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": "αἰψηρήν_8"
+        },
+        {
+            "wID": "9",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:19.276",
+            "id": "._9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὣς_1",
+            "target": "ἐφώνησεν_3",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄρ'_2",
+            "target": "ἐφώνησεν_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "ἐφώνησεν_3",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_4",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "λῦσεν_5",
+            "target": "δ'_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἀγορὴν_7",
+            "target": "λῦσεν_5",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "αἰψηρήν_8",
+            "target": "ἀγορὴν_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

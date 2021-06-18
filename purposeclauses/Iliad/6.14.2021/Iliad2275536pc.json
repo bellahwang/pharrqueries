@@ -1,0 +1,234 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἵππων",
+            "lemma": "ἵππος",
+            "postag": "n-p---mg-",
+            "head": "2",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.202",
+            "id": "ἵππων_1"
+        },
+        {
+            "wID": "2",
+            "form": "φειδόμενος",
+            "lemma": "φείδομαι",
+            "postag": "v-sppemn-",
+            "head": "14",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.202",
+            "id": "φειδόμενος_2"
+        },
+        {
+            "wID": "3",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "4",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.202",
+            "id": ",_3"
+        },
+        {
+            "wID": "4",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "2",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.202",
+            "id": "μή_4"
+        },
+        {
+            "wID": "5",
+            "form": "μοι",
+            "lemma": "ἐγώ",
+            "postag": "p-s---md-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.202",
+            "id": "μοι_5"
+        },
+        {
+            "wID": "6",
+            "form": "δευοίατο",
+            "lemma": "δέω",
+            "postag": "v3ppoe---",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.202",
+            "id": "δευοίατο_6"
+        },
+        {
+            "wID": "7",
+            "form": "φορβῆς",
+            "lemma": "φορβή",
+            "postag": "n-s---fg-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.202",
+            "id": "φορβῆς_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἀνδρῶν",
+            "lemma": "ἀνήρ",
+            "postag": "n-p---mg-",
+            "head": "9",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.203",
+            "id": "ἀνδρῶν_8"
+        },
+        {
+            "wID": "9",
+            "form": "εἰλομένων",
+            "lemma": "εἴλω",
+            "postag": "v-pppemg-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.203",
+            "id": "εἰλομένων_9"
+        },
+        {
+            "wID": "10",
+            "form": "εἰωθότες",
+            "lemma": "ἔθω",
+            "postag": "v-prpamn-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.203",
+            "id": "εἰωθότες_10"
+        },
+        {
+            "wID": "11",
+            "form": "ἔδμεναι",
+            "lemma": "ἔδω",
+            "postag": "v---na---",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.203",
+            "id": "ἔδμεναι_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἄδην",
+            "lemma": "ἅδην",
+            "postag": "d--------",
+            "head": "11",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.203",
+            "id": "ἄδην_12"
+        },
+        {
+            "wID": "13",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:5.203",
+            "id": "._13"
+        },
+        {
+            "wID": "14",
+            "form": "[0]",
+            "head": "0",
+            "relation": "PRED",
+            "id": "[0]_14"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "OBJ",
+            "source": "ἵππων_1",
+            "target": "φειδόμενος_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φειδόμενος_2",
+            "target": "[0]_14",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_3",
+            "target": "μή_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "μή_4",
+            "target": "φειδόμενος_2",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μοι_5",
+            "target": "δευοίατο_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δευοίατο_6",
+            "target": "μή_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "φορβῆς_7",
+            "target": "δευοίατο_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἀνδρῶν_8",
+            "target": "εἰλομένων_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἰλομένων_9",
+            "target": "δευοίατο_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "εἰωθότες_10",
+            "target": "δευοίατο_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἔδμεναι_11",
+            "target": "εἰωθότες_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἄδην_12",
+            "target": "ἔδμεναι_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._13",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "[0]_14",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

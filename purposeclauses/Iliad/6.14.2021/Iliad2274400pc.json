@@ -1,0 +1,157 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "εἰ",
+            "lemma": "εἰ",
+            "postag": "i--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "εἰ_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἄγε",
+            "lemma": "ἄγε",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "ἄγε_3"
+        },
+        {
+            "wID": "4",
+            "form": "τοι",
+            "lemma": "σύ",
+            "postag": "p-s----d-",
+            "head": "6",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "τοι_4"
+        },
+        {
+            "wID": "5",
+            "form": "κεφαλῇ",
+            "lemma": "κεφαλή",
+            "postag": "n-s---fd-",
+            "head": "6",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "κεφαλῇ_5"
+        },
+        {
+            "wID": "6",
+            "form": "κατανεύσομαι",
+            "lemma": "κατανεύω",
+            "postag": "v1sfim---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "κατανεύσομαι_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὄφρα",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "6",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "ὄφρα_7"
+        },
+        {
+            "wID": "8",
+            "form": "πεποίθῃς",
+            "lemma": "πείθω",
+            "postag": "v2srsa---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "πεποίθῃς_8"
+        },
+        {
+            "wID": "9",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:1.524",
+            "id": "·_9"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "εἰ_1",
+            "target": "κατανεύσομαι_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "ἄγε_3",
+            "target": "κατανεύσομαι_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "τοι_4",
+            "target": "κατανεύσομαι_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "κεφαλῇ_5",
+            "target": "κατανεύσομαι_6",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "κατανεύσομαι_6",
+            "target": "δ'_2",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρα_7",
+            "target": "κατανεύσομαι_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πεποίθῃς_8",
+            "target": "ὄφρα_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_9",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

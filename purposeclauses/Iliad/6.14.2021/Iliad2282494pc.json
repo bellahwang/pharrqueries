@@ -1,0 +1,125 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀνέστησεν",
+            "lemma": "ἀνίστημι",
+            "postag": "v3saia---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.756",
+            "id": "ἀνέστησεν_1"
+        },
+        {
+            "wID": "2",
+            "form": "δέ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.756",
+            "id": "δέ_2"
+        },
+        {
+            "wID": "3",
+            "form": "μιν",
+            "lemma": "μιν",
+            "postag": "p-s---ma-",
+            "head": "1",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.756",
+            "id": "μιν_3"
+        },
+        {
+            "wID": "4",
+            "form": "οὐ",
+            "lemma": "οὐδέ",
+            "postag": "g--------",
+            "head": "6",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.756",
+            "id": "οὐ_4"
+        },
+        {
+            "wID": "5",
+            "form": "δ'",
+            "lemma": "οὐδέ",
+            "postag": "g--------",
+            "head": "4",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.756",
+            "id": "δ'_5"
+        },
+        {
+            "wID": "6",
+            "form": "ὧς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "1",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.756",
+            "id": "ὧς_6"
+        },
+        {
+            "wID": "7",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:24.756",
+            "id": "._7"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "PRED_CO",
+            "source": "ἀνέστησεν_1",
+            "target": "δέ_2",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δέ_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μιν_3",
+            "target": "ἀνέστησεν_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὐ_4",
+            "target": "ὧς_6",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "δ'_5",
+            "target": "οὐ_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὧς_6",
+            "target": "ἀνέστησεν_1",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._7",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

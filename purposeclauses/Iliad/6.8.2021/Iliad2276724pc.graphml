@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d6" for="node" attr.name="cite" attr.type="string"/>
+<key id="d5" for="node" attr.name="relation" attr.type="string"/>
+<key id="d4" for="node" attr.name="head" attr.type="string"/>
+<key id="d3" for="node" attr.name="postag" attr.type="string"/>
+<key id="d2" for="node" attr.name="lemma" attr.type="string"/>
+<key id="d1" for="node" attr.name="form" attr.type="string"/>
+<key id="d0" for="node" attr.name="id" attr.type="string"/>
+<graph edgedefault="directed"><node id="μὴ">
+  <data key="d0">1</data>
+  <data key="d1">μὴ</data>
+  <data key="d2">μή</data>
+  <data key="d3">g--------</data>
+  <data key="d4">6</data>
+  <data key="d5">AuxZ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.512</data>
+</node>
+<node id="μὰν">
+  <data key="d0">2</data>
+  <data key="d1">μὰν</data>
+  <data key="d2">μήν</data>
+  <data key="d3">g--------</data>
+  <data key="d4">6</data>
+  <data key="d5">AuxY</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.512</data>
+</node>
+<node id="ἀσπουδί">
+  <data key="d0">3</data>
+  <data key="d1">ἀσπουδί</data>
+  <data key="d2">ἀσπουδί</data>
+  <data key="d3">d--------</data>
+  <data key="d4">6</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.512</data>
+</node>
+<node id="γε">
+  <data key="d0">13</data>
+  <data key="d1">γε</data>
+  <data key="d2">γε</data>
+  <data key="d3">g--------</data>
+  <data key="d4">12</data>
+  <data key="d5">AuxZ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.513</data>
+</node>
+<node id="νεῶν">
+  <data key="d0">5</data>
+  <data key="d1">νεῶν</data>
+  <data key="d2">ναῦς</data>
+  <data key="d3">n-p---fg-</data>
+  <data key="d4">6</data>
+  <data key="d5">OBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.512</data>
+</node>
+<node id="ἐπιβαῖεν">
+  <data key="d0">6</data>
+  <data key="d1">ἐπιβαῖεν</data>
+  <data key="d2">ἐπιβαίνω</data>
+  <data key="d3">v3paoa---</data>
+  <data key="d4">9</data>
+  <data key="d5">PRED_CO</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.512</data>
+</node>
+<node id="ἕκηλοι">
+  <data key="d0">7</data>
+  <data key="d1">ἕκηλοι</data>
+  <data key="d2">ἕκηλος</data>
+  <data key="d3">a-p---mn-</data>
+  <data key="d4">6</data>
+  <data key="d5">AtvV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.512</data>
+</node>
+<node id=",">
+  <data key="d0">26</data>
+  <data key="d1">,</data>
+  <data key="d2">,</data>
+  <data key="d3">u--------</data>
+  <data key="d4">27</data>
+  <data key="d5">AuxX</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.515</data>
+</node>
+<node id="ἀλλ'">
+  <data key="d0">9</data>
+  <data key="d1">ἀλλ'</data>
+  <data key="d2">ἀλλά</data>
+  <data key="d3">c--------</data>
+  <data key="d4">0</data>
+  <data key="d5">COORD</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.513</data>
+</node>
+<node id="ὥς">
+  <data key="d0">10</data>
+  <data key="d1">ὥς</data>
+  <data key="d2">ὡς</data>
+  <data key="d3">c--------</data>
+  <data key="d4">9</data>
+  <data key="d5">AuxC</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.513</data>
+</node>
+<node id="τις">
+  <data key="d0">28</data>
+  <data key="d1">τις</data>
+  <data key="d2">τις</data>
+  <data key="d3">p-s---mn-</data>
+  <data key="d4">29</data>
+  <data key="d5">SBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.515</data>
+</node>
+<node id="τούτων">
+  <data key="d0">12</data>
+  <data key="d1">τούτων</data>
+  <data key="d2">οὗτος</data>
+  <data key="d3">a-p---mg-</data>
+  <data key="d4">11</data>
+  <data key="d5">ATR</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.513</data>
+</node>
+<node id="βέλος">
+  <data key="d0">14</data>
+  <data key="d1">βέλος</data>
+  <data key="d2">βέλος</data>
+  <data key="d3">n-s---na-</data>
+  <data key="d4">17</data>
+  <data key="d5">OBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.513</data>
+</node>
+<node id="καὶ">
+  <data key="d0">30</data>
+  <data key="d1">καὶ</data>
+  <data key="d2">καί</data>
+  <data key="d3">d--------</data>
+  <data key="d4">31</data>
+  <data key="d5">AuxZ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.515</data>
+</node>
+<node id="οἴκοθι">
+  <data key="d0">16</data>
+  <data key="d1">οἴκοθι</data>
+  <data key="d2">οἴκοθι</data>
+  <data key="d3">d--------</data>
+  <data key="d4">17</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.513</data>
+</node>
+<node id="πέσσῃ">
+  <data key="d0">17</data>
+  <data key="d1">πέσσῃ</data>
+  <data key="d2">πέσσω</data>
+  <data key="d3">v3spsa---</data>
+  <data key="d4">39</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.513</data>
+</node>
+<node id="βλήμενος">
+  <data key="d0">18</data>
+  <data key="d1">βλήμενος</data>
+  <data key="d2">βάλλω</data>
+  <data key="d3">v-sapmmn-</data>
+  <data key="d4">17</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.514</data>
+</node>
+<node id="ἢ">
+  <data key="d0">21</data>
+  <data key="d1">ἢ</data>
+  <data key="d2">ἤ</data>
+  <data key="d3">c--------</data>
+  <data key="d4">18</data>
+  <data key="d5">COORD</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.514</data>
+</node>
+<node id="ἰῷ">
+  <data key="d0">20</data>
+  <data key="d1">ἰῷ</data>
+  <data key="d2">ἰός</data>
+  <data key="d3">n-s---md-</data>
+  <data key="d4">21</data>
+  <data key="d5">OBJ_CO</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.514</data>
+</node>
+<node id="ἔγχεϊ">
+  <data key="d0">22</data>
+  <data key="d1">ἔγχεϊ</data>
+  <data key="d2">ἔγχος</data>
+  <data key="d3">n-s---nd-</data>
+  <data key="d4">21</data>
+  <data key="d5">OBJ_CO</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.514</data>
+</node>
+<node id="ὀξυόεντι">
+  <data key="d0">23</data>
+  <data key="d1">ὀξυόεντι</data>
+  <data key="d2">ὀξυόεις</data>
+  <data key="d3">a-s---nd-</data>
+  <data key="d4">22</data>
+  <data key="d5">ATR</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.514</data>
+</node>
+<node id="νηὸς">
+  <data key="d0">24</data>
+  <data key="d1">νηὸς</data>
+  <data key="d2">ναῦς</data>
+  <data key="d3">n-s---fg-</data>
+  <data key="d4">25</data>
+  <data key="d5">OBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.515</data>
+</node>
+<node id="ἐπιθρῴσκων">
+  <data key="d0">25</data>
+  <data key="d1">ἐπιθρῴσκων</data>
+  <data key="d2">ἐπιθρῴσκω</data>
+  <data key="d3">v-sppamn-</data>
+  <data key="d4">18</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.515</data>
+</node>
+<node id="ἵνα">
+  <data key="d0">27</data>
+  <data key="d1">ἵνα</data>
+  <data key="d2">ἵνα</data>
+  <data key="d3">c--------</data>
+  <data key="d4">17</data>
+  <data key="d5">AuxC</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.515</data>
+</node>
+<node id="στυγέῃσι">
+  <data key="d0">29</data>
+  <data key="d1">στυγέῃσι</data>
+  <data key="d2">στυγέω</data>
+  <data key="d3">v3spsa---</data>
+  <data key="d4">27</data>
+  <data key="d5">ADV</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.515</data>
+</node>
+<node id="ἄλλος">
+  <data key="d0">31</data>
+  <data key="d1">ἄλλος</data>
+  <data key="d2">ἄλλος</data>
+  <data key="d3">a-s---mn-</data>
+  <data key="d4">28</data>
+  <data key="d5">ATR</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.515</data>
+</node>
+<node id="Τρωσὶν">
+  <data key="d0">32</data>
+  <data key="d1">Τρωσὶν</data>
+  <data key="d2">Τρώς</data>
+  <data key="d3">n-p---md-</data>
+  <data key="d4">33</data>
+  <data key="d5">OBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.516</data>
+</node>
+<node id="ἐφ'">
+  <data key="d0">33</data>
+  <data key="d1">ἐφ'</data>
+  <data key="d2">ἐπί</data>
+  <data key="d3">r--------</data>
+  <data key="d4">35</data>
+  <data key="d5">AuxP</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.516</data>
+</node>
+<node id="ἱπποδάμοισι">
+  <data key="d0">34</data>
+  <data key="d1">ἱπποδάμοισι</data>
+  <data key="d2">ἱππόδαμος</data>
+  <data key="d3">a-p---md-</data>
+  <data key="d4">32</data>
+  <data key="d5">ATR</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.516</data>
+</node>
+<node id="φέρειν">
+  <data key="d0">35</data>
+  <data key="d1">φέρειν</data>
+  <data key="d2">φέρω</data>
+  <data key="d3">v--pna---</data>
+  <data key="d4">29</data>
+  <data key="d5">OBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.516</data>
+</node>
+<node id="πολύδακρυν">
+  <data key="d0">36</data>
+  <data key="d1">πολύδακρυν</data>
+  <data key="d2">πολύδακρυς</data>
+  <data key="d3">a-s---ma-</data>
+  <data key="d4">37</data>
+  <data key="d5">ATR</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.516</data>
+</node>
+<node id="Ἄρηα">
+  <data key="d0">37</data>
+  <data key="d1">Ἄρηα</data>
+  <data key="d2">Ἄρης</data>
+  <data key="d3">n-s---ma-</data>
+  <data key="d4">35</data>
+  <data key="d5">OBJ</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.516</data>
+</node>
+<node id=".">
+  <data key="d0">38</data>
+  <data key="d1">.</data>
+  <data key="d2">.</data>
+  <data key="d3">u--------</data>
+  <data key="d4">0</data>
+  <data key="d5">AuxK</data>
+  <data key="d6">urn:cts:greekLit:tlg0012.tlg001:8.516</data>
+</node>
+<node id="[0]">
+  <data key="d0">39</data>
+  <data key="d1">[0]</data>
+  <data key="d4">10</data>
+  <data key="d5">PRED_CO</data>
+</node>
+<edge source="ἐπιβαῖεν" target="μὴ" id="0">
+  <data key="d7">AuxZ</data>
+</edge>
+<edge source="ἐπιβαῖεν" target="μὰν" id="0">
+  <data key="d7">AuxY</data>
+</edge>
+<edge source="ἐπιβαῖεν" target="ἀσπουδί" id="0">
+  <data key="d7">ADV</data>
+</edge>
+<edge source="ἐπιβαῖεν" target="νεῶν" id="0">
+  <data key="d7">OBJ</data>
+</edge>
+<edge source="ἐπιβαῖεν" target="ἕκηλοι" id="0">
+  <data key="d7">AtvV</data>
+</edge>
+<edge source="ἀλλ'" target="ἐπιβαῖεν" id="0">
+  <data key="d7">PRED_CO</data>
+</edge>
+<edge source="ἀλλ'" target="ἀλλ'" id="0">
+  <data key="d7">COORD</data>
+</edge>
+<edge source="ὥς" target="Ἄρηα" id="0">
+  <data key="d7">OBJ</data>
+</edge>
+<edge source="τις" target="καὶ" id="0">
+  <data key="d7">AuxZ</data>
+</edge>
+<edge source="τις" target="καὶ" id="1">
+  <data key="d7">AuxZ</data>
+</edge>
+<edge source="τούτων" target="τούτων" id="0">
+  <data key="d7">ATR</data>
+</edge>
+<edge source="πέσσῃ" target="γε" id="0">
+  <data key="d7">AuxZ</data>
+</edge>
+<edge source="πέσσῃ" target="γε" id="1">
+  <data key="d7">AuxZ</data>
+</edge>
+<edge source="πέσσῃ" target="," id="0">
+  <data key="d7">AuxX</data>
+</edge>
+<edge source="πέσσῃ" target="," id="1">
+  <data key="d7">AuxX</data>
+</edge>
+<edge source="πέσσῃ" target="πέσσῃ" id="0">
+  <data key="d7">ADV</data>
+</edge>
+<edge source="βλήμενος" target="βλήμενος" id="0">
+  <data key="d7">ADV</data>
+</edge>
+<edge source="βλήμενος" target="ἰῷ" id="0">
+  <data key="d7">OBJ_CO</data>
+</edge>
+<edge source="βλήμενος" target="νηὸς" id="0">
+  <data key="d7">OBJ</data>
+</edge>
+<edge source="ἢ" target="ἢ" id="0">
+  <data key="d7">AuxY</data>
+</edge>
+<edge source="ἢ" target="ἢ" id="1">
+  <data key="d7">COORD</data>
+</edge>
+<edge source="ἔγχεϊ" target="ἔγχεϊ" id="0">
+  <data key="d7">OBJ_CO</data>
+</edge>
+<edge source="ἐπιθρῴσκων" target="ὀξυόεντι" id="0">
+  <data key="d7">ATR</data>
+</edge>
+<edge source="ἵνα" target="τις" id="0">
+  <data key="d7">SBJ</data>
+</edge>
+<edge source="ἵνα" target="τις" id="1">
+  <data key="d7">SBJ</data>
+</edge>
+<edge source="ἵνα" target="ἐπιθρῴσκων" id="0">
+  <data key="d7">ADV</data>
+</edge>
+<edge source="στυγέῃσι" target="ὥς" id="0">
+  <data key="d7">AuxC</data>
+</edge>
+<edge source="στυγέῃσι" target="ἵνα" id="0">
+  <data key="d7">AuxC</data>
+</edge>
+<edge source="στυγέῃσι" target="ἱπποδάμοισι" id="0">
+  <data key="d7">ATR</data>
+</edge>
+<edge source="ἄλλος" target="βέλος" id="0">
+  <data key="d7">OBJ</data>
+</edge>
+<edge source="ἄλλος" target="στυγέῃσι" id="0">
+  <data key="d7">ADV</data>
+</edge>
+<edge source="Τρωσὶν" target="ἐφ'" id="0">
+  <data key="d7">AuxP</data>
+</edge>
+<edge source="ἐφ'" target="ἄλλος" id="0">
+  <data key="d7">ATR</data>
+</edge>
+<edge source="φέρειν" target="Τρωσὶν" id="0">
+  <data key="d7">OBJ</data>
+</edge>
+<edge source="φέρειν" target="πολύδακρυν" id="0">
+  <data key="d7">ATR</data>
+</edge>
+<edge source="Ἄρηα" target="φέρειν" id="0">
+  <data key="d7">OBJ</data>
+</edge>
+<edge source="[0]" target="οἴκοθι" id="0">
+  <data key="d7">ADV</data>
+</edge>
+</graph></graphml>

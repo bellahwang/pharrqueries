@@ -1,0 +1,301 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.839",
+            "id": "μή_1"
+        },
+        {
+            "wID": "2",
+            "form": "μοι",
+            "lemma": "ἐγώ",
+            "postag": "p-s---md-",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.839",
+            "id": "μοι_2"
+        },
+        {
+            "wID": "3",
+            "form": "πρὶν",
+            "lemma": "πρίν",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.839",
+            "id": "πρὶν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἰέναι",
+            "lemma": "εἶμι",
+            "postag": "v--pna---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.839",
+            "id": "ἰέναι_4"
+        },
+        {
+            "wID": "5",
+            "form": "Πατρόκλεες",
+            "lemma": "πάτροκλος",
+            "postag": "n-s---mv-",
+            "head": "4",
+            "relation": "ExD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.839",
+            "id": "Πατρόκλεες_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἱπποκέλευθε",
+            "lemma": "ἱπποκέλευθος",
+            "postag": "a-s---mv-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.839",
+            "id": "ἱπποκέλευθε_6"
+        },
+        {
+            "wID": "7",
+            "form": "νῆας",
+            "lemma": "ναῦς",
+            "postag": "n-p---fa-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.840",
+            "id": "νῆας_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἔπι",
+            "lemma": "ἐπί",
+            "postag": "r--------",
+            "head": "4",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.840",
+            "id": "ἔπι_8"
+        },
+        {
+            "wID": "9",
+            "form": "γλαφυρὰς",
+            "lemma": "γλαφυρός",
+            "postag": "a-p---fa-",
+            "head": "7",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.840",
+            "id": "γλαφυρὰς_9"
+        },
+        {
+            "wID": "10",
+            "form": "πρὶν",
+            "lemma": "πρίν",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.840",
+            "id": "πρὶν_10"
+        },
+        {
+            "wID": "11",
+            "form": "Ἕκτορος",
+            "lemma": "Ἕκτωρ",
+            "postag": "n-s---mg-",
+            "head": "14",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.840",
+            "id": "Ἕκτορος_11"
+        },
+        {
+            "wID": "12",
+            "form": "ἀνδροφόνοιο",
+            "lemma": "ἀνδροφόνος",
+            "postag": "a-s---mg-",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.840",
+            "id": "ἀνδροφόνοιο_12"
+        },
+        {
+            "wID": "13",
+            "form": "αἱματόεντα",
+            "lemma": "αἱματόεις",
+            "postag": "a-s---ma-",
+            "head": "14",
+            "relation": "ATV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.841",
+            "id": "αἱματόεντα_13"
+        },
+        {
+            "wID": "14",
+            "form": "χιτῶνα",
+            "lemma": "χιτών",
+            "postag": "n-s---ma-",
+            "head": "17",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.841",
+            "id": "χιτῶνα_14"
+        },
+        {
+            "wID": "15",
+            "form": "περὶ",
+            "lemma": "περί",
+            "postag": "r--------",
+            "head": "14",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.841",
+            "id": "περὶ_15"
+        },
+        {
+            "wID": "16",
+            "form": "στήθεσσι",
+            "lemma": "στῆθος",
+            "postag": "n-p---nd-",
+            "head": "15",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.841",
+            "id": "στήθεσσι_16"
+        },
+        {
+            "wID": "17",
+            "form": "δαΐξαι",
+            "lemma": "δαίζω",
+            "postag": "v--ana---",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.841",
+            "id": "δαΐξαι_17"
+        },
+        {
+            "wID": "18",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:16.841",
+            "id": "._18"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μή_1",
+            "target": "ἰέναι_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxY",
+            "source": "μοι_2",
+            "target": "ἰέναι_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πρὶν_3",
+            "target": "ἰέναι_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἰέναι_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ExD",
+            "source": "Πατρόκλεες_5",
+            "target": "ἰέναι_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἱπποκέλευθε_6",
+            "target": "Πατρόκλεες_5",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "νῆας_7",
+            "target": "ἔπι_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἔπι_8",
+            "target": "ἰέναι_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "γλαφυρὰς_9",
+            "target": "νῆας_7",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "πρὶν_10",
+            "target": "ἰέναι_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἕκτορος_11",
+            "target": "χιτῶνα_14",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀνδροφόνοιο_12",
+            "target": "Ἕκτορος_11",
+            "key": 0
+        },
+        {
+            "relation": "ATV",
+            "source": "αἱματόεντα_13",
+            "target": "χιτῶνα_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "χιτῶνα_14",
+            "target": "δαΐξαι_17",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "περὶ_15",
+            "target": "χιτῶνα_14",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "στήθεσσι_16",
+            "target": "περὶ_15",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δαΐξαι_17",
+            "target": "πρὶν_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._18",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

@@ -1,0 +1,330 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "πρόσθεν",
+            "lemma": "πρόσθεν",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.113",
+            "id": "πρόσθεν_1"
+        },
+        {
+            "wID": "2",
+            "form": "δὲ",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.113",
+            "id": "δὲ_2"
+        },
+        {
+            "wID": "3",
+            "form": "σάκεα",
+            "lemma": "σάκος",
+            "postag": "n-p---na-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.113",
+            "id": "σάκεα_3"
+        },
+        {
+            "wID": "4",
+            "form": "σχέθον",
+            "lemma": "ἔχω",
+            "postag": "v3saia---",
+            "head": "2",
+            "relation": "PRED_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.113",
+            "id": "σχέθον_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἐσθλοὶ",
+            "lemma": "ἐσθλός",
+            "postag": "a-p---mn-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.113",
+            "id": "ἐσθλοὶ_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἑταῖροι",
+            "lemma": "ἑταῖρος",
+            "postag": "n-p---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.113",
+            "id": "ἑταῖροι_6"
+        },
+        {
+            "wID": "7",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.114",
+            "id": "μὴ_7"
+        },
+        {
+            "wID": "8",
+            "form": "πρὶν",
+            "lemma": "πρίν",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.114",
+            "id": "πρὶν_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἀναΐξειαν",
+            "lemma": "ἀναίσσω",
+            "postag": "v3paoa---",
+            "head": "7",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.114",
+            "id": "ἀναΐξειαν_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἀρήϊοι",
+            "lemma": "ἄρειος",
+            "postag": "a-p---mn-",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.114",
+            "id": "ἀρήϊοι_10"
+        },
+        {
+            "wID": "11",
+            "form": "υἷες",
+            "lemma": "υἱός",
+            "postag": "n-p---mn-",
+            "head": "9",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.114",
+            "id": "υἷες_11"
+        },
+        {
+            "wID": "12",
+            "form": "Ἀχαιῶν",
+            "lemma": "Ἀχαιός",
+            "postag": "a-p---mg-",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.114",
+            "id": "Ἀχαιῶν_12"
+        },
+        {
+            "wID": "13",
+            "form": "πρὶν",
+            "lemma": "πρίν",
+            "postag": "c--------",
+            "head": "9",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.115",
+            "id": "πρὶν_13"
+        },
+        {
+            "wID": "14",
+            "form": "βλῆσθαι",
+            "lemma": "βάλλω",
+            "postag": "v--ane---",
+            "head": "13",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.115",
+            "id": "βλῆσθαι_14"
+        },
+        {
+            "wID": "15",
+            "form": "Μενέλαον",
+            "lemma": "Μενέλαος",
+            "postag": "n-s---ma-",
+            "head": "20",
+            "relation": "SBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.115",
+            "id": "Μενέλαον_15"
+        },
+        {
+            "wID": "16",
+            "form": "ἀρήϊον",
+            "lemma": "ἄρειος",
+            "postag": "a-s---ma-",
+            "head": "15",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.115",
+            "id": "ἀρήϊον_16"
+        },
+        {
+            "wID": "17",
+            "form": "Ἀτρέος",
+            "lemma": "Ἀτρεύς",
+            "postag": "n-s---mg-",
+            "head": "18",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.115",
+            "id": "Ἀτρέος_17"
+        },
+        {
+            "wID": "18",
+            "form": "υἱόν",
+            "lemma": "υἱός",
+            "postag": "n-s---ma-",
+            "head": "20",
+            "relation": "SBJ_AP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.115",
+            "id": "υἱόν_18"
+        },
+        {
+            "wID": "19",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:4.115",
+            "id": "._19"
+        },
+        {
+            "wID": "20",
+            "form": "[0]",
+            "head": "14",
+            "relation": "APOS",
+            "id": "[0]_20"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "πρόσθεν_1",
+            "target": "σχέθον_4",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δὲ_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σάκεα_3",
+            "target": "σχέθον_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "σχέθον_4",
+            "target": "δὲ_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἐσθλοὶ_5",
+            "target": "ἑταῖροι_6",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἑταῖροι_6",
+            "target": "σχέθον_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "μὴ_7",
+            "target": "σχέθον_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πρὶν_8",
+            "target": "ἀναΐξειαν_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ἀναΐξειαν_9",
+            "target": "μὴ_7",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀρήϊοι_10",
+            "target": "υἷες_11",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "υἷες_11",
+            "target": "ἀναΐξειαν_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀχαιῶν_12",
+            "target": "υἷες_11",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "πρὶν_13",
+            "target": "ἀναΐξειαν_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "βλῆσθαι_14",
+            "target": "πρὶν_13",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_AP",
+            "source": "Μενέλαον_15",
+            "target": "[0]_20",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἀρήϊον_16",
+            "target": "Μενέλαον_15",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "Ἀτρέος_17",
+            "target": "υἱόν_18",
+            "key": 0
+        },
+        {
+            "relation": "SBJ_AP",
+            "source": "υἱόν_18",
+            "target": "[0]_20",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._19",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "APOS",
+            "source": "[0]_20",
+            "target": "βλῆσθαι_14",
+            "key": 0
+        }
+    ]
+}

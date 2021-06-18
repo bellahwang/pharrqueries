@@ -1,0 +1,250 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.22",
+            "id": "ὡς_1"
+        },
+        {
+            "wID": "2",
+            "form": "δ'",
+            "lemma": "δέ",
+            "postag": "g--------",
+            "head": "0",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.22",
+            "id": "δ'_2"
+        },
+        {
+            "wID": "3",
+            "form": "ὑπὸ",
+            "lemma": "ὑπό",
+            "postag": "r--------",
+            "head": "8",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.22",
+            "id": "ὑπὸ_3"
+        },
+        {
+            "wID": "4",
+            "form": "δελφῖνος",
+            "lemma": "δελφίς",
+            "postag": "n-s---mg-",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.22",
+            "id": "δελφῖνος_4"
+        },
+        {
+            "wID": "5",
+            "form": "μεγακήτεος",
+            "lemma": "μεγακήτης",
+            "postag": "a-s---mg-",
+            "head": "4",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.22",
+            "id": "μεγακήτεος_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἰχθύες",
+            "lemma": "ἰχθύς",
+            "postag": "n-p---mn-",
+            "head": "9",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.22",
+            "id": "ἰχθύες_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἄλλοι",
+            "lemma": "ἄλλος",
+            "postag": "a-p---mn-",
+            "head": "6",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.22",
+            "id": "ἄλλοι_7"
+        },
+        {
+            "wID": "8",
+            "form": "φεύγοντες",
+            "lemma": "φεύγω",
+            "postag": "v-pppamn-",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.23",
+            "id": "φεύγοντες_8"
+        },
+        {
+            "wID": "9",
+            "form": "πιμπλᾶσι",
+            "lemma": "πίμπλημι",
+            "postag": "v3ppia---",
+            "head": "15",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.23",
+            "id": "πιμπλᾶσι_9"
+        },
+        {
+            "wID": "10",
+            "form": "μυχοὺς",
+            "lemma": "μυχός",
+            "postag": "n-p---ma-",
+            "head": "9",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.23",
+            "id": "μυχοὺς_10"
+        },
+        {
+            "wID": "11",
+            "form": "λιμένος",
+            "lemma": "λιμήν",
+            "postag": "n-s---mg-",
+            "head": "10",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.23",
+            "id": "λιμένος_11"
+        },
+        {
+            "wID": "12",
+            "form": "εὐόρμου",
+            "lemma": "εὔορμος",
+            "postag": "a-s---mg-",
+            "head": "11",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.23",
+            "id": "εὐόρμου_12"
+        },
+        {
+            "wID": "13",
+            "form": "δειδιότες",
+            "lemma": "δείδω",
+            "postag": "v-prpamn-",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.24",
+            "id": "δειδιότες_13"
+        },
+        {
+            "wID": "14",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:21.24",
+            "id": "·_14"
+        },
+        {
+            "wID": "15",
+            "form": "[0]",
+            "head": "2",
+            "relation": "PRED_CO",
+            "id": "[0]_15"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "ADV",
+            "source": "ὡς_1",
+            "target": "πιμπλᾶσι_9",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "δ'_2",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ὑπὸ_3",
+            "target": "φεύγοντες_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δελφῖνος_4",
+            "target": "ὑπὸ_3",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "μεγακήτεος_5",
+            "target": "δελφῖνος_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "ἰχθύες_6",
+            "target": "πιμπλᾶσι_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἄλλοι_7",
+            "target": "ἰχθύες_6",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φεύγοντες_8",
+            "target": "πιμπλᾶσι_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "πιμπλᾶσι_9",
+            "target": "[0]_15",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μυχοὺς_10",
+            "target": "πιμπλᾶσι_9",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "λιμένος_11",
+            "target": "μυχοὺς_10",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "εὐόρμου_12",
+            "target": "λιμένος_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δειδιότες_13",
+            "target": "πιμπλᾶσι_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_14",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "PRED_CO",
+            "source": "[0]_15",
+            "target": "δ'_2",
+            "key": 0
+        }
+    ]
+}

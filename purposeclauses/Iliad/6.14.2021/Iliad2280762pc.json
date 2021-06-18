@@ -1,0 +1,189 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλ'",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "5",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": "ἀλλ'_1"
+        },
+        {
+            "wID": "2",
+            "form": "οὐ",
+            "lemma": "οὐ",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": "οὐ_2"
+        },
+        {
+            "wID": "3",
+            "form": "νῦν",
+            "lemma": "νῦν",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": "νῦν_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἐρύεσθαι",
+            "lemma": "ἐρύω",
+            "postag": "v--fnm---",
+            "head": "5",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": "ἐρύεσθαι_4"
+        },
+        {
+            "wID": "5",
+            "form": "ὀΐομαι",
+            "lemma": "οἴομαι",
+            "postag": "v1spie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": "ὀΐομαι_5"
+        },
+        {
+            "wID": "6",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "10",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": ",_6"
+        },
+        {
+            "wID": "7",
+            "form": "ὡς",
+            "lemma": "ὡς",
+            "postag": "d--------",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": "ὡς_7"
+        },
+        {
+            "wID": "8",
+            "form": "ἐνὶ",
+            "lemma": "ἐν",
+            "postag": "r--------",
+            "head": "10",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": "ἐνὶ_8"
+        },
+        {
+            "wID": "9",
+            "form": "θυμῷ",
+            "lemma": "θυμός",
+            "postag": "n-s---md-",
+            "head": "8",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.195",
+            "id": "θυμῷ_9"
+        },
+        {
+            "wID": "10",
+            "form": "βάλλεαι",
+            "lemma": "βάλλω",
+            "postag": "v2spie---",
+            "head": "4",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.196",
+            "id": "βάλλεαι_10"
+        },
+        {
+            "wID": "11",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:20.196",
+            "id": "·_11"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλ'_1",
+            "target": "ὀΐομαι_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxZ",
+            "source": "οὐ_2",
+            "target": "ἐρύεσθαι_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νῦν_3",
+            "target": "ἐρύεσθαι_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "ἐρύεσθαι_4",
+            "target": "ὀΐομαι_5",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ὀΐομαι_5",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_6",
+            "target": "βάλλεαι_10",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὡς_7",
+            "target": "βάλλεαι_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἐνὶ_8",
+            "target": "βάλλεαι_10",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "θυμῷ_9",
+            "target": "ἐνὶ_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "βάλλεαι_10",
+            "target": "ἐρύεσθαι_4",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_11",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

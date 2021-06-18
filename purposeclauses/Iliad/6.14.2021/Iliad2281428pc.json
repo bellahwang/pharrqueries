@@ -1,0 +1,269 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλά",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "6",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.281",
+            "id": "ἀλλά_1"
+        },
+        {
+            "wID": "2",
+            "form": "τις",
+            "lemma": "τις",
+            "postag": "p-s---mn-",
+            "head": "6",
+            "relation": "PNOM",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.281",
+            "id": "τις_2"
+        },
+        {
+            "wID": "3",
+            "form": "ἀρτιεπὴς",
+            "lemma": "ἀρτιεπής",
+            "postag": "a-s---mn-",
+            "head": "4",
+            "relation": "ATR_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.281",
+            "id": "ἀρτιεπὴς_3"
+        },
+        {
+            "wID": "4",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "2",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.281",
+            "id": "καὶ_4"
+        },
+        {
+            "wID": "5",
+            "form": "ἐπίκλοπος",
+            "lemma": "ἐπίκλοπος",
+            "postag": "a-s---mn-",
+            "head": "4",
+            "relation": "ATR_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.281",
+            "id": "ἐπίκλοπος_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἔπλεο",
+            "lemma": "πέλω",
+            "postag": "v2siie---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.281",
+            "id": "ἔπλεο_6"
+        },
+        {
+            "wID": "7",
+            "form": "μύθων",
+            "lemma": "μῦθος",
+            "postag": "n-p---mg-",
+            "head": "5",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.281",
+            "id": "μύθων_7"
+        },
+        {
+            "wID": "8",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "9",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.281",
+            "id": ",_8"
+        },
+        {
+            "wID": "9",
+            "form": "ὄφρά",
+            "lemma": "ὄφρα",
+            "postag": "c--------",
+            "head": "6",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.282",
+            "id": "ὄφρά_9"
+        },
+        {
+            "wID": "10",
+            "form": "σ'",
+            "lemma": "σύ",
+            "postag": "p-s---ma-",
+            "head": "11",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.282",
+            "id": "σ'_10"
+        },
+        {
+            "wID": "11",
+            "form": "ὑποδείσας",
+            "lemma": "ὑποδείδω",
+            "postag": "v-sapamn-",
+            "head": "15",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.282",
+            "id": "ὑποδείσας_11"
+        },
+        {
+            "wID": "12",
+            "form": "μένεος",
+            "lemma": "μένος",
+            "postag": "n-s---ng-",
+            "head": "14",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.282",
+            "id": "μένεος_12"
+        },
+        {
+            "wID": "13",
+            "form": "ἀλκῆς",
+            "lemma": "ἀλκή",
+            "postag": "n-s---fg-",
+            "head": "14",
+            "relation": "OBJ_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.282",
+            "id": "ἀλκῆς_13"
+        },
+        {
+            "wID": "14",
+            "form": "τε",
+            "lemma": "τε",
+            "postag": "g--------",
+            "head": "15",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.282",
+            "id": "τε_14"
+        },
+        {
+            "wID": "15",
+            "form": "λάθωμαι",
+            "lemma": "λανθάνω",
+            "postag": "v1spse---",
+            "head": "9",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.282",
+            "id": "λάθωμαι_15"
+        },
+        {
+            "wID": "16",
+            "form": ".",
+            "lemma": ".",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:22.282",
+            "id": "._16"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλά_1",
+            "target": "ἔπλεο_6",
+            "key": 0
+        },
+        {
+            "relation": "PNOM",
+            "source": "τις_2",
+            "target": "ἔπλεο_6",
+            "key": 0
+        },
+        {
+            "relation": "ATR_CO",
+            "source": "ἀρτιεπὴς_3",
+            "target": "καὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_4",
+            "target": "τις_2",
+            "key": 0
+        },
+        {
+            "relation": "ATR_CO",
+            "source": "ἐπίκλοπος_5",
+            "target": "καὶ_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἔπλεο_6",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "μύθων_7",
+            "target": "ἐπίκλοπος_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_8",
+            "target": "ὄφρά_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "ὄφρά_9",
+            "target": "ἔπλεο_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "σ'_10",
+            "target": "ὑποδείσας_11",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "ὑποδείσας_11",
+            "target": "λάθωμαι_15",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "μένεος_12",
+            "target": "τε_14",
+            "key": 0
+        },
+        {
+            "relation": "OBJ_CO",
+            "source": "ἀλκῆς_13",
+            "target": "τε_14",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "τε_14",
+            "target": "λάθωμαι_15",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "λάθωμαι_15",
+            "target": "ὄφρά_9",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "._16",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

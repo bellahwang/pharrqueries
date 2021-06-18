@@ -1,0 +1,221 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "ἀλλὰ",
+            "lemma": "ἀλλά",
+            "postag": "d--------",
+            "head": "4",
+            "relation": "AuxY",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.402",
+            "id": "ἀλλὰ_1"
+        },
+        {
+            "wID": "2",
+            "form": "Ζεὺς",
+            "lemma": "Ζεύς",
+            "postag": "n-s---mn-",
+            "head": "4",
+            "relation": "SBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.402",
+            "id": "Ζεὺς_2"
+        },
+        {
+            "wID": "3",
+            "form": "κῆρας",
+            "lemma": "κήρ",
+            "postag": "n-p---fa-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.402",
+            "id": "κῆρας_3"
+        },
+        {
+            "wID": "4",
+            "form": "ἄμυνε",
+            "lemma": "ἀμύνω",
+            "postag": "v3siia---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.402",
+            "id": "ἄμυνε_4"
+        },
+        {
+            "wID": "5",
+            "form": "παιδὸς",
+            "lemma": "παῖς",
+            "postag": "n-s---mg-",
+            "head": "4",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": "παιδὸς_5"
+        },
+        {
+            "wID": "6",
+            "form": "ἑοῦ",
+            "lemma": "ἑός",
+            "postag": "a-s---mg-",
+            "head": "5",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": "ἑοῦ_6"
+        },
+        {
+            "wID": "7",
+            "form": ",",
+            "lemma": ",",
+            "postag": "u--------",
+            "head": "8",
+            "relation": "AuxX",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": ",_7"
+        },
+        {
+            "wID": "8",
+            "form": "μὴ",
+            "lemma": "μή",
+            "postag": "c--------",
+            "head": "4",
+            "relation": "AuxC",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": "μὴ_8"
+        },
+        {
+            "wID": "9",
+            "form": "νηυσὶν",
+            "lemma": "ναῦς",
+            "postag": "n-p---fd-",
+            "head": "10",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": "νηυσὶν_9"
+        },
+        {
+            "wID": "10",
+            "form": "ἔπι",
+            "lemma": "ἐπί",
+            "postag": "r--------",
+            "head": "12",
+            "relation": "AuxP",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": "ἔπι_10"
+        },
+        {
+            "wID": "11",
+            "form": "πρύμνῃσι",
+            "lemma": "πρύμνα",
+            "postag": "n-p---fd-",
+            "head": "9",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": "πρύμνῃσι_11"
+        },
+        {
+            "wID": "12",
+            "form": "δαμείη",
+            "lemma": "δαμάζω",
+            "postag": "v3saop---",
+            "head": "8",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": "δαμείη_12"
+        },
+        {
+            "wID": "13",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:12.403",
+            "id": "·_13"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxY",
+            "source": "ἀλλὰ_1",
+            "target": "ἄμυνε_4",
+            "key": 0
+        },
+        {
+            "relation": "SBJ",
+            "source": "Ζεὺς_2",
+            "target": "ἄμυνε_4",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "κῆρας_3",
+            "target": "ἄμυνε_4",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "ἄμυνε_4",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "παιδὸς_5",
+            "target": "ἄμυνε_4",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἑοῦ_6",
+            "target": "παιδὸς_5",
+            "key": 0
+        },
+        {
+            "relation": "AuxX",
+            "source": ",_7",
+            "target": "μὴ_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxC",
+            "source": "μὴ_8",
+            "target": "ἄμυνε_4",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "νηυσὶν_9",
+            "target": "ἔπι_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxP",
+            "source": "ἔπι_10",
+            "target": "δαμείη_12",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "πρύμνῃσι_11",
+            "target": "νηυσὶν_9",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "δαμείη_12",
+            "target": "μὴ_8",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_13",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}

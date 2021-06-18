@@ -1,0 +1,205 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "wID": "1",
+            "form": "μή",
+            "lemma": "μή",
+            "postag": "d--------",
+            "head": "3",
+            "relation": "AuxZ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.612",
+            "id": "μή_1"
+        },
+        {
+            "wID": "2",
+            "form": "μοι",
+            "lemma": "ἐγώ",
+            "postag": "p-s---md-",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.612",
+            "id": "μοι_2"
+        },
+        {
+            "wID": "3",
+            "form": "σύγχει",
+            "lemma": "συγχέω",
+            "postag": "v2spma---",
+            "head": "0",
+            "relation": "PRED",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.612",
+            "id": "σύγχει_3"
+        },
+        {
+            "wID": "4",
+            "form": "θυμὸν",
+            "lemma": "θυμός",
+            "postag": "n-s---ma-",
+            "head": "3",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.612",
+            "id": "θυμὸν_4"
+        },
+        {
+            "wID": "5",
+            "form": "ὀδυρόμενος",
+            "lemma": "ὀδύρομαι",
+            "postag": "v-sppemn-",
+            "head": "6",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.612",
+            "id": "ὀδυρόμενος_5"
+        },
+        {
+            "wID": "6",
+            "form": "καὶ",
+            "lemma": "καί",
+            "postag": "c--------",
+            "head": "3",
+            "relation": "COORD",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.612",
+            "id": "καὶ_6"
+        },
+        {
+            "wID": "7",
+            "form": "ἀχεύων",
+            "lemma": "ἀχεύω",
+            "postag": "v-sppamn-",
+            "head": "6",
+            "relation": "ADV_CO",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.612",
+            "id": "ἀχεύων_7"
+        },
+        {
+            "wID": "8",
+            "form": "Ἀτρεΐδῃ",
+            "lemma": "Ἀτρείδης",
+            "postag": "n-s---md-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.613",
+            "id": "Ἀτρεΐδῃ_8"
+        },
+        {
+            "wID": "9",
+            "form": "ἥρωϊ",
+            "lemma": "ἥρως",
+            "postag": "n-s---md-",
+            "head": "8",
+            "relation": "ATR",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.613",
+            "id": "ἥρωϊ_9"
+        },
+        {
+            "wID": "10",
+            "form": "φέρων",
+            "lemma": "φέρω",
+            "postag": "v-sppamn-",
+            "head": "3",
+            "relation": "ADV",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.613",
+            "id": "φέρων_10"
+        },
+        {
+            "wID": "11",
+            "form": "χάριν",
+            "lemma": "χάρις",
+            "postag": "n-s---fa-",
+            "head": "10",
+            "relation": "OBJ",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.613",
+            "id": "χάριν_11"
+        },
+        {
+            "wID": "12",
+            "form": "·",
+            "lemma": "·",
+            "postag": "u--------",
+            "head": "0",
+            "relation": "AuxK",
+            "cite": "urn:cts:greekLit:tlg0012.tlg001:9.613",
+            "id": "·_12"
+        },
+        {
+            "wID": "0",
+            "id": "ROOT"
+        }
+    ],
+    "links": [
+        {
+            "relation": "AuxZ",
+            "source": "μή_1",
+            "target": "σύγχει_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "μοι_2",
+            "target": "σύγχει_3",
+            "key": 0
+        },
+        {
+            "relation": "PRED",
+            "source": "σύγχει_3",
+            "target": "ROOT",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "θυμὸν_4",
+            "target": "σύγχει_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "ὀδυρόμενος_5",
+            "target": "καὶ_6",
+            "key": 0
+        },
+        {
+            "relation": "COORD",
+            "source": "καὶ_6",
+            "target": "σύγχει_3",
+            "key": 0
+        },
+        {
+            "relation": "ADV_CO",
+            "source": "ἀχεύων_7",
+            "target": "καὶ_6",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "Ἀτρεΐδῃ_8",
+            "target": "φέρων_10",
+            "key": 0
+        },
+        {
+            "relation": "ATR",
+            "source": "ἥρωϊ_9",
+            "target": "Ἀτρεΐδῃ_8",
+            "key": 0
+        },
+        {
+            "relation": "ADV",
+            "source": "φέρων_10",
+            "target": "σύγχει_3",
+            "key": 0
+        },
+        {
+            "relation": "OBJ",
+            "source": "χάριν_11",
+            "target": "φέρων_10",
+            "key": 0
+        },
+        {
+            "relation": "AuxK",
+            "source": "·_12",
+            "target": "ROOT",
+            "key": 0
+        }
+    ]
+}
