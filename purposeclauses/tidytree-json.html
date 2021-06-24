@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<script src="tidytree-json.js"></script>
+<div class="container"></div>
+<script>
+const data = d3.csv("https://raw.githubusercontent.com/bellahwang/pharrqueries/master/purposeclauses/debug.json")
+
+drawChart('.container',data)
+</script>

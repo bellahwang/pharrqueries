@@ -178,7 +178,7 @@ def createJSON():
     tree = ET.parse(FILENAME)
     root = tree.getroot()
     
-    save_path = 'C:\\Users\\bella\\OneDrive\\Documents\\GitHub\\pharrqueries\\purposeclauses\\Iliad\\6.14.2021'
+    save_path = 'C:\\Users\\bella\\OneDrive\\Documents\\GitHub\\pharrqueries\\purposeclauses\\Iliad\\6.24.2021'
     for sentence in root.findall(".//sentence"):
         sentID = sentence.get('id')
         G = makeNetwork(sentID)
@@ -189,19 +189,32 @@ def createJSON():
             json.dump(data, json_file, ensure_ascii=False, indent = 4)
         completeName = None
 
-# def createJSONTree():
-#     return 0
+def createJSONTree():
+    
+    tree = ET.parse(FILENAME)
+    root = tree.getroot()
+    
+    save_path = 'C:\\Users\\bella\\OneDrive\\Documents\\GitHub\\pharrqueries\\purposeclauses\\Iliad\\6.24.2021'
+    for sentence in root.findall(".//sentence"):
+        sentID = sentence.get('id')
+        G = makeNetwork(sentID)
+        name_of_file = "Iliad" + sentID + "pc"
+        completeName = os.path.join(save_path, name_of_file + ".json") 
+        data = json_graph.tree_data(G, root='ROOT')
+        with open(completeName, 'w', encoding='utf8') as json_file:
+            json.dump(data, json_file, ensure_ascii=False, indent = 4)
+        completeName = None
 
-H = makeNetwork('2274115')
-data = json_graph.tree_data(H, root='ROOT')
-with open('debug.json', 'w', encoding='utf8') as json_file:
-    json.dump(data, json_file, ensure_ascii=False, indent = 4)
+# H = makeNetwork('2274115')
+# data = json_graph.tree_data(H, root='ROOT')
+# with open('debug.json', 'w', encoding='utf8') as json_file:
+#     json.dump(data, json_file, ensure_ascii=False, indent = 4)
 # nx.write_graphml(H, 'debug.graphml', encoding = 'UTF-8', prettyprint = True)
 
 # IdDict = makeIdDict('2274115')
 # HeadDict = makeHeadDict('2274115')
 # print(HeadDict)
-
+createJSONTree()
 # print(returnIdFormList(IdDict))
 # print(returnHeadFormList(IdDict, HeadDict))
 

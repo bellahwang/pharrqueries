@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<html>
-  <head>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    
-<body>
+<style>
 
-<script type="text/javascript">
+.node circle {
+  fill: #999;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.node--internal circle {
+  fill: #555;
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #555;
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+
+</style>
+<svg width="960" height="2000"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
@@ -18,6 +40,9 @@ var tree = d3.tree()
 
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
+
+d3.csv("https://raw.githubusercontent.com/bellahwang/pharrqueries/master/purposeclauses/flare.csv", function(error, data) {
+  if (error) throw error;
 
   var root = stratify(data)
       .sort(function(a, b) { return (a.height - b.height) || a.id.localeCompare(b.id); });
@@ -44,7 +69,6 @@ var stratify = d3.stratify()
       .attr("x", function(d) { return d.children ? -8 : 8; })
       .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
       .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
+});
 
 </script>
-</body>
-</html>
