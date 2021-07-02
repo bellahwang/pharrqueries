@@ -1,5 +1,6 @@
-var width = 600;
-var height = 600;
+var margin = {top: 10, right: 15, bottom: 20, left: 30},
+    width = 800 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
 var data = {
     "wID": "0",
@@ -142,5 +143,98 @@ var svg = d3.select("#tidytree")
     .append("svg")
         .attr("width", width)
         .attr("height", height)
-    .append("g")
-        .attr("transform", "translate(40,0)");  // bit of margin on the left = 40
+
+var g = svg.append("g")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+    .attr("transform", "translate(90,90)");  // bit of margin on the left = 40
+
+var link = g.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#555")
+    .attr("stroke-opacity", 0.4)
+    .attr("stroke-width", 1.5)
+    .selectAll("path")
+    .data(root.links())
+    .join("path")
+        .attr("d", d3.linkHorizontal()
+            .x(d => d.y)
+            .y(d => d.x))
+        .classed("link", true)
+
+/* link.append("text")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+    .attr("transform", function(d) {
+        return "translate(" +
+            ((d.source.y + d.target.y)/2) + "," + 
+            ((d.source.x + d.target.x)/2) + ")";
+    })   
+    .attr("dy", ".35em")
+    .text(function(d) {
+        console.log(d.target.data.relation);
+        return d.target.data.relation;
+    }); */
+
+/* link.append("text")
+        .attr("dy", "0.31em")
+        .attr("x", d => d.source.x + (d.target.x - d.source.x)/2)
+        .attr("text-anchor", d => "middle")
+        .text(d => d.target.data.form)
+    .clone(true).lower()
+        .attr("stroke", "white") */
+        
+var tooltip = d3.select("body").append("div")	
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+
+var mouseover = function(event, d) {
+    tooltip.transition()
+        .duration(200)
+        .style("opacity", .9)
+
+    tooltip.html("form: " + d.data.form + "\n" + 
+        "lemma: " + d.data.lemma + "\n" + 
+        "postag: " + d.data.postag + "\n" +
+        "cite: " + d.data.cite)
+        .style("left", (event.pageX) + "px")
+        .style("top", (event.pageY - 28) + "px")
+}
+
+var mouseleave = function(d) {
+    tooltip.transition()
+        .duration(500)
+        .style("opacity", 0)
+}
+
+var node =  g.append("g")
+    .attr("stroke-linejoin", "round")
+    .attr("stroke-width", 3)
+    .selectAll("g")
+        .data(root.descendants())
+        .join("g")
+            .attr("transform", d => `translate(${d.y},${d.x})`)
+
+node.append("circle")
+    .attr("fill", d => d.children ? "#EEA7A5" : "#92a8d1")
+    .attr("r", 4)
+    .on("mouseover", mouseover)
+    .on("mouseleave", mouseleave)
+    
+node.append("text")
+        .attr("dy", "0.31em")
+        .attr("x", d => d.children ? -6 : 6)
+        .attr("text-anchor", d => d.children ? "end" : "start")
+        .text(d => d.data.form)
+        .attr("font-size", 12)
+    .clone(true).lower()
+        .attr("stroke", "white")
+
+link.enter().append("text")
+    .attr("transform", function(d) {
+        return "translate(" +
+            ((d.source.y + d.target.y)/2) + "," + 
+            ((d.source.x + d.target.x)/2) + ")";
+    })
+    .attr("text-anchor", "middle")
+    .text(d => d.target.data.relation)
